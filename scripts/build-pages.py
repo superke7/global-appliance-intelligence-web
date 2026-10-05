@@ -24,10 +24,10 @@ STYLE = """
 .top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:14px;padding-bottom:14px}.brand{font-weight:800;font-size:18px;color:var(--accent)}.nav{display:flex;gap:20px;font-size:15px;color:#344054}.nav a:hover,.text-link:hover,.item-title:hover{color:var(--accent)}
 .hero{padding:30px 0 22px}.hero-dashboard{display:flex;justify-content:space-between;align-items:flex-start;gap:28px}.hero-main{min-width:0}.hero h1{font-size:34px;margin:0 0 8px;letter-spacing:-.02em}.sub{color:var(--muted);line-height:1.7}.stats-box{min-width:355px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 18px;box-shadow:0 8px 24px rgba(16,24,40,.04)}.stats-label{font-size:13px;color:var(--muted);margin-bottom:9px}.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat-item{border-left:1px solid var(--line);padding-left:12px}.stat-item:first-child{border-left:0;padding-left:0}.stat{font-size:24px;font-weight:800;line-height:1.05}.stat-name{font-size:12px;color:var(--muted);margin-top:5px}
 .home-grid{display:grid;grid-template-columns:245px minmax(0,1fr);gap:24px;align-items:start}.archive-side{position:sticky;top:76px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:16px}.archive-panel{padding:16px}.archive-panel h3{margin:0 0 12px;font-size:17px}.archive-panel .all-link{display:block;margin-top:12px;font-size:13px;color:var(--accent2)}
-.month{border-top:1px solid var(--line)}.month:first-of-type{border-top:0}.month summary{cursor:pointer;list-style:none;padding:12px 2px;font-weight:700;font-size:14px}.month summary::-webkit-details-marker{display:none}.month summary::after{content:"＋";float:right;color:var(--muted)}.month[open] summary::after{content:"－"}.day-list{list-style:none;padding:0 0 8px;margin:0}.day-list li{margin:1px 0}.day-list a{display:flex;justify-content:space-between;gap:8px;padding:8px 9px;border-radius:8px;font-size:13px;color:#344054}.day-list a:hover{background:var(--soft);color:var(--accent)}.day-count{color:var(--muted);white-space:nowrap}
-.section-title{margin:0 0 14px;font-size:22px}.news{transition:box-shadow .15s ease,border-color .15s ease}.news:hover{border-color:#cfd5dd;box-shadow:0 8px 22px rgba(16,24,40,.05)}.news h2{font-size:21px;line-height:1.45;margin:0 0 10px}.item-title{font-weight:750}.meta{font-size:13px;color:var(--muted);margin-bottom:10px}.excerpt{line-height:1.78;color:#344054}.source,.text-link{font-size:13px;color:var(--accent2)}.item-actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px}.event-link{font-size:13px;color:var(--accent);font-weight:650}.pill{display:inline-block;padding:4px 9px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:#475467;margin:3px 4px 3px 0;background:#fff}
+.month{border-top:1px solid var(--line)}.month:first-of-type{border-top:0}.month summary{cursor:pointer;list-style:none;padding:12px 2px;font-weight:700;font-size:14px}.month summary::-webkit-details-marker{display:none}.month summary::after{content:"＋";float:right;color:var(--muted)}.month[open] summary::after{content:"－"}.day-list{list-style:none;padding:0 0 8px;margin:0}.day-list li{margin:1px 0}.day-list a{display:flex;justify-content:space-between;gap:8px;padding:8px 9px;border-radius:8px;font-size:13px;color:#344054}.day-list a:hover{background:var(--soft);color:var(--accent)}.day-count{color:var(--muted);white-space:nowrap}.sidebar-events{padding:16px}.sidebar-events h3{margin:0 0 10px;font-size:17px}.sidebar-event-list{list-style:none;padding:0;margin:0;max-height:540px;overflow:auto}.sidebar-event-list li{border-top:1px solid var(--line)}.sidebar-event-list li:first-child{border-top:0}.sidebar-event-list a{display:block;padding:10px 2px}.sidebar-event-list a:hover .sidebar-event-title{color:var(--accent)}.sidebar-event-title{font-size:13px;line-height:1.45;font-weight:700;color:#344054}.sidebar-event-date{font-size:12px;color:var(--muted);margin-top:4px}.sidebar-events .all-link{display:block;margin-top:12px;font-size:13px;color:var(--accent2)}
+.section-title{margin:0 0 14px;font-size:22px}.news{transition:box-shadow .15s ease,border-color .15s ease}.news:hover{border-color:#cfd5dd;box-shadow:0 8px 22px rgba(16,24,40,.05)}.news h2{font-size:21px;line-height:1.45;margin:0 0 10px}.item-title{font-weight:750;color:#075c66;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}.meta{font-size:13px;color:var(--muted);margin-bottom:10px}.excerpt{line-height:1.78;color:#344054}.source,.text-link{font-size:13px;color:var(--accent2)}.item-actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px}.event-link{font-size:13px;color:var(--accent);font-weight:650}.pill{display:inline-block;padding:4px 9px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:#475467;margin:3px 4px 3px 0;background:#fff}
 .archive-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.archive-grid .card{margin:0}.event-list{display:grid;gap:14px}.event-card-link{display:block}.event{margin:0;transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}.event-card-link:hover .event{transform:translateY(-1px);border-color:#cfd5dd;box-shadow:0 8px 22px rgba(16,24,40,.06)}.event h2{font-size:19px;margin:0 0 10px}.event .progress{line-height:1.75;color:#344054}
-.detail-shell{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px;margin-top:22px;box-shadow:var(--shadow)}.detail-title{font-size:32px;line-height:1.35;margin:0 0 22px}.detail-meta{display:flex;gap:12px 24px;flex-wrap:wrap;padding:14px 0 18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--muted);font-size:14px}.detail-content{font-size:16px;line-height:1.9;padding:22px 0}.detail-content p{margin:0 0 16px}.detail-content ul,.detail-content ol{padding-left:24px}.detail-content a{color:var(--accent2);text-decoration:underline}.detail-event{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:10px}.detail-event h3{margin:0 0 9px}.backline{margin:22px 0 0;font-size:14px;color:var(--accent2)}
+.detail-shell{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px;margin-top:22px;box-shadow:var(--shadow)}.detail-title{font-size:32px;line-height:1.35;margin:0 0 22px}.detail-meta{display:flex;gap:12px 24px;flex-wrap:wrap;padding:14px 0 18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--muted);font-size:14px}.detail-content{font-size:16px;line-height:1.9;padding:22px 0}.detail-content p{margin:0 0 16px}.detail-content ul,.detail-content ol{padding-left:24px}.detail-content a{color:var(--accent2);text-decoration:underline}.source-list{list-style:none;padding:0;margin:8px 0 0}.source-list li{padding:6px 0}.source-list a{color:var(--accent2);text-decoration:underline;text-underline-offset:2px}.detail-event{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:10px}.detail-event h3{margin:0 0 9px}.backline{margin:22px 0 0;font-size:14px;color:var(--accent2)}
 .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px}.info-box{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px}.info-label{font-size:13px;color:var(--muted);font-weight:700;margin-bottom:8px}.info-value{line-height:1.7}.detail-section{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.detail-section h2{font-size:20px;margin:0 0 14px}.related-list{list-style:none;padding:0;margin:0}.related-item{padding:16px 0;border-bottom:1px solid var(--line)}.related-item:last-child{border-bottom:0}.related-date{font-size:13px;color:var(--muted);margin-bottom:8px}.related-title{font-weight:750;line-height:1.55;color:var(--accent)}.related-excerpt{color:#344054;line-height:1.7;margin-top:8px}
 .footer{color:var(--muted);font-size:13px;padding:34px 0 48px}.empty{padding:40px 0;color:var(--muted)}
 @media(max-width:900px){.hero-dashboard{flex-direction:column}.stats-box{min-width:0;width:100%}.home-grid{grid-template-columns:1fr}.archive-side{position:static}.archive-panel{padding:14px}.info-grid{grid-template-columns:1fr}}
@@ -138,6 +138,56 @@ def sanitize_content_html(value) -> str:
     return parser.get_html()
 
 
+class SourceLinkExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.links = []
+        self.current_href = ""
+        self.current_text = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "a":
+            return
+        self.current_href = ""
+        self.current_text = []
+        for key, value in attrs:
+            if key == "href":
+                self.current_href = safe_external_url(value)
+                break
+
+    def handle_data(self, data):
+        if self.current_href:
+            self.current_text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self.current_href:
+            label = "".join(self.current_text).strip()
+            self.links.append((self.current_href, label))
+            self.current_href = ""
+            self.current_text = []
+
+
+def extract_original_sources(item: dict):
+    sources = []
+    seen = set()
+    primary_url = safe_external_url(item.get("source_url"))
+    if primary_url:
+        sources.append((primary_url, str(item.get("source_name") or "").strip() or urlparse(primary_url).netloc))
+        seen.add(primary_url)
+
+    content_html = str(item.get("content_html") or "")
+    if content_html:
+        parser = SourceLinkExtractor()
+        parser.feed(content_html)
+        parser.close()
+        for url, label in parser.links:
+            if not url or url in seen:
+                continue
+            sources.append((url, label or urlparse(url).netloc))
+            seen.add(url)
+    return sources
+
+
 def article_slug(item: dict, date_key: str, index: int) -> str:
     fallback = f"gai-{date_key}-{index + 1:03d}"
     return safe_component(item.get("public_id"), fallback)
@@ -164,7 +214,6 @@ def layout(title: str, body: str, depth: int = 0) -> str:
     prefix = "../" * depth
     nav = (
         f'<a href="{prefix}index.html">首页</a>'
-        f'<a href="{prefix}index.html#latest">最新资讯</a>'
         f'<a href="{prefix}events.html">事件数据库</a>'
         f'<a href="{prefix}rss.xml">RSS</a>'
     )
@@ -175,7 +224,7 @@ def render_item(item: dict, date_key: str, index: int, prefix: str = "") -> str:
     title = safe_text(item.get("title"))
     excerpt = safe_text(item.get("excerpt"))
     source = safe_text(item.get("source_name"))
-    source_url = safe_external_url(item.get("source_url"))
+    sources = extract_original_sources(item)
     source_date = safe_text(item.get("source_published_date") or fmt_day(date_key))
     slug = article_slug(item, date_key, index)
     detail_url = f"{prefix}articles/{slug}/index.html"
@@ -189,8 +238,10 @@ def render_item(item: dict, date_key: str, index: int, prefix: str = "") -> str:
     if event and event.get("event_key"):
         event_jump = f'<a class="event-link" href="{prefix}events/{event_slug(event)}/index.html">查看关联事件 →</a>'
     source_link = ""
-    if source_url:
-        source_link = f'<a class="source" href="{html.escape(source_url, quote=True)}" target="_blank" rel="noopener noreferrer">原始来源 ↗</a>'
+    if sources:
+        label = f"原始来源（{len(sources)}） ↗" if len(sources) > 1 else "原始来源 ↗"
+        primary_url = html.escape(sources[0][0], quote=True)
+        source_link = f'<a class="source" href="{primary_url}" target="_blank" rel="noopener noreferrer">{label}</a>'
     return f'''<article class="card news"><h2><a class="item-title" href="{detail_url}">{title}</a></h2><div class="meta">{source_date} · {source} {badge}</div><div class="excerpt">{excerpt}</div><div class="item-actions"><a class="text-link" href="{detail_url}">查看详情 →</a>{event_jump}{source_link}</div></article>'''
 
 
@@ -210,6 +261,9 @@ def collect_events(batches):
             snapshot["last_item_title"] = item.get("title", "")
             record["snapshot"] = snapshot
             record["related"].append((date_key, index, item))
+            info_date = str(item.get("source_published_date") or fmt_day(date_key))
+            if info_date > record.get("latest_info_date", ""):
+                record["latest_info_date"] = info_date
     return events
 
 
@@ -231,6 +285,21 @@ def build_archive_sidebar(batches):
     return f'''<div class="card archive-panel"><h3>每日早报</h3>{"".join(groups)}<a class="all-link" href="archive.html">查看全部早报 →</a></div>'''
 
 
+def build_event_sidebar(events):
+    ordered = sorted(
+        events.values(),
+        key=lambda record: record.get("latest_info_date", ""),
+        reverse=True,
+    )
+    links = []
+    for record in ordered:
+        e = record["snapshot"]
+        links.append(
+            f'''<li><a href="events/{event_slug(e)}/index.html"><div class="sidebar-event-title">{safe_text(e.get("title"))}</div><div class="sidebar-event-date">最新资讯：{safe_text(record.get("latest_info_date") or fmt_day(e.get("last_seen_batch", "")))}</div></a></li>'''
+        )
+    return f'''<div class="card sidebar-events"><h3>事件</h3><ul class="sidebar-event-list">{"".join(links)}</ul><a class="all-link" href="events.html">查看全部事件 →</a></div>'''
+
+
 def build_home(batches):
     if not batches:
         body = '<section class="hero"><h1>全球家电AI早报</h1><p class="sub">暂无公开批次数据。</p></section>'
@@ -249,7 +318,8 @@ def build_home(batches):
     total_items = sum(len(b.get("items", [])) for _, b in batches)
     items_html = "".join(render_item(item, date_key, index) for date_key, index, item in recent)
     archive_sidebar = build_archive_sidebar(batches)
-    body = f'''<section class="hero"><div class="hero-dashboard"><div class="hero-main"><h1>{SITE_TITLE}</h1><p class="sub">最新公开批次：{fmt_day(latest_key)} · 当日 {len(latest.get("items", []))} 条资讯</p></div><aside class="stats-box"><div class="stats-label">公开数据概况</div><div class="stats-row"><div class="stat-item"><div class="stat">{total_items}</div><div class="stat-name">累计资讯</div></div><div class="stat-item"><div class="stat">{len(batches)}</div><div class="stat-name">早报批次</div></div><div class="stat-item"><div class="stat">{len(events)}</div><div class="stat-name">持续事件</div></div></div></aside></div></section><div class="home-grid"><aside class="archive-side">{archive_sidebar}</aside><section id="latest"><h2 class="section-title">最新资讯</h2>{items_html}</section></div>'''
+    event_sidebar = build_event_sidebar(events)
+    body = f'''<section class="hero"><div class="hero-dashboard"><div class="hero-main"><h1>{SITE_TITLE}</h1><p class="sub">最新公开批次：{fmt_day(latest_key)} · 当日 {len(latest.get("items", []))} 条资讯</p></div><aside class="stats-box"><div class="stats-label">公开数据概况</div><div class="stats-row"><div class="stat-item"><div class="stat">{total_items}</div><div class="stat-name">累计资讯</div></div><div class="stat-item"><div class="stat">{len(batches)}</div><div class="stat-name">早报批次</div></div><div class="stat-item"><div class="stat">{len(events)}</div><div class="stat-name">持续事件</div></div></div></aside></div></section><div class="home-grid"><aside class="archive-side">{archive_sidebar}{event_sidebar}</aside><section id="latest"><h2 class="section-title">最新资讯</h2>{items_html}</section></div>'''
     return layout(SITE_TITLE, body)
 
 
@@ -263,14 +333,14 @@ def build_archive(batches):
 
 def build_events(batches):
     events = collect_events(batches)
-    ordered = sorted(events.items(), key=lambda kv: kv[1]["snapshot"].get("last_seen_batch", ""), reverse=True)
+    ordered = sorted(events.items(), key=lambda kv: kv[1].get("latest_info_date", ""), reverse=True)
     cards = []
     for key, record in ordered:
         e = record["snapshot"]
         countries = "".join(f'<span class="pill">{safe_text(x)}</span>' for x in e.get("countries", []))
         category = f'<span class="pill">{safe_text(e.get("category"))}</span>' if e.get("category") else ""
         status = f'<span class="pill">{safe_text(status_label(e.get("status")))}</span>'
-        cards.append(f'''<a class="event-card-link" href="events/{event_slug(e)}/index.html"><article class="card event"><h2>{safe_text(e.get("title"))}</h2><div>{category}{status}{countries}</div><p class="progress">{safe_text(e.get("latest_progress"))}</p><div class="meta">最近更新：{fmt_day(e.get("last_seen_batch", ""))} · 关联资讯 {len(record["related"])} 条</div></article></a>''')
+        cards.append(f'''<a class="event-card-link" href="events/{event_slug(e)}/index.html"><article class="card event"><h2>{safe_text(e.get("title"))}</h2><div>{category}{status}{countries}</div><p class="progress">{safe_text(e.get("latest_progress"))}</p><div class="meta">最新资讯：{safe_text(record.get("latest_info_date") or fmt_day(e.get("last_seen_batch", "")))} · 关联资讯 {len(record["related"])} 条</div></article></a>''')
     body = f'''<section class="hero"><h1>事件数据库</h1><p class="sub">点击任一事件可查看事件状态、最新进展及全部关联资讯。</p></section><div class="event-list">{"".join(cards) if cards else '<div class="empty">暂无事件数据。</div>'}</div>'''
     return layout(f"事件数据库 - {SITE_TITLE}", body)
 
@@ -285,18 +355,22 @@ def build_article_detail(date_key, index, item):
     title = safe_text(item.get("title"))
     source = safe_text(item.get("source_name"))
     source_date = safe_text(item.get("source_published_date") or fmt_day(date_key))
-    source_url = safe_external_url(item.get("source_url"))
+    sources = extract_original_sources(item)
     content = sanitize_content_html(item.get("content_html"))
     if not content:
         content = f'<p>{safe_text(item.get("excerpt"))}</p>'
-    source_link = ""
-    if source_url:
-        source_link = f'<a class="source" href="{html.escape(source_url, quote=True)}" target="_blank" rel="noopener noreferrer">查看原始来源 ↗</a>'
+    source_section = ""
+    if sources:
+        source_rows = "".join(
+            f'<li><a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{safe_text(label)}</a></li>'
+            for url, label in sources
+        )
+        source_section = f'''<section class="detail-section"><h2>原始来源</h2><ul class="source-list">{source_rows}</ul></section>'''
     event = item.get("event") if isinstance(item.get("event"), dict) else None
     event_box = ""
     if event and event.get("event_key"):
         event_box = f'''<section class="detail-event"><h3>关联事件</h3><a class="event-link" href="../../events/{event_slug(event)}/index.html">{safe_text(event.get("title"))} →</a><p class="excerpt">{safe_text(event.get("latest_progress"))}</p></section>'''
-    body = f'''<article class="detail-shell"><h1 class="detail-title">{title}</h1><div class="detail-meta"><span>{source_date}</span><span>{source}</span><span>收录日期：{fmt_day(date_key)}</span></div><div class="detail-content">{content}</div><div class="item-actions">{source_link}<a class="text-link" href="../../daily/{date_key}/index.html">查看当日早报 →</a></div>{event_box}</article><p class="backline"><a href="../../index.html">← 返回最新资讯</a></p>'''
+    body = f'''<article class="detail-shell"><h1 class="detail-title">{title}</h1><div class="detail-meta"><span>{source_date}</span><span>{source}</span><span>收录日期：{fmt_day(date_key)}</span></div><div class="detail-content">{content}</div>{source_section}<div class="item-actions"><a class="text-link" href="../../daily/{date_key}/index.html">查看当日早报 →</a></div>{event_box}</article><p class="backline"><a href="../../index.html">← 返回首页</a></p>'''
     return layout(f"{item.get('title', '')} - {SITE_TITLE}", body, depth=2)
 
 
