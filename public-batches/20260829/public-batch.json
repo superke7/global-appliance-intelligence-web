@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260829-0715",
+  "generated_at_bjt": "2026-08-29T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-08-29T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260829-001",
+      "title": "大金拟在印度追加280亿卢比投资，其中130亿用于大型HVAC研发",
+      "excerpt": "大金拟在印度追加2,800 crore卢比（约280亿卢比）投资，其中约1,300 crore卢比用于冷水机组和大容量空调研发，并继续强化压缩机及零部件本地化。",
+      "content_html": "<p>The Times of India 8月28日报道，大金拟在印度追加2,800 crore卢比（约280亿卢比）投资，其中约1,300 crore卢比（约130亿卢比）用于冷水机组和大容量空调等研发。</p><p>大金表示希望覆盖住宅、商业设施及数据中心等细分市场；印度政府同时建议公司由压缩机组装进一步扩大至压缩机及零部件本地制造。大金官方此前已确认在印度设立面向全球南方的R&amp;D子公司，并建设预计2028年完成的研发中心。</p>",
+      "source_name": "The Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/daikin-lines-up-rs-2800-crore-fresh-investment/articleshow/133578428.cms",
+      "source_published_date": "2026-08-28",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260829-002",
+      "title": "TCL电子中期业绩确认56.1亿港元收购空调业务，预计2026年Q4完成并表",
+      "excerpt": "TCL电子中期业绩确认56.1亿港元收购TCL空调相关业务，并预计在满足先决条件后于2026年第四季度完成并纳入合并报表。",
+      "content_html": "<p>TCL Electronics 8月28日中期业绩再次确认，拟以56.1亿港元收购TCL实业控股体系下的空调相关业务。该交易最初于7月15日宣布。</p><p>本次披露进一步明确，在满足先决条件后，交易预计于2026年第四季度完成，并随后纳入TCL电子合并报表。公司称将利用全球渠道、本地化运营及供应链协同推进全品类智能终端布局。</p>",
+      "source_name": "TCL Electronics / PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-delivers-strong-growth-in-2026-interim-results-302862893.html",
+      "source_published_date": "2026-08-28",
+      "event_action": "create",
+      "event": {
+        "event_key": "tcl-electronics-airconditioning-acquisition-2026",
+        "title": "TCL电子收购TCL空调业务",
+        "date": "2026-07-15",
+        "latest_progress": "TCL电子在2026年中期业绩中确认，56.1亿港元收购空调相关业务的交易在满足先决条件后预计于2026年第四季度完成，并随后纳入公司合并报表。",
+        "status": "in_progress",
+        "countries": ["中国", "全球"],
+        "entities": ["TCL Electronics", "TCL Industries Holdings", "TCL AeroWell"],
+        "category": "投资与合作"
+      }
+    }
+  ]
+}

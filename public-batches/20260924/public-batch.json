@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260924-0715",
+  "generated_at_bjt": "2026-09-24T07:12:00+08:00",
+  "target_publish_at_bjt": "2026-09-24T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260924-001",
+      "title": "印度调查LG、三星OLED电视零部件关税申报，争议优惠税率5%与15%适用口径",
+      "excerpt": "印度税务情报局调查LG和三星OLED电视open-cell零部件进口关税归类，争议焦点是5%优惠税率是否适用于OLED，调查方认为应适用15%。",
+      "content_html": "<p>Reuters 9月23日报道，印度税务情报局正在调查LG Electronics和Samsung Electronics进口用于OLED电视面板的open-cell显示零部件关税归类。两家公司此前按5%优惠税率申报，调查方认为现行优惠文字限定于LCD和LED电视面板open cell，OLED零部件应适用15%税率。</p><p>Samsung表示正在审查并配合调查；LG已收到书面问询并提交回复及一笔未披露金额的自愿缴款。行业协会同时推动将OLED显示零部件纳入5%优惠范围。当前调查尚未形成最终追缴或处罚决定。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/media-telecom/lg-samsung-face-india-tariff-evasion-investigation-over-oled-tv-parts-2026-09-23",
+      "source_published_date": "2026-09-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-oled-tv-open-cell-tariff-investigation-2026",
+        "title": "印度LG、三星OLED电视零部件关税归类调查",
+        "date": "2026-09-23",
+        "latest_progress": "2026年9月23日，印度税务情报局被披露正在调查LG和三星OLED电视open-cell显示零部件的进口关税归类，争议为5%优惠税率与15%税率的适用口径；目前尚无最终追缴或处罚决定。",
+        "status": "in_progress",
+        "countries": ["印度", "韩国"],
+        "entities": ["LG Electronics", "Samsung Electronics", "Directorate of Revenue Intelligence"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

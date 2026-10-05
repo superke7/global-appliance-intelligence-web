@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260814-0730",
+  "generated_at_bjt": "2026-08-14T07:30:00+08:00",
+  "target_publish_at_bjt": "2026-08-14T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260814-001",
+      "title": "美加第338条关税谈判出现积极信号",
+      "excerpt": "加拿大政府消息人士称双方均希望在8月19日前达成协议，现有50%附加关税公告尚未正式调整。",
+      "content_html": "<p>Reuters 8月13日报道，加拿大政府消息人士称与美国的贸易谈判进展良好，美方也希望在8月19日前达成协议。现有50%附加关税公告尚未正式调整。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/canada-government-source-says-us-also-keen-trade-deal-before-aug-19-deadline-2026-08-13/",
+      "source_published_date": "2026-08-13",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260814-002",
+      "title": "美国法院支持关闭中墨加低价值进口免税通道",
+      "excerpt": "美国国际贸易法院裁定，总统可依据IEEPA撤销部分800美元以下低价值进口的de minimis免税待遇。",
+      "content_html": "<p>美国国际贸易法院8月13日裁定，总统可以依据IEEPA撤销部分低价值进口的de minimis免税待遇。该裁决对大家电整机影响有限，但对小家电、配件和跨境直邮更具现实意义。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/government/us-court-backs-trumps-power-close-de-minimis-tariff-exemption-2026-08-13/",
+      "source_published_date": "2026-08-13",
+      "event_action": "none"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261002-0715",
+  "generated_at_bjt": "2026-10-02T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-10-02T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261002-001",
+      "title": "G20贸易部长未就结构性产能过剩和强迫劳动形成共识",
+      "excerpt": "G20贸易部长密尔沃基会议在结构性产能过剩和强迫劳动议题上未形成实质共识，多边协调仍存在明显分歧。",
+      "content_html": "<p>Associated Press 10月1日报道，G20贸易部长在密尔沃基会议上就结构性产能过剩和强迫劳动议题未形成实质共识。多数成员承认产能过剩问题，但在如何应对上分歧明显；强迫劳动进口限制也未取得共同承诺。</p><p>该结果反映相关贸易政策议题仍处于多边协调受阻阶段。</p>",
+      "source_name": "Associated Press (AP)",
+      "source_url": "https://apnews.com/article/a49cd9e6132e9ad7937b7b35f08e0470",
+      "source_published_date": "2026-10-01",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261002-002",
+      "title": "Electrolux意大利重组新增产能迁移细节：Porcia约21万台洗烘一体机拟转移至泰国",
+      "excerpt": "Electrolux意大利重组方案新增披露Porcia工厂约21万台洗烘一体机产能拟转移至泰国，Cerreto d’Esi关厂和约1450人裁员方案仍在推进。",
+      "content_html": "<p>FIM-CISL相关报道披露，Electrolux意大利重组方案中拟将目前由Porcia工厂生产的约21万台洗烘一体机转移至泰国。</p><p>同时，公司仍计划自2027年1月1日起停止Cerreto d’Esi油烟机生产并关闭工厂，裁员规模维持约1,450人。该产能迁移细节是既有意大利制造网络重组事件的重要新增进展。</p>",
+      "source_name": "Conquiste del Lavoro / FIM-CISL",
+      "source_url": "https://www.conquistedellavoro.it/vertenze/da-electrolux-a-beko-cosa-accade-nel-settore-dell-elettrodomestico-1.3356330",
+      "source_published_date": "2026-09-30",
+      "event_action": "update",
+      "event": {
+        "event_key": "electrolux-italy-restructuring-2026",
+        "title": "意大利制造网络重组、裁员与新工业方案谈判",
+        "date": "2026-05-11",
+        "latest_progress": "2026年9月30日，Electrolux意大利重组方案新增披露Porcia工厂约21万台洗烘一体机产能拟转移至泰国；Cerreto d’Esi关厂及约1,450人裁员方案仍在推进。",
+        "status": "in_progress",
+        "countries": [
+          "意大利",
+          "泰国",
+          "瑞典"
+        ],
+        "entities": [
+          "Electrolux Group",
+          "FIM-CISL",
+          "意大利企业与制造部"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261002-003",
+      "title": "欧盟六国推动建立家电专项行动计划，将白电产业纳入欧盟竞争力改革议程",
+      "excerpt": "意大利、法国、德国、波兰、斯洛伐克和西班牙推动欧盟为家电产业制定专项行动计划，以应对成本、第三国竞争和欧洲制造能力下降。",
+      "content_html": "<p>9月24日欧盟竞争力理事会讨论由意大利、法国、德国、波兰、斯洛伐克和西班牙推动的家电产业文件，要求欧盟委员会承认家电产业的战略地位并制定专项欧洲行动计划。</p><p>相关倡议聚焦能源与原材料成本、第三国竞争以及欧洲制造能力下降等问题，标志白色家电产业被进一步纳入欧盟竞争力改革议程。</p>",
+      "source_name": "意大利企业与制造部（MIMIT） / 欧盟理事会",
+      "source_url": "https://www.mimit.gov.it/it/notizie-stampa/ue-urso-il-settore-degli-elettrodomestici-entra-nellagenda-delle-riforme",
+      "source_published_date": "2026-09-24",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-household-appliances-action-plan-2026",
+        "title": "欧盟家电产业专项行动计划倡议",
+        "date": "2026-09-24",
+        "latest_progress": "2026年9月24日，欧盟竞争力理事会讨论六国联合推动的家电产业文件，倡议欧盟委员会制定专项欧洲行动计划。",
+        "status": "announced",
+        "countries": [
+          "意大利",
+          "法国",
+          "德国",
+          "波兰",
+          "斯洛伐克",
+          "西班牙"
+        ],
+        "entities": [
+          "European Commission",
+          "Council of the EU",
+          "意大利企业与制造部（MIMIT）"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

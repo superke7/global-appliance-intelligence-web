@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260906-0716",
+  "generated_at_bjt": "2026-09-06T07:16:22+08:00",
+  "target_publish_at_bjt": "2026-09-06T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260906-001",
+      "title": "印度商务部长要求严控低增值转运并强化原产地证可信度",
+      "excerpt": "印度商务部长Piyush Goyal表示印度不应成为低增值转运通道，原产地证必须具备可信度，显示印度正强化对原产地和真实增值的政策表态。",
+      "content_html": "<p>The Indian Express 9月4日报道，印度商务部长Piyush Goyal表示，印度不应成为不道德贸易和转运通道，原产地证应具备可信度，并反对商品仅经过边际增值后改变来源认定。</p><p>报道指出，该表态发生在美国将印度等40多个经济体纳入所谓“影子转运网络”风险框架之后。对在印度制造并出口美国的企业而言，真实加工深度、原产地证明和本地增值证据的重要性进一步上升。</p>",
+      "source_name": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/business/piyush-goyal-india-unethical-trade-transhipment-us-trade-deal-10862573/",
+      "source_published_date": "2026-09-04",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-global-transshipment-enforcement-2026",
+        "title": "美国全球反转运与关税规避执法升级",
+        "date": "2026-08-13",
+        "latest_progress": "2026年9月4日，印度商务部长Piyush Goyal要求印度避免成为低增值转运通道，并强调原产地证应具备可信度，反映美国全球反转运执法压力下主要制造经济体开始强化原产地与真实增值表态。",
+        "status": "in_progress",
+        "countries": ["美国", "印度", "中国", "越南"],
+        "entities": ["印度商务工业部", "Piyush Goyal", "美国政府"],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20260906-002",
+      "title": "海信在IFA 2026发布AI伴侣套系，覆盖厨房、洗护与空气能源场景",
+      "excerpt": "海信在IFA 2026发布AI Companion Suite，以V AIOS和跨设备协同将AI Home从单设备响应扩展到厨房、洗护及空气能源场景。",
+      "content_html": "<p>海信9月5日官网披露，其在IFA 2026正式发布AI伴侣套系，作为7月AI战略升级在产品端的进一步落地。</p><p>AI Companion Suite覆盖厨房、洗护以及空气与能源场景：冰箱、烤箱等设备可协同完成食材管理和烹饪，洗护系统可识别衣物并联动洗烘，空气伴侣则结合环境感知与自适应控制提供主动服务。海信全球英文官网同步披露V AIOS与AI Companion Suite，强化跨设备、跨场景的AI Home路线。</p>",
+      "source_name": "Hisense",
+      "source_url": "https://www.hisense.com/news/1711.html",
+      "source_published_date": "2026-09-05",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260906-003",
+      "title": "LG在IFA 2026扩展欧洲AI Home与B2B布局，Fit & Max覆盖洗衣和洗碗品类",
+      "excerpt": "LG在IFA 2026将ThinQ AI Home进一步延伸至B2B与能源管理，并把面向欧洲居住环境的Fit & Max方案扩展至洗衣机、干衣机和洗碗机。",
+      "content_html": "<p>LG 9月3日宣布在IFA 2026展示扩展后的AI Home生态，以ThinQ ON、ThinQ平台和ThinQ Claw连接家电、空间与服务，并把ThinQ Pro和基于Homey的HEMS延伸至B2B与能源管理场景。</p><p>面向欧洲居住环境的Fit & Max方案由冰箱扩展至洗衣机、干衣机和洗碗机。韩国媒体同时披露，LG约46%的展区用于商务伙伴洽谈，为公司历来最大B2B咨询空间，显示其在欧洲同步强化平台产品和渠道经营。</p>",
+      "source_name": "LG Global Newsroom",
+      "source_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-showcases-expanded-ai-home-ecosystem-for-european-lifestyles-at-ifa-2026/",
+      "source_published_date": "2026-09-03",
+      "event_action": "none"
+    }
+  ]
+}

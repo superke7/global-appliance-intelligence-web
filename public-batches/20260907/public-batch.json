@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260907-0717",
+  "generated_at_bjt": "2026-09-07T07:17:16+08:00",
+  "target_publish_at_bjt": "2026-09-07T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260907-001",
+      "title": "美的IFA 2026将SMART MASTER升级为全屋AI生态，AI Agent联动家电与能源管理",
+      "excerpt": "美的在IFA 2026将SMART MASTER置于核心展示位置，以AI Agent贯通空调、冰箱、厨电、洗护与家庭能源管理，推动AI Home由单品智能向跨设备协同扩展。",
+      "content_html": "<p>美的9月5日在IFA 2026将SMART MASTER置于核心展示位置。官方披露，其AI Agent支持140种语言，并把原生语音入口嵌入空调、冰箱和嵌入式烤箱。</p><p>Efficiency Agent可结合太阳能贡献、电价和家庭能耗安排洗衣机等设备运行；Comfort、Health和Service等智能体进一步联动洗护、厨电与服务场景，显示美的正在把AI能力由单品功能扩展为跨品类全屋生态与能源管理平台。</p>",
+      "source_name": "Midea Global News",
+      "source_url": "https://www.midea.com/global/news/midea-smart-master-brings-an-ai-powered-home-ecosystem-to-life-at-ifa-2026",
+      "source_published_date": "2026-09-05",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260907-002",
+      "title": "TCL在IFA 2026推出Inspiration Habitat，AI平台扩展至空调、洗衣与全屋智能",
+      "excerpt": "TCL在IFA 2026以Inspiration Habitat展示AI Inspired Life，把AI能力从单品扩展至空调、洗护、冰箱与全屋智能场景。",
+      "content_html": "<p>TCL在IFA 2026正式展示“Inspiration Habitat”和AI Inspired Life，强调AI由单一产品能力扩展为跨家电与居住场景的集成体验。</p><p>官方披露，FreshIN 3.0 Ultra空调使用升级T-AI模型动态调节压缩机频率；AI SuperDrum Laundry Tower P9 Ultra以Generative AI Wash识别负载、织物和污渍后自动调整水量、温度、洗涤剂和周期；升级后的NXTHOME进一步连接智能显示、家电与居住空间。</p>",
+      "source_name": "TCL Official",
+      "source_url": "https://www.tcl.com/gulf/en/news/tcl-redefines-everyday-experiences-at-ifa-2026",
+      "source_published_date": "2026-09-04",
+      "event_action": "none"
+    }
+  ]
+}

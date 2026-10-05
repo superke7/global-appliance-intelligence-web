@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260819-0730",
+  "generated_at_bjt": "2026-08-19T07:30:11+08:00",
+  "target_publish_at_bjt": "2026-08-19T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260819-001",
+      "title": "美加领导人再次通话，第338条50%关税进入生效前最后数小时",
+      "excerpt": "加拿大总理Mark Carney与美国总统Donald Trump在8月19日第338条关税生效前再次通话，但截至北京时间07:30双方仍未公布协议，现行50%附加税执行基线未变。",
+      "content_html": "<p>Reuters 8月18日报道，加拿大总理Mark Carney与美国总统Donald Trump再次通话，这是本周第二次领导人沟通。双方仍在争取于美国东部时间8月19日00:01前达成安排，但截至北京时间8月19日07:30，尚未公布正式协议，也未发现白宫或美国贸易代表办公室发布暂停、撤销或修改7月20日Section 338公告的文件。</p><p>现行三项公告对附件列明的部分加拿大商品加征50%附加税，并明确相关覆盖商品不因USMCA原产资格获得普遍豁免。Reuters同时披露，双方还在讨论把加拿大汽车Section 232税率由25%降至15%，但对关税扣减应仅计算美国内容还是全部北美内容仍有分歧。对北美制造企业而言，除成品原产资格外，具体投入品来源、区域内容和可核验证据的重要性正在上升。</p>",
+      "source_name": "Reuters / The White House",
+      "source_url": "https://www.reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/",
+      "source_published_date": "2026-08-18",
+      "event_action": "none"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260910-0715",
+  "generated_at_bjt": "2026-09-10T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-10T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260910-001",
+      "title": "意大利工会确定9月15日Electrolux全国工厂8小时罢工，并在Cerreto d’Esi举行全国示威",
+      "excerpt": "意大利FIM、FIOM、UILM工会将Electrolux全国工厂8小时罢工确定在9月15日，并将在拟关闭的Cerreto d’Esi工厂举行全国示威。",
+      "content_html": "<p>Reuters 9月9日报道，意大利FIM、FIOM、UILM工会将Electrolux全国工厂8小时罢工确定在9月15日，并将在拟关闭的Cerreto d’Esi工厂举行全国示威。</p><p>ANSA进一步确认，该决定是在上周意大利企业与制造部两日谈判后作出，Electrolux仍维持关闭Cerreto d’Esi工厂及约1,450个岗位冗余方案。9月4日工会此前仅宣布8小时罢工、执行方式尚待明确；本次新增了具体日期和全国示威地点。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/world-at-work/italian-unions-call-one-day-strike-electrolux-over-job-cut-plan-2026-09-09",
+      "source_published_date": "2026-09-09",
+      "event_action": "update",
+      "event": {
+        "event_key": "electrolux-italy-restructuring-2026",
+        "title": "意大利制造网络重组、裁员与新工业方案谈判",
+        "date": "2026-05-11",
+        "latest_progress": "2026年9月9日，意大利工会将Electrolux全国工厂8小时罢工确定在9月15日，并将在Cerreto d’Esi举行全国示威；公司仍维持关厂及约1,450个岗位冗余方案。",
+        "status": "in_progress",
+        "countries": ["意大利", "瑞典"],
+        "entities": ["Electrolux Group", "意大利企业与制造部", "FIM-FIOM-UILM"],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

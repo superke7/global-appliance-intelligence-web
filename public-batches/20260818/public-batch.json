@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260818-0733",
+  "generated_at_bjt": "2026-08-18T07:33:01+08:00",
+  "target_publish_at_bjt": "2026-08-18T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260818-001",
+      "title": "美加第338条50%关税进入生效前最后谈判阶段",
+      "excerpt": "美加在8月19日第338条50%附加关税计划生效前继续密集谈判，并同步磋商降低加拿大汽车关税，但关键分歧仍未解决。",
+      "content_html": "<p>Reuters 8月17日报道，美国与加拿大仍在围绕8月19日计划生效的第338条50%附加关税进行最后阶段谈判。双方过去四周已进行多轮高层磋商，但在汽车、乳制品和酒类等问题上仍存在明显分歧。</p><p>双方同时讨论将加拿大汽车进口适用的Section 232关税从25%降至15%。一个关键争议是计算关税时可扣减的区域内容范围：美方倾向仅扣减美国内容，加拿大则主张扣减全部北美内容。截至8月17日，尚未出现正式文件暂停、撤销或延期第338条措施，因此相关企业仍需按8月19日生效情景准备。</p>",
+      "source_name": "Reuters / The White House",
+      "source_url": "https://www.reuters.com/legal/transactional/canada-braces-50-us-tariffs-with-negotiators-still-far-apart-2026-08-17/",
+      "source_published_date": "2026-08-17",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260818-002",
+      "title": "美国AI反原产地欺诈执法或把更多合规责任转向企业",
+      "excerpt": "美国使用AI和贸易数据识别原产地与转运异常的同时，实际核查仍需要企业证明真实加工深度，进口商、报关行和物流企业的尽调与文件责任可能上升。",
+      "content_html": "<p>Financial Times 8月17日进一步披露，美国正在使用Altana等数据工具识别可能存在原产地欺诈或关税规避的贸易流。Altana称，在2025年4月美国关税上调后，其系统标记的疑似转运规模从约50亿美元每月升至约250亿美元每月。</p><p>报道同时指出，贸易数据能够发现异常模式，但难以单独证明商品是否在第三国完成了足以改变原产地的实质性加工。因此，未来执法可能要求进口商、报关行、物流企业和供应商承担更多客户识别、供应链尽调和证明文件责任。对第三国制造后出口美国的企业而言，原产地合规将更依赖可验证的上游投入品、加工工序和物流证据链。</p>",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/83d287ed-43e2-466d-9490-06879efb04fc",
+      "source_published_date": "2026-08-17",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-global-transshipment-enforcement-2026",
+        "title": "美国全球反转运与关税规避执法升级",
+        "date": "2026-08-13",
+        "latest_progress": "2026年8月17日，Financial Times进一步披露美国AI和贸易数据识别原产地欺诈的实施机制，并指出进口商、报关行和物流企业可能承担更多供应链尽调与证明责任。",
+        "status": "in_progress",
+        "countries": ["美国", "中国", "加拿大", "墨西哥", "欧盟", "印度", "日本", "韩国", "台湾", "越南", "泰国", "马来西亚", "印度尼西亚", "土耳其", "巴西"],
+        "entities": ["美国白宫贸易与制造政策办公室", "美国海关与边境保护局", "美国贸易代表办公室", "Altana"],
+        "category": "监管与供应链"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260914-0715",
+  "generated_at_bjt": "2026-09-14T07:24:00+08:00",
+  "target_publish_at_bjt": "2026-09-14T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260914-001",
+      "title": "美国CBP 9月14日起硬性拒绝缺失铜熔炼/铸造国信息的部分线缆进口申报",
+      "excerpt": "美国CBP自9月14日起将部分铜线缆的熔炼国和铸造国申报校验升级为硬性拒绝，缺失必要信息的entry summary将被ACE拒绝。",
+      "content_html": "<p>美国海关与边境保护局（CBP）确认，自2026年9月14日起，ACE将对HTSUS 8544.42.10、8544.42.20、8544.42.90和8544.49.10项下部分铜线缆实施硬性申报校验。</p><p>进口商如未申报铜的主要熔炼国和铸造国，F794错误将转为fatal并拒绝entry summary。相关税目覆盖带连接器绝缘导体等电气连接件，对使用电源线和线束的家电及HVAC供应链形成新的来源追溯和报关要求。</p>",
+      "source_name": "U.S. Customs and Border Protection / CSMS",
+      "source_url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/427b7f9",
+      "source_published_date": "2026-09-01",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-sec232-tiered-metals-2026",
+        "title": "232钢铝铜及衍生品分层税率调整",
+        "date": "2026-06-18",
+        "latest_progress": "2026年9月14日起，CBP对部分铜线缆进口的主要熔炼国和铸造国申报实施硬性校验，缺失必要信息的entry summary将被ACE拒绝。",
+        "status": "implemented",
+        "countries": ["美国", "全球非美国原产地"],
+        "entities": ["U.S. Customs and Border Protection"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260914-002",
+      "title": "Carrier完成收购Intercool，强化Benelux住宅及轻商Toshiba HVAC渠道",
+      "excerpt": "Carrier完成收购Toshiba HVAC在Benelux的授权经销商Intercool，进一步控制比荷卢住宅及轻商空调渠道与安装商网络。",
+      "content_html": "<p>Carrier 8月18日宣布完成收购Intercool。Intercool自1973年以来一直是Toshiba HVAC在比利时、荷兰和卢森堡的授权经销商，拥有42名员工。</p><p>交易完成后，Intercool将继续作为Carrier Climate Solutions Europe旗下独立销售组织运营，支持Toshiba HVAC业务，并强化Carrier在Benelux住宅及轻商HVAC市场的安装商与客户覆盖。</p>",
+      "source_name": "Carrier",
+      "source_url": "https://www.carrier.de/de/ueber-uns/news/carrier-completes-acquisition-of-intercool-in-benelux.html",
+      "source_published_date": "2026-08-18",
+      "event_action": "create",
+      "event": {
+        "event_key": "carrier-intercool-benelux-acquisition-2026",
+        "title": "Carrier收购Intercool并整合Benelux Toshiba HVAC渠道",
+        "date": "2026-08-18",
+        "latest_progress": "2026年8月18日，Carrier完成收购Intercool，并将其纳入Carrier Climate Solutions Europe，以强化Benelux住宅及轻商Toshiba HVAC渠道。",
+        "status": "implemented",
+        "countries": ["荷兰", "比利时", "卢森堡"],
+        "entities": ["Carrier", "Toshiba HVAC", "Intercool"],
+        "category": "市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20260914-003",
+      "title": "Madison Air拟54亿美元收购ebm-papst，整合全球HVAC/R风机与电机核心技术",
+      "excerpt": "Madison Air签署54亿美元收购ebm-papst的最终协议，将全球EC风机、电机和HVAC/R airflow技术纳入其空气质量业务体系。",
+      "content_html": "<p>Madison Air 8月17日宣布签署最终协议，以54亿美元企业购买价收购德国ebm-papst。ebm-papst是全球高性能风机、电机及EC airflow系统的重要供应商，产品广泛用于HVAC/R。</p><p>交易将把ebm-papst的全球制造与技术平台、1200多项专利纳入Madison Air体系。交易预计在2026年末前后完成，仍需取得相关监管批准并满足惯常交割条件。</p>",
+      "source_name": "Madison Air / Reuters",
+      "source_url": "https://investors.madisonair.com/2026-08-17-Madison-Air-to-Acquire-ebm-papst%2C-Expanding-Return-on-Air-TM-Capabilities-and-Accelerating-Durable-Growth-in-Air-Quality-Solutions",
+      "source_published_date": "2026-08-17",
+      "event_action": "create",
+      "event": {
+        "event_key": "madison-air-ebmpapst-acquisition-2026",
+        "title": "Madison Air收购ebm-papst",
+        "date": "2026-08-17",
+        "latest_progress": "2026年8月17日，Madison Air签署54亿美元收购ebm-papst的最终协议，交易预计年末前后完成，尚待监管审批和其他惯常交割条件。",
+        "status": "announced",
+        "countries": ["美国", "德国", "全球"],
+        "entities": ["Madison Air", "ebm-papst"],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20260914-004",
+      "title": "Beijer Ref拟收购Refra 90%股权，扩大欧洲R290/CO₂天然冷媒热泵与制冷制造",
+      "excerpt": "Beijer Ref签署收购立陶宛Refra 90%股权协议，强化R290热泵、丙烷冷水机和CO₂制冷等天然冷媒技术组合。",
+      "content_html": "<p>Beijer Ref 8月24日签署协议收购立陶宛HVAC/R制造商Refra 90%股权，并保留收购剩余股权的选择权。Refra年营收约5亿瑞典克朗。</p><p>Refra专注CO₂（R744）制冷及R290丙烷冷水机和热泵。交易将强化Beijer Ref自有OEM和天然冷媒技术组合，仍需获得立陶宛竞争主管机构批准。</p>",
+      "source_name": "Beijer Ref",
+      "source_url": "https://news.cision.com/beijer-ref-ab/r/beijer-ref-expands-and-strengthens-its-natural-refrigerant-offering-through-lithuanian-acquisition%2Cc4386675",
+      "source_published_date": "2026-08-24",
+      "event_action": "create",
+      "event": {
+        "event_key": "beijer-ref-refra-acquisition-2026",
+        "title": "Beijer Ref收购Refra并扩展天然冷媒热泵与制冷业务",
+        "date": "2026-08-24",
+        "latest_progress": "2026年8月24日，Beijer Ref签署收购Refra 90%股权协议，交易仍需立陶宛竞争主管机构批准。",
+        "status": "announced",
+        "countries": ["立陶宛", "欧洲"],
+        "entities": ["Beijer Ref", "Refra"],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20260914-005",
+      "title": "Voltatron收购Kurz Elektronik，纳入德国研发与立陶宛家电电子/线束制造能力",
+      "excerpt": "Voltatron收购Kurz Elektronik，将面向家电客户的EMS、传感器、线束、注塑及立陶宛电子制造能力纳入欧洲供应体系。",
+      "content_html": "<p>Voltatron 8月27日宣布收购Kurz Elektronik全部股权。Kurz面向家电和工业客户提供电子制造服务、传感器、线束、塑料注塑和工具制造等能力。</p><p>Kurz在德国Althengstett设技术中心，并在立陶宛设制造基地，约有170名员工。Voltatron预计自9月1日起初始并表，并将通过交易扩大欧洲电子制造与线束能力。</p>",
+      "source_name": "Voltatron AG",
+      "source_url": "https://ir.voltatron.com/en/news/voltatron-acquires-kurz-elektronik-from-prettl-group-and-secures-strategically-important-capabilities-to-expand-its/d8bf65b5-569e-4280-b327-f2db0eb067b2",
+      "source_published_date": "2026-08-28",
+      "event_action": "create",
+      "event": {
+        "event_key": "voltatron-kurz-elektronik-acquisition-2026",
+        "title": "Voltatron收购Kurz Elektronik并整合家电电子与线束制造能力",
+        "date": "2026-08-28",
+        "latest_progress": "2026年8月27日，Voltatron签署收购Kurz Elektronik全部股权协议，并预计自9月1日起初始并表。",
+        "status": "in_progress",
+        "countries": ["德国", "立陶宛", "欧洲"],
+        "entities": ["Voltatron", "Kurz Elektronik", "Prettl Group"],
+        "category": "监管与供应链"
+      }
+    }
+  ]
+}

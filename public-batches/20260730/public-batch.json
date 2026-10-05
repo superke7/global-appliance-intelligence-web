@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260730-0732",
+  "generated_at_bjt": "2026-07-30T07:32:00+08:00",
+  "target_publish_at_bjt": "2026-07-30T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "20260730-electrolux-q2-north-america",
+      "title": "Electrolux二季度盈利改善，但北美家电需求与关税压力持续",
+      "excerpt": "Electrolux第二季度剔除非经常项目的营业利润升至12亿瑞典克朗，但北美有机销售下降2.9%。成本削减和关税退款改善短期业绩，北美需求疲弱及钢铝铜关税成本仍将影响后续季度。",
+      "content_html": "<p>Electrolux公布2026年第二季度业绩，集团剔除非经常项目的营业利润为12亿瑞典克朗，高于上年同期的7.97亿瑞典克朗，有机销售增长2%。</p><p>北美市场仍是主要压力来源。该地区有机销售下降2.9%，公司继续维持负面的市场判断。成本削减对季度利润贡献约14亿瑞典克朗，美国关税退款约3,400万美元，但钢、铝和铜相关关税成本预计仍将影响后续季度。</p><p>这一结果显示，北美家电制造商即使通过提价、降本和关税退款缓解部分压力，仍需应对需求疲弱、原材料成本和产能效率问题。Electrolux推进与美的集团的北美合作及全球重组，反映行业正在通过制造协同、产能整合和渠道合作修复盈利能力。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/appliance-maker-electrolux-q2-operating-profit-beats-expectations-2026-07-29/",
+      "source_published_date": "2026-07-29",
+      "event_action": "none"
+    }
+  ]
+}

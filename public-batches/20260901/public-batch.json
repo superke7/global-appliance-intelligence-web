@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260901-0717",
+  "generated_at_bjt": "2026-09-01T07:17:13+08:00",
+  "target_publish_at_bjt": "2026-09-01T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260901-001",
+      "title": "Electrolux获BNDES批准3亿雷亚尔融资，在巴西研发26款节能智能家电并增强出口能力",
+      "excerpt": "BNDES批准向Electrolux提供3亿雷亚尔融资，用于在巴西研发26款更节能、智能的家电产品，并提升当地生产家电的出口能力。",
+      "content_html": "<p>巴西国家开发银行BNDES批准向Electrolux提供3亿雷亚尔融资，用于在巴西开展研究、开发与创新项目，涉及26款新家电，包括冰箱、空调、烤箱、空气炸锅、咖啡机、净水器以及吸尘器等。</p><p>项目重点包括降低能源消耗、提升能效并应用人工智能。BNDES表示，相关活动主要由Electrolux位于库里蒂巴的研发中心承担，并由São José dos Pinhais和Manaus基地支持；该项目同时旨在增强巴西生产家电的出口能力。</p>",
+      "source_name": "Reuters / BNDES",
+      "source_url": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/31/bndes-aprova-r300-mi-para-electrolux.htm",
+      "source_published_date": "2026-08-31",
+      "event_action": "create",
+      "event": {
+        "event_key": "electrolux-brazil-bndes-innovation-2026",
+        "title": "Electrolux巴西BNDES融资与节能智能家电研发项目",
+        "date": "2026-08-31",
+        "latest_progress": "BNDES批准3亿雷亚尔融资，用于Electrolux在巴西研发26款节能智能家电，并增强当地生产家电的出口能力。",
+        "status": "announced",
+        "countries": ["巴西"],
+        "entities": ["Electrolux", "BNDES"],
+        "category": "投资与合作"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260909-0715",
+  "generated_at_bjt": "2026-09-09T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-09T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260909-001",
+      "title": "三星印度电视与家电业务裁员80—100人，销售与渠道组织继续收缩",
+      "excerpt": "三星印度已分批裁减电视和家电业务约80—100名管理及销售人员，并推进分支机构整合；媒体称销售与营销团队后续仍可能继续精简。",
+      "content_html": "<p>The Economic Times 9月8日报道，三星印度已分批裁减电视与家电业务人员，约80—100名管理及销售人员已被要求离职，涉及总部及分支机构管理岗位。</p><p>报道援引行业人士称，电子业务销售与营销团队后续仍可能进一步精简；三星同时推进部分区域分支机构合并，拟议中的家电与电视销售团队合并被推迟至第四季度。三星印度未就报道回复媒体置评请求。</p>",
+      "source_name": "The Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/samsung-india-pays-the-price-of-costlier-chips-with-a-round-of-layoffs/articleshow/133894023.cms",
+      "source_published_date": "2026-09-08",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260909-002",
+      "title": "加拿大对美反制关税9月8日正式生效，家电进入15%—50%税率框架",
+      "excerpt": "加拿大对美国商品的反制关税9月8日正式生效，税率分为15%、25%和50%；家电已列入措施覆盖范围，多数家用冰箱、洗衣机、干衣机和多类厨电此前被列入25%档。",
+      "content_html": "<p>Reuters 9月8日确认，加拿大针对美国商品的反制关税已于当日正式生效，涉及约200亿美元美国进口商品。加拿大财政部此前公布的最终方案按对应美国措施设置15%、25%和50%三档税率，覆盖约276亿加元进口，明确包括家电。</p><p>既有官方税目显示，部分固定式或分体式空调及家用热泵适用15%，多数家用冰箱冷柜、洗衣机、干衣机及多类厨电适用25%。本次进展意味着该措施由已公布待生效转入正式执行阶段。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/autos-transportation/canadas-retaliatory-tariffs-take-effect-us-trade-talks-stall-2026-09-08",
+      "source_published_date": "2026-09-08",
+      "event_action": "update",
+      "event": {
+        "event_key": "canada-us-retaliatory-tariffs-2026",
+        "title": "加拿大对美国钢铁、电子产品及家电反制关税",
+        "date": "2026-08-22",
+        "latest_progress": "加拿大对美国商品的反制关税已于9月8日正式生效，措施采用15%、25%和50%三档税率并覆盖家电，事件由最终清单已公布转入正式执行阶段。",
+        "status": "implemented",
+        "countries": ["加拿大", "美国"],
+        "entities": ["加拿大政府", "美国政府"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

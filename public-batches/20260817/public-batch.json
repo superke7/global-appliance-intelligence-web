@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260817-0730",
+  "generated_at_bjt": "2026-08-17T07:34:00+08:00",
+  "target_publish_at_bjt": "2026-08-17T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260817-001",
+      "title": "印度放宽外资电商出口规则，制造企业全球渠道门槛下降",
+      "excerpt": "印度政府放宽外资电商出口规则，允许外资平台直接从印度卖家采购商品并销售至海外市场；该变化提升印度制造商品通过全球电商平台出口的便利度。",
+      "content_html": "<p>印度政府7月23日放宽外资电商出口规则，允许外资电商企业直接从印度卖家采购商品并销售至海外市场。Reuters报道指出，这项调整是针对出口业务的定向放宽，并不等同于全面开放外国平台在印度国内采用库存型B2C模式。</p><p>对印度制造企业而言，全球电商平台可更直接承担采购和出口渠道功能。Amazon表示，这项变化将帮助印度制造商进入海外市场，并支持其到2030年实现累计800亿美元印度出口目标。对于家电、小家电、配件和售后件企业，后续需要关注具体实施细则、税务和海关处理以及品类适用范围。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/india/india-relaxes-e-commerce-investment-rules-exports-win-amazon-2026-07-23/",
+      "source_published_date": "2026-07-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-ecommerce-export-fdi-2026",
+        "title": "印度放宽外资电商出口规则",
+        "date": "2026-07-23",
+        "latest_progress": "印度允许外资电商平台直接从印度卖家采购商品并用于海外销售，出口业务的外资电商限制出现定向放宽。",
+        "status": "announced",
+        "countries": ["印度"],
+        "entities": ["印度政府", "Amazon"],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}

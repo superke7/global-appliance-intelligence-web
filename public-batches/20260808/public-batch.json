@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260808-0731",
+  "generated_at_bjt": "2026-08-08T07:31:38+08:00",
+  "target_publish_at_bjt": "2026-08-08T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260808-001",
+      "title": "欧洲高温持续推升空调与风扇需求",
+      "excerpt": "欧洲持续高温带动制冷产品销售走强，零售商和家电制造商继续受益于空调与风扇需求增长。",
+      "content_html": "<p>Reuters 8月7日报道，欧洲高温继续推升空调和风扇需求，Currys、Carrefour等零售商在高温期报告强劲销售，De'Longhi制冷产品销售也实现显著双位数增长。</p><p>此前中国国家发展改革委披露，6月欧洲热浪期间，部分中国空调厂商将补货由海运切换至中欧班列，运输周期由约40天缩短至15天左右。该趋势表明欧洲空调市场的竞争重点正同时落在产品供给、库存响应和物流速度上。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/environment/europes-getting-hotter-markets-are-taking-note-2026-08-07/",
+      "source_published_date": "2026-08-07",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260808-002",
+      "title": "美国要求墨西哥考虑建立类似232的共同钢铝关税壁垒",
+      "excerpt": "美国在USMCA谈判中要求墨西哥对北美以外钢铝实施类似Section 232的关税措施，重点指向中国来源。",
+      "content_html": "<p>Bloomberg Law 7月26日报道，美国要求墨西哥对来自北美以外的钢铁和铝实施类似Section 232的关税壁垒，以保留美国、墨西哥和加拿大钢铝的区域优惠，并建立针对中国等第三国来源的共同外部壁垒。</p><p>若相关安排最终写入USMCA谈判成果，将提高非北美钢铝进入墨西哥制造体系的成本和合规要求，并可能影响使用墨西哥作为北美生产基地的企业供应链设计。</p>",
+      "source_name": "Bloomberg Law",
+      "source_url": "https://news.bloomberglaw.com/tariff-news/us-presses-mexico-to-mirror-its-steel-tariff-wall-aimed-at-china",
+      "source_published_date": "2026-07-26",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260808-003",
+      "title": "欧盟工业加速法案引入“等同欧盟原产”规则",
+      "excerpt": "欧盟工业加速法案草案允许部分FTA、关税同盟或相关政府采购协定伙伴的内容在特定场景下视同欧盟原产。",
+      "content_html": "<p>欧盟工业加速法案草案除“欧盟原产内容”外，还引入“等同欧盟原产内容”概念。根据草案，在公共采购中，来自与欧盟存在自由贸易协定、关税同盟或相关WTO政府采购协定义务的第三国内容，可在特定条件下被视同欧盟原产；其他公共干预中，FTA或关税同盟伙伴也可获得类似待遇。</p><p>与此同时，欧盟委员会仍可基于互惠、依赖或供应安全等理由排除特定第三国。该设计意味着欧洲产业政策中的本地化要求并不必然仅限EU27，但最终适用范围仍取决于立法进程和后续授权规则。</p>",
+      "source_name": "European Parliamentary Research Service",
+      "source_url": "https://www.europarl.europa.eu/thinktank/en/academic/EPRS_BRI%282026%29789300",
+      "source_published_date": "2026-06-01",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-iaa-equivalent-origin-2026",
+        "title": "欧盟工业加速法案“等同欧盟原产”规则",
+        "date": "2026-03-04",
+        "latest_progress": "草案明确第三国内容在特定协定关系下可被视同欧盟原产，同时保留排除机制。",
+        "status": "announced",
+        "countries": ["欧盟"],
+        "entities": ["欧盟委员会", "欧洲议会"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260808-004",
+      "title": "欧盟向京东收购CECONOMY交易发出外国补贴正式异议",
+      "excerpt": "欧盟对京东收购MediaMarkt和Saturn母公司CECONOMY的外国补贴审查已进入正式异议阶段。",
+      "content_html": "<p>欧盟委员会此前已对京东收购CECONOMY启动深入的外国补贴条例调查。Reuters 7月22日报道，欧盟已向京东发出statement of grounds，正式列明其对潜在外国补贴扭曲收购过程以及并购后竞争条件的担忧。</p><p>CECONOMY旗下MediaMarkt和Saturn是欧洲重要的消费电子和家电零售渠道。该案件显示，欧盟外国补贴条例的审查范围不仅覆盖制造和公共采购，也延伸至大型零售渠道控制权交易。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/eu-regulators-issue-formal-warning-jdcom-over-ceconomy-deal-sources-say-2026-07-22/",
+      "source_published_date": "2026-07-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-jd-ceconomy-fsr-2026",
+        "title": "欧盟审查京东收购CECONOMY",
+        "date": "2026-05-28",
+        "latest_progress": "欧盟已向京东发出statement of grounds，交易仍待外国补贴条例最终审查。",
+        "status": "in_progress",
+        "countries": ["欧盟", "德国", "中国"],
+        "entities": ["欧盟委员会", "JD.com", "CECONOMY", "MediaMarkt", "Saturn"],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20260808-005",
+      "title": "印度推动约510亿美元关键进口本土化",
+      "excerpt": "印度正推动约510亿美元关键进口的国内制造，并以约100个项目优先推进进口替代。",
+      "content_html": "<p>Reuters 7月16日报道，印度政府正推动约510亿美元关键进口的国内制造，内部分析同时识别出约3980亿美元的潜在进口替代空间，并将约100个项目列为优先推进对象。</p><p>政策工具包括制造激励、补贴以及与海外企业开展合资合作。该政策延续印度提高供应链韧性和减少关键进口依赖的方向，并可能推动更多关键零部件和制造投入品在当地生产。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/india/india-identifies-51-bln-critical-imports-domestic-manufacturing-push-sources-say-2026-07-16/",
+      "source_published_date": "2026-07-16",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-critical-import-substitution-2026",
+        "title": "印度关键进口本土化计划",
+        "date": "2026-07-16",
+        "latest_progress": "印度识别约510亿美元重点进口并以约100个项目优先推动国内制造。",
+        "status": "in_progress",
+        "countries": ["印度"],
+        "entities": ["印度政府"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

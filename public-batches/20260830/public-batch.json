@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260830-0717",
+  "generated_at_bjt": "2026-08-30T07:17:13+08:00",
+  "target_publish_at_bjt": "2026-08-30T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260830-001",
+      "title": "Beko意大利Melano工厂9月停产6天，整月产能约降至60%",
+      "excerpt": "Beko Europe位于意大利Fabriano的Melano工厂计划9月实施6天完全停产，并在整月使用停工补贴，月度生产能力约降至正常水平的60%。",
+      "content_html": "<p>ANSA 8月27日报道，Beko Europe位于意大利Fabriano的Melano工厂计划于9月23日至30日期间实施6天完全停产，并在整个9月使用停工补贴（CIG），使月度生产能力约降至正常水平的60%。</p><p>工会表示，2026年初设定的略高于100万件年度产量预算存在跌破该水平的风险，并指出感应灶业务放缓及投资不足。Il Resto del Carlino对停产安排、约60%产能及产量承压进行了独立报道。</p>",
+      "source_name": "ANSA",
+      "source_url": "https://www.ansa.it/marche/notizie/2026/08/27/alla-beko-di-melano-sei-giorni-chiusura-del-sito-protestano-i-sindacati_00aac51e-188a-403f-8e5a-66365a87d55a.html",
+      "source_published_date": "2026-08-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "beko-italy-melano-capacity-2026",
+        "title": "Beko意大利Melano工厂产能收缩与停产调整",
+        "date": "2026-08-27",
+        "latest_progress": "Melano工厂计划9月23日至30日期间实施6天完全停产，并在整个9月使用停工补贴，月度生产能力约降至正常水平的60%。",
+        "status": "delayed",
+        "countries": ["意大利"],
+        "entities": ["Beko Europe", "Arçelik", "Fim-Fiom-Uilm"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260830-002",
+      "title": "美的上半年智能家居收入1743.4亿元增4.27%，海外收入1131.27亿元增5.54%",
+      "excerpt": "美的集团2026年上半年智能家居收入1743.4亿元、同比增长4.27%，海外收入1131.27亿元、同比增长5.54%，海外OBM收入占智能家居海外收入50%以上。",
+      "content_html": "<p>美的集团8月28日发布2026年半年报。第一财经报道，上半年智能家居业务收入1743.4亿元，同比增长4.27%；海外收入1131.27亿元，同比增长5.54%，占集团收入43.5%，海外自主品牌（OBM）收入已占智能家居海外收入50%以上。</p><p>同期，美的美国OBM业务收入同比增长24%；家用空调压缩机、家用空调电机和洗衣机电机销量份额继续保持行业第一。证券时报对智能家居收入及主要财务数据进行了独立报道。</p>",
+      "source_name": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339441.html",
+      "source_published_date": "2026-08-28",
+      "event_action": "none"
+    }
+  ]
+}

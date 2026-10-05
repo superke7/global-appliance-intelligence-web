@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260905-0715",
+  "generated_at_bjt": "2026-09-05T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-05T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260905-001",
+      "title": "GE Appliances投资10亿美元重构肯塔基洗涤产能，将高产量干衣机生产从墨西哥迁回美国",
+      "excerpt": "GE Appliances将在肯塔基州路易斯维尔Appliance Park投资10亿美元，其中超过4亿美元用于将高产量干衣机生产从墨西哥迁回美国。",
+      "content_html": "<p>GE Appliances宣布在肯塔基州路易斯维尔Appliance Park投资10亿美元重构家电制造。其中超过4亿美元用于Building 5，将高产量干衣机生产从墨西哥迁回肯塔基；约1.12亿美元用于Building 1洗衣机和干衣机平台改造。</p><p>公司同时继续推进此前4.9亿美元的Building 2前置式洗衣机及洗烘一体机项目。Building 5冰箱生产预计于2027年初退出，新的干衣机生产预计于2027年末启动。</p>",
+      "source_name": "GE Appliances Pressroom",
+      "source_url": "https://pressroom.geappliances.com/news/ge-appliances-and-iue-cwa-announce-1-billion-investment-in-louisville-plant-creating-the-largest-home-appliance-manufacturing-site-in-the-u-s",
+      "source_published_date": "2026-09-02",
+      "event_action": "create",
+      "event": {
+        "event_key": "ge-appliances-louisville-laundry-reshoring-2026",
+        "title": "GE Appliances路易斯维尔洗涤产能回迁与Appliance Park重构",
+        "date": "2026-09-02",
+        "latest_progress": "GE Appliances宣布在路易斯维尔Appliance Park投资10亿美元，其中超过4亿美元用于将高产量干衣机生产从墨西哥迁回肯塔基，新的干衣机生产预计2027年末启动。",
+        "status": "in_progress",
+        "countries": ["美国", "墨西哥"],
+        "entities": ["GE Appliances", "IUE-CWA"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260905-002",
+      "title": "Electrolux确认关闭意大利Cerreto d’Esi工厂，裁员计划降至1450人并触发全厂8小时罢工",
+      "excerpt": "Electrolux在意大利工业部谈判后继续确认关闭Cerreto d’Esi工厂；工会称裁员计划由1719人下调至约1450人，并宣布全意大利工厂8小时罢工。",
+      "content_html": "<p>Electrolux与工会在意大利企业与制造部完成两日谈判后，继续确认关闭Cerreto d’Esi工厂。工会称计划裁员规模由1,719人下调至约1,450人，但另有135名定期合同员工将不续约。</p><p>Fim、Fiom、Uilm随后宣布Electrolux意大利全部工厂举行8小时罢工。该进展使此前暂停并重新谈判的意大利制造网络重组再次进入关厂与裁员执行争议阶段。</p>",
+      "source_name": "ANSA",
+      "source_url": "https://www.ansa.it/sito/notizie/economia/2026/09/04/proclamato-sciopero-di-8-ore-in-tutti-gli-stabilimenti-electrolux-_84ec4cd7-9762-4d4e-ac01-8c04a8a5f633.html",
+      "source_published_date": "2026-09-04",
+      "event_action": "update",
+      "event": {
+        "event_key": "electrolux-italy-restructuring-2026",
+        "title": "意大利制造网络重组、裁员与新工业方案谈判",
+        "date": "2026-05-11",
+        "latest_progress": "2026年9月4日，Electrolux在意大利政府协调谈判后继续确认关闭Cerreto d’Esi工厂；工会称裁员计划由1,719人下调至约1,450人，并宣布全意大利工厂8小时罢工。",
+        "status": "in_progress",
+        "countries": ["意大利", "瑞典"],
+        "entities": ["Electrolux Group", "意大利企业与制造部", "Fim-Fiom-Uilm"],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

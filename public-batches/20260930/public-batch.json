@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260930-0715",
+  "generated_at_bjt": "2026-09-30T08:20:00+08:00",
+  "target_publish_at_bjt": "2026-09-30T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260925-001",
+      "title": "中美将“釜山协议”贸易休战延长至2027年1月10日",
+      "excerpt": "美国财长Scott Bessent表示，中美已同意将“Busan Agreement”贸易休战延长两个月至2027年1月10日，以继续磋商更广泛经贸安排。",
+      "content_html": "<p>美国财长Scott Bessent 9月23日晚在公开采访中表示，美中已同意将原定2026年11月10日到期的“Busan Agreement”经济休战延长两个月至2027年1月10日，以继续磋商更广泛的经济安排。</p><p>这一表态较此前双方尚未就休战延长期限达成一致构成新的状态变化。公开信息未显示现行具体关税税率因本次延期而立即调整。</p>",
+      "source_name": "Yahoo Finance / Fox News",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-says-us-china-235100635.html",
+      "source_published_date": "2026-09-24",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "2026年9月23日，美国财长Scott Bessent表示中美已同意将“Busan Agreement”贸易休战延长两个月至2027年1月10日，双方继续磋商更广泛经贸安排。",
+        "status": "in_progress",
+        "countries": [
+          "中国",
+          "美国"
+        ],
+        "entities": [
+          "美国财政部",
+          "美国贸易代表办公室（USTR）",
+          "中国国务院"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260925-002",
+      "title": "LG与SK Enmove联合开发低GWP、无PFAS下一代制冷剂及家电冷冻机油",
+      "excerpt": "LG Electronics与SK Enmove签署合作备忘录，联合开发面向冰箱、冷柜和空调等设备的下一代制冷剂、冷冻机油及热管理技术。",
+      "content_html": "<p>SK Enmove 9月23日披露，公司与LG Electronics签署合作备忘录，将联合开发下一代制冷剂、冷冻机油及相关热管理技术。</p><p>家电应用明确覆盖冰箱、冷柜和空调，并计划开发全球变暖潜值（GWP）低于150、无PFAS的下一代制冷剂，以适应全球环境法规变化。</p>",
+      "source_name": "MoneyToday / SK Enmove",
+      "source_url": "https://www.mt.co.kr/en/industry/2026/09/23/2026092308245117859",
+      "source_published_date": "2026-09-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "lg-sk-enmove-refrigerant-2026",
+        "title": "LG与SK Enmove下一代家电制冷剂及冷冻机油联合开发",
+        "date": "2026-09-23",
+        "latest_progress": "2026年9月23日，LG Electronics与SK Enmove签署MOU，启动低GWP、无PFAS下一代制冷剂以及冰箱、冷柜和空调用冷冻机油联合开发。",
+        "status": "in_progress",
+        "countries": [
+          "韩国"
+        ],
+        "entities": [
+          "LG Electronics",
+          "SK Enmove"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20260925-003",
+      "title": "三星韩国部分Bespoke AI冰箱因测试更新异常停机，启动紧急服务响应",
+      "excerpt": "Samsung确认韩国地区一次冰箱软件更新内部测试发生错误，导致部分Bespoke AI冰箱电源、显示和制冷功能异常，公司已暂停测试并启动服务处置。",
+      "content_html": "<p>Samsung向Ars Technica确认，9月22日下午韩国地区在冰箱软件更新内部测试中发生错误，导致部分Bespoke AI冰箱电源、显示及制冷功能异常。</p><p>Samsung已立即暂停测试并启动紧急响应，由服务中心开展处置；截至公开信息，未发现海外市场受影响，公司尚未公布最终受影响数量。</p>",
+      "source_name": "Ars Technica / Samsung statement",
+      "source_url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges",
+      "source_published_date": "2026-09-24",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260926-001",
+      "title": "Wonder Electricals批准收购热水器制造工厂，计划一年内扩产20%",
+      "excerpt": "Wonder Electricals董事会批准收购一座热水器制造工厂，披露现有产能为每月2.5万台，并计划在一年内增加20%产能。",
+      "content_html": "<p>Wonder Electricals 9月23日向BSE、NSE披露，董事会已批准从Onkar Engine and Generator Private Limited购买热水器（geyser）制造工厂（不含土地），投资约1.65亿卢比（₹16.50 crore）加适用税费。</p><p>公司披露该工厂现有产能为每月2.5万台、利用率约40%—50%，并计划在一年内增加20%产能，以扩大热水器业务并优化产能利用。</p>",
+      "source_name": "Wonder Electricals / BSE、NSE监管披露",
+      "source_url": "https://bazaarwatch.com/announcement/126207/wonder-electricals-ltd-as-per-attachment",
+      "source_published_date": "2026-09-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "wonder-electricals-geyser-plant-acquisition-2026",
+        "title": "Wonder Electricals收购热水器制造工厂及扩产",
+        "date": "2026-09-23",
+        "latest_progress": "2026年9月23日，Wonder Electricals董事会批准收购Onkar Engine and Generator的热水器制造工厂，并计划在一年内将现有每月2.5万台产能提高20%。",
+        "status": "announced",
+        "countries": [
+          "印度"
+        ],
+        "entities": [
+          "Wonder Electricals",
+          "Onkar Engine and Generator Private Limited"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260929-001",
+      "title": "中美“300亿对300亿”降税清单公布，超90%产品拟免除相互加征关税且美方覆盖家电",
+      "excerpt": "中美在贸易理事会框架下公布各约300亿美元产品清单，超过90%的产品拟免除相互加征关税；美方清单包括多类家电和厨卫用品。",
+      "content_html": "<p>中国商务部9月28日公布，中美在贸易理事会框架下就各约300亿美元进口产品的对等降税安排达成共识并公布产品清单，超过90%的产品拟免除相互加征的全部关税、回到最惠国税率。</p><p>美方清单明确覆盖玩具、家电、婴儿用品、厨卫用品等中国输美商品。公开报道显示其中包括咖啡机、烤面包机、微波炉、食品加工机和电熨斗等小家电。双方仍需履行各自国内法律程序后同步实施，目前尚未公布统一生效日。</p>",
+      "source_name": "中国商务部 / USTR / Reuters",
+      "source_url": "https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_7f879be341ec4137a22f6d0360a5a291.html",
+      "source_published_date": "2026-09-28",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "2026年9月28日，中美公布各约300亿美元对等降税产品清单，超过90%的产品拟免除相互加征关税；美方清单覆盖家电等商品，后续仍待双方完成国内程序并同步实施。",
+        "status": "in_progress",
+        "countries": [
+          "中国",
+          "美国"
+        ],
+        "entities": [
+          "中国商务部",
+          "美国贸易代表办公室（USTR）"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260930-001",
+      "title": "美国Section 338对部分加拿大商品进口禁令正式生效，政策工具由50%附加税升级至禁止进口",
+      "excerpt": "美国依据Section 338实施的定向进口禁令于9月29日正式生效，覆盖部分加拿大酒类、乳制品及摩托车等商品；当前清单未直接覆盖家电。",
+      "content_html": "<p>美国9月8日依据《1930年关税法》第338条发布的定向进口禁令于美国东部时间9月29日00:01正式生效。白宫公告明确禁止部分加拿大商品进口。</p><p>AP当日确认，本轮禁令合计涉及接近10亿美元加拿大商品，主要包括酒类、乳制品及摩托车。当前禁令清单未直接覆盖家电，但代表既有美加Section 338措施由附加关税进一步升级至定向进口禁止。</p>",
+      "source_name": "The White House / AP",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/09/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued-discrimination-against-the-commerce-of-the-united-states-with-respect-to-dairy/",
+      "source_published_date": "2026-09-29",
+      "event_action": "update",
+      "event": {
+        "event_key": "US-CANADA-SECTION338-2026",
+        "title": "美国对加拿大第338条50%附加关税及生效前谈判",
+        "date": "2026-07-20",
+        "latest_progress": "2026年9月29日，美国依据Section 338实施的定向进口禁令正式生效，部分加拿大商品由50%附加关税措施进一步升级至禁止进口；当前禁令清单未直接覆盖家电。",
+        "status": "implemented",
+        "countries": [
+          "美国",
+          "加拿大"
+        ],
+        "entities": [
+          "美国白宫",
+          "美国贸易代表办公室（USTR）",
+          "美国海关与边境保护局（CBP）",
+          "加拿大政府"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

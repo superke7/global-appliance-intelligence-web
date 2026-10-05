@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260815-0731",
+  "generated_at_bjt": "2026-08-15T07:31:02+08:00",
+  "target_publish_at_bjt": "2026-08-15T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260815-001",
+      "title": "美国强化全球反转运与原产地穿透执法",
+      "excerpt": "美国正把反转运执法从国别核查升级为覆盖40多个国家和地区的全球风险识别框架，并计划使用AI分析申报原产地、运输路径和零部件构成。",
+      "content_html": "<p>Financial Times、Barron’s与The Wall Street Journal近期报道显示，美国正在强化对第三国转运和关税规避的全球执法。白宫报告将40多个国家和地区纳入风险框架，并提出使用AI工具分析申报原产地、运输路径、货物单证和零部件构成，以识别可能的异常。</p><p>The Wall Street Journal 8月14日报道称，白宫估算非法转运每年可能造成美国约190亿至260亿美元关税收入损失，并提出收紧确定商品原产地的标准。Barron’s同日进一步指出，更严格的原产地规则和规避审查将成为美国下一阶段贸易政策的重要方向之一。对通过第三国生产后出口美国的制造企业而言，真实加工深度、本地增值、投入品来源和物流链条的可验证性将变得更加重要。</p>",
+      "source_name": "The Wall Street Journal / Financial Times / Barron’s",
+      "source_url": "https://www.wsj.com/economy/trade/white-house-says-china-avoids-billions-in-tariffs-by-rerouting-goods-3c4c972f",
+      "source_published_date": "2026-08-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-global-transshipment-enforcement-2026",
+        "title": "美国全球反转运与关税规避执法升级",
+        "date": "2026-08-13",
+        "latest_progress": "2026年8月14日，WSJ与Barron’s进一步确认美国将AI数据分析、更严格原产地规则和规避审查作为下一阶段全球反转运执法的重要工具。",
+        "status": "in_progress",
+        "countries": ["美国", "中国", "加拿大", "墨西哥", "欧盟", "印度", "日本", "韩国", "台湾", "越南", "泰国", "马来西亚", "印度尼西亚", "土耳其", "巴西"],
+        "entities": ["美国白宫贸易与制造政策办公室", "美国海关与边境保护局", "美国贸易代表办公室"],
+        "category": "监管与供应链"
+      }
+    }
+  ]
+}

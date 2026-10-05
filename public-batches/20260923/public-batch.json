@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260923-0715",
+  "generated_at_bjt": "2026-09-23T07:22:00+08:00",
+  "target_publish_at_bjt": "2026-09-23T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260923-001",
+      "title": "LG印度Sri City新工厂计划2026年12月投产，首批启动空调生产",
+      "excerpt": "LG印度Sri City第三制造基地计划2026年12月启动生产，首批为空调，后续分阶段导入洗衣机、冰箱及压缩机产能。",
+      "content_html": "<p>Fortune India 9月22日报道，LG Electronics India位于安得拉邦Sri City、投资约500亿卢比的新工厂计划于2026年12月开始生产，首批启动空调制造。</p><p>LG官方此前已确认该项目为其印度第三座制造基地，计划于2026年底前后投入运营。公开项目基线显示，后续将分阶段导入洗衣机、冰箱及压缩机产能。本次新增了更明确的12月投产窗口和首批品类。</p>",
+      "source_name": "Fortune India",
+      "source_url": "https://www.fortuneindia.com/business-news/lg-electronics-5000-crore-sri-city-plant-to-begin-production-by-dec-2026/160512",
+      "source_published_date": "2026-09-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "lg-india-sri-city-appliance-plant-2026",
+        "title": "LG印度Sri City第三家电工厂建设与投产",
+        "date": "2025-05-08",
+        "latest_progress": "2026年9月22日最新披露显示，Sri City新工厂计划于2026年12月启动生产，首批为空调，后续分阶段导入其他大家电及压缩机产能。",
+        "status": "in_progress",
+        "countries": ["印度", "韩国"],
+        "entities": ["LG Electronics India", "LG Electronics"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260923-002",
+      "title": "三星在德国Löhne启用永久嵌入式家电展厅，强化欧洲厨房B2B渠道",
+      "excerpt": "三星在德国Löhne启用永久嵌入式家电展厅，为欧洲厨房零售商、规划师和采购商提供全年展示、培训及商务协作空间。",
+      "content_html": "<p>Samsung 9月22日宣布在德国Löhne Kitchen Center启用永久嵌入式家电展厅，为厨房零售商、规划师、采购商及其他行业伙伴提供全年产品体验、商务洽谈和培训。</p><p>展厅覆盖冰箱、洗碗机、烤箱、灶具等产品，并展示SmartThings连接厨房方案。Samsung将其定位为欧洲嵌入式家电业务的区域展示、培训与合作枢纽。</p>",
+      "source_name": "Samsung Global Newsroom",
+      "source_url": "https://news.samsung.com/global/samsung-opens-built-in-appliance-showroom-in-germany-to-advance-european-market-expansion",
+      "source_published_date": "2026-09-22",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260923-003",
+      "title": "欧盟与菲律宾达成FTA实质性协议，94%以上税目拟自由化并直接惠及家电出口",
+      "excerpt": "欧盟与菲律宾就FTA达成实质性协议，拟自由化94%以上税目、覆盖97%以上双边货物贸易，欧盟官方明确将家电列为受益工业出口品类。",
+      "content_html": "<p>欧盟与菲律宾9月22日宣布自由贸易协定谈判达成实质性协议。欧盟委员会确认，协定拟自由化94%以上税目，覆盖97%以上双边货物贸易。</p><p>欧盟官方材料明确指出，欧盟对菲律宾工业出口由机械和家电、运输设备、药品及医疗设备等构成；菲律宾政府采购市场也将首次向外国投标者开放。双方仍需完成实施安排和技术细节，协定尚未正式签署或生效。</p>",
+      "source_name": "Reuters / European Commission",
+      "source_url": "https://www.reuters.com/world/asia-pacific/eu-philippines-agree-free-trade-deal-2026-09-22",
+      "source_published_date": "2026-09-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-philippines-fta-2026",
+        "title": "欧盟—菲律宾自由贸易协定",
+        "date": "2026-09-22",
+        "latest_progress": "2026年9月22日，欧盟与菲律宾宣布FTA谈判达成实质性协议，拟自由化94%以上税目并覆盖97%以上双边货物贸易，后续仍需完成技术细节和正式缔结程序。",
+        "status": "announced",
+        "countries": ["菲律宾", "欧盟"],
+        "entities": ["European Commission", "Philippines Department of Trade and Industry"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260813-0730",
+  "generated_at_bjt": "2026-08-13T07:30:33+08:00",
+  "target_publish_at_bjt": "2026-08-13T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260813-001",
+      "title": "加拿大对美国最新降税方案不满意，第338条关税谈判进入最后一周",
+      "excerpt": "加拿大官员对美国最新提出的降税方案不满意；双方仍在华盛顿密集谈判，而美国此前宣布的第338条50%附加关税计划于8月19日生效。",
+      "content_html": "<p>Reuters 8月12日报道，加拿大官员对美国最新提出的降税方案不满意。美方8月11日提出的新方案拟降低部分关税，但降幅低于加拿大方面的预期。双方仍在华盛顿进行日常谈判，以争取在8月19日前达成安排。</p><p>美国7月20日依据《1930年关税法》第338条宣布，对附件列明的部分加拿大商品征收50%附加税，计划自2026年8月19日起生效。对附件列明商品，USMCA原产资格本身并不构成普遍豁免；能源、钾肥、适用Section 232的商品及部分其他产品另有排除。现阶段尚未发现美国正式撤销、延期或修改相关公告，因此企业仍应按具体HTS税号核验适用范围并维持生效前准备。</p>",
+      "source_name": "Reuters / The White House",
+      "source_url": "https://www.reuters.com/business/canada-unhappy-with-latest-us-offer-lower-tariffs-cbc-reports-2026-08-12/",
+      "source_published_date": "2026-08-12",
+      "event_action": "none"
+    }
+  ]
+}

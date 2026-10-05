@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260919-0715",
+  "generated_at_bjt": "2026-09-19T07:17:39+08:00",
+  "target_publish_at_bjt": "2026-09-19T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260919-001",
+      "title": "Whirlpool拟关闭意大利Fabriano洗涤电子研发办公室，约40名工程师岗位面临风险",
+      "excerpt": "Whirlpool已向员工沟通可能关闭Fabriano洗涤电子研发办公室，约40名电子工程师岗位面临风险，Varese烹饪研发办公室目前不在关闭计划内。",
+      "content_html": "<p>ANSA与RaiNews 9月18日报道，Whirlpool已向员工沟通可能关闭意大利Fabriano原Wrap技术办公室；该办公室约40名电子工程师，主要从事洗涤电子研发。</p><p>Varese约30人的烹饪研发办公室目前不在关闭计划内。当前公司沟通仍为可能关闭，尚非最终完成关闭。</p>",
+      "source_name": "ANSA / RaiNews",
+      "source_url": "https://www.ansa.it/amp/marche/notizie/2026/09/18/whirlpool-ex-wrap-a-fabriano-verso-la-chiusura-40-i-posti-a-rischio_e2c7cf0a-fec0-4be6-8e26-f9ce97aa9f46.html",
+      "source_published_date": "2026-09-18",
+      "event_action": "create",
+      "event": {
+        "event_key": "whirlpool-italy-fabriano-rd-closure-2026",
+        "title": "Whirlpool意大利Fabriano洗涤电子研发办公室关闭计划",
+        "date": "2026-09-18",
+        "latest_progress": "2026年9月18日，Whirlpool向员工沟通可能关闭Fabriano洗涤电子研发办公室，约40名电子工程师岗位面临风险；Varese烹饪研发办公室目前不在关闭计划内。",
+        "status": "announced",
+        "countries": ["意大利", "美国"],
+        "entities": ["Whirlpool"],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

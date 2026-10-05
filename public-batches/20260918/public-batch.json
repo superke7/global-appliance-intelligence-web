@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260918-0715",
+  "generated_at_bjt": "2026-09-18T07:18:30+08:00",
+  "target_publish_at_bjt": "2026-09-18T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260918-001",
+      "title": "奥马泰国冰箱工厂正式投产，一期年产150万台并计划50%-60%本地采购",
+      "excerpt": "奥马泰国春武里冰箱工厂正式启动生产，一期年产能约150万台，并计划实现50%-60%零部件本地采购。",
+      "content_html": "<p>Homa与AMATA官方信息确认，奥马泰国春武里冰箱工厂于9月15日正式启动生产。</p><p>AMATA披露项目投资约31亿泰铢，一期年产能约150万台，并计划实现50%-60%零部件本地采购。该项目是奥马首个海外制造基地的重要投产节点。</p>",
+      "source_name": "Homa / AMATA",
+      "source_url": "https://homaeurope.eu/archives/10770",
+      "source_published_date": "2026-09-16",
+      "event_action": "create",
+      "event": {
+        "event_key": "homa-thailand-refrigerator-plant-2026",
+        "title": "奥马泰国冰箱工厂投产与本地化",
+        "date": "2026-09-15",
+        "latest_progress": "2026年9月15日，奥马泰国春武里冰箱工厂正式启动生产；一期年产能约150万台，并计划实现50%-60%零部件本地采购。",
+        "status": "implemented",
+        "countries": ["泰国", "中国"],
+        "entities": ["Homa Appliances", "奥马冰箱", "AMATA"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260918-002",
+      "title": "美国众议院通过对俄制裁法案，最高100%国别关税授权进入总统签署阶段",
+      "excerpt": "美国众议院以262票对159票通过对俄制裁法案，参议院此前已通过，法案现进入总统签署阶段。",
+      "content_html": "<p>Associated Press 9月16日报道，美国众议院以262票对159票通过对俄制裁法案；参议院此前已以86票对11票通过，法案现进入总统签署阶段。</p><p>法案授权总统对俄罗斯油气前五大进口国最高征收100%关税，并设置一定例外。本次属于既有事件完成国会程序的新增进展。</p>",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/f377fc956c442195dfcf50571b01a1c4",
+      "source_published_date": "2026-09-16",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-russia-oil-buyers-sanctions-2026",
+        "title": "对俄罗斯能源主要购买方制裁法案",
+        "date": "2026-07-14",
+        "latest_progress": "2026年9月16日，美国众议院以262票对159票通过该法案；参议院此前已通过，法案现进入总统签署阶段，并保留对俄罗斯能源主要购买国最高100%关税授权。",
+        "status": "in_progress",
+        "countries": ["美国", "俄罗斯", "中国", "印度"],
+        "entities": ["美国国会", "美国政府"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260918-003",
+      "title": "欧盟要求中国自愿限制混动车等产品出口，欧中再平衡谈判进入具体商品约束阶段",
+      "excerpt": "欧盟要求中国自愿限制混动车对欧出口并增加欧洲商品采购，欧中贸易再平衡磋商进入具体商品约束讨论。",
+      "content_html": "<p>Reuters援引Financial Times 9月17日报道，欧盟要求中国自愿限制混动车对欧出口，目标将其在欧市场份额控制在约15%，并要求中国增加欧洲商品进口。</p><p>Financial Times同时指出欧方还在化学品等其他行业寻求贸易再平衡安排。当前仍属谈判要求，尚非已实施限制。</p>",
+      "source_name": "Reuters / Financial Times",
+      "source_url": "https://www.reuters.com/world/china/eu-seeks-china-curbs-hybrid-car-exports-avert-trade-row-ft-reports-2026-09-17",
+      "source_published_date": "2026-09-17",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "2026年9月17日，欧中贸易再平衡磋商进一步进入具体商品约束讨论，欧方提出中国自愿限制混动车出口并增加欧洲商品采购，同时在其他行业寻求再平衡安排。",
+        "status": "in_progress",
+        "countries": ["欧盟", "中国"],
+        "entities": ["European Commission", "China"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

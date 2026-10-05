@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260822-0715",
+  "generated_at_bjt": "2026-08-22T07:15:19+08:00",
+  "target_publish_at_bjt": "2026-08-22T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260822-001",
+      "title": "Ebrard称墨西哥对美贸易结果或参照美加协议，推进北美替代亚洲进口",
+      "excerpt": "墨西哥经济部长Ebrard称，墨西哥预计与美国达成的贸易结果在许多方面将与美加安排相近，并称钢铝及以北美生产替代亚洲进口的谈判取得进展。",
+      "content_html": "<p>Reuters 8月21日报道，墨西哥经济部长Marcelo Ebrard表示，预计墨西哥与美国达成的贸易结果在许多方面将与正在形成的美加安排相近，但需待美加最终条款公布后再完整评估。</p><p>墨方称近期与华盛顿的谈判在钢铁、铝及以更多北美生产替代亚洲进口方面取得进展。该表态延续2026年USMCA审议中的区域供应链、本地制造和限制非成员搭便车议题，下一轮美墨双边谈判计划9月在华盛顿举行。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/mexico-expects-trade-outcomes-similar-emerging-us-canada-deal-2026-08-21/",
+      "source_published_date": "2026-08-21",
+      "event_action": "create",
+      "event": {
+        "event_key": "mexico-customs-broker-usmca-2026",
+        "title": "墨西哥海关经纪代理计划、USMCA谈判及共同钢铝外部壁垒",
+        "date": "2026-07-18",
+        "latest_progress": "墨西哥称对美贸易结果可能在多方面参照美加安排，并表示钢铝及以北美生产替代亚洲进口的谈判取得进展。",
+        "status": "in_progress",
+        "countries": ["墨西哥", "美国", "加拿大"],
+        "entities": ["墨西哥经济部", "美国贸易代表办公室"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

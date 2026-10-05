@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260812-0734",
+  "generated_at_bjt": "2026-08-12T07:34:00+08:00",
+  "target_publish_at_bjt": "2026-08-12T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260812-001",
+      "title": "美加在第338条50%关税生效前进入高层谈判冲刺",
+      "excerpt": "加拿大负责对美贸易部长Dominic LeBlanc与美国贸易代表Jamieson Greer在华盛顿会晤，距离8月19日计划生效的第338条50%附加关税仅一周。",
+      "content_html": "<p>Reuters 8月11日报道，加拿大负责对美贸易的部长Dominic LeBlanc与美国贸易代表Jamieson Greer在华盛顿举行会晤，加拿大首席贸易谈判代表Janice Charette同时参加。此次会晤发生在美国计划于8月19日对部分加拿大商品实施第338条50%附加关税前一周，显示双方谈判进入生效前最后冲刺阶段。</p><p>美国白宫7月20日公布的三项第338条公告目前仍是执行基线：对Annex II列明商品加征50%，且相关列明商品不因USMCA原产资格而获得普遍豁免；Section 232商品、能源、钾肥及部分其他产品另有排除。截至本次更新，公开渠道尚未显示美国已经正式撤销、延期或修改这些公告，因此企业仍需按具体HTS税号核验适用范围，并关注8月19日前是否出现正式调整。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/canadas-minister-responsible-us-trade-meet-ustrs-greer-tuesday-2026-08-11/",
+      "source_published_date": "2026-08-11",
+      "event_action": "none"
+    }
+  ]
+}

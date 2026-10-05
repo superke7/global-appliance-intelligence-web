@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260921-0715",
+  "generated_at_bjt": "2026-09-21T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-21T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260921-001",
+      "title": "中美纽约高层经贸会谈正式启动，非敏感商品降税与关键矿产进入实质磋商",
+      "excerpt": "中美经贸团队9月20日在纽约启动高层会谈，议题包括非敏感商品关税调整、关键矿产流动及市场准入。",
+      "content_html": "<p>Reuters 9月20日报道，美国财长Scott Bessent、中国副总理何立峰及美国贸易代表Jamieson Greer在纽约启动经贸会谈，为后续中美领导人峰会准备潜在成果。</p><p>议题包括维持贸易休战、降低非战略或非敏感商品关税、关键矿产稳定流动及市场准入。相较此前仅确认会谈安排，本次已进入实际谈判阶段；截至报道时尚无最终商品清单或关税调整结果。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+      "source_published_date": "2026-09-20",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "2026年9月20日，中美经贸团队在纽约正式启动高层会谈，非敏感商品关税调整、关键矿产流动及市场准入进入实质磋商阶段。",
+        "status": "in_progress",
+        "countries": ["中国", "美国"],
+        "entities": ["美国财政部", "美国贸易代表办公室（USTR）", "中国国务院"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260921-002",
+      "title": "三星印度AI家电销量占比超50%，95%以上家电本地制造且连接设备三年增近9倍",
+      "excerpt": "三星披露印度超过50%的家电销量已为AI产品，95%以上家电在印度本地制造，西南亚连接家电数量快速增长。",
+      "content_html": "<p>Moneycontrol 9月20日援引Samsung Electronics家电业务管理层披露，西南亚新增连接家电由2022年的8.2万台增至2025年的73.2万台。</p><p>印度市场超过50%的三星家电销量已为AI家电，95%以上在印度本地制造。三星计划进一步将AI能力由高端产品扩展至中端和入门级产品。</p>",
+      "source_name": "Moneycontrol",
+      "source_url": "https://www.moneycontrol.com/technology/samsung-s-connected-appliances-in-southwest-asia-jump-nine-fold-as-india-emerges-as-key-ai-market-article-14033788.html",
+      "source_published_date": "2026-09-20",
+      "event_action": "none"
+    }
+  ]
+}

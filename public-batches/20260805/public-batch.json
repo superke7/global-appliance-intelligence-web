@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260805-0732",
+  "generated_at_bjt": "2026-08-05T07:32:37+08:00",
+  "target_publish_at_bjt": "2026-08-05T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260805-001",
+      "title": "Whirlpool北美业务承压：二季度销售下降并继续依赖关税与提价修复利润",
+      "excerpt": "Whirlpool二季度净销售额同比下降近7%，调整后每股亏损0.21美元。公司继续通过新品、提价、降本和美国进口家电关税改善盈利，显示本地制造仍需同时应对需求周期、产能效率和资产负债表压力。",
+      "content_html": "<p>据《华尔街日报》2026年8月4日报道，Whirlpool在收缩全球业务、将经营重心转向北美后，继续受到美国住房市场疲弱和家电需求放缓影响。公司二季度净销售额同比下降近7%，调整后每股亏损0.21美元，但表现较一季度有所改善。</p><p>Whirlpool正通过推出新品、提高售价和削减成本恢复利润。公司同时认为，美国对进口家电实施的25%关税将推动海外竞争对手同步提价，从而改善美国本土制造企业的相对竞争环境。</p><p>报道显示，北美目前约占Whirlpool销售额的65%。在美国制造端，公司持续调整工厂和岗位配置，爱荷华州Amana冰箱工厂员工规模已从约3,000人下降至约650人，同时在俄亥俄州增加洗衣机和干衣机相关岗位。</p><p>这一变化表明，关税能够影响进口产品价格，但不能单独解决住房周期、渠道竞争、债务负担和产能利用率问题。家电企业在美国市场的长期竞争力仍取决于产品更新、自动化、本地供应链和价格传导能力。</p>",
+      "source_name": "The Wall Street Journal",
+      "source_url": "https://www.wsj.com/business/whirlpool-abandoned-its-global-ambitions-now-its-in-a-world-of-hurt-622ba54f",
+      "source_published_date": "2026-08-04",
+      "event_action": "create",
+      "event": {
+        "event_key": "whirlpool-north-america-restructuring-2026",
+        "title": "Whirlpool北美业务重组与盈利修复",
+        "date": "2026-08-04",
+        "latest_progress": "二季度净销售额同比下降近7%，公司继续通过提价、降本、新品和美国进口家电关税改善盈利。",
+        "status": "in_progress",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "Whirlpool Corporation"
+        ],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

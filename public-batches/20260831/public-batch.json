@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260831-0716",
+  "generated_at_bjt": "2026-08-31T07:16:43+08:00",
+  "target_publish_at_bjt": "2026-08-31T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260831-001",
+      "title": "欧盟批准美的与Electrolux北美三项合资及墨西哥家电业务共同控制",
+      "excerpt": "欧盟委员会批准美的与Electrolux取得Electrolux de Mexico共同控制权并在墨西哥和美国设立三家合资企业，交易主要涉及北美冰箱和洗衣机制造与供应。",
+      "content_html": "<p>欧盟委员会8月5日依据欧盟并购规则批准美的与Electrolux取得Electrolux de Mexico共同控制权，并在墨西哥和美国设立三家合资企业。</p><p>该交易主要涉及北美冰箱和洗衣机制造与供应。欧委会认为交易对欧洲经济区影响有限，按简化程序审查后未提出竞争异议。该批准推进了双方4月宣布的北美长期战略合作与制造网络重组。</p>",
+      "source_name": "European Commission",
+      "source_url": "https://op.europa.eu/en/publication-detail/-/publication/5ebce1ec-9499-11f1-9262-01aa75ed71a1/language-en",
+      "source_published_date": "2026-08-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "electrolux-midea-na-jv-2026",
+        "title": "北美三项合资、安德森工厂转产及北美盈利修复",
+        "date": "2026-04-23",
+        "latest_progress": "欧盟委员会8月5日批准美的与Electrolux取得Electrolux de Mexico共同控制权，并在墨西哥和美国设立三家合资企业，北美合作推进至欧盟并购审查获批阶段。",
+        "status": "in_progress",
+        "countries": ["美国", "墨西哥", "中国", "瑞典"],
+        "entities": ["Midea", "Electrolux"],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20260831-002",
+      "title": "Reuters确认16个主要贸易伙伴仍面临产能过剩301追加关税风险",
+      "excerpt": "Reuters确认USTR针对16个经济体的结构性产能过剩Section 301调查仍处于进一步加税队列，但截至8月30日未公布新的最终税率或产品清单。",
+      "content_html": "<p>Reuters 8月30日报道，在美国重构关税体系背景下，16个主要贸易伙伴仍处于针对所谓“过剩工业产能”的进一步加税队列，其中超过一半为G20成员。</p><p>USTR 3月11日启动的正式调查覆盖中国、欧盟、新加坡、瑞士、挪威、印尼、马来西亚、柬埔寨、泰国、韩国、越南、台湾、孟加拉、墨西哥、日本和印度。本次报道确认调查仍处于活跃推进状态，但尚未公布新的最终税率或产品清单。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30",
+      "source_published_date": "2026-08-30",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-structural-overcapacity-301-2026",
+        "title": "美国产能过剩Section 301调查及拟议关税行动",
+        "date": "2026-03-11",
+        "latest_progress": "Reuters 8月30日确认16个主要美国贸易伙伴仍在产能过剩调查的进一步加税队列；截至当日尚无新的最终税率或产品清单。",
+        "status": "in_progress",
+        "countries": ["美国", "中国", "欧盟", "日本", "韩国", "印度", "墨西哥", "越南", "泰国"],
+        "entities": ["USTR", "U.S. Treasury"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

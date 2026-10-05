@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260824-0717",
+  "generated_at_bjt": "2026-08-24T07:17:17+08:00",
+  "target_publish_at_bjt": "2026-08-24T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260824-001",
+      "title": "越南修订海关法强化知识产权边境执法，回应美国301调查关切",
+      "excerpt": "越南国会通过海关法修正案，扩大海关对假冒和知识产权侵权货物的执法权限，并将相关监管扩展至过境和跨境电商货物。",
+      "content_html": "<p>Reuters 8月23日报道，越南国会通过海关法修正案，强化海关拦截假冒和知识产权侵权货物的权限。新法将于2027年3月生效，相关执法范围扩展至进口、出口及过境货物。</p><p>修正案还加强跨境电商货物的海关程序和监管要求。Reuters指出，此举回应了美国5月启动的越南知识产权Section 301调查所关注的边境执法薄弱等问题。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/vietnam-approves-customs-law-changes-strengthen-ip-enforcement-2026-08-23/",
+      "source_published_date": "2026-08-23",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "越南通过海关法修正案强化知识产权边境执法，并将执法范围扩展至过境和跨境电商货物；新法将于2027年3月生效。",
+        "status": "in_progress",
+        "countries": ["越南", "美国"],
+        "entities": ["越南国会", "越南海关", "美国贸易代表办公室"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260824-002",
+      "title": "海信家电上半年营收下降5.22%、净利下降20.16%，同步调整空调业务管理层",
+      "excerpt": "海信家电2026年上半年营收467.66亿元、归母净利润16.58亿元，同比分别下降5.22%和20.16%，同期空调业务管理层调整。",
+      "content_html": "<p>海信家电披露2026年上半年营业收入467.66亿元，同比下降5.22%；归母净利润16.58亿元，同比下降20.16%，扣非净利润13.32亿元，同比下降26.69%。</p><p>同期公司出现管理层调整，殷必彤辞去职工董事等职务，海信集团总裁于芝涛兼任空气事业部总裁并直接管理空调业务。该变化反映核心竞品在盈利承压阶段同步调整空调业务管理架构。</p>",
+      "source_name": "经济观察网",
+      "source_url": "https://www.eeo.com.cn/2026/0823/1008803.shtml",
+      "source_published_date": "2026-08-23",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260824-003",
+      "title": "中国8月家用空调排产同比下降16.7%，冰箱和洗衣机排产小幅增长",
+      "excerpt": "产业在线数据显示，8月中国家用空调计划排产1073万台，同比下降16.7%，同期冰箱和洗衣机排产分别小幅增长0.7%和2.3%。",
+      "content_html": "<p>产业在线数据显示，2026年8月中国家用空调计划排产1073万台，同比下降16.7%；其中内销排产587万台，同比下降24.1%，出口排产486万台，同比下降8.1%。</p><p>同期冰箱和洗衣机计划排产分别为877万台和883万台，同比分别增长0.7%和2.3%。三大白电中空调排产明显走弱，反映新冷年初期行业生产和库存节奏调整。</p>",
+      "source_name": "Shanghai Metals Market / 产业在线数据",
+      "source_url": "https://news.metal.com/ko/newscontent/104074061-2026%EB%85%84-8%EC%9B%94-%EC%97%90%EC%96%B4%EC%BB%A8-%EC%83%9D%EC%82%B0-%EA%B8%89%EA%B0%90-%EC%95%8C%EB%A3%A8%EB%AF%B8%EB%8A%84%EB%B0%95-%EC%88%98%EC%9A%94%EC%97%90-%EC%98%81%ED%96%A5",
+      "source_published_date": "2026-08-23",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260824-004",
+      "title": "美的欧洲空调月新增订单20万台，芜湖新增产线加速供欧",
+      "excerpt": "美的芜湖、广州双基地一个月新增欧洲空调订单20万台，芜湖工厂新增转产生产线以加快法国订单交付。",
+      "content_html": "<p>美的披露，欧洲持续高温推动空调需求激增，芜湖和广州两座工厂一个月内新增欧洲订单共20万台，其中PortaSplit移动分体空调自6月以来新增接单超过16万台。</p><p>为满足法国紧急订单，芜湖工厂7月7日新增转产一条生产线，3.5天完成2万台生产并在7天内启动首批发运。该进展进一步确认欧洲高温季需求激增正在传导至中国工厂排产和跨境交付。</p>",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/article/3362294/explosive-demand-cooling-continues-europe-swelters-chinas-midea-says?pgtype=live",
+      "source_published_date": "2026-07-29",
+      "event_action": "update",
+      "event": {
+        "event_key": "cn-brands-eu-ac-surge-2026",
+        "title": "欧洲空调高温季需求激增及中欧班列加急补货",
+        "date": "2026-07-28",
+        "latest_progress": "美的芜湖、广州双基地一个月新增欧洲空调订单20万台，芜湖工厂通过新增转产生产线加速法国紧急订单交付。",
+        "status": "in_progress",
+        "countries": ["中国", "欧洲", "法国"],
+        "entities": ["美的集团"],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}

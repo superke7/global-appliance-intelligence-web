@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260826-0712",
+  "generated_at_bjt": "2026-08-26T07:12:41+08:00",
+  "target_publish_at_bjt": "2026-08-26T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260826-001",
+      "title": "加拿大公布9月8日反制关税最终清单，空调15%、多数冰箱洗衣机等家电25%",
+      "excerpt": "加拿大公布9月8日起生效的对美反制关税最终税目：固定式/分体式空调及部分家用热泵适用15%，多数家用冰箱、洗衣机、干衣机和多类厨电适用25%。",
+      "content_html": "<p>加拿大财政部8月25日公布对美反制关税最终清单，自9月8日起实施，覆盖约276亿加元美国进口商品，并按对应美国Section 338和Section 232税率设置15%、25%和50%三档。</p><p>官方税目显示，固定式/分体式空调及部分家用热泵适用15%；多数家用冰箱冷柜、全自动家用洗衣机、干衣机以及多类厨电适用25%。该进展将此前仅宣布的反制措施推进至正式税目和逐项税率确定阶段。</p>",
+      "source_name": "Department of Finance Canada",
+      "source_url": "https://www.canada.ca/en/department-finance/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html",
+      "source_published_date": "2026-08-25",
+      "event_action": "update",
+      "event": {
+        "event_key": "canada-us-retaliatory-tariffs-2026",
+        "title": "加拿大对美国钢铁、电子产品及家电反制关税",
+        "date": "2026-08-22",
+        "latest_progress": "加拿大公布9月8日起生效的最终反制关税税目；固定式/分体式空调及部分家用热泵适用15%，多数家用冰箱、洗衣机、干衣机和多类厨电适用25%。",
+        "status": "announced",
+        "countries": ["加拿大", "美国"],
+        "entities": ["加拿大政府", "美国政府"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260826-002",
+      "title": "欧洲高温推动中国空调增长，TCL欧洲订单增逾67%、美的四国收入增逾70%",
+      "excerpt": "欧洲持续高温推动中国空调品牌增长：TCL欧洲订单上半年增逾67%，海尔法德英6月销量翻倍以上，美的四个欧洲重点市场空调收入增逾70%。",
+      "content_html": "<p>Bloomberg 8月18日报道，欧洲持续高温推动中国空调品牌进一步扩大销售。中国海关口径显示，2026年上半年中国对欧盟空调出口额约37.6亿美元，同比增长43.2%。</p><p>TCL称欧洲订单同比增长超过67%、便携空调销量增长超过90%；海尔称6月在法国、德国和英国的销量同比翻倍以上；美的称上半年在四个欧洲重点市场的空调收入增长超过70%。相关出口增速由新华社海关数据口径交叉确认。</p>",
+      "source_name": "Bloomberg Editorial / Bloomberg Law",
+      "source_url": "https://news.bloomberglaw.com/environment-and-energy/chinese-ac-makers-cash-in-on-the-sweltering-summer-of-2026",
+      "source_published_date": "2026-08-18",
+      "event_action": "update",
+      "event": {
+        "event_key": "cn-brands-eu-ac-surge-2026",
+        "title": "欧洲空调高温季需求激增及中欧班列加急补货",
+        "date": "2026-07-28",
+        "latest_progress": "欧洲高温季需求继续扩张，多家中国品牌披露明确增长：TCL欧洲订单上半年增逾67%，海尔法德英6月销量翻倍以上，美的四个欧洲重点市场空调收入增逾70%。",
+        "status": "in_progress",
+        "countries": ["中国", "欧洲"],
+        "entities": ["TCL", "海尔", "美的集团", "格力", "海信"],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}

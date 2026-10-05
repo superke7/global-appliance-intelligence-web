@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260811-0730",
+  "generated_at_bjt": "2026-08-11T07:33:48+08:00",
+  "target_publish_at_bjt": "2026-08-11T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260811-001",
+      "title": "Electrolux意大利重组进入重新谈判阶段，政府要求10月前提交新工业方案",
+      "excerpt": "Electrolux此前启动意大利制造网络重组，原方案涉及约1,700个岗位调整。意大利政府已推动暂停单方面行动，并要求公司在10月初前提出新的工业方案。",
+      "content_html": "<p>Electrolux于5月启动意大利组织与制造布局优化。Reuters援引意大利工会称，原方案涉及约1,700个岗位调整，并拟关闭Cerreto d’Esi厨房烟机工厂；公司表示重组背景包括欧洲家电需求疲弱、竞争加剧、结构性成本偏高及运营复杂度上升。</p><p>此后意大利政府介入协调。7月21日，意大利企业与制造部表示，将在9月3—4日举行技术会议，并要求Electrolux在10月初的新一轮会议上提交新的工业方案，政府目标包括尽量避免裁员、维护工厂与意大利本地生产。该进展显示欧洲白电制造网络的产能调整正同时受到成本竞争和产业就业政策约束。</p>",
+      "source_name": "意大利企业与制造部（MIMIT） / Reuters",
+      "source_url": "https://www.mimit.gov.it/it/notizie-stampa/electrolux-urso-allazienda-nuovo-piano-industriale-entro-ottobre",
+      "source_published_date": "2026-07-21",
+      "event_action": "create",
+      "event": {
+        "event_key": "electrolux-italy-restructuring-2026",
+        "title": "Electrolux意大利制造网络重组与新工业方案谈判",
+        "date": "2026-05-11",
+        "latest_progress": "2026年7月21日，意大利企业与制造部要求Electrolux在9月3—4日技术会议后，于10月初提交新的工业方案。",
+        "status": "in_progress",
+        "countries": ["意大利", "瑞典"],
+        "entities": ["Electrolux Group", "意大利企业与制造部"],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260913-0715",
+  "generated_at_bjt": "2026-09-13T07:19:38+08:00",
+  "target_publish_at_bjt": "2026-09-13T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260913-001",
+      "title": "欧盟要求中国10月初前拿出贸易失衡初步成果，谈判进入实质性成果窗口",
+      "excerpt": "欧盟要求中国在10月初前就扩大中的欧中贸易失衡拿出初步、可见成果；若磋商无法证明有效，欧盟内部推动其他贸易防御方案的政治压力将上升。",
+      "content_html": "<p>Reuters 9月8日报道，欧盟贸易委员Maroš Šefčovič表示，欧盟委员会要求中国就持续扩大的欧中贸易失衡作出承诺，并在10月初前采取初步、可见行动。</p><p>欧方重点关注中国出口快速增长、欧盟商品进入中国市场面临的壁垒，以及稀土等关键供应的出口限制。Šefčovič表示，如果现有磋商无法证明有效，欧盟内部推动其他解决方案的政治压力将上升。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/eu-wants-initial-chinese-action-trade-gap-by-early-october-2026-09-08",
+      "source_published_date": "2026-09-08",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "2026年9月8日，欧盟要求中国在10月初前就欧中贸易失衡拿出初步、可见成果，并警告若磋商无法证明有效，推动其他贸易防御方案的政治压力将上升。",
+        "status": "in_progress",
+        "countries": ["欧盟", "中国"],
+        "entities": ["欧盟委员会", "Maroš Šefčovič", "中国商务部"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260913-002",
+      "title": "欧盟提出公共采购“欧洲优先”新规，可按欧洲成分和互惠条件限制外国产品投标",
+      "excerpt": "欧盟提出新的公共采购法框架，引入欧洲偏好、供应链韧性和互惠准入，可在特定条件下按欧洲成分限制外国投标。",
+      "content_html": "<p>欧盟委员会提出新的Public Procurement Act，拟以单一条例取代三项现行公共采购指令，并引入欧洲偏好、供应链韧性、安全和互惠等准入因素。</p><p>Reuters称，新规允许公共采购方排除欧洲成分低于总价值50%的投标，并在部分情况下限制仅欧盟运营商参与；欧盟官方材料确认提案已发布并引入European preference criteria，覆盖建设、能源、设施设备、医疗和教育等公共采购领域。</p>",
+      "source_name": "Reuters / European Commission",
+      "source_url": "https://www.reuters.com/world/china/eu-proposes-simpler-public-tender-rules-buy-european-criteria-cut-foreign-2026-09-09",
+      "source_published_date": "2026-09-09",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-public-procurement-european-preference-2026",
+        "title": "欧盟公共采购法欧洲优先与互惠准入改革",
+        "date": "2026-09-08",
+        "latest_progress": "2026年9月，欧盟委员会提出Public Procurement Act，拟引入欧洲偏好、供应链韧性及互惠准入机制，并允许在特定条件下按欧洲成分限制公共采购投标。",
+        "status": "announced",
+        "countries": ["欧盟", "中国"],
+        "entities": ["European Commission", "EU public buyers"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

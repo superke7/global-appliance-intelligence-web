@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260915-0715",
+  "generated_at_bjt": "2026-09-15T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-15T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260915-001",
+      "title": "Watsco拟收购The Granite Group，新增美国东北部82个HVAC/管道分销网点",
+      "excerpt": "Watsco签署协议拟收购The Granite Group，交易将新增美国东北部7州82个HVAC及管道分销网点，并扩大区域渠道覆盖。",
+      "content_html": "<p>Watsco于9月14日宣布已签署协议拟收购The Granite Group。The Granite Group年销售额约5亿美元，在美国东北部7州运营82个网点，服务约1.1万客户并提供约2.9万个SKU。</p><p>交易完成后，The Granite Group将保持独立运营和现有管理团队。该交易将进一步扩大Watsco在美国东北部住宅及轻商HVAC和管道产品市场的分销网络，交易仍需满足惯常交割条件并取得所需监管批准。</p>",
+      "source_name": "Watsco / GlobeNewswire",
+      "source_url": "https://rss.globenewswire.com/news-release/2026/09/14/3361104/0/en/watsco-to-acquire-the-granite-group-distributor-of-plumbing-and-hvac-products-revenues-of-500-million-throughout-the-northeast.html",
+      "source_published_date": "2026-09-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "watsco-granite-group-acquisition-2026",
+        "title": "Watsco收购The Granite Group并扩展美国东北部HVAC分销网络",
+        "date": "2026-09-14",
+        "latest_progress": "2026年9月14日，Watsco签署协议拟收购The Granite Group，交易仍需满足惯常交割条件并取得所需监管批准。",
+        "status": "announced",
+        "countries": ["美国"],
+        "entities": ["Watsco", "The Granite Group"],
+        "category": "市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20260915-002",
+      "title": "埃及9月14日起下调冷轧、镀锌和预涂钢保障税率，进入第二阶段",
+      "excerpt": "埃及冷轧、镀锌和预涂钢最终保障措施9月14日起进入第二阶段，三类产品税率及最低每吨税额按既定时间表下调。",
+      "content_html": "<p>埃及对冷轧卷、镀锌钢和预涂钢实施的最终保障措施自2026年9月14日起进入第二阶段。根据公布的分阶段安排，冷轧钢税率由13.7%降至13.0%，镀锌钢由14.0%降至13.5%，预涂钢由14.5%降至14.0%，相应最低每吨税额同步下调。</p><p>美国商务部trade.gov确认，埃及已于2026年实施上述最终保障措施。冷轧、镀锌和预涂钢广泛用于冰箱、洗衣机、空调等白电制造，因此本次阶段性税率下调会边际降低进口板材成本，但保障税负仍持续存在。</p>",
+      "source_name": "Federation of Malaysian Manufacturers / U.S. Department of Commerce",
+      "source_url": "https://www2.fmm.org.my/article/circulars/updates-on-safeguard-investigation-on-imports-of-cold-rolled-coil-galvanised-steel-and-pre-painted-steel-by-egypt",
+      "source_published_date": "2026-03-10",
+      "event_action": "create",
+      "event": {
+        "event_key": "egypt-flat-steel-safeguard-2026",
+        "title": "埃及冷轧、镀锌及预涂钢进口保障措施",
+        "date": "2026-03-03",
+        "latest_progress": "2026年9月14日起，埃及冷轧钢保障税率降至13.0%、镀锌钢降至13.5%、预涂钢降至14.0%，并同步下调最低每吨税额。",
+        "status": "implemented",
+        "countries": ["埃及"],
+        "entities": ["Egypt Ministry of Investment and Foreign Trade", "Trade Remedies Sector"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

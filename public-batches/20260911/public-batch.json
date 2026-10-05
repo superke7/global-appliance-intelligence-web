@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260911-0715",
+  "generated_at_bjt": "2026-09-11T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-11T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260911-001",
+      "title": "中美Board of Trade推进非敏感商品筛选，双方讨论各约300亿美元商品互降关税",
+      "excerpt": "中美正通过Board of Trade筛选可双向贸易的非敏感商品，并推动双方各约300亿美元商品实施对等关税削减。",
+      "content_html": "<p>Associated Press 9月10日报道，中国商务部表示希望尽早与美国就互降进口关税达成协议，谈判方正推动双方各约300亿美元商品实施对等关税削减。</p><p>USTR 9月9日官方转载Greer访谈确认，美中已建立Board of Trade，并正共同筛选可双向贸易、非敏感且有助于实现平衡贸易的商品。该机制正由成立进入具体商品筛选与关税调整谈判阶段。</p>",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/f2066bf9ae668afd3a5a2a0658748b4f",
+      "source_published_date": "2026-09-10",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "2026年9月10日，中方表示希望尽早达成互降关税协议；双方正通过Board of Trade筛选非敏感商品，并讨论双方各约300亿美元商品的对等关税削减。",
+        "status": "in_progress",
+        "countries": ["中国", "美国"],
+        "entities": ["中国商务部", "美国贸易代表办公室（USTR）"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260911-002",
+      "title": "美的印尼正式启用芝卡朗空调工厂，累计产量达300万台并扩充冰洗本地制造",
+      "excerpt": "美的印尼在芝卡朗正式启用空调工厂并宣布累计生产达到300万台，同时继续扩充洗衣机和冰箱本地制造能力。",
+      "content_html": "<p>美的印尼9月9日在芝卡朗Residential Air Conditioner工厂举行新厂启用及累计生产300万台里程碑活动。</p><p>官方披露，芝卡朗空调设施建筑面积拟由约13,000平方米扩至43,000平方米；洗衣机工厂后续将由双缸产品扩展至波轮品类，卡拉旺冰箱工厂占地超过150,000平方米。截至2026年，印尼业务累计向东盟和北美出口约200万台产品。</p>",
+      "source_name": "Midea Indonesia",
+      "source_url": "https://www.midea.com/id-en/news/2026/government-visit-rac-factory",
+      "source_published_date": "2026-09-09",
+      "event_action": "create",
+      "event": {
+        "event_key": "midea-indonesia-appliance-manufacturing-2026",
+        "title": "美的印尼家电制造基地扩张与本地化",
+        "date": "2026-09-09",
+        "latest_progress": "2026年9月9日，美的印尼正式启用芝卡朗空调工厂并宣布累计生产300万台，同时披露空调厂扩建、洗衣机品类扩充和印尼区域出口进展。",
+        "status": "in_progress",
+        "countries": ["印度尼西亚", "中国"],
+        "entities": ["Midea", "Midea Electronics Indonesia"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260911-003",
+      "title": "Currys 17周同店销售增长7%，英国爱尔兰制冷热销并在平稳市场继续取得份额",
+      "excerpt": "Currys夏季17周集团同店销售增长7%，英国及爱尔兰业务增长6%，热浪带动制冷产品销售并推动其在平稳市场继续取得份额。",
+      "content_html": "<p>Reuters 9月10日报道，Currys截至8月29日的17周集团同店销售同比增长7%，英国及爱尔兰业务增长6%，北欧业务增长9%。</p><p>公司称近期热浪推动制冷产品销售强劲；英国及爱尔兰业务在整体英国市场基本持平的情况下继续取得市场份额，并维持约1.99亿英镑年度调整后税前利润市场共识。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/uk-retailer-currys-posts-7-growth-first-quarter-revenue-2026-09-10",
+      "source_published_date": "2026-09-10",
+      "event_action": "none"
+    }
+  ]
+}

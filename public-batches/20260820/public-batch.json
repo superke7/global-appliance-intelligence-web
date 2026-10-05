@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260820-0720",
+  "generated_at_bjt": "2026-08-20T15:41:00+08:00",
+  "target_publish_at_bjt": "2026-08-20T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260820-001",
+      "title": "中国禁止境内实体协助欧盟京东CECONOMY外国补贴调查",
+      "excerpt": "中国认定欧盟在京东收购CECONOMY的外国补贴调查中部分跨境取证做法构成不当域外管辖，并要求境内组织和个人不得执行或协助相关调查。",
+      "content_html": "<p>Reuters 8月19日报道，中国认定欧盟在京东收购CECONOMY的外国补贴条例调查中向中国实体索取部分境内信息的做法构成不当域外管辖，并要求境内组织和个人不得执行或协助相关调查。</p><p>该措施使既有FSR并购审查进一步演变为中欧监管规则直接冲突，可能影响欧委会后续证据获取。截至报道时，欧盟调查本身尚未宣布终止或暂停。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/china-orders-entities-not-assist-eus-jdcom-probe-2026-08-19/",
+      "source_published_date": "2026-08-19",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-jd-ceconomy-fsr-2026",
+        "title": "京东收购CECONOMY的欧盟外国补贴条例审查",
+        "date": "2026-05-28",
+        "latest_progress": "中国要求境内组织和个人不得执行或协助欧盟在该案中的相关跨境调查做法，欧盟调查尚未宣布终止或暂停。",
+        "status": "in_progress",
+        "countries": ["中国", "欧盟", "德国"],
+        "entities": ["中国司法部", "欧盟委员会", "JD.com", "CECONOMY"],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20260820-002",
+      "title": "美国暂停加拿大50%第338条关税三天，称双方已达成协议",
+      "excerpt": "美国将原定8月19日生效的加拿大第338条50%附加关税暂停3天，并称美加已达成协议，具体条款仍在文件化。",
+      "content_html": "<p>Reuters 8月19日报道，美国总统Trump宣布将原定当天生效的加拿大第338条50%附加关税暂停3天，并称美加双方已达成协议，具体条款仍在文件化。</p><p>该变化将此前按期生效的执行基线改为短期暂停。此前措施拟覆盖约200亿美元加拿大输美商品；暂停期内，双方仍需完成协议文本并明确汽车、钢铝等相关关税安排。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/trump-pauses-50-tariffs-goods-canada-says-two-sides-have-deal-2026-08-19/",
+      "source_published_date": "2026-08-19",
+      "event_action": "update",
+      "event": {
+        "event_key": "US-CANADA-SECTION338-2026",
+        "title": "美国对加拿大第338条50%附加关税及生效前谈判",
+        "date": "2026-07-20",
+        "latest_progress": "美国将原定8月19日生效的50%附加关税暂停3天，并称双方已达成协议，具体条款仍在文件化。",
+        "status": "delayed",
+        "countries": ["美国", "加拿大"],
+        "entities": ["美国白宫", "加拿大政府"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260820-003",
+      "title": "LG投资3.1亿美元在巴西巴拉那州投产冰箱工厂，年产约60万台",
+      "excerpt": "LG Electronics在巴西巴拉那州启用新的家电工厂，投资约3.1亿美元，年产约60万台冰箱，并将其作为巴西及拉美制造布局的一部分。",
+      "content_html": "<p>LG Electronics 8月17日发布信息称，公司已在巴西巴拉那州Fazenda Rio Grande启用新的家电工厂。项目投资约3.1亿美元（15亿雷亚尔），是LG在巴西的第二个家电生产基地，年产约60万台冰箱。</p><p>新工厂采用AI和工业机器人等智能制造方案，并承担强化巴西本地供应及支持拉美市场增长的角色。</p>",
+      "source_name": "LG Electronics",
+      "source_url": "https://www.prnewswire.com/news-releases/lg-electronics-expands-latin-american-manufacturing-with-new-smart-factory-in-brazil-302852335.html",
+      "source_published_date": "2026-08-17",
+      "event_action": "create",
+      "event": {
+        "event_key": "lg-brazil-parana-refrigerator-plant-2026",
+        "title": "LG巴西巴拉那州冰箱工厂投资与投产",
+        "date": "2026-08-13",
+        "latest_progress": "LG已在巴西巴拉那州Fazenda Rio Grande启用新家电工厂，投资约3.1亿美元，年产约60万台冰箱，并定位支持巴西及拉美市场。",
+        "status": "implemented",
+        "countries": ["巴西"],
+        "entities": ["LG Electronics"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260820-004",
+      "title": "墨西哥评估对中国等非自贸伙伴加征新关税并收紧贸易限制",
+      "excerpt": "墨西哥正在评估对来自中国等国家的部分产品实施进一步贸易限制，并提高部分商品现行进口税，重点针对未被双边贸易协定覆盖的进口。",
+      "content_html": "<p>Bloomberg Law 8月18日报道，墨西哥正评估对来自中国及其他国家的部分产品实施进一步贸易限制，并提高部分商品现行进口税。墨西哥经济部和财政部正在评估未被双边贸易协定覆盖的商品是否面临新关税。</p><p>相关讨论与USMCA谈判及墨西哥扩大本土制造的政策目标相互交织。具体产品清单、税率和生效时间尚未正式公布。</p>",
+      "source_name": "Bloomberg Law",
+      "source_url": "https://news.bloomberglaw.com/international-trade/mexico-weighs-tougher-trade-rules-for-china-as-us-talks-grind-on",
+      "source_published_date": "2026-08-18",
+      "event_action": "create",
+      "event": {
+        "event_key": "mexico-nonfta-trade-restrictions-2026",
+        "title": "墨西哥对非自贸伙伴进口限制与关税调整",
+        "date": "2026-08-18",
+        "latest_progress": "墨西哥经济部和财政部正在评估对未被双边贸易协定覆盖的部分进口商品新增或提高关税，并考虑进一步贸易限制；正式产品清单和税率尚未公布。",
+        "status": "in_progress",
+        "countries": ["墨西哥", "中国"],
+        "entities": ["墨西哥经济部", "墨西哥财政部"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

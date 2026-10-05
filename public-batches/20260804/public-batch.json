@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260804-0730",
+  "generated_at_bjt": "2026-08-04T07:30:00+08:00",
+  "target_publish_at_bjt": "2026-08-04T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "20260804-us-vietnam-trade-enforcement",
+      "title": "美国对越南贸易要求升级至工厂核查和反转运联合执法",
+      "excerpt": "美国对越南的贸易要求已从非关税壁垒和知识产权谈判，延伸至中资关联工厂现场核查以及打击非法转运和贸易欺诈的联合合作。",
+      "content_html": "<p>美国在贸易谈判中要求越南削减非关税壁垒、加强知识产权保护、出口管制和经济安全合作，并强化对中国商品经越南转运的管理。</p><p>随后，美国海关人员对越南中资关联工厂开展现场抽查，检查生产文件、原材料来源、生产流程和本地增值情况。7月30日，美越又在河内启动联合研讨活动，重点打击隐瞒商品真实原产地、非法转运和贸易欺诈。</p><p>这意味着越南输美制造的合规重点正在从纸面原产地证明，进一步延伸至工厂实际生产、关键工序、本地增值和供应链证据。</p>",
+      "source_name": "Reuters / Bloomberg Law / The Business Times",
+      "source_url": "https://www.reuters.com/legal/litigation/vietnam-us-step-up-cooperation-against-illegal-transshipment-trade-fraud-2026-07-30/",
+      "source_published_date": "2026-07-30",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、工厂核查及反转运执法",
+        "date": "2026-07-16",
+        "latest_progress": "美越启动打击非法转运和贸易欺诈的联合执法合作",
+        "status": "in_progress",
+        "countries": ["美国", "越南", "中国"],
+        "entities": ["美国贸易代表办公室", "美国海关与边境保护局", "美国驻越南使馆", "越南主管部门"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "20260804-us-uflpa-43-entities",
+      "title": "美国将43家中国企业加入UFLPA实体清单",
+      "excerpt": "美国将43家中国企业加入《维吾尔强迫劳动预防法》实体清单，清单总数由144家增至187家，涉及电子元件、金属、铝及合金、电容器和变压器等供应链。",
+      "content_html": "<p>美国将43家中国企业加入《维吾尔强迫劳动预防法》实体清单，清单总数由144家增至187家，为该法律实施以来最大规模的单次扩容。</p><p>列入清单的企业涉及电子、食品、金属、铝及合金、铝电解电容器、变压器和电池材料等领域。相关实体全部或部分生产的商品被推定涉及强迫劳动，原则上不得进入美国，除非进口商能够推翻该推定。</p><p>该变化将进一步提高进口商对多级供应商和材料来源的穿透式审查要求。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/us-bars-imports-43-more-companies-over-chinas-alleged-forced-labor-involving-2026-07-31/",
+      "source_published_date": "2026-07-31",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-uflpa-entity-list-2026",
+        "title": "美国UFLPA实体清单扩容",
+        "date": "2026-07-31",
+        "latest_progress": "新增43家中国企业，清单总数增至187家",
+        "status": "implemented",
+        "countries": ["美国", "中国"],
+        "entities": ["美国国土安全部强迫劳动执法工作组"],
+        "category": "监管与供应链"
+      }
+    }
+  ]
+}

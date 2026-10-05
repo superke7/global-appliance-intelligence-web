@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260926-0715",
+  "generated_at_bjt": "2026-09-26T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-26T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260926-001",
+      "title": "Wonder Electricals批准收购热水器制造工厂，计划一年内扩产20%",
+      "excerpt": "Wonder Electricals董事会批准收购一座热水器制造工厂，披露现有产能为每月2.5万台，并计划在一年内增加20%产能。",
+      "content_html": "<p>Wonder Electricals 9月23日向BSE、NSE披露，董事会已批准从Onkar Engine and Generator Private Limited购买热水器（geyser）制造工厂（不含土地），投资约1.65亿卢比（₹16.50 crore）加适用税费。</p><p>公司披露该工厂现有产能为每月2.5万台、利用率约40%—50%，并计划在一年内增加20%产能，以扩大热水器业务并优化产能利用。</p>",
+      "source_name": "Wonder Electricals / BSE、NSE监管披露",
+      "source_url": "https://bazaarwatch.com/announcement/126207/wonder-electricals-ltd-as-per-attachment",
+      "source_published_date": "2026-09-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "wonder-electricals-geyser-plant-acquisition-2026",
+        "title": "Wonder Electricals收购热水器制造工厂及扩产",
+        "date": "2026-09-23",
+        "latest_progress": "2026年9月23日，Wonder Electricals董事会批准收购Onkar Engine and Generator的热水器制造工厂，并计划在一年内将现有每月2.5万台产能提高20%。",
+        "status": "announced",
+        "countries": [
+          "印度"
+        ],
+        "entities": [
+          "Wonder Electricals",
+          "Onkar Engine and Generator Private Limited"
+        ],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

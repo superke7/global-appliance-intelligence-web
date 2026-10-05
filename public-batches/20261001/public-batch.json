@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261001-0715",
+  "generated_at_bjt": "2026-10-01T08:56:00+08:00",
+  "target_publish_at_bjt": "2026-10-01T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261001-001",
+      "title": "美国国际贸易法院审理全球强迫劳动301关税合法性",
+      "excerpt": "美国国际贸易法院就针对约60个经济体实施的10%—12.5%强迫劳动Section 301附加关税举行实质审理，裁决预计未来数周作出。",
+      "content_html": "<p>Reuters 9月30日报道，美国国际贸易法院就针对约60个经济体实施的强迫劳动Section 301附加关税举行实质审理。原告质疑政府是否具备充分的国别调查和法律依据，美国司法部则为相关措施辩护。</p><p>法官重点询问调查充分性与法律授权边界，裁决预计未来数周作出。该进展意味着既有强迫劳动301关税司法挑战由起诉阶段进入法院实质审理阶段。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/us/us-trade-court-weigh-challenge-trumps-forced-labor-tariffs-2026-09-30/",
+      "source_published_date": "2026-09-30",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-forcedlabor301-lawsuit-2026",
+        "title": "强迫劳动301关税司法挑战",
+        "date": "2026-07-24",
+        "latest_progress": "2026年9月30日，美国国际贸易法院就强迫劳动Section 301附加关税合法性举行实质审理，裁决预计未来数周作出。",
+        "status": "in_progress",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "美国国际贸易法院",
+          "美国贸易代表办公室（USTR）",
+          "美国司法部"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261001-002",
+      "title": "28个经济体通过Milwaukee Framework，推进钢铁产能过剩联合行动",
+      "excerpt": "全球钢铁产能过剩论坛成员通过Milwaukee Framework，鼓励扩大反倾销、反补贴和保障措施，并加强钢铁原产地数据共享。",
+      "content_html": "<p>USTR 9月30日确认，全球钢铁产能过剩论坛成员就Milwaukee Framework联合行动框架达成共识。Reuters报道，参与方为28个市场导向经济体。</p><p>框架鼓励成员更多使用反倾销、反补贴和保障措施，并讨论针对过剩产能来源的钢铁及含钢进口品采取更广泛贸易措施，同时加强钢铁进口和生产原产地数据共享。该框架已由议程讨论进入联合行动阶段。</p>",
+      "source_name": "USTR / Reuters",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/september/ambassador-greer-issues-statement-following-ministerial-meeting-global-forum-steel-excess-capacity",
+      "source_published_date": "2026-09-30",
+      "event_action": "create",
+      "event": {
+        "event_key": "global-steel-milwaukee-framework-2026",
+        "title": "全球钢铁产能过剩Milwaukee Framework联合行动框架",
+        "date": "2026-09-30",
+        "latest_progress": "2026年9月30日，全球钢铁产能过剩论坛成员通过Milwaukee Framework，进入成员联合行动与后续实施阶段。",
+        "status": "announced",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "美国贸易代表办公室（USTR）",
+          "Global Forum on Steel Excess Capacity"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

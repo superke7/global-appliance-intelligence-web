@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260821-0717",
+  "generated_at_bjt": "2026-08-21T07:17:53+08:00",
+  "target_publish_at_bjt": "2026-08-21T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260821-001",
+      "title": "越南外交部称将建设性回应美国转运关切，继续与美对话",
+      "excerpt": "越南外交部表示将继续建设性回应美国对商品转运的关切，并在越美全面战略伙伴关系框架下保持对话。",
+      "content_html": "<p>Reuters 8月20日报道，越南外交部表示将继续以建设性方式回应美国对商品转运的关切，并在越美全面战略伙伴关系框架下保持对话。</p><p>此前美方称，每年约有190亿至260亿美元关税收入因主要来自中国的商品经包括越南在内的第三国转运以规避美国进口税而流失。本次表态是在7月底美越启动反转运与贸易欺诈联合执法合作后的进一步官方回应。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/vietnam-address-us-transshipment-concerns-constructively-foreign-ministry-says-2026-08-20/",
+      "source_published_date": "2026-08-20",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "越南外交部表示将继续建设性回应美国对转运的关切，并在双边伙伴关系框架下保持对话。",
+        "status": "in_progress",
+        "countries": ["美国", "越南", "中国"],
+        "entities": ["越南外交部", "美国政府"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260821-002",
+      "title": "LeBlanc称美加贸易协议“非常接近”，汽车关税拟降至15%",
+      "excerpt": "加拿大贸易部长LeBlanc称美加贸易协议已非常接近，讨论方案包括将加拿大汽车关税最高税率降至15%，钢铝关税降至25%。",
+      "content_html": "<p>Reuters 8月20日报道，加拿大贸易部长Dominic LeBlanc在与美国贸易代表Jamieson Greer继续磋商后称，美加贸易协议已非常接近。</p><p>正在讨论的方案包括将加拿大汽车关税最高税率由25%降至15%，并把钢铝关税由50%降至25%；加拿大产品中的本国成分如何计算、零部件豁免如何调整仍未解决。协议尚未最终公布。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/top-canada-us-trade-negotiators-meet-again-deal-deadline-nears-2026-08-20/",
+      "source_published_date": "2026-08-20",
+      "event_action": "update",
+      "event": {
+        "event_key": "US-CANADA-SECTION338-2026",
+        "title": "美国对加拿大第338条50%附加关税及生效前谈判",
+        "date": "2026-07-20",
+        "latest_progress": "加拿大称美加贸易协议已非常接近，双方正讨论将汽车关税最高税率降至15%、钢铝关税降至25%，但协议尚未最终公布。",
+        "status": "delayed",
+        "countries": ["美国", "加拿大"],
+        "entities": ["加拿大政府", "美国贸易代表办公室"],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}

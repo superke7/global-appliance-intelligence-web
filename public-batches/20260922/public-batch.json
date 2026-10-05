@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260922-0715",
+  "generated_at_bjt": "2026-09-22T07:17:30+08:00",
+  "target_publish_at_bjt": "2026-09-22T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260922-001",
+      "title": "Electrolux与美的美国洗衣机合资公司正式启动，安德森工厂进入新设备建设阶段",
+      "excerpt": "Electrolux与美的在南卡罗来纳州Anderson的合资制造公司正式启动，工厂改造进入新设备基础施工阶段，目标2027年上半年生产高端波轮洗衣机。",
+      "content_html": "<p>Electrolux 9月21日确认，与美的在南卡罗来纳州Anderson成立的Electrolux Midea Appliance Manufacturing已正式启动运营。</p><p>原工厂计划退役工作已完成近四分之三，新冲压及制造设备基础施工推进，设备计划11月到场，目标2027年上半年生产高端波轮洗衣机。Anderson项目是双方三项北美合资中首个完成交割的项目。</p>",
+      "source_name": "Electrolux Group",
+      "source_url": "https://www.electroluxgroup.com/en/news/electrolux-midea-appliance-manufacturing-goes-live-in-anderson",
+      "source_published_date": "2026-09-21",
+      "event_action": "update",
+      "event": {
+        "event_key": "electrolux-midea-na-jv-2026",
+        "title": "北美三项合资、安德森工厂转产及北美盈利修复",
+        "date": "2026-04-23",
+        "latest_progress": "2026年9月21日，Anderson合资制造公司正式启动，工厂改造进入新设备基础施工阶段，目标2027年上半年生产高端波轮洗衣机。",
+        "status": "in_progress",
+        "countries": ["美国", "中国", "瑞典"],
+        "entities": ["Electrolux Group", "Midea Group", "Electrolux Midea Appliance Manufacturing"],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20260922-002",
+      "title": "LG昌原家电基地再启生产技术人员自愿离职，自动化转型推动制造用工调整",
+      "excerpt": "韩国媒体报道，LG电子昌原家电基地面向部分生产技术人员启动新一轮自愿离职方案，制造自动化继续推动人员结构调整。",
+      "content_html": "<p>IT Chosun 9月21日报道，LG Electronics在韩国昌原核心家电制造基地面向45岁及以上生产技术人员启动新一轮自愿离职方案，最高可提供90个月基本工资。</p><p>报道将该安排与昌原智能工厂自动化、人工装配需求下降及技术人员结构调整联系起来。LG未发布同日官方说明，因此相关细节以当地媒体披露为准。</p>",
+      "source_name": "IT Chosun",
+      "source_url": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092170567",
+      "source_published_date": "2026-09-21",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20260922-003",
+      "title": "中美纽约会谈推进Board of Trade，但贸易休战延长期限与稀土履约仍未达成一致",
+      "excerpt": "中美纽约会谈继续推进非敏感商品Board of Trade机制，但贸易休战延长期限仍未达成一致，稀土供应承诺履行继续成为争议点。",
+      "content_html": "<p>Financial Times 9月21日报道，中美纽约会谈在非敏感商品低关税交换的Board of Trade机制上取得进一步进展。</p><p>双方尚未就现有一年贸易休战的延长期限达成一致，美方同时继续关注中国稀土出口承诺履行。相较此前仅确认会谈启动，本次新增了机制推进结果及关键未决事项。</p>",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/d29d769e-039c-4d11-9152-e63ccd397b32",
+      "source_published_date": "2026-09-21",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "2026年9月21日，中美纽约会谈继续推进Board of Trade机制，但贸易休战延长期限尚未达成一致，稀土供应承诺履行仍是争议点。",
+        "status": "in_progress",
+        "countries": ["中国", "美国"],
+        "entities": ["美国财政部", "美国贸易代表办公室（USTR）", "中国国务院"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260922-004",
+      "title": "Cummins-Wagner完成收购Syracuse Thermal，扩大纽约州中部住宅及商用HVAC分销覆盖",
+      "excerpt": "Cummins-Wagner完成收购Syracuse Thermal Products，扩大纽约州中部住宅及商用HVAC、水力供暖和热水产品渠道覆盖。",
+      "content_html": "<p>Cummins-Wagner 9月16日确认完成收购Syracuse Thermal Products。后者总部位于纽约州Syracuse，覆盖纽约州中部住宅、商用及工业市场。</p><p>Syracuse Thermal主要提供水力供暖、锅炉、水加热、管道和HVAC相关产品。交易完成后，其员工加入Cummins-Wagner员工持股计划，合并后的渠道能力将扩大住宅及商用HVAC与管道市场覆盖。</p>",
+      "source_name": "Cummins-Wagner",
+      "source_url": "https://www.cummins-wagner.com/cummins-wagner-acquires-syracuse-thermal-products",
+      "source_published_date": "2026-09-16",
+      "event_action": "create",
+      "event": {
+        "event_key": "cummins-wagner-syracuse-thermal-acquisition-2026",
+        "title": "Cummins-Wagner收购Syracuse Thermal并扩展纽约州HVAC渠道",
+        "date": "2026-09-16",
+        "latest_progress": "2026年9月16日，Cummins-Wagner确认完成收购Syracuse Thermal Products，扩大纽约州中部住宅及商用HVAC、水力供暖和热水产品渠道覆盖。",
+        "status": "implemented",
+        "countries": ["美国"],
+        "entities": ["Cummins-Wagner", "Syracuse Thermal Products"],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}

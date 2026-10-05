@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260902-0715",
+  "generated_at_bjt": "2026-09-02T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-02T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260902-001",
+      "title": "巴西启动对中国家电用钢化玻璃反倾销调查，初步倾销幅度230.1%",
+      "excerpt": "巴西SECEX启动对中国家电用钢化玻璃反倾销调查，产品涉及多类厨电和洗涤家电；230.1%为调查启动阶段测算的倾销幅度，并非已征收税率。",
+      "content_html": "<p>巴西SECEX第85号通告于9月1日启动对原产于中国的家电用钢化玻璃反倾销调查，产品归入NCM 7007.19.00，涉及灶具、烤箱、cooktop、油烟机、洗衣/干衣机和洗碗机等。</p><p>调查启动阶段测算的相对倾销幅度为230.1%，绝对幅度约为3007.35美元/吨。该数值不是已征收的反倾销税率；目前尚未征收临时或最终反倾销税，后续仍需完成倾销、损害及因果关系调查。</p>",
+      "source_name": "Estadão / UOL",
+      "source_url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/01/mdic-inicia-investigacao-por-dumping-em-vidros-temperados-da-china-para-eletrodomesticos.htm",
+      "source_published_date": "2026-09-01",
+      "event_action": "create",
+      "event": {
+        "event_key": "brazil-china-appliance-tempered-glass-ad-2026",
+        "title": "巴西对中国家电用钢化玻璃反倾销调查",
+        "date": "2026-09-01",
+        "latest_progress": "巴西SECEX启动对中国家电用钢化玻璃反倾销调查，NCM为7007.19.00，初步测算相对倾销幅度230.1%；目前尚未征收临时或最终反倾销税。",
+        "status": "in_progress",
+        "countries": ["巴西", "中国"],
+        "entities": ["巴西SECEX", "巴西MDIC", "ABIVIDRO"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260902-002",
+      "title": "LG主导韩国K-On-Device AI Home项目，联合开发两款超低功耗家电AI SoC",
+      "excerpt": "LG电子主导韩国K-On-Device AI Home项目，CoAsia SEMI等机构将开发两款超低功耗AI SoC及软件平台，项目期至2030年12月。",
+      "content_html": "<p>CoAsia SEMI披露参与由LG电子总括的韩国“K-On-Device AI Home”国家研发项目，负责开发支持常时感知的超低功耗AI SoC两款及软件平台，并验证在AI Home产品中的应用。</p><p>项目属于韩国产业通商资源部K-On-Device AI半导体技术开发计划，研究期为2026年7月至2030年12月，共54个月；CoAsia SEMI承担的研发规模约310亿韩元。LG电子作为需求企业总括项目，合作机构还包括HyperAccel、Mobilint、韩国电子技术研究院和西江大学产学协力团。</p>",
+      "source_name": "Hans Economy / CoAsia SEMI",
+      "source_url": "https://v.daum.net/v/20260831114517427",
+      "source_published_date": "2026-08-31",
+      "event_action": "create",
+      "event": {
+        "event_key": "lg-k-ondevice-ai-home-soc-2026",
+        "title": "LG韩国K-On-Device AI Home家电AI SoC研发项目",
+        "date": "2026-08-31",
+        "latest_progress": "LG电子主导K-On-Device AI Home国家研发项目，CoAsia SEMI等机构开发两款超低功耗AI SoC及软件平台；研究期为2026年7月至2030年12月。",
+        "status": "in_progress",
+        "countries": ["韩国"],
+        "entities": ["LG Electronics", "CoAsia SEMI", "韩国产业通商资源部"],
+        "category": "投资与合作"
+      }
+    }
+  ]
+}

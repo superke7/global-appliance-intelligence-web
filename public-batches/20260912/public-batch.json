@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260912-0715",
+  "generated_at_bjt": "2026-09-12T07:18:00+08:00",
+  "target_publish_at_bjt": "2026-09-12T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260912-001",
+      "title": "美国参议院86:11通过对俄制裁法案，众议院下周审议并拟授权对俄能源主要购买国最高100%关税",
+      "excerpt": "美国参议院已以86票对11票通过对俄制裁法案，众议院下周推进审议；法案拟授权总统对俄罗斯能源主要购买国征收最高100%关税。",
+      "content_html": "<p>Reuters 9月11日报道，美国参议院已以86票对11票通过“Lindsey O. Graham Sanctioning Russia and Iran Act of 2026”，众议院规则委员会将于9月14日审议，若规则委员会通过，预计随后进入全院表决。</p><p>法案拟授权总统对俄罗斯能源主要购买国征收最高100%关税，潜在涉及中国、印度以及部分美国盟友，并保留总统豁免和解除权。AP同日独立报道确认参议院通过及众议院拟推进表决。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/us/us-house-take-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-11",
+      "source_published_date": "2026-09-11",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-russia-oil-buyers-sanctions-2026",
+        "title": "对俄罗斯能源主要购买方制裁法案",
+        "date": "2026-07-14",
+        "latest_progress": "2026年9月11日，美国参议院已以86票对11票通过该法案；众议院规则委员会将于9月14日推进审议，法案拟授权总统对俄罗斯能源主要购买国征收最高100%关税。",
+        "status": "in_progress",
+        "countries": ["美国", "中国", "印度", "日本", "欧洲"],
+        "entities": ["美国国会", "美国政府"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260912-002",
+      "title": "海尔埃及冰箱冷柜二期计划11月投产，新增年产能超50万台",
+      "excerpt": "海尔埃及斋月十日城工业园二期计划2026年11月投产，将新增超过50万台/年的冰箱和冷柜产能。",
+      "content_html": "<p>Arab Finance 9月9日援引埃及工业部声明称，海尔埃及斋月十日城工业园二期计划于2026年11月投产，将新增超过50万台/年的冰箱和冷柜产能。</p><p>Ahram Online和Daily News Egypt独立确认同一时间表与产能规模。现有园区占地20万平方米，现有年产能超过100万台家电，约30%产量出口。</p>",
+      "source_name": "Arab Finance",
+      "source_url": "https://www.arabfinance.com/en/news/newdetails/haier-egypt-to-open-refrigerator-and-freezer-plant-in-november",
+      "source_published_date": "2026-09-09",
+      "event_action": "create",
+      "event": {
+        "event_key": "haier-egypt-refrigeration-phase2-2026",
+        "title": "海尔埃及冰箱冷柜二期工厂建设与投产",
+        "date": "2026-09-09",
+        "latest_progress": "2026年9月9日，埃及工业部披露海尔埃及工业园二期计划于11月投产，将新增超过50万台/年的冰箱和冷柜产能。",
+        "status": "in_progress",
+        "countries": ["埃及", "中国"],
+        "entities": ["Haier Egypt", "海尔智家", "埃及工业部"],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}

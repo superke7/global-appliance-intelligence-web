@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260916-0715",
+  "generated_at_bjt": "2026-09-16T07:15:00+08:00",
+  "target_publish_at_bjt": "2026-09-16T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260916-001",
+      "title": "Elin Electronics印度Bhiwadi家电工厂开始商业生产，新增油汀、吊扇和油烟机产能",
+      "excerpt": "Elin Electronics位于印度Bhiwadi的家电工厂9月14日开始商业生产，新增油汀、吊扇和厨房油烟机制造能力。",
+      "content_html": "<p>Elin Electronics披露，其位于拉贾斯坦邦Bhiwadi的家电工厂自9月14日起开始商业生产。本次新增年产能包括12.5万台油汀、45万台吊扇和24万台厨房油烟机。</p><p>公司披露该增量项目投资约5 crore卢比，由内部资金支持。商业生产启动使此前规划产能转为实际运营能力，进一步扩大其印度家电OEM/EMS制造基础。</p>",
+      "source_name": "Elin Electronics / NSE filing",
+      "source_url": "https://bazaarwatch.com/announcement/113705/elin-electronics-limited-general-updates",
+      "source_published_date": "2026-09-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "elin-india-bhiwadi-appliance-plant-2026",
+        "title": "Elin Electronics印度Bhiwadi家电工厂投产与产能扩张",
+        "date": "2026-09-14",
+        "latest_progress": "2026年9月14日，Elin Electronics Bhiwadi工厂开始商业生产，新增油汀、吊扇和厨房油烟机产能。",
+        "status": "implemented",
+        "countries": ["印度"],
+        "entities": ["Elin Electronics"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260916-002",
+      "title": "LG在韩国启动首个实住公寓热泵电气化示范，住宅热泵业务扩展至多户住宅",
+      "excerpt": "LG在韩国济州启动共同住宅热泵电气化示范，将制冷、地板采暖和集中热水纳入同一电气化方案。",
+      "content_html": "<p>LG电子9月15日与济州特别自治道、济州开发公社和韩国产业技术研究院签署MOU，在西归浦Shinhyo Apartment开展共同住宅冷暖、热水电气化及P2H示范。</p><p>项目面向12户实际居住家庭，以热泵提供制冷和地板采暖，并以空气源热泵和储热水箱提供集中热水。项目计划10月完成设计、12月完工后进入运行验证，旨在形成可用于公共租赁住房、既有住宅改造和新建住宅的共同住宅热泵模式。</p>",
+      "source_name": "LG Electronics",
+      "source_url": "https://lg.co.kr/media/release/30571",
+      "source_published_date": "2026-09-15",
+      "event_action": "create",
+      "event": {
+        "event_key": "lg-korea-apartment-heatpump-pilot-2026",
+        "title": "LG韩国济州共同住宅热泵电气化示范项目",
+        "date": "2026-09-15",
+        "latest_progress": "2026年9月15日，LG与济州地方政府及合作机构签署MOU，计划12月完成实住公寓热泵系统建设后启动运行验证。",
+        "status": "announced",
+        "countries": ["韩国"],
+        "entities": ["LG Electronics", "Jeju Special Self-Governing Province", "Jeju Development Corporation", "Korea Institute of Industrial Technology"],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}

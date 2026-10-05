@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260908-0715",
+  "generated_at_bjt": "2026-09-08T07:15:05+08:00",
+  "target_publish_at_bjt": "2026-09-08T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260908-001",
+      "title": "美的南非洗衣机工厂正在建设，计划2026年内正式投产",
+      "excerpt": "美的正在南非建设洗衣机制造工厂，计划于2026年内投产，以降低对进口供货的依赖并完善南部非洲本地供应链。",
+      "content_html": "<p>第一财经9月3日报道，美的南非子公司于2026年7月正式成立，并同步建设南非洗衣机制造工厂，计划于2026年内投产。</p><p>该项目将使美的在南非由进口销售进一步延伸至本地制造，有助于降低对进口供货的依赖并完善南部非洲的供应链、交付和服务能力。</p>",
+      "source_name": "第一财经",
+      "source_url": "https://www.yicai.com/news/103346995.html",
+      "source_published_date": "2026-09-03",
+      "event_action": "create",
+      "event": {
+        "event_key": "midea-south-africa-washer-plant-2026",
+        "title": "美的南非洗衣机工厂建设与投产",
+        "date": "2026-09-03",
+        "latest_progress": "2026年9月3日，第一财经确认美的南非洗衣机制造工厂正在建设，计划2026年内投产；项目将完善南部非洲本地供应链并降低对进口供货的依赖。",
+        "status": "in_progress",
+        "countries": ["南非", "中国"],
+        "entities": ["Midea", "美的集团", "Midea South Africa"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260908-002",
+      "title": "三星向既有冰箱和洗衣设备推送Tizen 10，将Gemini与新版Bixby下放至旧款家电",
+      "excerpt": "三星自2026年9月起向部分既有冰箱和洗衣设备分阶段推送Tizen OS 10.0，将Google Gemini增强的AI Vision及新版Bixby等能力下放至存量家电。",
+      "content_html": "<p>三星9月7日宣布，自2026年9月起分阶段向部分既有冰箱和洗衣设备推送Tizen OS 10.0。</p><p>符合条件的2021—2025年Family Hub冰箱将获得Google Gemini增强的AI Vision等功能；部分2024—2025年Bespoke AI洗烘一体机、洗衣机和干衣机将获得新版Bixby及界面升级。该动作将2026款产品的软件和AI能力延伸至存量设备。</p>",
+      "source_name": "Samsung Global Newsroom",
+      "source_url": "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates",
+      "source_published_date": "2026-09-07",
+      "event_action": "none"
+    }
+  ]
+}

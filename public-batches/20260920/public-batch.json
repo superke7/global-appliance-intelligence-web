@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260920-0715",
+  "generated_at_bjt": "2026-09-20T07:18:30+08:00",
+  "target_publish_at_bjt": "2026-09-20T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260920-001",
+      "title": "中美9月20日纽约高层会谈继续推进非敏感商品贸易优化与市场准入",
+      "excerpt": "USTR确认Greer与Bessent将于9月20日在纽约会见何立峰，继续推进非敏感商品贸易优化、近期承诺落实和美国企业市场准入。",
+      "content_html": "<p>USTR 9月18日确认，美国贸易代表Jamieson Greer将与财长Scott Bessent于9月20日在纽约会见中国副总理何立峰，为随后举行的中美峰会做准备。</p><p>Greer表示，美方将继续监测近期承诺落实、优化非敏感商品贸易并改善美国制造商等市场准入。Reuters 9月19日进一步确认会谈将讨论贸易、AI安全及其他经济议题。</p>",
+      "source_name": "USTR / Reuters",
+      "source_url": "https://ustr.gov/node/14439",
+      "source_published_date": "2026-09-18",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "2026年9月20日，美中将在纽约举行峰会前高层经贸会谈；USTR明确将继续推进近期承诺落实、非敏感商品贸易优化和美国企业市场准入。",
+        "status": "in_progress",
+        "countries": ["中国", "美国"],
+        "entities": ["美国贸易代表办公室（USTR）", "美国财政部", "中国国务院"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260920-002",
+      "title": "特朗普签署对俄制裁法案，最高100%俄罗斯能源主要购买国关税授权正式成为法律",
+      "excerpt": "特朗普9月18日签署对俄制裁法案，使针对俄罗斯能源主要购买国最高100%关税授权正式成为法律。",
+      "content_html": "<p>Associated Press 9月18日报道，特朗普已签署此前参众两院通过的对俄制裁法案，法案正式成为法律。</p><p>新法针对俄罗斯官员、银行及能源贸易，并授权对俄罗斯油气前五大进口国最高征收100%关税，同时设置一定例外。本次属于既有事件由完成国会程序进入正式成法的新增进展。</p>",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/d1715ad5e8feccba76bfae51c5f28c45",
+      "source_published_date": "2026-09-18",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-russia-oil-buyers-sanctions-2026",
+        "title": "对俄罗斯能源主要购买方制裁法案",
+        "date": "2026-07-14",
+        "latest_progress": "2026年9月18日，特朗普签署该法案使其正式成为法律；新法保留对俄罗斯油气前五大进口国最高100%关税授权，并设置一定例外。",
+        "status": "implemented",
+        "countries": ["美国", "俄罗斯", "中国", "印度"],
+        "entities": ["美国政府", "美国国会"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260920-003",
+      "title": "Robert Madden Industries收购Shore Distributors，HVAC分销网络扩展至美国中大西洋11个网点",
+      "excerpt": "Robert Madden Industries完成收购Shore Distributors，新增Delmarva半岛11个HVAC分销网点并进入马里兰、特拉华和弗吉尼亚。",
+      "content_html": "<p>Modern Distribution Management 9月18日报道，Robert Madden Industries已于9月9日收购Shore Distributors。</p><p>交易使RMI从原有德州、俄克拉荷马、阿肯色西北部和新墨西哥东部市场进一步进入马里兰、特拉华和弗吉尼亚，并新增Delmarva半岛11个HVAC分销网点。RMI官方公告同步确认交易完成及区域扩张。</p>",
+      "source_name": "Modern Distribution Management / Robert Madden Industries",
+      "source_url": "https://www.mdm.com/news/top-distributor-sectors/hvacr/family-owned-hvac-distributors-rmi-and-shore-distributors-join-forces",
+      "source_published_date": "2026-09-18",
+      "event_action": "create",
+      "event": {
+        "event_key": "rmi-shore-distributors-acquisition-2026",
+        "title": "Robert Madden Industries收购Shore Distributors并扩展美国中大西洋HVAC分销网络",
+        "date": "2026-09-09",
+        "latest_progress": "2026年9月9日，Robert Madden Industries完成收购Shore Distributors，新增Delmarva半岛11个HVAC分销网点并进入马里兰、特拉华和弗吉尼亚市场。",
+        "status": "implemented",
+        "countries": ["美国"],
+        "entities": ["Robert Madden Industries", "Shore Distributors"],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}

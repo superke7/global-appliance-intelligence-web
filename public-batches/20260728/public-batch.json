@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260728-0730",
+  "generated_at_bjt": "2026-07-28T07:30:00+08:00",
+  "target_publish_at_bjt": "2026-07-28T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260728-001",
+      "title": "LG 600kW冷却液分配单元获得NVIDIA AI Factory验证",
+      "excerpt": "LG面向高密度AI数据中心的600kW冷却液分配单元通过NVIDIA技术验证，数据中心液冷竞争进一步进入生态认证阶段。",
+      "content_html": "<p>LG Electronics于2026年7月27日宣布，其600kW冷却液分配单元获得NVIDIA AI Factory验证。LG表示，该产品通过了100多项技术评估，覆盖冷却性能、可靠性及故障切换能力。</p><p>该验证有助于降低数据中心运营商在供应商选择和项目导入中的技术风险，也表明传统暖通空调企业正将压缩机、热交换、控制和服务能力延伸至高功率AI基础设施。未来竞争重点将更多集中在系统认证、项目交付和全生命周期运维。</p>",
+      "source_name": "LG Electronics",
+      "source_url": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit/",
+      "source_published_date": "2026-07-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "lg-nvidia-ai-factory-cdu-2026",
+        "title": "LG数据中心液冷产品获得NVIDIA验证",
+        "date": "2026-07-27",
+        "latest_progress": "LG的600kW冷却液分配单元完成NVIDIA AI Factory技术验证。",
+        "status": "implemented",
+        "countries": ["全球", "美国", "韩国"],
+        "entities": ["LG Electronics", "NVIDIA"],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20260728-002",
+      "title": "美国强迫劳动301对欧盟产品采用MFN补足机制",
+      "excerpt": "法国海关更新说明称，欧盟来源产品的MFN税率与本轮301合计至10%，适用Section 232的商品不再叠加本轮301。",
+      "content_html": "<p>法国海关总署于2026年7月27日更新美国关税措施执行说明。对于欧盟来源产品，当最惠国税率低于10%时，本轮Section 301税率补足至10%；当最惠国税率达到或超过10%时，本轮301税率为零。</p><p>说明同时确认，已经适用Section 232关税的商品不适用本轮强迫劳动301措施。企业因此需要按具体HTS税号分别核验最惠国税率、232、301及其他贸易救济措施，不能仅使用统一国别附加税率估算成本。</p>",
+      "source_name": "法国海关总署",
+      "source_url": "https://www.douane.gouv.fr/droits-douane-etats-unis-mesures-tarifaires",
+      "source_published_date": "2026-07-27",
+      "event_action": "update",
+      "event": {
+        "event_key": "ustr-usa-forcedlabor301-2026",
+        "title": "美国强迫劳动进口禁令执行不足301调查",
+        "date": "2026-07-24",
+        "latest_progress": "欧盟产品的MFN补足至10%机制及232不叠加规则获得进一步官方说明。",
+        "status": "implemented",
+        "countries": ["美国", "欧盟"],
+        "entities": ["美国贸易代表办公室", "法国海关总署"],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20260728-003",
+      "title": "Bosch美国碳化硅工厂获得最高2.25亿美元CHIPS资助",
+      "excerpt": "美国商务部与Bosch签署直接资助协议，支持其约20亿美元的加州碳化硅半导体工厂改造项目。",
+      "content_html": "<p>美国商务部于2026年7月13日宣布，与Bosch签署最高2.25亿美元的CHIPS项目直接资助协议，支持其将加州Roseville工厂改造为先进碳化硅半导体生产基地。项目总投资约20亿美元。</p><p>碳化硅功率器件广泛应用于汽车、工业、能源和消费家电领域。该项目将强化美国本土功率半导体供应，对高效压缩机驱动、变频控制和热泵系统的供应韧性具有间接影响。</p>",
+      "source_name": "美国商务部国家标准与技术研究院",
+      "source_url": "https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-direct-funding-agreement-bosch-225-million",
+      "source_published_date": "2026-07-13",
+      "event_action": "create",
+      "event": {
+        "event_key": "bosch-us-sic-chips-2026",
+        "title": "Bosch美国碳化硅半导体工厂改造",
+        "date": "2026-07-13",
+        "latest_progress": "美国商务部与Bosch签署最高2.25亿美元直接资助协议。",
+        "status": "in_progress",
+        "countries": ["美国"],
+        "entities": ["Bosch", "美国商务部"],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20260728-004",
+      "title": "LG InstaView冰箱全球累计销量超过530万台",
+      "excerpt": "LG披露InstaView冰箱推出十年来全球累计销量超过530万台，高辨识度功能型产品已形成长期规模基础。",
+      "content_html": "<p>LG Electronics于2026年7月24日宣布，InstaView冰箱自2016年推出以来，全球累计销量已超过530万台。</p><p>这一数据反映出透明敲击视窗等高辨识度功能已由高端展示概念转化为长期规模产品。对于全球冰箱市场而言，功能平台、零售展示和持续迭代仍是成熟市场高端竞争的重要组成部分。</p>",
+      "source_name": "LG Electronics",
+      "source_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-instaview-refrigerator-surpasses-5-3-million-in-global-sales/",
+      "source_published_date": "2026-07-24",
+      "event_action": "none"
+    }
+  ]
+}

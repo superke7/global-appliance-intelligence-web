@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20260828-0716",
+  "generated_at_bjt": "2026-08-28T07:16:56+08:00",
+  "target_publish_at_bjt": "2026-08-28T07:50:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20260828-001",
+      "title": "美国数据显示越南上半年对美贸易顺差1140亿美元，关税差继续推动制造向越南转移",
+      "excerpt": "美国联邦贸易数据显示，2026年上半年美国对越南货物贸易逆差约1140亿美元；中越对美有效关税率差异正继续推动部分制造活动向越南转移。",
+      "content_html": "<p>美国Census Bureau数据显示，2026年上半年美国自越南进口约1231.94亿美元、对越出口约91.66亿美元，美国对越货物贸易逆差约1140.28亿美元，即越南对美货物贸易顺差约1140亿美元。</p><p>《华尔街日报》指出，6月中国商品进入美国的有效关税率约23.2%，越南约6.5%，税率差继续推动部分制造活动从中国转向越南。对家电及零部件制造企业而言，越南作为出口制造基地的重要性继续上升，同时美国针对非法转运和原产地规避的审查仍是供应链合规约束。</p>",
+      "source_name": "The Wall Street Journal",
+      "source_url": "https://www.wsj.com/logistics-report/vietnams-factories-thrive-amid-trade-upheaval-8a127d00",
+      "source_published_date": "2026-08-27",
+      "event_action": "none"
+    }
+  ]
+}
