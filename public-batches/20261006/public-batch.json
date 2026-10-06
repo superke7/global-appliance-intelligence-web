@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "batch_id": "20261006-0715",
-  "generated_at_bjt": "2026-10-06T07:14:43+08:00",
+  "generated_at_bjt": "2026-10-06T21:25:00+08:00",
   "target_publish_at_bjt": "2026-10-06T07:10:00+08:00",
   "items": [
     {
@@ -19,9 +19,135 @@
         "date": "2026-05-11",
         "latest_progress": "Electrolux提出修订意大利重组方案，撤回单方面强制裁员安排，改为未来三年最多1,250名员工自愿、激励退出；Cerreto d’Esi转向再工业化安排，并提出约9,000万欧元意大利投资及产品组合调整。",
         "status": "in_progress",
-        "countries": ["意大利"],
-        "entities": ["Electrolux Group","MIMIT","FIM-CISL","FIOM-CGIL","UILM"],
+        "countries": [
+          "意大利"
+        ],
+        "entities": [
+          "Electrolux Group",
+          "MIMIT",
+          "FIM-CISL",
+          "FIOM-CGIL",
+          "UILM"
+        ],
         "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261006-002",
+      "title": "美的与Electrolux北美三家合资公司全部正式运营，计划冰箱和洗护年产量提升至当前约2倍",
+      "excerpt": "美的集团与Electrolux Group在北美设立的三家合资公司已全部正式运营。双方同时表示，计划将北美冰箱/冷藏及洗护产品年产量提升至当前水平的约2倍，并继续拓展新品类。",
+      "content_html": "<p>美的集团10月1日发布消息称，与Electrolux Group在北美设立的三家合资公司现已全部正式运营，合作由此前协议、审批及首个Anderson制造合资项目交割阶段进入全面运营。</p><p>双方同时明确，计划将北美Food Preservation（冰箱/冷藏）和Fabric Care（洗护）产品年产量提升至当前水平的约2倍，并拓展新品类。</p><p>补充来源：<a href=\"https://www.electroluxgroup.com/en/electrolux-group-and-midea-group-form-a-highly-complementary-long-term-strategic-partnership-in-north-america-to-accelerate-profitable-growth-and-strengthen-innovation-46606/\">Electrolux Group</a>；<a href=\"https://www.reuters.com/world/china/electrolux-plans-980-million-rights-issue-tie-up-with-chinas-midea-2026-04-23/\">Reuters</a></p>",
+      "source_name": "Midea Group / PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/midea-and-electrolux-group-officially-begin-new-chapter-in-north-america-as-all-three-joint-ventures-go-live-302896703.html",
+      "source_published_date": "2026-10-02",
+      "event_action": "update",
+      "event": {
+        "event_key": "electrolux-midea-na-jv-2026",
+        "title": "北美三项合资、安德森工厂转产及北美盈利修复",
+        "date": "2026-04-23",
+        "latest_progress": "美的与Electrolux Group在北美设立的三家合资公司已全部正式运营，并计划将北美冰箱/冷藏和洗护产品年产量提升至当前水平的约2倍。",
+        "status": "implemented",
+        "countries": [
+          "美国",
+          "墨西哥",
+          "中国",
+          "瑞典"
+        ],
+        "entities": [
+          "Midea Group",
+          "Electrolux Group"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261006-003",
+      "title": "美墨阿三国在G20场边发布消除全球供应链强迫劳动联合声明",
+      "excerpt": "美国、墨西哥和阿根廷贸易部长在G20贸易部长会议场边同意发布消除全球供应链强迫劳动联合声明。该举措显示相关国家继续通过小多边合作推动供应链强迫劳动治理。",
+      "content_html": "<p>USTR 10月2日确认，美国、墨西哥和阿根廷贸易部长在G20贸易部长会议场边同意发布消除全球供应链强迫劳动联合声明。</p><p>该动作发生在G20整体未能就强迫劳动形成共同承诺之后，显示美国正通过小多边方式继续推动供应链强迫劳动治理。</p><p>补充来源：<a href=\"https://www.reuters.com/world/asia-pacific/handful-g20-countries-reject-us-stance-excess-industrial-capacity-2026-10-02\">Reuters</a></p>",
+      "source_name": "USTR",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-commends-trade-ministers-signing-statement-eliminating-forced-labor-global-supply",
+      "source_published_date": "2026-10-02",
+      "event_action": "update",
+      "event": {
+        "event_key": "ustr-usa-forcedlabor301-2026",
+        "title": "强迫劳动进口禁令执行不足301调查及中美后续经贸沟通",
+        "date": "2026-07-24",
+        "latest_progress": "美国、墨西哥和阿根廷贸易部长在G20贸易部长会议场边同意发布消除全球供应链强迫劳动联合声明，供应链强迫劳动治理的国际协作继续扩展。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "墨西哥",
+          "阿根廷"
+        ],
+        "entities": [
+          "USTR",
+          "Mexico",
+          "Argentina"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261006-004",
+      "title": "USTR启动2027年USMCA联合审查公众咨询，意见和听证申请截止2027年1月12日",
+      "excerpt": "USTR正式启动2027年USMCA联合审查前的公众咨询，并计划举行公开听证。书面意见、听证申请及证词摘要截止美国东部时间2027年1月12日23:59。",
+      "content_html": "<p>USTR 10月2日正式启动2027年USMCA联合审查前的公众咨询，征求对协定运行情况的意见，并将举行公开听证。</p><p>书面意见、出席听证申请及证词摘要截止美国东部时间2027年1月12日23:59。该动作标志北美贸易规则进入下一轮制度审查的正式公众输入阶段。</p>",
+      "source_name": "USTR",
+      "source_url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ustr-seeks-public-comment-2027-joint-review-usmca",
+      "source_published_date": "2026-10-02",
+      "event_action": "create",
+      "event": {
+        "event_key": "usmca-joint-review-2027",
+        "title": "2027年USMCA联合审查与公众咨询",
+        "date": "2026-10-02",
+        "latest_progress": "USTR已启动2027年USMCA联合审查前公众咨询并安排公开听证，书面意见、听证申请及证词摘要截止2027年1月12日。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "加拿大",
+          "墨西哥"
+        ],
+        "entities": [
+          "USTR",
+          "USMCA Parties"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261006-005",
+      "title": "德法推动欧盟研究类Section 301对华贸易工具，中国商务部警告将反制",
+      "excerpt": "德国、法国据报推动欧盟研究类似美国Section 301的贸易工具，以应对其所称不公平贸易做法。中国商务部表示，若欧方出台针对中国企业或产品的歧视性限制措施，中方将予以回应。",
+      "content_html": "<p>Reuters 9月29日报道，德国、法国据报推动欧盟研究类似美国Section 301的贸易工具，以应对其所称不公平贸易做法。</p><p>中国商务部同日回应称已注意到有关成员国推动欧委会打造欧版“301”工具的报道，并表示若欧方出台针对中国企业或产品的歧视性限制措施，中方将予以回应。目前尚未发现欧委会正式立法提案或最终工具文本。</p><p>补充来源：<a href=\"https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_702ac8398c8c47c79e5da9516cd3fba3.html\">中国商务部</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/china-vows-response-if-eu-introduces-moves-targeting-chinese-trade-2026-09-29",
+      "source_published_date": "2026-09-29",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261006-006",
+      "title": "加拿大魁北克家电法定“良好运作保证”正式生效：冰箱/空调/热泵6年，洗衣机/干衣机/洗碗机5年",
+      "excerpt": "加拿大魁北克自2026年10月5日起对指定家电和电子产品实施免费的法定“良好运作保证”。冰箱、冷柜、空调和热泵为6年，洗衣机、干衣机和洗碗机为5年。",
+      "content_html": "<p>魁北克消费者保护办公室确认，自2026年10月5日起，新购或长期租赁的指定家电和电子产品自动适用免费的法定“良好运作保证”。灶具、冰箱、冷柜、空调和热泵为6年，洗衣机、干衣机和洗碗机为5年。</p><p>保证期自交付日起计算。发生故障时，消费者可向零售商或制造商主张免费维修，覆盖零部件、人工及合理运输或寄送费用；保证可随二手转售在剩余期限内转移。</p><p>补充来源：<a href=\"https://www.opc.gouv.qc.ca/en/commercant/pratique-commerce/garanties/outils-garantie-bon-fonctionnement/\">魁北克消费者保护办公室商家指引</a>；<a href=\"https://www.opc.gouv.qc.ca/actualite/communiques/article/nouvelle-garantie-de-bon-fonctionnement-en-vigueur-bientot\">魁北克消费者保护办公室新闻稿</a></p>",
+      "source_name": "Québec Office de la protection du consommateur",
+      "source_url": "https://www.opc.gouv.qc.ca/consommateur/sujet/garanties/bon-fonctionnement/electromenager-electronique",
+      "source_published_date": "2026-10-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "quebec-appliance-good-working-order-warranty-2026",
+        "title": "魁北克家电法定良好运作保证制度",
+        "date": "2026-10-05",
+        "latest_progress": "魁北克指定家电和电子产品的法定“良好运作保证”自2026年10月5日起正式生效，其中冰箱、冷柜、空调和热泵为6年，洗衣机、干衣机和洗碗机为5年。",
+        "status": "implemented",
+        "countries": [
+          "加拿大",
+          "魁北克"
+        ],
+        "entities": [
+          "Québec Office de la protection du consommateur"
+        ],
+        "category": "监管与供应链"
       }
     }
   ]
