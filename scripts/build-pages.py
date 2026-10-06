@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import html
 import json
-import os
 import re
 import shutil
 from datetime import datetime, timedelta
@@ -12,7 +11,6 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
-from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH_ROOT = ROOT / "public-batches"
@@ -20,9 +18,6 @@ OUT = ROOT / "_site"
 SITE_TITLE = "全球家电AI早报"
 SITE_DESCRIPTION = "全球家电、贸易政策、供应链与制造布局公开资讯"
 SITE_URL = "https://superke7.github.io/global-appliance-intelligence-web/"
-BJT = ZoneInfo("Asia/Shanghai")
-RSS_CUTOFF_HOUR = 8
-RSS_CUTOFF_MINUTE = 30
 RSS_MAX_ITEMS = 300
 
 STYLE = """
@@ -204,30 +199,7 @@ def parse_bjt_timestamp(value):
         return None
     if parsed.tzinfo is None:
         return None
-    return parsed.astimezone(BJT)
-
-
-def build_now_bjt():
-    override = os.environ.get("GAI_BUILD_NOW_BJT", "").strip()
-    if override:
-        parsed = parse_bjt_timestamp(override)
-        if parsed is None:
-            raise ValueError("GAI_BUILD_NOW_BJT must be an ISO 8601 timestamp with timezone")
-        return parsed
-    return datetime.now(BJT)
-
-
-def active_rss_window(now_bjt=None):
-    now_bjt = now_bjt or build_now_bjt()
-    cutoff = now_bjt.replace(
-        hour=RSS_CUTOFF_HOUR,
-        minute=RSS_CUTOFF_MINUTE,
-        second=0,
-        microsecond=0,
-    )
-    end_bjt = cutoff if now_bjt >= cutoff else cutoff - timedelta(days=1)
-    start_bjt = end_bjt - timedelta(days=1)
-    return start_bjt, end_bjt
+    return parsed
 
 
 def batch_publish_time(date_key: str, batch: dict):
@@ -238,13 +210,8 @@ def batch_publish_time(date_key: str, batch: dict):
         day = datetime.strptime(date_key, "%Y%m%d")
     except ValueError:
         return None
-    return day.replace(
-        hour=7,
-        minute=50,
-        second=0,
-        microsecond=0,
-        tzinfo=BJT,
-    )
+    # Historical fallback only; normal public batches carry target_publish_at_bjt.
+    return day.replace(hour=7, minute=50, second=0, microsecond=0)
 
 
 def rss_description_html(item: dict):
@@ -469,64 +436,61 @@ def build_event_detail(record):
     return layout(f"{e.get('title', '')} - {SITE_TITLE}", body, depth=2)
 
 
-def build_rss(batches, now_bjt=None):
-    now_bjt = now_bjt or build_now_bjt()
-    start_bjt, end_bjt = active_rss_window(now_bjt)
+def build_rss(batches):
+    if not batches:
+        return (
+            '<?xml version="1.0" encoding="UTF-8"?>'
+            '<rss version="2.0"><channel>'
+            f'<title>{xml_escape(SITE_TITLE)}</title>'
+            f'<description>{xml_escape(SITE_DESCRIPTION)}</description>'
+            f'<link>{xml_escape(SITE_URL)}</link>'
+            '</channel></rss>'
+        )
+
+    # RSS always follows the newest public batch by batch date.
+    # Backfilling an older date updates the archive but does not replace the current RSS batch.
+    date_key, batch = batches[-1]
+    base_publish_time = batch_publish_time(date_key, batch)
     entries = []
+    for index, item in enumerate(batch.get("items", [])):
+        publish_time = (base_publish_time + timedelta(seconds=index)) if base_publish_time else None
+        entries.append((publish_time, index, item))
 
-    for date_key, batch in batches:
-        base_publish_time = batch_publish_time(date_key, batch)
-        if base_publish_time is None:
-            continue
-        for index, item in enumerate(batch.get("items", [])):
-            publish_time = base_publish_time + timedelta(seconds=index)
-            if start_bjt <= publish_time < end_bjt:
-                entries.append((publish_time, date_key, index, item))
-
-    entries.sort(key=lambda row: row[0], reverse=True)
     entries = entries[:RSS_MAX_ITEMS]
-
     rows = []
-    for publish_time, date_key, index, item in entries:
+    for publish_time, index, item in entries:
         title = xml_escape(str(item.get("title", "")))
         slug = article_slug(item, date_key, index)
         link = xml_escape(f"{SITE_URL}articles/{slug}/")
         desc = xml_escape(rss_description_html(item))
         guid = xml_escape(str(item.get("public_id") or link))
-        pub = xml_escape(format_datetime(publish_time))
+        pub = xml_escape(format_datetime(publish_time)) if publish_time else ""
         category = "行业资讯"
         event = item.get("event")
         if isinstance(event, dict) and event.get("category"):
             category = str(event.get("category"))
+
+        pub_xml = f"<pubDate>{pub}</pubDate>" if pub else ""
         rows.append(
             f'<item><title>{title}</title><link>{link}</link>'
             f'<guid isPermaLink="false">{guid}</guid>'
             f'<category>{xml_escape(category)}</category>'
-            f'<description>{desc}</description><pubDate>{pub}</pubDate></item>'
+            f'<description>{desc}</description>{pub_xml}</item>'
         )
 
     channel_description = (
-        f"{SITE_DESCRIPTION}｜北京时间固定批次："
-        f"{start_bjt.strftime('%Y-%m-%d %H:%M')} 至 {end_bjt.strftime('%Y-%m-%d %H:%M')}"
+        f"{SITE_DESCRIPTION}｜当前公开批次：{fmt_day(date_key)}"
     )
-    last_build = xml_escape(format_datetime(now_bjt))
     rss = (
         '<?xml version="1.0" encoding="UTF-8"?>'
         '<rss version="2.0"><channel>'
         f'<title>{xml_escape(SITE_TITLE)}</title>'
         f'<description>{xml_escape(channel_description)}</description>'
         f'<link>{xml_escape(SITE_URL)}</link>'
-        f'<lastBuildDate>{last_build}</lastBuildDate>'
         + "".join(rows)
         + '</channel></rss>'
     )
-    print(
-        "RSS active window:",
-        start_bjt.isoformat(),
-        "->",
-        end_bjt.isoformat(),
-        f"({len(entries)} items)",
-    )
+    print(f"RSS synchronized to latest public batch: {date_key} ({len(entries)} items)")
     return rss
 
 
