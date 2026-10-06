@@ -5,7 +5,7 @@ import html
 import json
 import re
 import shutil
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -19,6 +19,8 @@ SITE_TITLE = "全球家电AI早报"
 SITE_DESCRIPTION = "全球家电、贸易政策、供应链与制造布局公开资讯"
 SITE_URL = "https://superke7.github.io/global-appliance-intelligence-web/"
 RSS_MAX_ITEMS = 300
+BJT = timezone(timedelta(hours=8))
+RSS_AUTHOR = SITE_TITLE
 
 STYLE = """
 :root{color-scheme:light;--bg:#f6f7f9;--card:#fff;--text:#18202a;--muted:#667085;--line:#e5e7eb;--accent:#075c66;--accent2:#0f62fe;--soft:#f3f5f8;--max:1180px;--shadow:0 16px 40px rgba(16,24,40,.07)}
@@ -211,17 +213,20 @@ def batch_publish_time(date_key: str, batch: dict):
     except ValueError:
         return None
     # Historical fallback only; normal public batches carry target_publish_at_bjt.
-    return day.replace(hour=7, minute=50, second=0, microsecond=0)
+    return day.replace(hour=7, minute=50, second=0, microsecond=0, tzinfo=BJT)
 
 
-def rss_description_html(item: dict):
-    excerpt = html.escape(str(item.get("excerpt") or ""))
+def cdata(value) -> str:
+    return "<![CDATA[" + str(value or "").replace("]]>", "]]]]><![CDATA[>") + "]]>"
+
+
+def rss_source_html(item: dict):
     source_date = html.escape(str(item.get("source_published_date") or ""))
     sources = extract_original_sources(item)
     details = []
     if sources:
         source_links = "；".join(
-            f'<a href="{html.escape(url, quote=True)}">{html.escape(label)}</a>'
+            f'<a href="{html.escape(url, quote=True)}" rel="noopener noreferrer external">{html.escape(label)}</a>'
             for url, label in sources
         )
         details.append(f"<strong>来源：</strong>{source_links}")
@@ -229,8 +234,31 @@ def rss_description_html(item: dict):
         details.append(f"<strong>来源：</strong>{html.escape(str(item.get('source_name')))}")
     if source_date:
         details.append(f"<strong>来源日期：</strong>{source_date}")
-    source_line = "｜".join(details)
+    return "｜".join(details)
+
+
+def rss_description_html(item: dict):
+    excerpt = html.escape(str(item.get("excerpt") or ""))
+    source_line = rss_source_html(item)
     return f"<p>{excerpt}</p>" + (f'<p class="gai-feed-source">{source_line}</p>' if source_line else "")
+
+
+def rss_content_html(item: dict):
+    content = sanitize_content_html(item.get("content_html"))
+    if not content:
+        content = f'<p>{html.escape(str(item.get("excerpt") or ""))}</p>'
+    source_line = rss_source_html(item)
+    if source_line and 'class="gai-feed-source"' not in content:
+        content = content.rstrip() + "\n" + f'<p class="gai-feed-source">{source_line}</p>'
+    return content
+
+
+def rss_pubdate(value):
+    if value is None:
+        return ""
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=BJT)
+    return format_datetime(value.astimezone(timezone.utc))
 
 
 def article_slug(item: dict, date_key: str, index: int) -> str:
@@ -437,18 +465,34 @@ def build_event_detail(record):
 
 
 def build_rss(batches):
+    rss_open = (
+        '<rss version="2.0" '
+        'xmlns:content="http://purl.org/rss/1.0/modules/content/" '
+        'xmlns:wfw="http://wellformedweb.org/CommentAPI/" '
+        'xmlns:dc="http://purl.org/dc/elements/1.1/" '
+        'xmlns:atom="http://www.w3.org/2005/Atom" '
+        'xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" '
+        'xmlns:slash="http://purl.org/rss/1.0/modules/slash/">'
+    )
+    feed_url = f"{SITE_URL}rss.xml"
+
     if not batches:
         return (
             '<?xml version="1.0" encoding="UTF-8"?>'
-            '<rss version="2.0"><channel>'
-            f'<title>{xml_escape(SITE_TITLE)}</title>'
-            f'<description>{xml_escape(SITE_DESCRIPTION)}</description>'
-            f'<link>{xml_escape(SITE_URL)}</link>'
-            '</channel></rss>'
+            + rss_open
+            + '<channel>'
+            + f'<title>{xml_escape(SITE_TITLE)}</title>'
+            + f'<atom:link href="{xml_escape(feed_url)}" rel="self" type="application/rss+xml" />'
+            + f'<link>{xml_escape(SITE_URL)}</link>'
+            + f'<description>{xml_escape(SITE_DESCRIPTION)}</description>'
+            + '<language>zh-CN</language>'
+            + '<sy:updatePeriod>hourly</sy:updatePeriod>'
+            + '<sy:updateFrequency>1</sy:updateFrequency>'
+            + '</channel></rss>'
         )
 
-    # RSS always follows the newest public batch by batch date.
-    # Backfilling an older date updates the archive but does not replace the current RSS batch.
+    # RSS is synchronized to the newest public website batch. Same-day supplements
+    # immediately appear in both the website and RSS in the same Pages deployment.
     date_key, batch = batches[-1]
     base_publish_time = batch_publish_time(date_key, batch)
     entries = []
@@ -456,41 +500,60 @@ def build_rss(batches):
         publish_time = (base_publish_time + timedelta(seconds=index)) if base_publish_time else None
         entries.append((publish_time, index, item))
 
+    # Match WordPress RSS behavior: newest publication first.
+    entries.sort(
+        key=lambda row: row[0] or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
     entries = entries[:RSS_MAX_ITEMS]
+
     rows = []
     for publish_time, index, item in entries:
         title = xml_escape(str(item.get("title", "")))
         slug = article_slug(item, date_key, index)
-        link = xml_escape(f"{SITE_URL}articles/{slug}/")
-        desc = xml_escape(rss_description_html(item))
-        guid = xml_escape(str(item.get("public_id") or link))
-        pub = xml_escape(format_datetime(publish_time)) if publish_time else ""
+        link_raw = f"{SITE_URL}articles/{slug}/"
+        link = xml_escape(link_raw)
+        guid = xml_escape(str(item.get("public_id") or link_raw))
         category = "行业资讯"
         event = item.get("event")
         if isinstance(event, dict) and event.get("category"):
             category = str(event.get("category"))
 
-        pub_xml = f"<pubDate>{pub}</pubDate>" if pub else ""
+        description = rss_description_html(item)
+        full_content = rss_content_html(item)
+        pub_xml = f"<pubDate>{xml_escape(rss_pubdate(publish_time))}</pubDate>" if publish_time else ""
+
         rows.append(
-            f'<item><title>{title}</title><link>{link}</link>'
+            '<item>'
+            f'<title>{title}</title>'
+            f'<link>{link}</link>'
+            f'<dc:creator>{cdata(RSS_AUTHOR)}</dc:creator>'
+            f'{pub_xml}'
+            f'<category>{cdata(category)}</category>'
             f'<guid isPermaLink="false">{guid}</guid>'
-            f'<category>{xml_escape(category)}</category>'
-            f'<description>{desc}</description>{pub_xml}</item>'
+            f'<description>{cdata(description)}</description>'
+            f'<content:encoded>{cdata(full_content)}</content:encoded>'
+            '</item>'
         )
 
-    channel_description = (
-        f"{SITE_DESCRIPTION}｜当前公开批次：{fmt_day(date_key)}"
-    )
+    last_build = entries[0][0] if entries else base_publish_time
+    channel_description = SITE_DESCRIPTION
     rss = (
         '<?xml version="1.0" encoding="UTF-8"?>'
-        '<rss version="2.0"><channel>'
-        f'<title>{xml_escape(SITE_TITLE)}</title>'
-        f'<description>{xml_escape(channel_description)}</description>'
-        f'<link>{xml_escape(SITE_URL)}</link>'
+        + rss_open
+        + '<channel>'
+        + f'<title>{xml_escape(SITE_TITLE)}</title>'
+        + f'<atom:link href="{xml_escape(feed_url)}" rel="self" type="application/rss+xml" />'
+        + f'<link>{xml_escape(SITE_URL)}</link>'
+        + f'<description>{xml_escape(channel_description)}</description>'
+        + (f'<lastBuildDate>{xml_escape(rss_pubdate(last_build))}</lastBuildDate>' if last_build else '')
+        + '<language>zh-CN</language>'
+        + '<sy:updatePeriod>hourly</sy:updatePeriod>'
+        + '<sy:updateFrequency>1</sy:updateFrequency>'
         + "".join(rows)
         + '</channel></rss>'
     )
-    print(f"RSS synchronized to latest public batch: {date_key} ({len(entries)} items)")
+    print(f"RSS synchronized to latest public batch: {date_key} ({len(entries)} items), WordPress-compatible RSS2")
     return rss
 
 
