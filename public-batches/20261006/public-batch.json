@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261006-0715",
+  "generated_at_bjt": "2026-10-06T07:14:43+08:00",
+  "target_publish_at_bjt": "2026-10-06T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261006-001",
+      "title": "Electrolux意大利重组方案再调整：取消强制裁员、三年1250人自愿退出，Cerreto转向再工业化",
+      "excerpt": "Electrolux在意大利政府与工会谈判中提出修订重组方案，撤回单方面强制裁员安排，改为未来三年最多1,250名员工自愿、激励退出。Cerreto d’Esi工厂转向再工业化方案，公司同时提出约9,000万欧元意大利投资及产品组合调整。",
+      "content_html": "<p>Electrolux 10月5日在意大利政府与工会谈判中提出修订重组方案：撤回单方面强制裁员安排，改为未来三年最多1,250名员工自愿、激励退出，其中包括600名白领和650名蓝领；Cerreto d’Esi不再按此前方案于年末直接关闭，而是在维持过渡安排的同时推进再工业化并寻求解决方案。</p><p>公司同时提出约9,000万欧元意大利投资及产品组合调整，公开报道预计意大利总产量将超过300万台。</p><p>补充来源：<a href=\"https://www.ansa.it/sito/notizie/economia/2026/10/05/nuovo-piano-electrolux-uscite-volontarie-invece-di-esuberi_62642a9b-de13-46c0-9c24-79fab04e107e.html\">ANSA</a>；<a href=\"https://www.rainews.it/tgr/fvg/articoli/2026/10/electrolux-il-nuovo-piano-riduce-gli-esuberi-1250-uscite-in-tre-anni-1d813e02-488b-47d3-9ab4-ce51f5da3e02.html\">RaiNews</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/world-at-work/electrolux-reduces-planned-job-cuts-italy-with-no-compulsory-redundancies-unions-2026-10-05",
+      "source_published_date": "2026-10-05",
+      "event_action": "update",
+      "event": {
+        "event_key": "electrolux-italy-restructuring-2026",
+        "title": "意大利制造网络重组、裁员与新工业方案谈判",
+        "date": "2026-05-11",
+        "latest_progress": "Electrolux提出修订意大利重组方案，撤回单方面强制裁员安排，改为未来三年最多1,250名员工自愿、激励退出；Cerreto d’Esi转向再工业化安排，并提出约9,000万欧元意大利投资及产品组合调整。",
+        "status": "in_progress",
+        "countries": ["意大利"],
+        "entities": ["Electrolux Group","MIMIT","FIM-CISL","FIOM-CGIL","UILM"],
+        "category": "制造与产能"
+      }
+    }
+  ]
+}
