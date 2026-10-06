@@ -49,16 +49,41 @@ jobs:
           import email.utils
           import xml.etree.ElementTree as ET
 
+          ns = {
+              "atom": "http://www.w3.org/2005/Atom",
+              "content": "http://purl.org/rss/1.0/modules/content/",
+              "dc": "http://purl.org/dc/elements/1.1/",
+              "sy": "http://purl.org/rss/1.0/modules/syndication/",
+          }
           root = ET.parse("_site/rss.xml").getroot()
-          items = root.findall("./channel/item")
+          channel = root.find("channel")
+          assert channel is not None, "RSS channel missing"
+          assert channel.find("atom:link", ns) is not None, "RSS atom:self link missing"
+          assert channel.findtext("language") == "zh-CN", "RSS language mismatch"
+          assert channel.findtext("lastBuildDate"), "RSS lastBuildDate missing"
+          assert channel.findtext("sy:updatePeriod", namespaces=ns) == "hourly"
+          assert channel.findtext("sy:updateFrequency", namespaces=ns) == "1"
+
+          items = channel.findall("item")
           assert len(items) <= 300, f"RSS item cap exceeded: {len(items)}"
+          pub_times = []
           for item in items:
               pub = item.findtext("pubDate")
               assert pub, "RSS item missing pubDate"
-              email.utils.parsedate_to_datetime(pub)
+              dt = email.utils.parsedate_to_datetime(pub)
+              assert dt.utcoffset().total_seconds() == 0, f"pubDate must be UTC: {pub}"
+              pub_times.append(dt)
+
               guid = item.find("guid")
               assert guid is not None and guid.text, "RSS item missing guid"
-          print(f"RSS smoke test OK: {len(items)} items")
+              assert guid.attrib.get("isPermaLink") == "false", "RSS guid semantics mismatch"
+              assert item.find("dc:creator", ns) is not None, "RSS dc:creator missing"
+              assert item.find("content:encoded", ns) is not None, "RSS content:encoded missing"
+              assert item.find("description") is not None, "RSS description missing"
+              assert item.find("category") is not None, "RSS category missing"
+
+          assert pub_times == sorted(pub_times, reverse=True), "RSS items are not newest-first"
+          print(f"WordPress-compatible RSS smoke test OK: {len(items)} items")
           PY
 
       - name: Configure Pages
