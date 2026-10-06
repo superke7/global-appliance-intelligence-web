@@ -9,6 +9,9 @@ on:
       - "scripts/build-pages.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
+  schedule:
+    # 08:30 Beijing time (UTC+8, no DST): atomically switch the public RSS daily batch.
+    - cron: "30 0 * * *"
 
 permissions:
   contents: read
@@ -45,6 +48,21 @@ jobs:
           test -f _site/rss.xml
           test -f _site/data/latest.json
           grep -q "全球家电AI早报" _site/index.html
+          python - <<'PY'
+          import email.utils
+          import xml.etree.ElementTree as ET
+
+          root = ET.parse("_site/rss.xml").getroot()
+          items = root.findall("./channel/item")
+          assert len(items) <= 300, f"RSS item cap exceeded: {len(items)}"
+          for item in items:
+              pub = item.findtext("pubDate")
+              assert pub, "RSS item missing pubDate"
+              email.utils.parsedate_to_datetime(pub)
+              guid = item.find("guid")
+              assert guid is not None and guid.text, "RSS item missing guid"
+          print(f"RSS smoke test OK: {len(items)} items")
+          PY
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
