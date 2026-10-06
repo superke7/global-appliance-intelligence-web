@@ -9,9 +9,6 @@ on:
       - "scripts/build-pages.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
-  schedule:
-    # 08:30 Beijing time (UTC+8, no DST): atomically switch the public RSS daily batch.
-    - cron: "30 0 * * *"
 
 permissions:
   contents: read
