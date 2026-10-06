@@ -3,13 +3,16 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import shutil
-from datetime import datetime
+from datetime import datetime, timedelta
+from email.utils import format_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH_ROOT = ROOT / "public-batches"
@@ -17,6 +20,10 @@ OUT = ROOT / "_site"
 SITE_TITLE = "全球家电AI早报"
 SITE_DESCRIPTION = "全球家电、贸易政策、供应链与制造布局公开资讯"
 SITE_URL = "https://superke7.github.io/global-appliance-intelligence-web/"
+BJT = ZoneInfo("Asia/Shanghai")
+RSS_CUTOFF_HOUR = 8
+RSS_CUTOFF_MINUTE = 30
+RSS_MAX_ITEMS = 300
 
 STYLE = """
 :root{color-scheme:light;--bg:#f6f7f9;--card:#fff;--text:#18202a;--muted:#667085;--line:#e5e7eb;--accent:#075c66;--accent2:#0f62fe;--soft:#f3f5f8;--max:1180px;--shadow:0 16px 40px rgba(16,24,40,.07)}
@@ -186,6 +193,77 @@ def extract_original_sources(item: dict):
             sources.append((url, label or urlparse(url).netloc))
             seen.add(url)
     return sources
+
+
+def parse_bjt_timestamp(value):
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return None
+    return parsed.astimezone(BJT)
+
+
+def build_now_bjt():
+    override = os.environ.get("GAI_BUILD_NOW_BJT", "").strip()
+    if override:
+        parsed = parse_bjt_timestamp(override)
+        if parsed is None:
+            raise ValueError("GAI_BUILD_NOW_BJT must be an ISO 8601 timestamp with timezone")
+        return parsed
+    return datetime.now(BJT)
+
+
+def active_rss_window(now_bjt=None):
+    now_bjt = now_bjt or build_now_bjt()
+    cutoff = now_bjt.replace(
+        hour=RSS_CUTOFF_HOUR,
+        minute=RSS_CUTOFF_MINUTE,
+        second=0,
+        microsecond=0,
+    )
+    end_bjt = cutoff if now_bjt >= cutoff else cutoff - timedelta(days=1)
+    start_bjt = end_bjt - timedelta(days=1)
+    return start_bjt, end_bjt
+
+
+def batch_publish_time(date_key: str, batch: dict):
+    target = parse_bjt_timestamp(batch.get("target_publish_at_bjt"))
+    if target and target.strftime("%Y%m%d") == date_key:
+        return target
+    try:
+        day = datetime.strptime(date_key, "%Y%m%d")
+    except ValueError:
+        return None
+    return day.replace(
+        hour=7,
+        minute=50,
+        second=0,
+        microsecond=0,
+        tzinfo=BJT,
+    )
+
+
+def rss_description_html(item: dict):
+    excerpt = html.escape(str(item.get("excerpt") or ""))
+    source_date = html.escape(str(item.get("source_published_date") or ""))
+    sources = extract_original_sources(item)
+    details = []
+    if sources:
+        source_links = "；".join(
+            f'<a href="{html.escape(url, quote=True)}">{html.escape(label)}</a>'
+            for url, label in sources
+        )
+        details.append(f"<strong>来源：</strong>{source_links}")
+    elif item.get("source_name"):
+        details.append(f"<strong>来源：</strong>{html.escape(str(item.get('source_name')))}")
+    if source_date:
+        details.append(f"<strong>来源日期：</strong>{source_date}")
+    source_line = "｜".join(details)
+    return f"<p>{excerpt}</p>" + (f'<p class="gai-feed-source">{source_line}</p>' if source_line else "")
 
 
 def article_slug(item: dict, date_key: str, index: int) -> str:
@@ -391,26 +469,65 @@ def build_event_detail(record):
     return layout(f"{e.get('title', '')} - {SITE_TITLE}", body, depth=2)
 
 
-def build_rss(batches):
+def build_rss(batches, now_bjt=None):
+    now_bjt = now_bjt or build_now_bjt()
+    start_bjt, end_bjt = active_rss_window(now_bjt)
     entries = []
-    for date_key, batch in reversed(batches):
-        items = batch.get("items", [])
-        for index in range(len(items) - 1, -1, -1):
-            entries.append((date_key, index, items[index]))
-            if len(entries) >= 50:
-                break
-        if len(entries) >= 50:
-            break
+
+    for date_key, batch in batches:
+        base_publish_time = batch_publish_time(date_key, batch)
+        if base_publish_time is None:
+            continue
+        for index, item in enumerate(batch.get("items", [])):
+            publish_time = base_publish_time + timedelta(seconds=index)
+            if start_bjt <= publish_time < end_bjt:
+                entries.append((publish_time, date_key, index, item))
+
+    entries.sort(key=lambda row: row[0], reverse=True)
+    entries = entries[:RSS_MAX_ITEMS]
+
     rows = []
-    for date_key, index, item in entries:
+    for publish_time, date_key, index, item in entries:
         title = xml_escape(str(item.get("title", "")))
         slug = article_slug(item, date_key, index)
         link = xml_escape(f"{SITE_URL}articles/{slug}/")
-        desc = xml_escape(str(item.get("excerpt", "")))
+        desc = xml_escape(rss_description_html(item))
         guid = xml_escape(str(item.get("public_id") or link))
-        pub = xml_escape(str(item.get("source_published_date") or fmt_day(date_key)))
-        rows.append(f"<item><title>{title}</title><link>{link}</link><guid>{guid}</guid><description>{desc}</description><pubDate>{pub}</pubDate></item>")
-    return f'''<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{xml_escape(SITE_TITLE)}</title><description>{xml_escape(SITE_DESCRIPTION)}</description><link>{xml_escape(SITE_URL)}</link>{''.join(rows)}</channel></rss>'''
+        pub = xml_escape(format_datetime(publish_time))
+        category = "行业资讯"
+        event = item.get("event")
+        if isinstance(event, dict) and event.get("category"):
+            category = str(event.get("category"))
+        rows.append(
+            f'<item><title>{title}</title><link>{link}</link>'
+            f'<guid isPermaLink="false">{guid}</guid>'
+            f'<category>{xml_escape(category)}</category>'
+            f'<description>{desc}</description><pubDate>{pub}</pubDate></item>'
+        )
+
+    channel_description = (
+        f"{SITE_DESCRIPTION}｜北京时间固定批次："
+        f"{start_bjt.strftime('%Y-%m-%d %H:%M')} 至 {end_bjt.strftime('%Y-%m-%d %H:%M')}"
+    )
+    last_build = xml_escape(format_datetime(now_bjt))
+    rss = (
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        '<rss version="2.0"><channel>'
+        f'<title>{xml_escape(SITE_TITLE)}</title>'
+        f'<description>{xml_escape(channel_description)}</description>'
+        f'<link>{xml_escape(SITE_URL)}</link>'
+        f'<lastBuildDate>{last_build}</lastBuildDate>'
+        + "".join(rows)
+        + '</channel></rss>'
+    )
+    print(
+        "RSS active window:",
+        start_bjt.isoformat(),
+        "->",
+        end_bjt.isoformat(),
+        f"({len(entries)} items)",
+    )
+    return rss
 
 
 def main():
