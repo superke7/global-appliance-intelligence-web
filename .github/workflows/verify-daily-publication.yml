@@ -1,0 +1,158 @@
+name: Verify daily Pages publication and RSS
+
+on:
+  schedule:
+    # 08:20 Beijing time, every day. GitHub schedule may start a little late.
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout public site
+        uses: actions/checkout@v4
+
+      - name: Verify today's public batch, site and RSS
+        id: verify
+        run: |
+          python3 - <<'PY'
+          import email.utils
+          import json
+          import os
+          import pathlib
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timedelta, timezone
+
+          bjt = timezone(timedelta(hours=8))
+          day = datetime.now(bjt).strftime("%Y%m%d")
+          day_iso = datetime.now(bjt).strftime("%Y-%m-%d")
+          local_path = pathlib.Path("public-batches") / day / "public-batch.json"
+          base = "https://superke7.github.io/global-appliance-intelligence-web/"
+          status = "ok"
+          reason = ""
+          count = 0
+
+          if not local_path.exists():
+              status = "missing_batch"
+              reason = "No approved public-batch.json in the public repository for the Beijing date"
+          else:
+              payload = json.loads(local_path.read_text(encoding="utf-8"))
+              items = payload.get("items", [])
+              count = len(items)
+              if payload.get("batch_id") != f"{day}-0715":
+                  status = "invalid_batch"
+                  reason = "batch_id is not today's formal batch"
+              else:
+                  try:
+                      def get(path):
+                          req = urllib.request.Request(base + path, headers={"User-Agent": "GAI-Pages-publication-watchdog/1.0"})
+                          with urllib.request.urlopen(req, timeout=15) as response:
+                              if response.status != 200:
+                                  raise RuntimeError(f"{path} HTTP {response.status}")
+                              return response.read()
+
+                      home = get("index.html").decode("utf-8")
+                      daily = get(f"daily/{day}/index.html").decode("utf-8")
+                      rss = ET.fromstring(get("rss.xml"))
+                      channel = rss.find("channel")
+                      if channel is None:
+                          raise AssertionError("RSS channel missing")
+                      published = channel.findall("item")
+                      ids = [x.findtext("guid") for x in published]
+                      expected_ids = [x["public_id"] for x in items]
+                      if len(ids) != count or set(ids) != set(expected_ids) or len(ids) != len(set(ids)):
+                          raise AssertionError(f"RSS guid/count mismatch: got {ids}, expected {expected_ids}")
+                      if f"最新公开批次：{day_iso}" not in home:
+                          raise AssertionError("Home latest batch does not match today's batch")
+                      if f"{day_iso} 早报" not in daily:
+                          raise AssertionError("Daily page does not match today's batch")
+                      ns = {"content": "http://purl.org/rss/1.0/modules/content/"}
+                      for entry in published:
+                          identifier = entry.findtext("guid")
+                          if not entry.findtext("link", "").endswith(f"/articles/{identifier}/"):
+                              raise AssertionError(f"RSS article URL mismatches guid: {identifier}")
+                          published_at = entry.findtext("pubDate")
+                          if not published_at or email.utils.parsedate_to_datetime(published_at).utcoffset() != timedelta(0):
+                              raise AssertionError(f"RSS pubDate invalid: {identifier}")
+                          if entry.find("content:encoded", ns) is None or entry.find("description") is None:
+                              raise AssertionError(f"RSS description or content missing: {identifier}")
+                      if "收录" not in home and count:
+                          raise AssertionError("Home news metadata missing")
+                  except Exception as exc:
+                      status = "stale_site"
+                      reason = str(exc)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"status={status}\n")
+              fh.write(f"day={day}\n")
+              fh.write(f"expected_count={count}\n")
+
+          print(json.dumps({"day": day, "status": status, "count": count, "reason": reason}, ensure_ascii=False))
+          PY
+
+      - name: Retry Pages deployment if published site or RSS is stale
+        if: steps.verify.outputs.status == 'stale_site'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run deploy-pages.yml --repo "$GITHUB_REPOSITORY" --ref main
+          echo "Requested an idempotent rebuild of the approved public source."
+          sleep 65
+
+      - name: Recheck after deployment retry
+        if: steps.verify.outputs.status == 'stale_site'
+        id: recheck
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, xml.etree.ElementTree as ET
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          day = datetime.now(timezone(timedelta(hours=8))).strftime("%Y%m%d")
+          p = json.loads((Path("public-batches")/day/"public-batch.json").read_text(encoding="utf-8"))
+          ids = {x["public_id"] for x in p["items"]}
+          base = "https://superke7.github.io/global-appliance-intelligence-web/"
+          status = "failed"
+          try:
+              def get(path):
+                  req = urllib.request.Request(base+path, headers={"User-Agent":"GAI-Pages-publication-watchdog/1.0"})
+                  with urllib.request.urlopen(req,timeout=15) as f: return f.read()
+              rss = ET.fromstring(get("rss.xml"))
+              feed_ids = [x.findtext("guid") for x in rss.find("channel").findall("item")]
+              home = get("index.html").decode("utf-8")
+              today = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+              if len(feed_ids)==len(ids) and set(feed_ids)==ids and f"最新公开批次：{today}" in home:
+                  status = "recovered"
+          except Exception as exc:
+              print("Retry check:",str(exc))
+          with open(os.environ["GITHUB_OUTPUT"],"a",encoding="utf-8") as f:
+              f.write(f"status={status}\n")
+          print("Retry status:",status)
+          PY
+
+      - name: Open alert if publication still requires intervention
+        if: steps.verify.outputs.status == 'missing_batch' || steps.verify.outputs.status == 'invalid_batch' || (steps.verify.outputs.status == 'stale_site' && steps.recheck.outputs.status != 'recovered')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DAY: ${{ steps.verify.outputs.day }}
+          REASON: ${{ steps.verify.outputs.status }}
+          COUNT: ${{ steps.verify.outputs.expected_count }}
+        run: |
+          title="GAI_ALERT Pages publication $DAY"
+          if ! gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json title --jq '.[].title' | grep -Fxq "$title"; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" \
+              --body "08:20 BJT publication check failed: $REASON. Expected public items: $COUNT. Verify approved private batch, public mirror, site/RSS and deployment logs. Never invent or duplicate news."
+          fi
+          echo "Publication requires intervention: $REASON ($DAY)" >&2
+          exit 1
+
+      - name: Report verified publication
+        if: steps.verify.outputs.status == 'ok' || steps.recheck.outputs.status == 'recovered'
+        run: echo "Site and RSS checked against the approved same-day public batch."
