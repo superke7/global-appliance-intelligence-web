@@ -154,13 +154,16 @@ def strip_supplemental_source_blocks(value) -> str:
     raw = str(value or "")
     if not raw:
         return ""
-    # "补充来源"中的链接会继续由“原始来源”区块统一展示，正文不重复显示。
-    return re.sub(
-        r"<p\\b[^>]*>\\s*(?:<[^>]+>\\s*)*补充来源\\s*[：:].*?</p>",
-        "",
-        raw,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
+    # “补充来源”中的链接会继续由下方“原始来源”统一展示，正文不重复显示。
+    # 兼容 <p>、<div>、<li> 等常见块级标签，以及标签内含链接/强调标签的情况。
+    patterns = [
+        r"<p\\b[^>]*>\\s*(?:<[^>]+>\\s*)*补充来源\\s*[：:]?.*?</p>",
+        r"<div\\b[^>]*>\\s*(?:<[^>]+>\\s*)*补充来源\\s*[：:]?.*?</div>",
+        r"<li\\b[^>]*>\\s*(?:<[^>]+>\\s*)*补充来源\\s*[：:]?.*?</li>",
+    ]
+    for pattern in patterns:
+        raw = re.sub(pattern, "", raw, flags=re.IGNORECASE | re.DOTALL)
+    return raw
 
 
 def sanitize_content_html(value) -> str:
