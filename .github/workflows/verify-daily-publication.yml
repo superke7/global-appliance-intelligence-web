@@ -1,6 +1,10 @@
 name: Verify daily Pages publication and RSS
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/verify-daily-publication.yml"
   schedule:
     # 08:20 Beijing time, every day. GitHub schedule may start a little late.
     - cron: "20 0 * * *"
