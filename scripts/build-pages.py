@@ -81,6 +81,23 @@ def safe_text(value) -> str:
     return html.escape(str(value or ""))
 
 
+def fmt_public_date_cn(value) -> str:
+    raw = str(value or "").strip()
+    if not raw:
+        return ""
+    for fmt in ("%Y%m%d", "%Y-%m-%d"):
+        try:
+            dt = datetime.strptime(raw[:8] if fmt == "%Y%m%d" else raw[:10], fmt)
+            return f"{dt.year}年{dt.month}月{dt.day}日"
+        except ValueError:
+            pass
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        return f"{dt.year}年{dt.month}月{dt.day}日"
+    except ValueError:
+        return raw
+
+
 def safe_component(value, fallback="item") -> str:
     value = str(value or "").strip().lower()
     cleaned = re.sub(r"[^a-z0-9._-]+", "-", value).strip("-._")
@@ -133,11 +150,24 @@ class PublicHTMLSanitizer(HTMLParser):
         return "".join(self.out)
 
 
+def strip_supplemental_source_blocks(value) -> str:
+    raw = str(value or "")
+    if not raw:
+        return ""
+    # "补充来源"中的链接会继续由“原始来源”区块统一展示，正文不重复显示。
+    return re.sub(
+        r"<p\\b[^>]*>\\s*(?:<[^>]+>\\s*)*补充来源\\s*[：:].*?</p>",
+        "",
+        raw,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+
 def sanitize_content_html(value) -> str:
     if not value:
         return ""
     parser = PublicHTMLSanitizer()
-    parser.feed(str(value))
+    parser.feed(strip_supplemental_source_blocks(value))
     parser.close()
     return parser.get_html()
 
@@ -298,7 +328,9 @@ def render_item(item: dict, date_key: str, index: int, prefix: str = "") -> str:
     excerpt = safe_text(item.get("excerpt"))
     source = safe_text(item.get("source_name"))
     sources = extract_original_sources(item)
-    source_date = safe_text(item.get("source_published_date") or fmt_day(date_key))
+    published_date = fmt_public_date_cn(item.get("source_published_date") or fmt_day(date_key))
+    collected_date = fmt_public_date_cn(date_key)
+    meta_date = safe_text(f"{collected_date}（发布于{published_date}）")
     slug = article_slug(item, date_key, index)
     detail_url = f"{prefix}articles/{slug}/index.html"
     event = item.get("event") if isinstance(item.get("event"), dict) else None
@@ -315,7 +347,7 @@ def render_item(item: dict, date_key: str, index: int, prefix: str = "") -> str:
         label = f"原始来源（{len(sources)}） ↗" if len(sources) > 1 else "原始来源 ↗"
         primary_url = html.escape(sources[0][0], quote=True)
         source_link = f'<a class="source" href="{primary_url}" target="_blank" rel="noopener noreferrer">{label}</a>'
-    return f'''<article class="card news"><h2><a class="item-title" href="{detail_url}">{title}</a></h2><div class="meta">{source_date} · {source} {badge}</div><div class="excerpt">{excerpt}</div><div class="item-actions"><a class="text-link" href="{detail_url}">查看详情 →</a>{event_jump}{source_link}</div></article>'''
+    return f'''<article class="card news"><h2><a class="item-title" href="{detail_url}">{title}</a></h2><div class="meta">{meta_date} · {source} {badge}</div><div class="excerpt">{excerpt}</div><div class="item-actions"><a class="text-link" href="{detail_url}">查看详情 →</a>{event_jump}{source_link}</div></article>'''
 
 
 def collect_events(batches):
