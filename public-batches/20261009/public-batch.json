@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261009-0715",
+  "generated_at_bjt": "2026-10-09T07:57:10+08:00",
+  "target_publish_at_bjt": "2026-10-09T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261009-001",
+      "title": "Beko意大利重组投资3亿欧元仅完成1.015亿，Melano产量或低于预算13%",
+      "excerpt": "ANSA 10月8日报道，意大利企业与制造部主持Beko工业协议执行监督会议。工会和公司提供的数据表明，原协议承诺的3亿欧元意大利投资中已完成1.015亿欧元；已实现981名员工自愿离职，另有315名员工使用停工补贴，其中56人已签署自愿离职协议。Beko意大利各工厂产量均低于预……",
+      "content_html": "<p>ANSA 10月8日报道，意大利企业与制造部主持Beko工业协议执行监督会议。工会和公司提供的数据表明，原协议承诺的3亿欧元意大利投资中已完成1.015亿欧元；已实现981名员工自愿离职，另有315名员工使用停工补贴，其中56人已签署自愿离职协议。Beko意大利各工厂产量均低于预算，Melano灶具工厂全年产量存在低于预算13%的风险，Comunanza工厂亦未达目标。公司承认部分活动落后于原计划，表示仍致力维持生产。13%是相对预算的潜在缺口，不是已经确认的同比降幅。</p>",
+      "source_name": "ANSA",
+      "source_url": "https://www.ansa.it/amp/marche/notizie/2026/10/08/nel-sito-di-beko-melano-si-rischia-un-13-di-produzione-a-fine-anno_2fb91017-036c-4de1-bec5-acf12c8be0e2.html",
+      "source_published_date": "2026-10-08",
+      "event_action": "update",
+      "event": {
+        "event_key": "beko-italy-melano-capacity-2026",
+        "title": "Beko意大利Melano工厂产能收缩与停产调整",
+        "date": "2026-08-27",
+        "latest_progress": "ANSA 10月8日报道，意大利企业与制造部主持Beko工业协议执行监督会议。工会和公司提供的数据表明，原协议承诺的3亿欧元意大利投资中已完成1.015亿欧元；已实现981名员工自愿离职，另有315名员工使用停工补贴，其中56人已签署自愿离职协议。Beko意大利各工厂产量均低于预算，Melano灶具工厂全年产量存在低于预算13%的风险，Comunanza工厂亦未达目标。公司承认部分活动落后于原计划，表示仍致力维持生产。13%是相对预算的潜在缺口，不是已经确认的同比降幅。",
+        "status": "in_progress",
+        "countries": [
+          "意大利"
+        ],
+        "entities": [
+          "Beko Europe",
+          "Arçelik",
+          "意大利企业与制造部"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261009-002",
+      "title": "美的美国路易斯维尔家电研发中心扩建至15.7万平方英尺，新增22间实验室",
+      "excerpt": "美的美国公司9月30日宣布扩建并启用肯塔基州路易斯维尔Midea America Research Center，研发设施总面积达15.7万平方英尺，较原规模扩张约400%，新增约12.7万平方英尺空间及22间实验室，团队约130人。研发涵盖冰箱、洗碗机、厨电、洗衣机、空气处理、……",
+      "content_html": "<p>美的美国公司9月30日宣布扩建并启用肯塔基州路易斯维尔Midea America Research Center，研发设施总面积达15.7万平方英尺，较原规模扩张约400%，新增约12.7万平方英尺空间及22间实验室，团队约130人。研发涵盖冰箱、洗碗机、厨电、洗衣机、空气处理、地板护理及小家电，强化针对美国消费者需求的本地产品开发与测试。属于此前未入库的高价值竞品美国研发本地化投资旧闻补录。</p>",
+      "source_name": "Midea America / PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/midea-america-corp-expands-us-innovation-capabilities-with-157-000-square-foot-louisville-research-center-302894758.html",
+      "source_published_date": "2026-09-30",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261009-003",
+      "title": "越南政府确认美越对等贸易协定绝大部分内容谈妥，七轮谈判后仅余技术问题",
+      "excerpt": "越南政府10月8日发布消息称，自2025年4月以来，美越已举行七轮正式谈判及多次部长级、技术级磋商，关于《对等、公平与平衡贸易协定》的绝大部分内容已经完成，仅剩少量技术问题需要澄清。越方表示将继续与USTR等美方机构协调，争取尽早完成谈判并签署协议。尚无正式签署日、最终税率或生效……",
+      "content_html": "<p>越南政府10月8日发布消息称，自2025年4月以来，美越已举行七轮正式谈判及多次部长级、技术级磋商，关于《对等、公平与平衡贸易协定》的绝大部分内容已经完成，仅剩少量技术问题需要澄清。越方表示将继续与USTR等美方机构协调，争取尽早完成谈判并签署协议。尚无正式签署日、最终税率或生效日，不应视为协定已经签署。Reuters同日独立确认。</p>",
+      "source_name": "Vietnam Government News",
+      "source_url": "https://en.baochinhphu.vn/viet-nam-us-basically-complete-negotiations-on-reciprocal-trade-agreement-111261008090126213.htm",
+      "source_published_date": "2026-10-08",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "越南政府10月8日发布消息称，自2025年4月以来，美越已举行七轮正式谈判及多次部长级、技术级磋商，关于《对等、公平与平衡贸易协定》的绝大部分内容已经完成，仅剩少量技术问题需要澄清。越方表示将继续与USTR等美方机构协调，争取尽早完成谈判并签署协议。尚无正式签署日、最终税率或生效日，不应视为协定已经签署。Reuters同日独立确认。",
+        "status": "in_progress",
+        "countries": [
+          "越南",
+          "美国"
+        ],
+        "entities": [
+          "越南工贸部",
+          "USTR"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261009-004",
+      "title": "欧洲议会454票赞成通过对华关系建议，要求贸易互惠及必要时采取相称措施",
+      "excerpt": "欧洲议会10月7日以454票赞成、86票反对、110票弃权通过对华政治关系建议，强调贸易与投资的对等市场准入、减少关键供应链依赖，并要求在中方未改善市场开放时考虑相称欧盟措施。该文件属于欧洲议会政治性建议，不是欧委会新关税提案，也不直接实施贸易限制。相关立场增加中欧贸易失衡磋商的……",
+      "content_html": "<p>欧洲议会10月7日以454票赞成、86票反对、110票弃权通过对华政治关系建议，强调贸易与投资的对等市场准入、减少关键供应链依赖，并要求在中方未改善市场开放时考虑相称欧盟措施。该文件属于欧洲议会政治性建议，不是欧委会新关税提案，也不直接实施贸易限制。相关立场增加中欧贸易失衡磋商的政治压力，但目前没有直接针对家电的新增税率或税目。</p>",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/china-eu-brussels-beijing-trade-77559db8f9909cd4bbf3c812e1041c6f",
+      "source_published_date": "2026-10-07",
+      "event_action": "none"
+    }
+  ]
+}
