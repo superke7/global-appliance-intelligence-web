@@ -88,8 +88,8 @@ jobs:
                               raise AssertionError(f"RSS pubDate invalid: {identifier}")
                           if entry.find("content:encoded", ns) is None or entry.find("description") is None:
                               raise AssertionError(f"RSS description or content missing: {identifier}")
-                      if "收录" not in home and count:
-                          raise AssertionError("Home news metadata missing")
+                      if count and not any(x["public_id"] in home for x in items):
+                          raise AssertionError("Home page links do not contain today's public IDs")
                   except Exception as exc:
                       status = "stale_site"
                       reason = str(exc)
