@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261008-0715",
+  "generated_at_bjt": "2026-10-08T14:39:43+08:00",
+  "target_publish_at_bjt": "2026-10-08T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261008-001",
+      "title": "丹佛斯签署家电温控业务出售协议，斯洛伐克工厂及64名员工拟转入Frion Group",
+      "excerpt": "丹佛斯10月7日宣布与两名现任管理人员Andrej Debnar、Peter Haas达成出售Appliance Controls业务的协议，拟成立Frion Group。斯洛伐克Zlaté Moravce工厂、设备、运营及64名员工将一并转移。",
+      "content_html": "<p>丹佛斯10月7日宣布与两名现任管理人员Andrej Debnar、Peter Haas达成出售Appliance Controls业务的协议，拟成立Frion Group。斯洛伐克Zlaté Moravce工厂、设备、运营及64名员工将一并转移。官方公告对交割时间同时写有10月底及11月底完成、12月1日起运营两种口径，尚待确认，不能视为已完成交易。</p><p>补充来源：<a href=\"https://www.danfoss.com/en/about-danfoss/news/dcs/new-chapter-for-danfoss-appliance-controls-frion-group-to-build-on-70-years-of-expertise/\">www.danfoss.com</a></p>",
+      "source_name": "Danfoss Climate Solutions",
+      "source_url": "https://www.danfoss.com/en/about-danfoss/news/dcs/new-chapter-for-danfoss-appliance-controls-frion-group-to-build-on-70-years-of-expertise",
+      "source_published_date": "2026-10-07",
+      "event_action": "create",
+      "event": {
+        "event_key": "danfoss-frion-appliance-controls-divestiture-2026",
+        "title": "丹佛斯家电温控业务出售及斯洛伐克工厂移交",
+        "date": "2026-10-07",
+        "latest_progress": "丹佛斯10月7日宣布与两名现任管理人员Andrej Debnar、Peter Haas达成出售Appliance Controls业务的协议，拟成立Frion Group。斯洛伐克Zlaté Moravce工厂、设备、运营及64名员工将一并转移。官方公告对交割时间同时写有10月底及11月底完成、12月1日起运营两种口径，尚待确认，不能视为已完成交易。",
+        "status": "announced",
+        "countries": [
+          "丹麦",
+          "斯洛伐克"
+        ],
+        "entities": [
+          "Danfoss Climate Solutions",
+          "Frion Group"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261008-002",
+      "title": "Beko意大利Melano灶具厂拟于10月26—30日全厂停产，10月持续部分停工",
+      "excerpt": "ANSA 10月7日援引FIOM工会称，Beko位于Fabriano的Melano灶具工厂计划10月26—30日全厂停产，10月其余时间部分车间持续采用停工补贴。工会称近期增加的是外部制造产品的物流发货，而非本厂灶具生产。",
+      "content_html": "<p>ANSA 10月7日援引FIOM工会称，Beko位于Fabriano的Melano灶具工厂计划10月26—30日全厂停产，10月其余时间部分车间持续采用停工补贴。工会称近期增加的是外部制造产品的物流发货，而非本厂灶具生产。意大利企业与制造部10月8日将召开协议执行监督会议。本次属于继9月停产后公布的10月新安排，尚非已执行停产。</p><p>补充来源：<a href=\"https://www.ansa.it/marche/notizie/2026/08/27/alla-beko-di-melano-sei-giorni-chiusura-del-sito-protestano-i-sindacati_00aac51e-188a-403f-8e5a-66365a87d55a.html\">www.ansa.it</a></p>",
+      "source_name": "ANSA",
+      "source_url": "https://www.ansa.it/marche/notizie/2026/10/07/fiom-a-beko-fabriano-cassa-integrazione-quotidiana-e-26-30-giorni-di-chiusura_88843089-2d32-4fa1-868d-ae9eeb857521.html",
+      "source_published_date": "2026-10-07",
+      "event_action": "update",
+      "event": {
+        "event_key": "beko-italy-melano-capacity-2026",
+        "title": "Beko意大利Melano工厂产能收缩与停产调整",
+        "date": "2026-08-27",
+        "latest_progress": "ANSA 10月7日援引FIOM工会称，Beko位于Fabriano的Melano灶具工厂计划10月26—30日全厂停产，10月其余时间部分车间持续采用停工补贴。工会称近期增加的是外部制造产品的物流发货，而非本厂灶具生产。意大利企业与制造部10月8日将召开协议执行监督会议。本次属于继9月停产后公布的10月新安排，尚非已执行停产。",
+        "status": "in_progress",
+        "countries": [
+          "意大利"
+        ],
+        "entities": [
+          "Beko Europe",
+          "FIOM-CGIL"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261008-003",
+      "title": "LG电子公布2026年第三季度初步业绩：营收23.83万亿韩元，家电订阅与B2B业务增长",
+      "excerpt": "LG电子10月7日公布第三季度集团初步业绩：合并营收23.83万亿韩元，营业利润7818亿韩元。公司称家电业务通过高端与大众市场双轨战略、订阅服务、线上销售和B2B扩张实现增长，制造及物流效率改善支撑盈利；HVAC营收大体与去年同期持平。",
+      "content_html": "<p>LG电子10月7日公布第三季度集团初步业绩：合并营收23.83万亿韩元，营业利润7818亿韩元。公司称家电业务通过高端与大众市场双轨战略、订阅服务、线上销售和B2B扩张实现增长，制造及物流效率改善支撑盈利；HVAC营收大体与去年同期持平。上述金额是集团合并口径，并非家电事业部单独业绩，分部明细尚待披露。</p><p>补充来源：<a href=\"https://www.lg.com/global/newsroom/news/corporate/lg-electronics-releases-preliminary-earnings-for-third-quarter-2026/\">www.lg.com</a></p>",
+      "source_name": "LG Global Newsroom",
+      "source_url": "https://www.lg.com/global/newsroom/news/corporate/lg-electronics-releases-preliminary-earnings-for-third-quarter-2026",
+      "source_published_date": "2026-10-07",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261008-004",
+      "title": "美国与14个经济体签署产能过剩联合声明，启动五大行业协作平台",
+      "excerpt": "USTR 10月7日确认美国与欧盟、日本、韩国、印度、墨西哥、土耳其等14个经济体签署结构性产能过剩联合部长声明，拟设行业专项协作平台。官方声明明确首批为汽车及电动车、电池、化工、基础半导体、太阳能，计划2026年12月前举行技术级会议讨论数据共享及互补行动。",
+      "content_html": "<p>USTR 10月7日确认美国与欧盟、日本、韩国、印度、墨西哥、土耳其等14个经济体签署结构性产能过剩联合部长声明，拟设行业专项协作平台。官方声明明确首批为汽车及电动车、电池、化工、基础半导体、太阳能，计划2026年12月前举行技术级会议讨论数据共享及互补行动。声明尚未直接纳入家电整机，也未设统一关税或税率；与钢铁专项Milwaukee Framework和美国单边301调查为不同机制。</p><p>补充来源：<a href=\"https://ustr.gov/sites/default/files/files/Press/Releases/2026/Joint%20Ministerial%20Statement%20Addressing%20Structural%20Excess%20Capacity%20and%20Production%20%2810.2026%29.pdf\">ustr.gov</a>；<a href=\"https://www.reuters.com/business/some-g20-trade-ministers-sign-us-led-statement-denouncing-excess-factory-2026-10-07/\">www.reuters.com</a></p>",
+      "source_name": "USTR",
+      "source_url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/october/fourteen-economies-join-united-states-signing-joint-ministerial-statement-address-global-excess",
+      "source_published_date": "2026-10-07",
+      "event_action": "create",
+      "event": {
+        "event_key": "global-excess-capacity-sectoral-platforms-2026",
+        "title": "15方结构性产能过剩行业协作机制",
+        "date": "2026-10-07",
+        "latest_progress": "USTR 10月7日确认美国与欧盟、日本、韩国、印度、墨西哥、土耳其等14个经济体签署结构性产能过剩联合部长声明，拟设行业专项协作平台。官方声明明确首批为汽车及电动车、电池、化工、基础半导体、太阳能，计划2026年12月前举行技术级会议讨论数据共享及互补行动。声明尚未直接纳入家电整机，也未设统一关税或税率；与钢铁专项Milwaukee Framework和美国单边301调查为不同机制。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "欧盟",
+          "日本",
+          "韩国",
+          "印度",
+          "墨西哥",
+          "土耳其"
+        ],
+        "entities": [
+          "USTR",
+          "参与联合声明的15方经济体"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261008-005",
+      "title": "欧盟贸易委员10月8—9日赴北京磋商贸易失衡，寻求出口数量约束",
+      "excerpt": "Reuters 10月7日报道，欧盟贸易委员Maroš Šefčovič赴北京，计划10月8—9日与中国商务部长王文涛会谈，议题涉及欧中贸易逆差、欧企市场准入及关键矿产出口限制。欧方寻求中国就部分出口数量管理作出可向10月15—16日欧盟领导人会议汇报的承诺。",
+      "content_html": "<p>Reuters 10月7日报道，欧盟贸易委员Maroš Šefčovič赴北京，计划10月8—9日与中国商务部长王文涛会谈，议题涉及欧中贸易逆差、欧企市场准入及关键矿产出口限制。欧方寻求中国就部分出口数量管理作出可向10月15—16日欧盟领导人会议汇报的承诺。Reuters明确表示尚不清楚可能限制哪些产品，不能认定家电已被纳入限制清单。</p><p>补充来源：<a href=\"https://www.theguardian.com/business/2026/oct/07/eu-negotiators-head-to-china-hoping-to-curb-cheap-imports-of-hybrid-electric-cars\">www.theguardian.com</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/eu-seeks-cut-trade-deficit-with-china-talks-with-beijing-2026-10-07",
+      "source_published_date": "2026-10-07",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "Reuters 10月7日报道，欧盟贸易委员Maroš Šefčovič赴北京，计划10月8—9日与中国商务部长王文涛会谈，议题涉及欧中贸易逆差、欧企市场准入及关键矿产出口限制。欧方寻求中国就部分出口数量管理作出可向10月15—16日欧盟领导人会议汇报的承诺。Reuters明确表示尚不清楚可能限制哪些产品，不能认定家电已被纳入限制清单。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "中国"
+        ],
+        "entities": [
+          "European Commission",
+          "中国商务部"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261008-006",
+      "title": "Greer称中美各约300亿美元商品降税暂无实施日期，并提及与产能过剩301衔接",
+      "excerpt": "Bloomberg Law于北京时间10月2日05:28报道，美国贸易代表Jamieson Greer表示中美Board of Trade建议双方合计约600亿美元商品降税尚无实施时间，仍须履行法律程序。",
+      "content_html": "<p>Bloomberg Law于北京时间10月2日05:28报道，美国贸易代表Jamieson Greer表示中美Board of Trade建议双方合计约600亿美元商品降税尚无实施时间，仍须履行法律程序。他举例称，若美国产能过剩Section 301调查后续提出针对中国的救济措施，双方可能利用Board of Trade讨论管理贸易安排。这属于官员提出的可能路径，并非301救济已确定或降税已实施。</p><p>补充来源：<a href=\"https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_7f879be341ec4137a22f6d0360a5a291.html\">www.mofcom.gov.cn</a></p>",
+      "source_name": "Bloomberg Law / Bloomberg News",
+      "source_url": "https://news.bloomberglaw.com/daily-labor-report/greer-says-no-date-set-for-us-china-board-of-trade-tariff-cuts",
+      "source_published_date": "2026-10-02",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "Bloomberg Law于北京时间10月2日05:28报道，美国贸易代表Jamieson Greer表示中美Board of Trade建议双方合计约600亿美元商品降税尚无实施时间，仍须履行法律程序。他举例称，若美国产能过剩Section 301调查后续提出针对中国的救济措施，双方可能利用Board of Trade讨论管理贸易安排。这属于官员提出的可能路径，并非301救济已确定或降税已实施。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "中国"
+        ],
+        "entities": [
+          "USTR",
+          "U.S.-China Board of Trade"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
