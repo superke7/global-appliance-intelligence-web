@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261010-0715",
+  "generated_at_bjt": "2026-10-10T08:31:00+08:00",
+  "target_publish_at_bjt": "2026-10-10T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261010-001",
+      "title": "中欧第二次贸易投资磋商形成16项成果共识，混动车贸易谅解及部分商品降税仍待落实",
+      "excerpt": "中国商务部10月9日公布，中欧第二次贸易投资磋商形成16项成果共识，涵盖贸易投资平衡、出口管制、知识产权和WTO改革。双方就混合动力汽车贸易达成谅解，并继续探讨降低部分商品关税。",
+      "content_html": "<p>中国商务部10月9日公布，王文涛与欧盟贸易委员Maroš Šefčovič于10月8—9日在北京举行第二次中欧贸易投资磋商，形成涉及贸易投资平衡、出口管制、知识产权和WTO改革的16项成果共识清单。</p><p>双方就混合动力汽车贸易达成符合WTO规则的谅解，继续探讨降低部分商品关税，并就稀土及永磁体出口许可便利化推进沟通。欧方披露讨论7项税目、约40亿欧元现有欧盟对华出口商品的潜在降税，但税号、法律程序和生效时间仍待确定。双方商定2027年1月举行部长级视频会议、3月举行第三次例会。</p><p><a href=\"https://audiovisual.ec.europa.eu/en/stories/M-010052\">欧委会资料</a>与<a href=\"https://www.reuters.com/world/china/china-eu-reach-hybrid-vehicle-trade-understanding-keep-talks-alive-ev-dispute-2026-10-09\">Reuters报道</a>可交叉核验磋商结果；目前未宣布家电新增税率或出口限制，不能将初步理解视为已经实施。</p>",
+      "source_name": "中国商务部",
+      "source_url": "https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_870aab913b204c278dc2c42b51174cb1.html",
+      "source_published_date": "2026-10-09",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "中欧第二次贸易投资磋商形成16项成果共识，双方就混合动力汽车贸易达成符合WTO规则的谅解，继续探讨降低部分商品关税，并推进稀土及永磁体出口许可便利化沟通；具体税号、法律程序和生效时间仍待确定。",
+        "status": "in_progress",
+        "countries": [
+          "中国",
+          "欧盟"
+        ],
+        "entities": [
+          "中国商务部",
+          "European Commission"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261010-002",
+      "title": "美国USTR确认2018年两轮对华301关税继续有效，第二次四年法定复审将征求意见",
+      "excerpt": "USTR在10月7日《联邦公报》公告确认，2018年7月及8月启动的两轮对华Section 301行动未在2026年周年日终止，将继续有效；第二次法定四年审查将另行征求公众意见。",
+      "content_html": "<p>USTR在10月7日《联邦公报》公告：2018年7月6日及8月23日启动的两轮对华Section 301行动，因受益美国产业在法定期限内提出继续实施请求，未在2026年对应周年日终止，将继续有效。</p><p>USTR接下来将另行公告第二次法定四年审查程序，征求公众对措施有效性、替代行动及对美国经济与消费者影响的意见。该公告确认既有措施延续，不是新一轮产能过剩301调查结果，也没有公布新增关税税率。<a href=\"https://regulations.justia.com/regulations/fedreg/2026/10/07/2026-20510.html\">联邦公报转载文本</a>提供同一公告的交叉入口。</p>",
+      "source_name": "USTR / Federal Register",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-07/html/2026-20510.htm",
+      "source_published_date": "2026-10-07",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-china-2018-301-second-four-year-review-2026",
+        "title": "美国2018年对华301关税措施第二次四年法定复审",
+        "date": "2026-10-07",
+        "latest_progress": "USTR确认2018年7月及8月启动的两轮对华Section 301行动继续有效，并将另行公告第二次法定四年审查程序，征求公众意见；公告未公布新增关税税率。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "中国"
+        ],
+        "entities": [
+          "USTR",
+          "美国国际贸易委员会"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261010-003",
+      "title": "意大利政府披露Leonardo愿参与Beko锡耶纳工厂再工业化，尚未达成接管协议",
+      "excerpt": "意大利企业与制造部10月8日披露，Leonardo愿参与Beko锡耶纳工厂再工业化，可能建立工业据点并吸纳部分员工；目前仅为意向，尚未确认接管、投资金额或就业规模。",
+      "content_html": "<p>意大利企业与制造部10月8日召开Beko工业协议监督会议。部长Urso称Leonardo已表示愿意参与锡耶纳（Siena）工厂再工业化，可能建立工业据点并吸纳相当部分员工，拟与其他企业共同形成工业集群；目前仅为意向，尚未确认接管、投资金额或就业规模。</p><p>政府还表示，意大利牵头、六国支持的欧洲家电产业战略倡议已获得欧委会副主席Séjourné来信回应；这不等于欧盟专项计划正式出台。会议拟约20天后继续讨论各厂具体进展。</p>",
+      "source_name": "意大利企业与制造部（MIMIT）",
+      "source_url": "https://www.mimit.gov.it/it/notizie-stampa/beko-tavolo-di-verifica-al-mimit-sul-piano-industriale",
+      "source_published_date": "2026-10-08",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261010-004",
+      "title": "美的印尼披露1700余家门店、310余个售后网点，强化冰洗空本地制造与渠道覆盖",
+      "excerpt": "美的印尼10月1日披露，产品销售已覆盖印尼470多个地区、1700多家门店，售后网络拥有310多个服务点和500多名专业技术人员，并确认当地冰箱、洗衣机及空调制造布局。",
+      "content_html": "<p>美的印尼10月1日官方公告称，产品销售已覆盖印尼470多个地区、1700多家门店，售后网络拥有310多个服务点和500多名专业技术人员。</p><p>公司确认在芝卡朗设有空调和洗衣机工厂，在卡拉旺设有冰箱工厂，相关生产基地自2024年起逐步建立。此次新增事实主要为印尼销售与售后渠道规模，而非宣布新工厂或新增产能。</p>",
+      "source_name": "Midea Electronics Indonesia",
+      "source_url": "https://www.midea.com/id-en/news/2026/press-conference-midea-paling-ideal",
+      "source_published_date": "2026-10-01",
+      "event_action": "none"
+    }
+  ]
+}
