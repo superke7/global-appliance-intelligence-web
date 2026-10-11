@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261011-0715",
+  "generated_at_bjt": "2026-10-11T08:02:00+08:00",
+  "target_publish_at_bjt": "2026-10-11T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261011-001",
+      "title": "马来西亚2027预算提出节能冰箱与空调最高200令吉补贴",
+      "excerpt": "马来西亚2027年预算提出通过NUR MADANI计划，为购买高能效空调和冰箱的消费者提供最高200令吉回扣；申请资格、执行时间和能效门槛尚待公布。",
+      "content_html": "<p>马来西亚总理兼财政部长安瓦尔10月9日在国会提交2027年预算时宣布，通过NUR MADANI计划向购买高能效空调和冰箱的消费者提供最高200令吉回扣。</p><p>马来西亚国家广播电视台（RTM）原文确认了产品范围及补贴上限；申请资格、执行时间和具体能效门槛尚未公布，不能视为已经开放申领。</p>",
+      "source_name": "RTM（马来西亚国家广播电视台）",
+      "source_url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/belanjawan-2027-rm15-bilion-pelaburan-tnb-perkukuh-grid-nasional",
+      "source_published_date": "2026-10-09",
+      "event_action": "create",
+      "event": {
+        "event_key": "malaysia-nur-madani-efficient-appliance-rebate-2027",
+        "title": "马来西亚NUR MADANI节能家电补贴计划",
+        "date": "2026-10-09",
+        "latest_progress": "马来西亚2027年预算提出通过NUR MADANI计划，为购买高能效冰箱和空调的消费者提供最高200令吉回扣；实施细则尚待公布。",
+        "status": "announced",
+        "countries": [
+          "马来西亚"
+        ],
+        "entities": [
+          "马来西亚政府",
+          "马来西亚财政部",
+          "PETRA"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261011-002",
+      "title": "马来西亚拟于2027年6月将最低工资由1700令吉提高至2000令吉",
+      "excerpt": "马来西亚2027年预算提出，自2027年6月起将法定最低月薪从1700令吉提高至2000令吉，增幅约17.6%；具体适用范围和配套规则仍待公布。",
+      "content_html": "<p>马来西亚总理安瓦尔在2027年预算中提出，自2027年6月起将法定最低月薪从1700令吉提高至2000令吉，增幅约17.6%。</p><p>该措施若按计划实施，将影响当地制造与渠道人工成本；目前属于预算提案，具体适用范围和配套规则仍待后续公布。<a href=\"https://www.nst.com.my/newssummary/1551898\">New Straits Times资料</a>提供补充核验。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/malaysia-plans-1125-billion-budget-2027-ahead-possible-election-2026-10-09",
+      "source_published_date": "2026-10-09",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261011-003",
+      "title": "马来西亚拟在下次议会会议提交电子商务法案，强化境外平台与卖家责任",
+      "excerpt": "马来西亚政府拟在下一次议会会议提交电子商务法案，强化线上平台和卖家责任，并审查针对境外电商不公平竞争与商品安全的执法措施。",
+      "content_html": "<p>马来西亚总理安瓦尔10月9日表示，政府拟在下一次议会会议提交电子商务法案，强化线上平台和卖家的责任，并审查针对境外电商不公平竞争与商品安全的执法措施。</p><p>法案全文、平台义务及生效时间尚未公布，当前仅能确认立法提案已宣布。</p>",
+      "source_name": "The Star（Malaysia）",
+      "source_url": "https://www.thestar.com.my/news/nation/2026/10/09/budget-2027-govt-proposes-e-commerce-bill-to-protect-msmes-boost-consumer-safety",
+      "source_published_date": "2026-10-09",
+      "event_action": "create",
+      "event": {
+        "event_key": "malaysia-ecommerce-bill-2027",
+        "title": "马来西亚电子商务法案与境外平台监管改革",
+        "date": "2026-10-09",
+        "latest_progress": "马来西亚政府拟在下一次议会会议提交电子商务法案，强化线上平台和卖家责任，并审查境外电商不公平竞争与商品安全执法措施；法案全文尚未公布。",
+        "status": "announced",
+        "countries": [
+          "马来西亚"
+        ],
+        "entities": [
+          "马来西亚政府"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261011-004",
+      "title": "三星公布EHS All-in-One热泵路线：2028—2029年韩国全国推广，2030年拓展海外",
+      "excerpt": "三星公布EHS All-in-One住宅热泵路线，计划2026年推出产品、2027年前建立韩国供应基础、2028—2029年全国推广，并于2030年起拓展海外市场。",
+      "content_html": "<p>三星10月7日在韩国K-GX战略报告会上公布EHS All-in-One住宅热泵路线：2026年推出面向共同住宅、集冷房、地暖和热水于一体的产品；2027年前建立韩国供应基础；2028—2029年启动全国规模推广；2030年起基于韩国经验扩展包括欧洲在内的海外市场。</p><p><a href=\"https://www.ajupress.com/view/20261007161270434\">Aju Press</a>与<a href=\"https://www.mk.co.kr/en/business/12170516\">Maeil Business Newspaper</a>提供交叉核验。</p>",
+      "source_name": "The Korea Herald",
+      "source_url": "https://biz.heraldcorp.com/article/10895965",
+      "source_published_date": "2026-10-07",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261011-005",
+      "title": "LG发布韩国热泵与储能一体化住宅路线，推动“无锅炉公寓”与能源自立社区",
+      "excerpt": "LG电子公布住宅脱碳中长期路线，将Therma V热泵与家电、家庭能源管理、储能及光伏整合，并计划扩大韩国热泵生产基础和住宅示范范围。",
+      "content_html": "<p>LG电子10月7日公布住宅脱碳中长期路线，将Therma V热泵与家电、家庭能源管理系统、储能及光伏整合为能源自立住宅模式。</p><p>公司计划参与分布式能源特区的能源自立社区项目，扩大以昌原工厂为中心的韩国热泵生产基础，并把此前共同住宅实证扩展为不同住宅类型的标准化方案。<a href=\"https://mbiz.heraldcorp.com/article/10896053\">韩国当地媒体报道</a>提供补充核验。</p>",
+      "source_name": "LG Electronics Korea Newsroom",
+      "source_url": "https://www.lge.co.kr/story/newsroom/236204",
+      "source_published_date": "2026-10-07",
+      "event_action": "update",
+      "event": {
+        "event_key": "lg-korea-apartment-heatpump-pilot-2026",
+        "title": "LG韩国济州共同住宅热泵电气化示范项目",
+        "date": "2026-09-15",
+        "latest_progress": "LG电子发布热泵、储能、光伏及家庭能源管理一体化住宅路线，计划扩大韩国热泵生产基础，并将共同住宅实证扩展为不同住宅类型的标准化方案。",
+        "status": "in_progress",
+        "countries": [
+          "韩国"
+        ],
+        "entities": [
+          "LG Electronics"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261011-006",
+      "title": "泰国总理称美泰对等贸易协定进入最后条款，预计11月签署",
+      "excerpt": "泰国总理称美泰《对等贸易协定》已进入最后条款，预计在美国总统11月访问亚洲期间签署；最终税率、原产地规则和签署地点尚未公布。",
+      "content_html": "<p>泰国总理阿努廷10月7日表示，美泰《对等贸易协定》已进入最后条款，预计在美国总统11月访问亚洲期间签署；他称已收到美方确认谈判处于最终阶段的来信。</p><p>协议最终税率、原产地规则与签署地点尚未公布，因此不能视为协定已经签署或生效。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/thailand-last-paragraph-us-trade-agreement-pm-says-2026-10-07",
+      "source_published_date": "2026-10-07",
+      "event_action": "create",
+      "event": {
+        "event_key": "thailand-us-reciprocal-trade-agreement-2026",
+        "title": "美泰对等贸易协定谈判与签署",
+        "date": "2026-10-07",
+        "latest_progress": "泰国总理称美泰对等贸易协定已进入最后条款，预计在美国总统11月访问亚洲期间签署；最终税率、原产地规则与签署地点尚未公布。",
+        "status": "in_progress",
+        "countries": [
+          "泰国",
+          "美国"
+        ],
+        "entities": [
+          "泰国政府",
+          "USTR"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261011-007",
+      "title": "法德联合提出欧盟快速贸易反制工具，拟加快限制扭曲竞争国家进入单一市场",
+      "excerpt": "法国和德国联合提出欧盟快速贸易应对机制，建议建立供应链多元化工具并降低启动反制的决策门槛；相关工具尚未进入正式立法程序。",
+      "content_html": "<p>法国总统马克龙与德国总理默茨10月5日致函欧委会，提出快速贸易应对机制，并建议建立供应链多元化工具及限制破坏公平市场条件国家进入欧盟单一市场的新工具。</p><p>提案还建议降低启动反制的决策门槛；新工具仍须欧委会提出立法，并经成员国和欧洲议会批准，目前尚未生效，也未明确针对家电的具体措施。Financial Times与Wall Street Journal提供交叉核验。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/france-germany-propose-new-rapid-eu-trade-response-tool-2026-10-05",
+      "source_published_date": "2026-10-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-rapid-trade-response-france-germany-2026",
+        "title": "欧盟快速贸易反制工具法德联合提案",
+        "date": "2026-10-05",
+        "latest_progress": "法国和德国联合提出欧盟快速贸易应对机制，建议建立供应链多元化工具、限制扭曲竞争国家进入单一市场，并降低启动反制的决策门槛；尚未进入正式立法。",
+        "status": "announced",
+        "countries": [
+          "欧盟",
+          "法国",
+          "德国",
+          "中国"
+        ],
+        "entities": [
+          "法国政府",
+          "德国政府",
+          "欧盟委员会"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261011-008",
+      "title": "印度称美印临时贸易框架需随关税环境调整，最终安排仍待继续谈判",
+      "excerpt": "印度商工部长表示，美印临时贸易协定框架因关税环境变化需要调整；公开信息仍无最终税率、原产地规则或生效日期。",
+      "content_html": "<p>印度商工部长Piyush Goyal 10月10日表示，双方2月宣布的临时贸易协定框架因形势变化需要调整，最终决定将据此作出。</p><p>Reuters 10月5日报道，印度财长称谈判已进入“平台期”、双方进一步让步空间有限，USTR亦称协议并非即将达成。公开信息尚无最终税率、原产地规则或生效日期。<a href=\"https://www.reuters.com/world/india/india-us-have-reached-plateau-trade-talks-indian-finance-minister-says-2026-10-05\">Reuters报道</a>提供交叉核验。</p>",
+      "source_name": "Financial Express（India）",
+      "source_url": "https://www.financialexpress.com/policy/economy/circumstances-for-the-us-trade-deal-changed-piyush-goyal/4358390",
+      "source_published_date": "2026-10-10",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-us-interim-trade-agreement-2026",
+        "title": "美印临时贸易协定框架调整与后续谈判",
+        "date": "2026-10-10",
+        "latest_progress": "印度商工部长表示，美印临时贸易协定框架因关税环境变化需要调整；双方仍需继续谈判，公开信息尚无最终税率、原产地规则或生效日期。",
+        "status": "in_progress",
+        "countries": [
+          "印度",
+          "美国"
+        ],
+        "entities": [
+          "印度商工部",
+          "印度财政部",
+          "USTR"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
