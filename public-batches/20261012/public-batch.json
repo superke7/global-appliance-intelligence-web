@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261012-0715",
+  "generated_at_bjt": "2026-10-12T08:01:00+08:00",
+  "target_publish_at_bjt": "2026-10-12T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261012-001",
+      "title": "Vornado Air称进口零件关税推高成本，2月裁撤70余名工厂员工",
+      "excerpt": "Vornado Air称进口零件关税几乎影响所有业务，公司因零件价格上涨已于2026年2月裁撤70余名工厂员工。",
+      "content_html": "<p>Associated Press 10月11日报道，美国家用风扇制造商Vornado Air首席执行官Cole Hoppock称关税“几乎影响所有业务”，公司因进口零件价格上涨已于2026年2月裁撤70余名工厂员工。</p><p>该动作虽然发生于2月，但首次公开呈现了家电制造端的关税成本传导事实。</p>",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/trump-midterms-factories-tariffs-manufacturing-jobs-layoffs-1584722c00516772822a879e9eeef10f",
+      "source_published_date": "2026-10-11",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261012-002",
+      "title": "Beijer Ref完成收购Refra 90%股权，10月9日起纳入集团报表",
+      "excerpt": "Beijer Ref完成对Refra 90%股权的收购，并保留收购其余股份的选择权；Refra自10月9日起纳入集团报表。",
+      "content_html": "<p>Beijer Ref 10月9日确认，立陶宛竞争主管部门无条件批准后，公司已完成对Refra 90%股权的收购，并保留收购其余股份的选择权。</p><p>Refra继续使用原品牌，自10月9日起纳入Beijer Ref集团报表。该节点由8月签署协议进入正式交割。<a href=\"https://www.coolingpost.com/world-news/beijer-ref-completes-refra-purchase\">Cooling Post报道</a>提供交叉核验。</p>",
+      "source_name": "Beijer Ref AB",
+      "source_url": "https://www.beijerref.com/pressrelease/beijer-ref-completes-acquisition-of-refra",
+      "source_published_date": "2026-10-09",
+      "event_action": "update",
+      "event": {
+        "event_key": "beijer-ref-refra-acquisition-2026",
+        "title": "Beijer Ref收购Refra并扩展天然冷媒热泵与制冷业务",
+        "date": "2026-08-24",
+        "latest_progress": "Beijer Ref已完成对Refra 90%股权的收购，Refra自10月9日起纳入集团报表，并继续使用原品牌。",
+        "status": "implemented",
+        "countries": [
+          "瑞典",
+          "立陶宛"
+        ],
+        "entities": [
+          "Beijer Ref",
+          "Refra"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261012-003",
+      "title": "美的Clivet意大利Feltre热泵工厂投产，满产年产能8800台",
+      "excerpt": "美的旗下Clivet在意大利Feltre启用投资2400万欧元的新热泵工厂，满产年产能8800台，使相关产品线产能翻倍。",
+      "content_html": "<p>Cooling Post 9月14日报道，美的旗下Clivet在意大利Feltre启用投资2400万欧元、面积1.4万平方米的新热泵工厂。</p><p>新产线面向商用热泵及天然冷媒产品，满产可年产8800台，使相关产品线产能翻倍。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/clivet-opens-new-e24m-heat-pump-factory",
+      "source_published_date": "2026-09-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "midea-clivet-feltre-heatpump-plant-2026",
+        "title": "美的Clivet意大利Feltre热泵工厂投产与扩产",
+        "date": "2026-09-14",
+        "latest_progress": "Clivet在意大利Feltre的新热泵工厂已投产，投资2400万欧元，满产年产能8800台，相关产品线产能翻倍。",
+        "status": "implemented",
+        "countries": [
+          "意大利"
+        ],
+        "entities": [
+          "Midea",
+          "Clivet"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261012-004",
+      "title": "Systemair拟关闭荷兰Waalwijk工厂，约70人受影响并改由欧洲其他工厂供货",
+      "excerpt": "Systemair拟逐步停止荷兰Waalwijk工厂生产，约70名员工受影响，预计2027年初完成退出并由欧洲其他工厂供货。",
+      "content_html": "<p>Systemair 9月29日宣布拟逐步停止荷兰Waalwijk工厂生产，约70名员工受影响；在员工代表磋商完成后，预计2027年初完成退出，并由集团欧洲其他工厂向荷兰市场供货。</p><p>公司预计一次性费用约1.15亿瑞典克朗，全面实施后每年节省约3500万瑞典克朗。<a href=\"https://www.coolingpost.com/world-news/systemair-to-close-dutch-factory\">Cooling Post报道</a>提供交叉核验。</p>",
+      "source_name": "Systemair Group",
+      "source_url": "https://group.systemair.com/news/press-releases/2026/systemair-plans-to-discontinue-operations-at-its-production-facility-in-the-netherlands",
+      "source_published_date": "2026-09-29",
+      "event_action": "create",
+      "event": {
+        "event_key": "systemair-waalwijk-plant-closure-2026",
+        "title": "Systemair荷兰Waalwijk工厂关闭计划",
+        "date": "2026-09-29",
+        "latest_progress": "Systemair拟逐步停止荷兰Waalwijk工厂生产，约70名员工受影响，预计2027年初完成退出并由欧洲其他工厂接续供货。",
+        "status": "in_progress",
+        "countries": [
+          "荷兰",
+          "瑞典"
+        ],
+        "entities": [
+          "Systemair"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261012-005",
+      "title": "Axen与Perge法国合资R290住宅热泵产线投产，首年设计产能1.5万台",
+      "excerpt": "Axen与Perge在法国合资建设的R290住宅热泵装配线已投产，首年设计产能1.5万台，计划2027年下半年扩至2.5万—3万台。",
+      "content_html": "<p>Cooling Post 9月29日报道，中国热泵制造商Axen与法国供暖企业Perge设立的合资公司已在Portes-lès-Valence投产首条R290一体式空气源热泵装配线，覆盖4—16kW单相和三相机型。</p><p>报道披露首年设计产能1.5万台，并计划在2027年下半年扩线后提高至2.5万—3万台。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/french-chinese-joint-venture-to-produce-r290-heat-pumps",
+      "source_published_date": "2026-09-29",
+      "event_action": "create",
+      "event": {
+        "event_key": "axen-perge-france-r290-heatpump-jv-2026",
+        "title": "Axen与Perge法国R290热泵合资制造项目",
+        "date": "2026-09-29",
+        "latest_progress": "Axen与Perge在法国的合资R290住宅热泵装配线已投产，首年设计产能1.5万台，计划2027年下半年扩至2.5万—3万台。",
+        "status": "implemented",
+        "countries": [
+          "法国",
+          "中国"
+        ],
+        "entities": [
+          "Axen",
+          "Perge",
+          "Perge Axen Co"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261012-006",
+      "title": "Aspen Pumps收购Henry Group和巴西Forming Tubing，首次建立南美运营据点",
+      "excerpt": "Aspen Pumps完成收购Henry Group Industries、巴西Forming Tubing及比利时RubberGreen，强化制冷专业能力与全球制造布局。",
+      "content_html": "<p>Cooling Post 10月5日报道，Aspen Pumps Group宣布完成收购制冷部件制造商Henry Group Industries、巴西制冷空调管件企业Forming Tubing及比利时RubberGreen。</p><p>公司称交易强化制冷专业能力和制造布局，其中巴西业务成为其首个南美运营据点。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/aspen-pumps-buys-henry-group-industries",
+      "source_published_date": "2026-10-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "aspen-pumps-refrigeration-components-acquisitions-2026",
+        "title": "Aspen Pumps收购Henry Group等制冷部件企业",
+        "date": "2026-10-05",
+        "latest_progress": "Aspen Pumps完成收购Henry Group Industries、Forming Tubing及RubberGreen，强化制冷部件制造能力，并首次建立南美运营据点。",
+        "status": "implemented",
+        "countries": [
+          "英国",
+          "美国",
+          "巴西",
+          "比利时"
+        ],
+        "entities": [
+          "Aspen Pumps",
+          "Henry Group Industries",
+          "Forming Tubing",
+          "RubberGreen"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261012-007",
+      "title": "Beijer Ref签约收购FG Europe 75%股权，扩展巴尔干及土耳其HVAC渠道",
+      "excerpt": "Beijer Ref签署约束性协议，拟收购希腊HVAC分销商FG Europe 75%股权；交易仍待相关竞争主管部门批准。",
+      "content_html": "<p>Beijer Ref 9月11日宣布签署约束性协议，拟收购希腊HVAC分销商FG Europe 75%股权，并保留收购其余股份的选择权。</p><p>FG Europe年营业额约14亿瑞典克朗，业务覆盖巴尔干、英国、爱尔兰和土耳其；交易仍待相关竞争主管部门批准。</p>",
+      "source_name": "Beijer Ref AB",
+      "source_url": "https://www.beijerref.com/pressrelease/beijer-ref-acquires-hvac-distributor-in-greece",
+      "source_published_date": "2026-09-11",
+      "event_action": "create",
+      "event": {
+        "event_key": "beijer-ref-fg-europe-acquisition-2026",
+        "title": "Beijer Ref收购FG Europe并扩展欧洲及土耳其HVAC渠道",
+        "date": "2026-09-11",
+        "latest_progress": "Beijer Ref已签署约束性协议，拟收购FG Europe 75%股权，扩展巴尔干、英国、爱尔兰及土耳其HVAC渠道；交易待监管批准。",
+        "status": "in_progress",
+        "countries": [
+          "希腊",
+          "英国",
+          "爱尔兰",
+          "土耳其"
+        ],
+        "entities": [
+          "Beijer Ref",
+          "FG Europe"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261012-008",
+      "title": "KCC与Transaera合作扩大美国全电热泵式除湿新风设备制造",
+      "excerpt": "KCC Manufacturing与Transaera合作，将MOF固体吸附除湿技术集成到全电热泵式室外空气系统，并在美国推进追加设备生产。",
+      "content_html": "<p>Cooling Post 9月29日报道，KCC Manufacturing与Transaera建立合作，将MOF固体吸附除湿技术集成到全电热泵式室外空气系统。</p><p>KCC负责机柜、控制实施、系统集成和美国制造，额外设备已进入生产，目标应用包括商用和多户住宅建筑。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/partnership-to-expand-high-efficiency-cooling",
+      "source_published_date": "2026-09-29",
+      "event_action": "create",
+      "event": {
+        "event_key": "kcc-transaera-doas-manufacturing-2026",
+        "title": "KCC与Transaera美国高效除湿空调制造合作",
+        "date": "2026-09-29",
+        "latest_progress": "KCC与Transaera启动全电热泵式除湿新风设备制造合作，KCC负责系统集成和美国制造，追加设备已进入生产。",
+        "status": "in_progress",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "KCC Manufacturing",
+          "Transaera"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261012-009",
+      "title": "Solstice拟投4900万美元扩建Buffalo制冷剂研发设施",
+      "excerpt": "Solstice Advanced Materials拟投资4900万美元扩建纽约Buffalo研发园区，提升制冷剂、热管理、毒理测试及储能材料研发能力。",
+      "content_html": "<p>Cooling Post 10月10日报道，Solstice Advanced Materials拟投资4900万美元扩建纽约Buffalo研发园区，提升制冷剂、热管理和毒理测试能力，并建设先进储能材料实验室。</p><p>项目获得纽约州最高140万美元绩效型税收抵免；计划尚处投资推进阶段。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/solstice-plans-49m-investment-in-refrigerant-rd",
+      "source_published_date": "2026-10-10",
+      "event_action": "create",
+      "event": {
+        "event_key": "solstice-buffalo-refrigerant-rd-expansion-2026",
+        "title": "Solstice纽约Buffalo制冷剂研发设施扩建",
+        "date": "2026-10-10",
+        "latest_progress": "Solstice拟投资4900万美元扩建纽约Buffalo研发园区，提升制冷剂、热管理、毒理测试及储能材料研发能力，项目尚待实施。",
+        "status": "announced",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "Solstice Advanced Materials",
+          "纽约州政府"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261012-010",
+      "title": "加拿大推出20亿加元住宅热泵补贴，拟覆盖最多82万户家庭",
+      "excerpt": "加拿大政府宣布未来8年投入20亿加元，为最多82万户安装合格寒冷气候空气源热泵的家庭提供补贴。",
+      "content_html": "<p>加拿大政府10月8日公布未来8年投入20亿加元的National Heat Pump Rebate Program，为最多82万户安装合格寒冷气候空气源热泵的家庭提供补贴。</p><p>低于收入中位数的家庭最高可获1万加元，其他合格家庭可获2000加元；政府将立即与安装商和行业伙伴就落地细节开展磋商。<a href=\"https://www.coolingpost.com/world-news/canada-pledges-cad2bn-for-heat-pump-installs\">Cooling Post报道</a>提供交叉核验。</p>",
+      "source_name": "Government of Canada",
+      "source_url": "https://www.canada.ca/en/environment-climate-change/news/2026/10/prime-minister-carney-announces-landmark-investment-to-retrofit-one-million-homes-cutting-energy-costs-and-emissions.html",
+      "source_published_date": "2026-10-08",
+      "event_action": "create",
+      "event": {
+        "event_key": "canada-national-heat-pump-rebate-2026",
+        "title": "加拿大国家住宅热泵补贴计划",
+        "date": "2026-10-08",
+        "latest_progress": "加拿大宣布未来8年投入20亿加元，为最多82万户安装合格寒冷气候空气源热泵的家庭提供补贴，并启动实施细节磋商。",
+        "status": "announced",
+        "countries": [
+          "加拿大"
+        ],
+        "entities": [
+          "Government of Canada",
+          "Environment and Climate Change Canada"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261012-011",
+      "title": "荷兰拟从2029年起将智能混合热泵作为住宅更换燃气锅炉的新标准",
+      "excerpt": "荷兰政府拟从2029年起要求部分住宅在更换燃气锅炉时转向智能混合热泵，具体规范和执行细则尚待制定。",
+      "content_html": "<p>荷兰政府10月7日宣布，拟从2029年起要求未接入或不会接入区域供热网络的住宅，在更换燃气锅炉时转向智能混合热泵；新安装设备还需符合智能控制要求。</p><p>该安排仍属政府计划，具体规范和执行细则尚待制定。<a href=\"https://www.coolingpost.com/world-news/dutch-move-to-smart-hybrid-heat-pumps\">Cooling Post报道</a>提供交叉核验。</p>",
+      "source_name": "Rijksoverheid.nl",
+      "source_url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/07/slimme-en-hybride-warmtepompen-vanaf-2029-de-nieuwe-standaard",
+      "source_published_date": "2026-10-07",
+      "event_action": "create",
+      "event": {
+        "event_key": "netherlands-smart-hybrid-heatpump-standard-2029",
+        "title": "荷兰2029年智能混合热泵住宅标准",
+        "date": "2026-10-07",
+        "latest_progress": "荷兰政府拟从2029年起将智能混合热泵作为部分住宅更换燃气锅炉的新标准，新设备还需符合智能控制要求；实施细则待制定。",
+        "status": "announced",
+        "countries": [
+          "荷兰"
+        ],
+        "entities": [
+          "荷兰政府"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261012-012",
+      "title": "以色列完成《基加利修正案》批准，修正案将于2027年1月3日对其生效",
+      "excerpt": "以色列于10月5日交存《基加利修正案》批准书，修正案将于2027年1月3日对其生效，涉及HFC制冷剂逐步削减义务。",
+      "content_html": "<p>联合国条约保管通知确认，以色列于10月5日交存《蒙特利尔议定书》基加利修正案批准书。</p><p>除修正案第一条所列对议定书第四条的修改外，修正案将于2027年1月3日对以色列生效，涉及HFC制冷剂逐步削减义务。<a href=\"https://www.coolingpost.com/world-news/israel-ratifies-the-kigali-amendment\">Cooling Post报道</a>提供交叉核验。</p>",
+      "source_name": "United Nations / Cooling Post",
+      "source_url": "https://treaties.un.org/doc/Publication/CN/2026/CN.427.2026-Eng.pdf",
+      "source_published_date": "2026-10-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "israel-kigali-amendment-2026",
+        "title": "以色列批准并实施《基加利修正案》",
+        "date": "2026-10-05",
+        "latest_progress": "以色列已交存《基加利修正案》批准书，修正案将于2027年1月3日对其生效，涉及HFC制冷剂逐步削减义务。",
+        "status": "announced",
+        "countries": [
+          "以色列"
+        ],
+        "entities": [
+          "Government of Israel",
+          "United Nations Treaty Collection"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261012-013",
+      "title": "美国8月中央空调与空气源热泵出货75.67万台，同比增长11.4%",
+      "excerpt": "AHRI数据显示，美国8月中央空调与空气源热泵合计出货756,739台，同比增长11.4%。",
+      "content_html": "<p>AHRI 10月9日发布的8月统计显示，美国中央空调与空气源热泵合计出货756,739台，同比增长11.4%。</p><p>其中中央空调418,323台，同比增长17.2%；空气源热泵338,416台，同比增长5.0%。AHRI说明该数据为向美国50州及华盛顿特区客户的出货。<a href=\"https://www.ahrinet.org/sites/default/files/2026-10/August2026StatisticalRelease.pdf\">AHRI统计PDF</a>提供完整数据。</p>",
+      "source_name": "AHRI",
+      "source_url": "https://www.ahrinet.org/news-events/news/ahri-releases-august-2026-us-heating-and-cooling-equipment-shipment-data",
+      "source_published_date": "2026-10-09",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261012-014",
+      "title": "欧洲12国上半年住宅热泵销量约116.3万台，同比增长11%",
+      "excerpt": "EHPA数据显示，2026年上半年欧洲12国住宅热泵销量约116.3万台，较2025年同期增长11%。",
+      "content_html": "<p>Cooling Post援引EHPA数据称，2026年上半年12个欧洲国家住宅热泵销量约116.3万台，较2025年同期约104.8万台增长11%。</p><p>统计覆盖奥地利、比利时、瑞士、丹麦、芬兰、法国、德国、意大利、荷兰、挪威、葡萄牙和瑞典。<a href=\"https://ehpa.org/market-intelligence\">EHPA市场数据入口</a>提供补充核验。</p>",
+      "source_name": "Cooling Post / EHPA",
+      "source_url": "https://www.coolingpost.com/world-news/european-heat-pump-sales-on-the-rise",
+      "source_published_date": "2026-09-28",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261012-015",
+      "title": "英国上半年存量住宅热泵改造安装量同比下降22%",
+      "excerpt": "英国2026年上半年存量住宅中替代化石燃料系统的MCS认证热泵安装量为20,895套，同比下降22%。",
+      "content_html": "<p>Cooling Post援引英国能源安全与净零部数据称，2026年上半年英国存量住宅中替代化石燃料系统的MCS认证热泵安装量为20,895套，同比下降22%。</p><p>该数据与同期欧洲12国住宅热泵总体销量增长形成区域分化。</p>",
+      "source_name": "Cooling Post / UK DESNZ",
+      "source_url": "https://www.coolingpost.com/uk-news/uk-half-year-heat-pump-installs-down-22",
+      "source_published_date": "2026-09-10",
+      "event_action": "none"
+    }
+  ]
+}
