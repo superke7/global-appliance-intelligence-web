@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261013-0715",
+  "generated_at_bjt": "2026-10-13T07:44:00+08:00",
+  "target_publish_at_bjt": "2026-10-13T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261013-001",
+      "title": "欧委会拟于12月提出贸易防御与关键供应多元化工具",
+      "excerpt": "Reuters 10月12日报道，欧委会拟于12月提出限制关键供应单一来源依赖、支持受外部贸易措施冲击产业或地区的两项政策工具。欧盟领导人拟于12月17—18日峰会讨论，法律文本、适用行业和实施时间尚未公布。",
+      "content_html": "<p>Reuters 10月12日报道，欧委会拟于12月提出限制关键供应单一来源依赖、支持受外部贸易措施冲击产业或地区的两项政策工具。欧盟领导人拟于12月17—18日峰会讨论，法律文本、适用行业和实施时间尚未公布。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/autos-transportation/eu-eyes-december-trade-initiatives-after-china-car-import-deal-2026-10-12",
+      "source_published_date": "2026-10-12",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-rapid-trade-response-france-germany-2026",
+        "title": "欧盟快速贸易反制工具法德联合提案",
+        "date": "2026-10-05",
+        "latest_progress": "Reuters 10月12日报道，欧委会拟于12月提出限制关键供应单一来源依赖、支持受外部贸易措施冲击产业或地区的两项政策工具。欧盟领导人拟于12月17—18日峰会讨论，法律文本、适用行业和实施时间尚未公布。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "法国",
+          "德国"
+        ],
+        "entities": [
+          "European Commission"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261013-002",
+      "title": "中欧混动车保障配额细节披露：年上限35万辆，中方要求非歧视并保障增长",
+      "excerpt": "Reuters与中国商务部10月12日披露，中欧混动车安排拟采用四年期保障措施，年度进口上限35万辆，欧方预计最早12月启动并按年上调6%。中方要求配额不得歧视中国企业，应以2025年30.2万辆出口为基础向上",
+      "content_html": "<p>Reuters与中国商务部10月12日披露，中欧混动车安排拟采用四年期保障措施，年度进口上限35万辆，欧方预计最早12月启动并按年上调6%。中方要求配额不得歧视中国企业，应以2025年30.2万辆出口为基础向上安排。正式法律文本尚未公布，措施未生效。</p>",
+      "source_name": "Reuters / 中国商务部",
+      "source_url": "https://www.reuters.com/world/china/china-holds-intensive-talks-hybrid-ev-trade-with-eu-2026-10-12",
+      "source_published_date": "2026-10-12",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "Reuters与中国商务部10月12日披露，中欧混动车安排拟采用四年期保障措施，年度进口上限35万辆，欧方预计最早12月启动并按年上调6%。中方要求配额不得歧视中国企业，应以2025年30.2万辆出口为基础向上安排。正式法律文本尚未公布，措施未生效。",
+        "status": "in_progress",
+        "countries": [
+          "中国",
+          "欧盟"
+        ],
+        "entities": [
+          "中国商务部",
+          "European Commission"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261013-003",
+      "title": "墨西哥总统确认美墨尚无最终贸易协议，USMCA继续有效并进入年度审查",
+      "excerpt": "墨西哥总统Claudia Sheinbaum 10月12日表示，美墨汽车、钢铁和铝关税减让仍未形成最终协议，USMCA继续有效。墨西哥与加拿大主张延长协定16年，美国尚未同意，协定进入年度审查。",
+      "content_html": "<p>墨西哥总统Claudia Sheinbaum 10月12日表示，美墨汽车、钢铁和铝关税减让仍未形成最终协议，USMCA继续有效。墨西哥与加拿大主张延长协定16年，美国尚未同意，协定进入年度审查。</p>",
+      "source_name": "La Jornada",
+      "source_url": "https://www.jornada.com.mx/noticia/2026/10/12/economia/sheinbaum-reconoce-que-no-existe-acuerdo-con-eu-sobre-aranceles-a-exportaciones-de-vehiculos-aluminio-y-acero",
+      "source_published_date": "2026-10-12",
+      "event_action": "update",
+      "event": {
+        "event_key": "usmca-joint-review-2027",
+        "title": "2027年USMCA联合审查与公众咨询",
+        "date": "2026-10-02",
+        "latest_progress": "墨西哥总统Claudia Sheinbaum 10月12日表示，美墨汽车、钢铁和铝关税减让仍未形成最终协议，USMCA继续有效。墨西哥与加拿大主张延长协定16年，美国尚未同意，协定进入年度审查。",
+        "status": "in_progress",
+        "countries": [
+          "墨西哥",
+          "美国",
+          "加拿大"
+        ],
+        "entities": [
+          "墨西哥总统府",
+          "USTR"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261013-004",
+      "title": "LG印度Greater Noida洗衣机工厂拟于2027年向10余国出口AX系列",
+      "excerpt": "LG印度9月24日宣布，在Greater Noida工厂生产AX系列半自动洗衣机，共15款，容量8—12公斤，计划自2027年起向10多个国家出口。企业未披露目标国家、出口规模或新增产能。",
+      "content_html": "<p>LG印度9月24日宣布，在Greater Noida工厂生产AX系列半自动洗衣机，共15款，容量8—12公斤，计划自2027年起向10多个国家出口。企业未披露目标国家、出口规模或新增产能。</p>",
+      "source_name": "LG Electronics India Newsroom",
+      "source_url": "https://www.lgindianewsroom.com/lg-india-introduces-new-range-of-semi-automatic-washing-machines-combining-powerful-performance-smart-convenience-and-bold-design",
+      "source_published_date": "2026-09-24",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261013-005",
+      "title": "美国暖通企业Carrier推出R290水源热泵平台，最高供水温度78℃",
+      "excerpt": "Carrier推出AquaSnap 61WH水源热泵平台，采用R290丙烷制冷剂，官方称最高可提供78℃热水。Cooling Post披露容量范围50—824kW，面向住宅楼、商业建筑及锅炉替换等场景。R290",
+      "content_html": "<p>Carrier推出AquaSnap 61WH水源热泵平台，采用R290丙烷制冷剂，官方称最高可提供78℃热水。Cooling Post披露容量范围50—824kW，面向住宅楼、商业建筑及锅炉替换等场景。R290为可燃制冷剂，需满足相关安全规范。</p>",
+      "source_name": "Carrier / Cooling Post",
+      "source_url": "https://aquasnap61wh.com/",
+      "source_published_date": "2026-10-08",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261013-006",
+      "title": "丹麦制冷控制器企业Danfoss旧版系统遭利用，法国多家超市冷柜停机",
+      "excerpt": "Reuters 10月12日报道，攻击者远程调高法国多家超市冷柜及冰柜温度，造成食品报废及部分火情。Intermarché约150家、Carrefour约80家及Monoprix约5%门店受影响，Coopera",
+      "content_html": "<p>Reuters 10月12日报道，攻击者远程调高法国多家超市冷柜及冰柜温度，造成食品报废及部分火情。Intermarché约150家、Carrefour约80家及Monoprix约5%门店受影响，Cooperative U也确认遭攻击。法国检方和ANSSI已介入。Danfoss称受影响设备运行旧版固件，建议升级或迁移。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+      "source_published_date": "2026-10-12",
+      "event_action": "create",
+      "event": {
+        "event_key": "france-supermarket-refrigeration-cyberattack-2026",
+        "title": "法国超市制冷控制系统网络攻击事件",
+        "date": "2026-10-12",
+        "latest_progress": "Reuters 10月12日报道，攻击者远程调高法国多家超市冷柜及冰柜温度，造成食品报废及部分火情。Intermarché约150家、Carrefour约80家及Monoprix约5%门店受影响，Cooperative U也确认遭攻击。法国检方和ANSSI已介入。Danfoss称受影响设备运行旧版固件，建议升级或迁移。",
+        "status": "in_progress",
+        "countries": [
+          "法国",
+          "丹麦"
+        ],
+        "entities": [
+          "Danfoss",
+          "ANSSI"
+        ],
+        "category": "监管与供应链"
+      }
+    }
+  ]
+}
