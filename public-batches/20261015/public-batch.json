@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261015-0715",
+  "generated_at_bjt": "2026-10-15T07:33:00+08:00",
+  "target_publish_at_bjt": "2026-10-15T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261015-001",
+      "title": "大金美国凤凰城模块化暖通工厂扩建投用，产能提高约150%",
+      "excerpt": "大金应用将美国亚利桑那州凤凰城的模块化解决方案工厂由5.8万平方英尺扩至19.1万平方英尺，扩建产能已投入使用，模块化系统产能提高约150%。",
+      "content_html": "<p>大金应用将亚利桑那州Phoenix（菲尼克斯，美国亚利桑那州首府）的模块化解决方案工厂由5.8万平方英尺扩至19.1万平方英尺，宣布扩建产能投入使用，模块化系统产能提高约150%。</p><p>该基地制造工厂预制的暖通、水力和电气系统，服务数据中心、医院和高校等任务关键设施；公告还列出直接芯片液冷分配装置，但本条按其更广泛的商用模块化HVAC制造能力纳入。模块化HVAC是在工厂预制并集成暖通和公用工程单元，以缩短现场施工和部署周期。</p><p><a href=\"https://www.coolingpost.com/world-news/daikin-opens-expanded-us-modular-solutions-site/\">Cooling Post</a>与<a href=\"https://www.daikinapplied.com/industry-solutions/modular-solutions\">Daikin模块化解决方案页</a>提供交叉核验。</p>",
+      "source_name": "Daikin Applied / PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/daikin-applied-triples-modular-solutions-manufacturing-footprint-to-meet-growing-customer-demand-302908128.html",
+      "source_published_date": "2026-10-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "daikin-us-phoenix-modular-hvac-expansion-2026",
+        "title": "大金美国凤凰城模块化HVAC工厂扩建项目",
+        "date": "2026-10-14",
+        "latest_progress": "大金应用完成美国亚利桑那州凤凰城模块化解决方案工厂扩建，将厂房由5.8万平方英尺扩大至19.1万平方英尺，模块化系统产能提高约150%。",
+        "status": "implemented",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "Daikin Applied"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261015-002",
+      "title": "德国HVACR集团Bluu Unit签约收购英国Space Engineering，新增CO₂制冷与热泵制造能力",
+      "excerpt": "德国HVACR集团Bluu Unit签约收购英国Space Engineering Services，拟将CO₂商用制冷机组和热泵制造能力纳入集团；公开报道尚未确认交易完成。",
+      "content_html": "<p>德国HVACR集团Bluu Unit签约收购英国Space Engineering Services。标的位于英国Bristol（布里斯托尔，英格兰西南部城市），约有400名员工，最近一期收入约7400万英镑，并在匈牙利设有独立服务平台。</p><p>交易将把CO₂（二氧化碳制冷剂）商用制冷机组和热泵制造能力纳入Bluu Unit。公开报道未确认交易已经完成，本条按签约收购、交割待完成表述。Bluu Unit是德国私募机构Triton支持的欧洲制冷、空调和通风企业联盟。</p><p><a href=\"https://refindustry.com/news/bluu-unit-to-enter-uk-market-with-space-engineering-acquisition/\">Refindustry</a>与<a href=\"https://www.triton-partners.com/portfolio/bluu-unit\">Triton企业资料</a>提供交叉核验。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/uk-news/space-engineering-acquired-by-german-group",
+      "source_published_date": "2026-10-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "bluu-unit-space-engineering-acquisition-2026",
+        "title": "Bluu Unit收购英国Space Engineering",
+        "date": "2026-10-14",
+        "latest_progress": "Bluu Unit已签约收购英国Space Engineering Services，拟新增CO₂商用制冷机组和热泵制造能力；交易交割尚待完成。",
+        "status": "announced",
+        "countries": [
+          "德国",
+          "英国",
+          "匈牙利"
+        ],
+        "entities": [
+          "Bluu Unit",
+          "Space Engineering Services",
+          "Triton Partners"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261015-003",
+      "title": "法国特种材料集团Arkema推出Forane 516A低GWP制冷剂，适用于住宅和轻商用制冷及热泵",
+      "excerpt": "Arkema宣布Forane 516A已商业化，作为R134a的设计兼容型替代制冷剂；官方称其GWP低于150，可用于住宅和轻商用制冷、冷水机组、商业制冷及热泵。",
+      "content_html": "<p>Arkema宣布Forane 516A已商业化，作为R134a的设计兼容型替代制冷剂。该产品为A2L（低可燃性）制冷剂，官方称全球变暖潜值GWP低于150、温度滑移为零，可用于住宅和轻商用制冷、冷水机组、商业制冷及热泵。</p><p>行业媒体给出的GWP为131；为避免标准口径混淆，本条以官方“低于150”表述为准。GWP用于衡量温室气体相对二氧化碳的增温影响，数值越低通常代表气候影响越小。<a href=\"https://www.coolingpost.com/world-news/arkema-launches-new-r134a-replacement/\">Cooling Post</a>提供交叉核验。</p>",
+      "source_name": "Arkema",
+      "source_url": "https://www.arkema.com/global/en/media/newslist/news/global/products/2026/20261014-release-of-a-new-low-gwp-regrigerant/",
+      "source_published_date": "2026-10-14",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261015-004",
+      "title": "越南向美国提交贸易协议最终文本，美方仍要求解决贸易逆差与监管问题",
+      "excerpt": "越南副总理称越方已向美国提交贸易协议最终文本、谈判接近完成；美国官员态度更谨慎，继续关注贸易逆差、数据保护、能源定价及相关调查。",
+      "content_html": "<p>越南副总理Pham Gia Tuc称，越方已向美国提交贸易协议最终文本，谈判接近完成；美国官员的公开表态更为谨慎，强调越南对美贸易顺差、数据保护、能源定价以及正在进行的产能过剩、强迫劳动和知识产权调查。</p><p>相较10月8日“绝大部分内容完成”，本次新增正式提交最终文本节点；协议尚未签署，最终税率、原产地和反转运条款仍未公开。<a href=\"https://en.baochinhphu.vn/viet-nam-us-basically-complete-negotiations-on-reciprocal-trade-agreement-111261008090126213.htm\">越南政府10月8日公告</a>提供此前谈判基线。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/vietnam-says-trade-negotiations-with-us-almost-completed-2026-10-14",
+      "source_published_date": "2026-10-14",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "越南已向美国提交贸易协议最终文本，双方谈判继续；协议尚未签署，最终税率、原产地和反转运条款仍未公开，美方仍关注贸易逆差及多项监管问题。",
+        "status": "in_progress",
+        "countries": [
+          "越南",
+          "美国"
+        ],
+        "entities": [
+          "越南政府",
+          "美国商务部",
+          "美国驻越大使馆"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261015-005",
+      "title": "EFTA与越南拟于10月18日签署自贸协定，覆盖原产地与贸易救济规则",
+      "excerpt": "欧洲自由贸易联盟与越南计划于10月18日在河内签署自由贸易协定，范围包括货物贸易、原产地、投资、知识产权、竞争、贸易救济和政府采购。",
+      "content_html": "<p>欧洲自由贸易联盟（EFTA，由瑞士、挪威、冰岛和列支敦士登组成）与越南计划于10月18日在河内签署自由贸易协定。双方自2012年启动谈判，并于2026年7月宣布完成。</p><p>协定范围包括货物贸易、原产地、投资、知识产权、竞争、贸易救济和政府采购。当前节点是明确签署安排，协定尚未签署或生效，具体家电税目和实施日期仍待正式文本确认。<a href=\"https://www.efta.int/media-resources/news/efta-and-viet-nam-conclude-negotiations-free-trade-agreement\">EFTA官方公告</a>提供7月谈判完成基线。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/switzerland-norway-vietnam-sign-free-trade-deal-sunday-officials-say-2026-10-14",
+      "source_published_date": "2026-10-14",
+      "event_action": "create",
+      "event": {
+        "event_key": "efta-vietnam-fta-2026",
+        "title": "EFTA—越南自由贸易协定",
+        "date": "2026-10-14",
+        "latest_progress": "EFTA与越南计划于10月18日在河内签署自由贸易协定；协定尚未签署或生效，具体家电税目和实施日期仍待正式文本确认。",
+        "status": "announced",
+        "countries": [
+          "越南",
+          "瑞士",
+          "挪威",
+          "冰岛",
+          "列支敦士登"
+        ],
+        "entities": [
+          "EFTA",
+          "越南政府"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261015-006",
+      "title": "欧委会经济委员称中欧贸易再平衡须扩展至汽车以外行业",
+      "excerpt": "欧盟委员会经济委员Valdis Dombrovskis表示，中欧混合动力汽车安排只是第一步，贸易再平衡还须扩展到汽车以外的多个行业；若磋商无实质结果，欧盟可能采取进一步措施。",
+      "content_html": "<p>欧盟委员会经济委员Valdis Dombrovskis表示，中欧混合动力汽车安排只是第一步，贸易再平衡还须扩展到汽车以外的多个行业；若持续磋商未取得切实结果，欧盟可能采取进一步措施。</p><p>官员提到化工、家具、工业机械、钢铁和风机部件等失衡领域，但未宣布家电清单、新税率或正式法律工具。本次表态承接既有中欧贸易失衡磋商，显示讨论范围正在扩大。<a href=\"https://www.reuters.com/world/china/pressured-home-eu-leaders-weigh-china-trade-steps-2026-10-14/\">Reuters欧盟领导人会议背景报道</a>提供交叉核验。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/autos-transportation/after-hybrid-car-deal-eu-needs-rebalance-china-trade-other-sectors-dombrovskis-2026-10-14",
+      "source_published_date": "2026-10-14",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "欧盟委员会经济委员表示，中欧贸易再平衡须扩展至汽车以外行业；目前未宣布家电清单、新税率或正式法律工具，跨行业磋商继续。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "中国"
+        ],
+        "entities": [
+          "European Commission",
+          "Valdis Dombrovskis"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261015-007",
+      "title": "中国9月家用电器出口4.60亿台，前9个月同比增长7.4%",
+      "excerpt": "Mysteel援引中国海关总署数据称，2026年9月中国出口家用电器45,978.9万台，1—9月累计出口360,737.5万台，同比增长7.4%。",
+      "content_html": "<p>Mysteel援引中国海关总署最新数据称，2026年9月中国出口家用电器45,978.9万台，1—9月累计出口360,737.5万台，同比增长7.4%。</p><p>该口径为“家用电器”总量，未在同一页面拆分空调、冰箱、洗衣机等品类，也未给出本条对应出口金额；本条仅用于记录整体出口数量变化。<a href=\"https://english.customs.gov.cn/statics/report/monthly.html\">中国海关总署月度统计索引</a>提供官方统计入口。</p>",
+      "source_name": "Mysteel 我的钢铁网",
+      "source_url": "https://news.mysteel.com/a/26101410/0600E51E165DD8BC.html",
+      "source_published_date": "2026-10-14",
+      "event_action": "none"
+    }
+  ]
+}
