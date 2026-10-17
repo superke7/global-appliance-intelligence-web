@@ -92,4 +92,18 @@ assert '<option value="东盟">' in news_page
 assert '<option value="北美">' in news_page
 assert '地区' in news_page and "不代表该国新闻属于欧盟层面政策" in news_page
 
+
+# Seven new historic matches are matched by original source (not copied/shifted NEWS IDs).
+# Assert the real built article data attributes reflect the reviewed Sheet labels.
+assert "gai-20260820-001" in parser.entries
+assert "欧盟" in parser.entries["gai-20260820-001"]["data-geos"].split("|")
+assert "美国" not in parser.entries["gai-20260820-001"]["data-geos"].split("|")
+assert "美国" in parser.entries["gai-20260820-002"]["data-geos"].split("|")
+assert "欧盟" not in parser.entries["gai-20260820-002"]["data-geos"].split("|")
+assert parser.entries["gai-20260820-002"]["data-impact"] == "高"
+assert parser.entries["gai-20260916-001"]["data-stage"] == "已生效/投产"
+assert parser.entries["gai-20260916-002"]["data-stage"] == "已宣布待实施"
+assert parser.entries["gai-20260728-004"]["data-category"] == "市场与渠道"
+assert parser.entries["gai-20261001-002"]["data-impact"] == "高"
+
 print("Public faceted browser, full original labels, optional schema and private-field rejection verified.")

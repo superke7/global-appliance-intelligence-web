@@ -10,6 +10,8 @@ assert stage_tag("试产中/9月底量产") == "推进中"
 assert stage_tag("已生效/谈判破裂") == "已生效/投产"
 assert stage_tag("已公告/生效前最后谈判窗口") == "已宣布待实施"
 assert stage_tag("交易完成/并表") == "已生效/投产"
+assert stage_tag("商业生产已启动/产能爬坡") == "已生效/投产"
+assert stage_tag("MOU已签署/设计与示范准备") == "已宣布待实施"
 assert stage_tag("未知且不能归类") is None
 assert news_mark_tag("今日新增/既有事件新增进展") == "事件进展"
 assert news_mark_tag("今日新增/历史补漏/新事件") == "历史补录"
