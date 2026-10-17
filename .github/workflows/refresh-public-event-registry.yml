@@ -1,0 +1,49 @@
+name: Refresh public event registry
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "public-batches/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-public-event-registry
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out current public main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Rebase to latest public batch state
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+      - name: Validate published batch inputs
+        run: python3 publishing/validate_repository.py
+      - name: Derive public event IDs only from already-published batches
+        run: python3 publishing/rebuild_public_event_registry.py
+      - name: Commit registry only if changed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- config/public-event-registry.json; then
+            echo "Public event registry already synchronized; no commit."
+            exit 0
+          fi
+          git config user.name "gai-public-registry-bot"
+          git config user.email "gai-public-registry-bot@users.noreply.github.com"
+          git add config/public-event-registry.json
+          git commit -m "Refresh public Event registry from published news"
+          git push origin HEAD:main
