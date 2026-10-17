@@ -19,9 +19,10 @@ for path in (ROOT / "public-batches").glob("*/public-batch.json"):
     batch = json.loads(path.read_text(encoding="utf-8"))
     for item in batch["items"]:
         pid = item["public_id"]
-        assert pid not in published, f"Duplicate published ID {pid}"
-        published[pid] = item
+        published.setdefault(pid, []).append({"batch": path.parent.name, "source_url": item.get("source_url")})
 
+duplicates = {pid: entries for pid, entries in published.items() if len(entries) > 1}
+print("Historical duplicate public IDs:", json.dumps(duplicates, ensure_ascii=False))
 approved = {}
 for path in FILES:
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -31,6 +32,7 @@ for path in FILES:
     for pid, row in data["items"].items():
         assert pid not in approved, f"Duplicate archived label for {pid}"
         assert pid in published, f"Unpublished Sheet item cannot be exposed as a label: {pid}"
+        assert pid not in duplicates, f"Ambiguous duplicate ID cannot have a single label: {pid}"
         assert set(row) == FIELDS, f"Non-public Sheet column leaked: {pid}"
         for value in row.values():
             assert isinstance(value, str) and value.strip(), f"Empty field: {pid}"
@@ -43,8 +45,9 @@ for path in FILES:
         approved[pid] = output
 
 print(json.dumps({
-    "published_articles": len(published),
+    "distinct_public_ids": len(published),
+    "published_articles": sum(len(v) for v in published.values()),
     "safely_matched_labels": len(approved),
-    "published_without_reviewed_labels": len(published) - len(approved),
+    "published_without_reviewed_labels": sum(len(v) for v in published.values()) - len(approved),
     "status": "ok",
 }, ensure_ascii=False))
