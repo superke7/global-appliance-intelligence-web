@@ -26,6 +26,11 @@ def stage_tag(raw: str) -> str | None:
     raw = str(raw or "").strip()
     if raw in TAXONOMY["stage_overrides"]:
         return TAXONOMY["stage_overrides"][raw]
+    # A definite first-stage action takes precedence over later negotiation notes.
+    if re.match(r"^(已生效|已实施|已投产|正式投产|投产运行|已经实施)", raw):
+        return "已生效/投产"
+    if re.match(r"^(已公告|已宣布|已公布)", raw):
+        return "已宣布待实施"
     for name, pattern in STAGE_PATTERNS:
         if re.search(pattern, raw):
             return name
