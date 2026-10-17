@@ -116,6 +116,9 @@ def prepare(
         new_items = result["items"][len(previous["items"]):]
         if summary["skipped_historical"]:
             raise PreflightError("candidate duplicates an older published URL")
+        previous_ids = {entry["public_id"] for entry in previous["items"]}
+        if any(pid not in previous_ids for pid in summary["skipped_identical"]):
+            raise PreflightError("candidate contains a new ID for an already-published same-day URL")
         status = "APPEND_READY" if new_items else "ALREADY_SYNCED"
     else:
         result = incoming
