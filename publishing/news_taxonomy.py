@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 
 TAXONOMY = json.loads((Path(__file__).resolve().parents[1] / "config/news-taxonomy.json").read_text(encoding="utf-8"))
+GEO_HIERARCHY = json.loads((Path(__file__).resolve().parents[1] / "config/news-geo-hierarchy.json").read_text(encoding="utf-8"))
 
 STAGE_PATTERNS = [
     ("诉讼裁决", r"法院|裁决|诉讼|起诉|上诉|司法|违宪|法官|判决"),
@@ -86,6 +87,45 @@ def geo_tags(raw: str) -> list[str]:
         if canonical in names and canonical not in out:
             out.append(canonical)
     return out
+
+
+
+def expand_geo_filter_tags(geographies: list[str]) -> list[str]:
+    """Geographic *coverage* filters, not news actors/policy jurisdictions.
+
+    One-directional: France -> EU/Europe, but Europe does not imply EU.
+    Preserve explicit Sheet labels; derive additional matches at render time.
+    Member relationships are a versioned October 2026 snapshot.
+    """
+    if not isinstance(geographies, list) or any(not isinstance(x, str) for x in geographies):
+        raise TypeError("Expected the already-normalized explicit geographic labels")
+
+    memberships = GEO_HIERARCHY["organization_membership"]
+    regions = GEO_HIERARCHY["country_region_membership"]
+    parents = GEO_HIERARCHY["region_parents"]
+    result: list[str] = []
+    visited: set[str] = set()
+
+    def add(value: str) -> None:
+        if value and value not in visited:
+            visited.add(value)
+            result.append(value)
+
+    for place in geographies:
+        add(place)
+        for region in regions.get(place, []):
+            add(region)
+        for organization, members in memberships.items():
+            if place in members:
+                add(organization)
+
+    # Resolve region parents transitively and only upwards.
+    index = 0
+    while index < len(result):
+        for parent in parents.get(result[index], []):
+            add(parent)
+        index += 1
+    return result
 
 
 def normalize_labels(row: dict) -> dict:
