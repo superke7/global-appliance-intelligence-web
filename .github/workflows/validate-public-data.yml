@@ -1,6 +1,12 @@
 name: Validate public data contract
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "public-batches/**"
+      - "config/**"
+      - "publishing/**"
   pull_request:
     paths:
       - "public-batches/**"
@@ -21,6 +27,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Compile public-only validators
         run: python3 -m py_compile publishing/*.py
+      - name: Check pre-publication create, append and privacy barriers
+        run: python3 -m publishing.test_preflight_public_batch
       - name: Validate historical public batches
         run: python3 publishing/validate_repository.py
       - name: Rebuild public event identities deterministically
