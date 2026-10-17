@@ -1,4 +1,4 @@
-# 全球家电资讯：单公开仓库迁移方案（尚未生产切换）
+# 全球家电资讯：单公开仓库切换记录（提示词已切换，首轮实测待验证）
 
 ## 目标架构
 - 唯一代码和正式公开数据仓库：`superke7/global-appliance-intelligence-web`，保留现有 GitHub Pages 网站和同源 RSS。
@@ -9,7 +9,7 @@
 - 原私有仓库仅在迁移验收前保留为生产退路；完成切换并观察稳定之后归档，不公开私有 Git 历史、PR/Issue、运维记录和 Secrets。
 
 ## 单仓库发布（北京时间；任务时间由 Schedule 控制）
-1. 06:45候选采集：只写Google Sheets候选池，无GitHub权限和内容生产。
+1. 06:45候选采集：只写Google Sheets候选池，不改GitHub。
 2. 07:15正式早报：原文核验、筛选、Event归并、Google Sheets正式行及QA。公开JSON以 `YYYYMMDD-0715` 为固定批次ID（非任务启动时间）。此阶段必须在GitHub外完成内容安全审查。
 3. 07:35发布：校验正式批次日志与N；根据公开仓库的 `config/public-batch-contract.json`、`config/public-event-registry.json`及既有批次做 preflight；如果合格且目标缺失，直接创建当天公开JSON。如果已有且完全一致，记ALREADY_SYNCED；如有新增，只允许原有items不变的尾部追加；不同或缺少审核证据则拒绝。
 4. 公开仓库 `Refresh public event registry` 在正式批次提交后，从已经公开的 `public-batches/**` 自动重建 `config/public-event-registry.json`；Event 身份只能来源于公开批次，不得写入Google Sheets内部Event字段或内部摘要。此派生更新不应重复触发Pages构建。GitHub `Deploy GitHub Pages` 随正式批次写入自动运行。
@@ -28,10 +28,14 @@
 - `python3 -m publishing.test_preflight_public_batch` 验证安全创建、重复写入、只追加、历史去重、敏感字段及Event身份拒绝。
 - `python3 publishing/validate_repository.py` 对已公开历史批次校验，保留旧日期既有 public_id 格式，现代批次采用严格数据合同。
 - 需要一条合法的下一次正式发布记录证明 **Google Sheets→公共JSON→Pages/RSS** 成功，且自动公开事件库生成成功；观察期内保留08:05补偿。
-- **未完成正式任务提示词切换前，不允许删除私有仓库或撤销目前的跨仓库镜像Token。** 日后迁移完成应撤销 `GAI_PUBLIC_MIRROR_TOKEN`，仅保留必要的 GitHub 访问授权。
+- **2026-10-17（北京时间）已将07:15、07:35、08:05三项ChatGPT定时任务提示词切至单公开仓库**；Schedule仍为07:15、07:35、08:05，06:45候选采集未改。
+- 第一次真实正式批次尚未在新流程验收；不宣称已端到端成功，不撤销现有跨仓库Token，不删除/公开私有仓库。连续稳定7天后计划撤销 `GAI_PUBLIC_MIRROR_TOKEN` 并归档私有仓库。
+- 回滚：若新正式发布实测遇到无法修复的问题，先停止公开写入竞争，再经用户确认把07:15/07:35/08:05提示词统一恢复为经审计的原私有Issue→自动镜像方案，重新启用私有仓库业务仅限回滚时使用。不得两个路径同时写同一天批次。
 - 迁移前不调整任何定时任务的Schedule，避免当天同时存在两种具有写入能力的自动流程。
 
 ## 迁移状态
 - 阶段1（公开合同、历史批次与Event映射代码）：已通过CI并合并。
 - 阶段2（发布前preflight、模拟测试和公开站构建QA）：PR演练中，未启用单仓库生产写入。
-- 阶段3（公开Event登记自动派生）：开发测试中；提示词切换、真实发布、7天观察及退役私有仓库尚未开始。
+- 阶段3：公开Event登记自动派生PR #4已合并，未来批次触发待实测。
+- 阶段4：07:15/07:35/08:05任务提示词已统一切换（2026-10-17北京时间）；首个合法正式批次、公开Event更新、Pages/RSS线上验收与7天观察仍待完成。
+- 归档私有仓库、撤销跨仓库Token：不得早于完整验收与稳定观察。
