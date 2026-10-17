@@ -17,7 +17,7 @@ from xml.sax.saxutils import escape as xml_escape
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-from publishing.news_taxonomy import TAXONOMY, normalize_labels
+from publishing.news_taxonomy import TAXONOMY, normalize_labels, expand_geo_filter_tags
 BATCH_ROOT = ROOT / "public-batches"
 LABEL_ARCHIVE = ROOT / "config/news-labels"
 OUT = ROOT / "_site"
@@ -437,7 +437,7 @@ def build_news_browser(batches) -> str:
         for i, item in reversed(list(enumerate(batch.get("items", [])))):
             metadata = article_news_labels(item)
             if metadata:
-                for geo in metadata["tags"]["geographies"]:
+                for geo in expand_geo_filter_tags(metadata["tags"]["geographies"]):
                     geo_counts[geo] = geo_counts.get(geo, 0) + 1
             all_items.append((day, i, item, metadata))
     facet_fields = [
@@ -463,7 +463,7 @@ def build_news_browser(batches) -> str:
             "impact": facets.get("impact", ""),
             "news_mark": facets.get("news_mark", ""),
             "category": facets.get("category", ""),
-            "geos": "|".join(facets.get("geographies", [])),
+            "geos": "|".join(expand_geo_filter_tags(facets.get("geographies", []))),
         }
         attrs = " ".join('data-' + key.replace("_", "-") + '="' + html.escape(val, quote=True) + '"'
                          for key, val in values.items())
@@ -475,6 +475,8 @@ def build_news_browser(batches) -> str:
                      safe_text(item.get("source_name")) + '</div><div class="browse-tags">' + tags +
                      '</div></article>')
     body = ('<section class="hero"><h1>新闻快速筛选</h1><p class="sub">按公开新闻标签组合查询；'
+            '国家/地区按上级区域和经济组织成员关系扩展匹配（如法国→欧盟/欧洲）。' 
+            '这仅表示涉及地区，不代表该国新闻属于欧盟层面政策。' 
             '原始完整描述保留在文章详情。无可靠对应标签的历史文章在筛选时不被错误归类。</p></section>' +
             '<section class="card"><div class="filters">' + "".join(controls) +
             '</div><div class="filter-summary"><strong id="match-count"></strong>' +
