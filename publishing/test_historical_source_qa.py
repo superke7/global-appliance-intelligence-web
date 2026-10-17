@@ -23,7 +23,7 @@ assert c["source_published_date"] == "2026-09-15"
 assert "2025/0419(COD)" in c["content_html"]
 assert "洗衣机" in c["content_html"]
 assert "仍未确定" in c["content_html"]
-assert "不是最终规则已经生效" in c["content_html"] or "并非最终" in c["content_html"]
+assert "均不得表述为最终规则已经生效" in c["content_html"]
 assert "https://oeil.europarl.europa.eu" in c["content_html"]
 assert w["public_id"] == "gai-20260919-001"
 assert w["event"]["event_key"] == "whirlpool-italy-fabriano-rd-closure-2026"
