@@ -7,20 +7,25 @@
     {
       "public_id": "gai-20260919-001",
       "title": "Whirlpool拟关闭意大利Fabriano洗涤电子研发办公室，约40名工程师岗位面临风险",
-      "excerpt": "Whirlpool已向员工沟通可能关闭Fabriano洗涤电子研发办公室，约40名电子工程师岗位面临风险，Varese烹饪研发办公室目前不在关闭计划内。",
-      "content_html": "<p>ANSA与RaiNews 9月18日报道，Whirlpool已向员工沟通可能关闭意大利Fabriano原Wrap技术办公室；该办公室约40名电子工程师，主要从事洗涤电子研发。</p><p>Varese约30人的烹饪研发办公室目前不在关闭计划内。当前公司沟通仍为可能关闭，尚非最终完成关闭。</p>",
-      "source_name": "ANSA / RaiNews",
-      "source_url": "https://www.ansa.it/amp/marche/notizie/2026/09/18/whirlpool-ex-wrap-a-fabriano-verso-la-chiusura-40-i-posti-a-rischio_e2c7cf0a-fec0-4be6-8e26-f9ce97aa9f46.html",
+      "excerpt": "意大利ANSA于9月18日报道，Whirlpool Technology正在考虑关闭Fabriano洗涤电子设计办公室，当地约40名技术员工岗位面临风险；当时仍为拟关闭阶段，并非已正式关闭。",
+      "content_html": "<p>意大利ANSA在2026年9月18日报道，Whirlpool Technology管理层向工会通报，正在评估关闭意大利Fabriano（法布里亚诺）前Wrap洗涤电子研发办公室，涉及约40名专门从事洗涤电子设计的技术人员。当地工会安排于9月21日召开员工大会讨论后续行动。</p><p>这是9月18日时点的拟关闭消息，尚不能写作已经关闭；意大利马尔凯大区当日也公开表示将关注相关岗位。后续是否作出正式关闭决定，应作为该事件新的阶段另行跟踪，不能倒填为9月18日已实施。</p><p>补充来源：<a href=\"https://www.ansa.it/marche/notizie/2026/09/18/assessore-marche-regione-fara-la-sua-parte-contro-chiusura-whirlpool_2aeec756-f7aa-4bd5-82b7-30de9c0e8f79.html\">ANSA 9月18日马尔凯大区官方回应报道</a></p>",
+      "source_name": "ANSA",
+      "source_url": "https://www.ansa.it/amp/marche/notizie/2026/09/18/chiusura-sede-whirlpool-a-fabriano-sindacati-convocano-unassemblea_78fafdc2-1ed1-401a-b126-ac459251a205.html",
       "source_published_date": "2026-09-18",
       "event_action": "create",
       "event": {
         "event_key": "whirlpool-italy-fabriano-rd-closure-2026",
         "title": "Whirlpool意大利Fabriano洗涤电子研发办公室关闭计划",
         "date": "2026-09-18",
-        "latest_progress": "2026年9月18日，Whirlpool向员工沟通可能关闭Fabriano洗涤电子研发办公室，约40名电子工程师岗位面临风险；Varese烹饪研发办公室目前不在关闭计划内。",
+        "latest_progress": "截至2026年9月18日，Whirlpool Technology仍在考虑关闭Fabriano洗涤电子研发办公室，当地约40名员工岗位面临风险；当日并无确认已完成关闭的证据。",
         "status": "announced",
-        "countries": ["意大利", "美国"],
-        "entities": ["Whirlpool"],
+        "countries": [
+          "意大利",
+          "美国"
+        ],
+        "entities": [
+          "Whirlpool"
+        ],
         "category": "制造与产能"
       }
     }
