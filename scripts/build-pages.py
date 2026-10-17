@@ -9,11 +9,14 @@ from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlencode
+
+from publishing.news_taxonomy import TAXONOMY, normalize_labels
 from xml.sax.saxutils import escape as xml_escape
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH_ROOT = ROOT / "public-batches"
+LABEL_ARCHIVE = ROOT / "config/news-labels"
 OUT = ROOT / "_site"
 SITE_TITLE = "全球家电AI早报"
 SITE_DESCRIPTION = "全球家电、贸易政策、供应链与制造布局公开资讯"
@@ -36,6 +39,29 @@ STYLE = """
 .footer{color:var(--muted);font-size:13px;padding:34px 0 48px}.empty{padding:40px 0;color:var(--muted)}
 @media(max-width:900px){.hero-dashboard{flex-direction:column}.stats-box{min-width:0;width:100%}.home-grid{grid-template-columns:1fr}.archive-side{position:static}.archive-panel{padding:14px}.info-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.nav{gap:12px;font-size:13px;flex-wrap:wrap;justify-content:flex-end}.top .wrap{align-items:flex-start}.hero h1,.detail-title{font-size:27px}.detail-shell{padding:20px}.stats-row{gap:8px}.stat{font-size:21px}}
+
+/* Minimal, accessible five-facet public news browser */
+.news-filter-lead{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.news-filter-link{color:var(--accent);font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.label-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0 18px}
+.label-cell{border:1px solid var(--line);background:#f8fafc;border-radius:10px;padding:12px 14px;min-width:0}
+.label-cell dt{font-size:12px;color:var(--muted);margin:0 0 6px}
+.label-cell dd{margin:0;line-height:1.55;font-size:14px;overflow-wrap:anywhere}
+.label-chip{display:inline-block;margin:7px 5px 0 0;border:1px solid #c7e1db;background:#ebf7f2;color:#075c66;border-radius:99px;padding:3px 9px;font-size:12px}
+.label-chip:hover{background:#dcf2e9}
+.filters{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:10px;align-items:end}
+.filters label{font-size:12px;font-weight:700;color:#344054;display:flex;flex-direction:column;gap:6px}
+.filters select{font:inherit;background:#fff;color:var(--text);border:1px solid #cbd5e1;border-radius:9px;padding:10px;max-width:100%;min-width:0}
+.filters select:focus{outline:2px solid var(--accent)}
+.filter-summary{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 0;color:var(--muted);font-size:14px}
+.filter-clear{border:1px solid #cbd5e1;border-radius:7px;background:white;padding:7px 13px;cursor:pointer}
+.browse-item{padding:16px 20px}
+.browse-item h2{font-size:17px;margin:0 0 8px;line-height:1.5}
+.browse-item[hidden]{display:none}
+.browse-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.browse-tags span{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--soft);color:#475467}
+@media(max-width:900px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.label-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.filters{grid-template-columns:1fr}.news-filter-lead{align-items:flex-start;flex-direction:column}}
 """
 
 
@@ -316,11 +342,150 @@ def status_label(value) -> str:
     return labels.get(raw, raw or "未标注")
 
 
+
+def load_news_label_archive() -> dict:
+    """Read only five previously approved fields for already published articles."""
+    out = {}
+    for path in sorted(LABEL_ARCHIVE.glob("part-*.json")):
+        source = json.loads(path.read_text(encoding="utf-8"))
+        for public_id, fields in source.get("items", {}).items():
+            if public_id in out and out[public_id] != fields:
+                raise ValueError("Conflicting label map for " + public_id)
+            out[public_id] = fields
+    return out
+
+
+ARCHIVED_NEWS_LABELS = load_news_label_archive()
+
+
+def article_news_labels(item: dict) -> dict | None:
+    # New articles carry the same five Sheet fields inside their approved JSON.
+    # Old articles retain their original batch bytes; read separate reviewed mapping.
+    raw = item.get("news_labels")
+    if raw is None:
+        raw = ARCHIVED_NEWS_LABELS.get(item.get("public_id"))
+    return normalize_labels(raw) if raw is not None else None
+
+
+def article_label_section(item: dict) -> str:
+    data = article_news_labels(item)
+    if data is None:
+        return ""
+    fields = [
+        ("事件阶段", "stage", "stage"),
+        ("国家/地区", "geographies", "geo"),
+        ("新闻标注", "news_mark", "news_mark"),
+        ("影响程度", "impact", "impact"),
+        ("事件分类", "category", "category"),
+    ]
+    rows = []
+    for title, key, query in fields:
+        tags = data["tags"][key]
+        tags = tags if isinstance(tags, list) else [tags]
+        pills = "".join(
+            '<a class="label-chip" href="../../news.html?' +
+            html.escape(urlencode({query: tag}), quote=True) + '">' + safe_text(tag) + '</a>'
+            for tag in tags
+        )
+        rows.append(
+            '<div class="label-cell"><dt>' + safe_text(title) +
+            '</dt><dd>' + safe_text(data["raw"][title]) + '<div>' + pills + '</div></dd></div>'
+        )
+    return '<section class="detail-section"><h2>新闻标签</h2><dl class="label-grid">' + "".join(rows) + '</dl></section>'
+
+
+BROWSE_JS = """<script>
+(function(){
+  const filters=[...document.querySelectorAll('[data-filter]')];
+  const articles=[...document.querySelectorAll('.browse-item')];
+  const summary=document.getElementById('match-count');
+  const reset=document.getElementById('clear-filters');
+  const params=new URLSearchParams(location.search);
+  for(const input of filters){input.value=params.get(input.dataset.filter)||'';}
+  function refresh(){
+    let visible=0;
+    for(const el of articles){
+      const match=filters.every(input=>{
+        const value=input.value;
+        if(!value)return true;
+        if(input.dataset.filter==='geo')return (el.dataset.geos||'').split('|').includes(value);
+        return el.dataset[input.dataset.filter]===value;
+      });
+      el.hidden=!match;
+      if(match)visible++;
+    }
+    summary.textContent='符合条件 '+visible+' / '+articles.length+' 条';
+    const next=new URLSearchParams();
+    for(const input of filters){if(input.value)next.set(input.dataset.filter,input.value);}
+    const query=next.toString();
+    history.replaceState(null,'',location.pathname+(query?'?'+query:''));
+  }
+  for(const input of filters){input.addEventListener('change',refresh);}
+  reset.addEventListener('click',()=>{for(const input of filters)input.value='';refresh();});
+  refresh();
+})();
+</script>"""
+
+
+def build_news_browser(batches) -> str:
+    all_items = []
+    geo_counts = {}
+    for day, batch in reversed(batches):
+        for i, item in reversed(list(enumerate(batch.get("items", [])))):
+            metadata = article_news_labels(item)
+            if metadata:
+                for geo in metadata["tags"]["geographies"]:
+                    geo_counts[geo] = geo_counts.get(geo, 0) + 1
+            all_items.append((day, i, item, metadata))
+    facet_fields = [
+        ("stage", "事件阶段", TAXONOMY["facets"]["stage"]),
+        ("geo", "国家/地区", sorted(geo_counts, key=lambda k: (-geo_counts[k], k))),
+        ("news_mark", "新闻标注", TAXONOMY["facets"]["news_mark"]),
+        ("impact", "影响程度", TAXONOMY["facets"]["impact"]),
+        ("category", "事件分类", TAXONOMY["facets"]["category"]),
+    ]
+    controls = []
+    for key, title, choices in facet_fields:
+        options = '<option value="">全部</option>' + "".join(
+            '<option value="' + html.escape(label, quote=True) + '">' + safe_text(label) + '</option>'
+            for label in choices
+        )
+        controls.append('<label>' + safe_text(title) + '<select data-filter="' + key +
+                        '" aria-label="' + safe_text(title) + '">' + options + '</select></label>')
+    cards = []
+    for date_key, index, item, labels in all_items:
+        facets = labels["tags"] if labels else {}
+        values = {
+            "stage": facets.get("stage", ""),
+            "impact": facets.get("impact", ""),
+            "news_mark": facets.get("news_mark", ""),
+            "category": facets.get("category", ""),
+            "geos": "|".join(facets.get("geographies", [])),
+        }
+        attrs = " ".join('data-' + key.replace("_", "-") + '="' + html.escape(val, quote=True) + '"'
+                         for key, val in values.items())
+        slug = article_slug(item, date_key, index)
+        tags = "".join('<span>' + safe_text(facets[key]) + '</span>' for key in ("category", "impact", "stage") if facets.get(key))
+        cards.append('<article class="card news browse-item" ' + attrs + '><h2><a class="item-title" href="articles/' +
+                     html.escape(slug, quote=True) + '/index.html">' + safe_text(item.get("title")) +
+                     '</a></h2><div class="meta">' + safe_text(fmt_day(date_key)) + ' · ' +
+                     safe_text(item.get("source_name")) + '</div><div class="browse-tags">' + tags +
+                     '</div></article>')
+    body = ('<section class="hero"><h1>新闻快速筛选</h1><p class="sub">按公开新闻标签组合查询；'
+            '原始完整描述保留在文章详情。无可靠对应标签的历史文章在筛选时不被错误归类。</p></section>' +
+            '<section class="card"><div class="filters">' + "".join(controls) +
+            '</div><div class="filter-summary"><strong id="match-count"></strong>' +
+            '<button type="button" class="filter-clear" id="clear-filters">清除筛选</button></div></section>' +
+            '<div class="browse-results">' + "".join(cards) + '</div>' + BROWSE_JS)
+    return layout("新闻快速筛选 - " + SITE_TITLE, body)
+
+
 def layout(title: str, body: str, depth: int = 0) -> str:
     prefix = "../" * depth
     nav = (
         f'<a href="{prefix}index.html">首页</a>'
         f'<a href="{prefix}events.html">事件数据库</a>'
+        f'<a href="{prefix}news.html">新闻筛选</a>'
         f'<a href="{prefix}rss.xml">RSS</a>'
     )
     return f"""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{safe_text(title)}</title><meta name="description" content="{safe_text(SITE_DESCRIPTION)}"><style>{STYLE}</style></head><body><header class="top"><div class="wrap"><a class="brand" href="{prefix}index.html">{SITE_TITLE}</a><nav class="nav">{nav}</nav></div></header><main class="wrap">{body}</main><footer class="wrap footer">全球家电AI早报 · 公开资讯 · 北京时间</footer></body></html>"""
@@ -427,7 +592,7 @@ def build_home(batches):
     items_html = "".join(render_item(item, date_key, index) for date_key, index, item in recent)
     archive_sidebar = build_archive_sidebar(batches)
     event_sidebar = build_event_sidebar(events)
-    body = f'''<section class="hero"><div class="hero-dashboard"><div class="hero-main"><h1>{SITE_TITLE}</h1><p class="sub">最新公开批次：{fmt_day(latest_key)} · 当日 {len(latest.get("items", []))} 条资讯</p></div><aside class="stats-box"><div class="stats-label">公开数据概况</div><div class="stats-row"><div class="stat-item"><div class="stat">{total_items}</div><div class="stat-name">累计资讯</div></div><div class="stat-item"><div class="stat">{len(batches)}</div><div class="stat-name">早报批次</div></div><div class="stat-item"><div class="stat">{len(events)}</div><div class="stat-name">持续事件</div></div></div></aside></div></section><div class="home-grid"><aside class="archive-side">{archive_sidebar}{event_sidebar}</aside><section id="latest"><h2 class="section-title">最新资讯</h2>{items_html}</section></div>'''
+    body = f'''<section class="hero"><div class="hero-dashboard"><div class="hero-main"><h1>{SITE_TITLE}</h1><p class="sub">最新公开批次：{fmt_day(latest_key)} · 当日 {len(latest.get("items", []))} 条资讯</p></div><aside class="stats-box"><div class="stats-label">公开数据概况</div><div class="stats-row"><div class="stat-item"><div class="stat">{total_items}</div><div class="stat-name">累计资讯</div></div><div class="stat-item"><div class="stat">{len(batches)}</div><div class="stat-name">早报批次</div></div><div class="stat-item"><div class="stat">{len(events)}</div><div class="stat-name">持续事件</div></div></div></aside></div></section><div class="home-grid"><aside class="archive-side">{archive_sidebar}{event_sidebar}</aside><section id="latest"><div class="news-filter-lead"><h2 class="section-title">最新资讯</h2><a class="news-filter-link" href="news.html">快速筛选全部新闻 →</a></div>{items_html}</section></div>'''
     return layout(SITE_TITLE, body)
 
 
@@ -474,11 +639,12 @@ def build_article_detail(date_key, index, item):
             for url, label in sources
         )
         source_section = f'''<section class="detail-section"><h2>原始来源</h2><ul class="source-list">{source_rows}</ul></section>'''
+    label_section = article_label_section(item)
     event = item.get("event") if isinstance(item.get("event"), dict) else None
     event_box = ""
     if event and event.get("event_key"):
         event_box = f'''<section class="detail-event"><h3>关联事件</h3><a class="event-link" href="../../events/{event_slug(event)}/index.html">{safe_text(event.get("title"))} →</a><p class="excerpt">{safe_text(event.get("latest_progress"))}</p></section>'''
-    body = f'''<article class="detail-shell"><h1 class="detail-title">{title}</h1><div class="detail-meta"><span>{source_date}</span><span>{source}</span><span>收录日期：{fmt_day(date_key)}</span></div><div class="detail-content">{content}</div>{source_section}<div class="item-actions"><a class="text-link" href="../../daily/{date_key}/index.html">查看当日早报 →</a></div>{event_box}</article><p class="backline"><a href="../../index.html">← 返回首页</a></p>'''
+    body = f'''<article class="detail-shell"><h1 class="detail-title">{title}</h1><div class="detail-meta"><span>{source_date}</span><span>{source}</span><span>收录日期：{fmt_day(date_key)}</span></div>{label_section}<div class="detail-content">{content}</div>{source_section}<div class="item-actions"><a class="text-link" href="../../daily/{date_key}/index.html">查看当日早报 →</a></div>{event_box}</article><p class="backline"><a href="../../index.html">← 返回首页</a></p>'''
     return layout(f"{item.get('title', '')} - {SITE_TITLE}", body, depth=2)
 
 
@@ -602,6 +768,7 @@ def main():
     (OUT / "index.html").write_text(build_home(batches), encoding="utf-8")
     (OUT / "archive.html").write_text(build_archive(batches), encoding="utf-8")
     (OUT / "events.html").write_text(build_events(batches), encoding="utf-8")
+    (OUT / "news.html").write_text(build_news_browser(batches), encoding="utf-8")
     (OUT / "rss.xml").write_text(build_rss(batches), encoding="utf-8")
 
     data_dir = OUT / "data"
