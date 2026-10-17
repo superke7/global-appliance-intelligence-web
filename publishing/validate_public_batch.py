@@ -75,7 +75,7 @@ def scan_forbidden_content(value: Any, path: str = "payload") -> None:
             scan_forbidden_content(child, f"{path}[{index}]")
     elif isinstance(value, str):
         for phrase in FORBIDDEN_PHRASES:
-            if phrase in value:
+            if phrase.casefold() in value.casefold():
                 fail(path, f"contains forbidden internal phrase: {phrase}")
 
 
