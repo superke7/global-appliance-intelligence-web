@@ -12,7 +12,10 @@ paths = sorted((ROOT / "public-batches").glob("*/public-batch.json"))
 assert paths, "No public batches found"
 for path in paths:
     obj = json.loads(path.read_text(encoding="utf-8"))
-    mod.validate_payload(obj)
+    try:
+        mod.validate_payload(obj)
+    except Exception as exc:
+        raise RuntimeError(f"Historical batch incompatible: {path}: {exc}") from exc
     day = path.parent.name
     assert obj["batch_id"].startswith(day + "-"), f"unexpected batch identity {path}"
     for item in obj["items"]:
