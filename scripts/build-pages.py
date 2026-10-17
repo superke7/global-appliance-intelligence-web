@@ -11,10 +11,13 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse, urlencode
 
-from publishing.news_taxonomy import TAXONOMY, normalize_labels
+import sys
 from xml.sax.saxutils import escape as xml_escape
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from publishing.news_taxonomy import TAXONOMY, normalize_labels
 BATCH_ROOT = ROOT / "public-batches"
 LABEL_ARCHIVE = ROOT / "config/news-labels"
 OUT = ROOT / "_site"
@@ -409,7 +412,7 @@ BROWSE_JS = """<script>
         const value=input.value;
         if(!value)return true;
         if(input.dataset.filter==='geo')return (el.dataset.geos||'').split('|').includes(value);
-        return el.dataset[input.dataset.filter]===value;
+        return el.dataset[input.dataset.filter==='news_mark'?'newsMark':input.dataset.filter]===value;
       });
       el.hidden=!match;
       if(match)visible++;
