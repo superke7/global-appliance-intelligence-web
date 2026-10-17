@@ -7,6 +7,9 @@ on:
     paths:
       - "public-batches/**"
       - "scripts/build-pages.py"
+      - "publishing/validate_public_batch.py"
+      - "publishing/validate_repository.py"
+      - "config/public-batch-contract.json"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -33,6 +36,9 @@ jobs:
 
       - name: Validate builder
         run: python -m py_compile scripts/build-pages.py
+
+      - name: Check all published batches before building Pages and RSS
+        run: python3 publishing/validate_repository.py
 
       - name: Build static site
         run: python scripts/build-pages.py
