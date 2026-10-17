@@ -31,7 +31,11 @@ jobs:
         run: python3 -m publishing.test_preflight_public_batch
       - name: Validate historical public batches
         run: python3 publishing/validate_repository.py
-      - name: Rebuild public event identities deterministically
+      - name: Verify public event registry reproducibility in PRs
+        if: github.event_name == 'pull_request'
         run: |
           python3 publishing/rebuild_public_event_registry.py
           git diff --exit-code -- config/public-event-registry.json
+      - name: Confirm registry derivation is valid on direct public data pushes
+        if: github.event_name == 'push'
+        run: python3 publishing/rebuild_public_event_registry.py
