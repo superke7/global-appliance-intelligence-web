@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "source": "derived from public-batches/*/public-batch.json",
+  "events": {
+    "15方结构性产能过剩行业协作机制": {
+      "event_key": "global-excess-capacity-sectoral-platforms-2026",
+      "date": "2026-10-07"
+    },
+    "2027年USMCA联合审查与公众咨询": {
+      "event_key": "usmca-joint-review-2027",
+      "date": "2026-10-02"
+    },
+    "232钢铝铜及衍生品分层税率调整": {
+      "event_key": "us-sec232-tiered-metals-2026",
+      "date": "2026-06-18"
+    },
+    "Aspen Pumps收购Henry Group等制冷部件企业": {
+      "event_key": "aspen-pumps-refrigeration-components-acquisitions-2026",
+      "date": "2026-10-05"
+    },
+    "Axen与Perge法国R290热泵合资制造项目": {
+      "event_key": "axen-perge-france-r290-heatpump-jv-2026",
+      "date": "2026-09-29"
+    },
+    "Beijer Ref收购FG Europe并扩展欧洲及土耳其HVAC渠道": {
+      "event_key": "beijer-ref-fg-europe-acquisition-2026",
+      "date": "2026-09-11"
+    },
+    "Beijer Ref收购Refra并扩展天然冷媒热泵与制冷业务": {
+      "event_key": "beijer-ref-refra-acquisition-2026",
+      "date": "2026-08-24"
+    },
+    "Beko意大利Melano工厂产能收缩与停产调整": {
+      "event_key": "beko-italy-melano-capacity-2026",
+      "date": "2026-08-27"
+    },
+    "Bluu Unit收购英国Space Engineering": {
+      "event_key": "bluu-unit-space-engineering-acquisition-2026",
+      "date": "2026-10-14"
+    },
+    "Bosch美国碳化硅半导体工厂改造": {
+      "event_key": "bosch-us-sic-chips-2026",
+      "date": "2026-07-13"
+    },
+    "Carrier收购Intercool并整合Benelux Toshiba HVAC渠道": {
+      "event_key": "carrier-intercool-benelux-acquisition-2026",
+      "date": "2026-08-18"
+    },
+    "Cummins-Wagner收购Syracuse Thermal并扩展纽约州HVAC渠道": {
+      "event_key": "cummins-wagner-syracuse-thermal-acquisition-2026",
+      "date": "2026-09-16"
+    },
+    "EFTA—越南自由贸易协定": {
+      "event_key": "efta-vietnam-fta-2026",
+      "date": "2026-10-14"
+    },
+    "Electrolux巴西BNDES融资与节能智能家电研发项目": {
+      "event_key": "electrolux-brazil-bndes-innovation-2026",
+      "date": "2026-08-31"
+    },
+    "Electrolux意大利制造网络重组与新工业方案谈判": {
+      "event_key": "electrolux-italy-restructuring-2026",
+      "date": "2026-05-11"
+    },
+    "Elin Electronics印度Bhiwadi家电工厂投产与产能扩张": {
+      "event_key": "elin-india-bhiwadi-appliance-plant-2026",
+      "date": "2026-09-14"
+    },
+    "GE Appliances路易斯维尔洗涤产能回迁与Appliance Park重构": {
+      "event_key": "ge-appliances-louisville-laundry-reshoring-2026",
+      "date": "2026-09-02"
+    },
+    "KCC与Transaera美国高效除湿空调制造合作": {
+      "event_key": "kcc-transaera-doas-manufacturing-2026",
+      "date": "2026-09-29"
+    },
+    "LG与SK Enmove下一代家电制冷剂及冷冻机油联合开发": {
+      "event_key": "lg-sk-enmove-refrigerant-2026",
+      "date": "2026-09-23"
+    },
+    "LG印度Sri City第三家电工厂建设与投产": {
+      "event_key": "lg-india-sri-city-appliance-plant-2026",
+      "date": "2025-05-08"
+    },
+    "LG巴西巴拉那州冰箱工厂投资与投产": {
+      "event_key": "lg-brazil-parana-refrigerator-plant-2026",
+      "date": "2026-08-13"
+    },
+    "LG数据中心液冷产品获得NVIDIA验证": {
+      "event_key": "lg-nvidia-ai-factory-cdu-2026",
+      "date": "2026-07-27"
+    },
+    "LG韩国K-On-Device AI Home家电AI SoC研发项目": {
+      "event_key": "lg-k-ondevice-ai-home-soc-2026",
+      "date": "2026-08-31"
+    },
+    "LG韩国济州共同住宅热泵电气化示范项目": {
+      "event_key": "lg-korea-apartment-heatpump-pilot-2026",
+      "date": "2026-09-15"
+    },
+    "Madison Air收购ebm-papst": {
+      "event_key": "madison-air-ebmpapst-acquisition-2026",
+      "date": "2026-08-17"
+    },
+    "Robert Madden Industries收购Shore Distributors并扩展美国中大西洋HVAC分销网络": {
+      "event_key": "rmi-shore-distributors-acquisition-2026",
+      "date": "2026-09-09"
+    },
+    "Solstice纽约Buffalo制冷剂研发设施扩建": {
+      "event_key": "solstice-buffalo-refrigerant-rd-expansion-2026",
+      "date": "2026-10-10"
+    },
+    "Systemair荷兰Waalwijk工厂关闭计划": {
+      "event_key": "systemair-waalwijk-plant-closure-2026",
+      "date": "2026-09-29"
+    },
+    "TCL电子收购TCL空调业务": {
+      "event_key": "tcl-electronics-airconditioning-acquisition-2026",
+      "date": "2026-07-15"
+    },
+    "Voltatron收购Kurz Elektronik并整合家电电子与线束制造能力": {
+      "event_key": "voltatron-kurz-elektronik-acquisition-2026",
+      "date": "2026-08-28"
+    },
+    "Watsco收购The Granite Group并扩展美国东北部HVAC分销网络": {
+      "event_key": "watsco-granite-group-acquisition-2026",
+      "date": "2026-09-14"
+    },
+    "Whirlpool北美业务重组与盈利修复": {
+      "event_key": "whirlpool-north-america-restructuring-2026",
+      "date": "2026-08-04"
+    },
+    "Whirlpool意大利Fabriano洗涤电子研发办公室关闭计划": {
+      "event_key": "whirlpool-italy-fabriano-rd-closure-2026",
+      "date": "2026-09-18"
+    },
+    "Wonder Electricals收购热水器制造工厂及扩产": {
+      "event_key": "wonder-electricals-geyser-plant-acquisition-2026",
+      "date": "2026-09-23"
+    },
+    "万和埃及燃气热水器与换热器工厂投产": {
+      "event_key": "vanward-egypt-water-heater-plant-2026",
+      "date": "2026-01-11"
+    },
+    "三星韩国光州EHS热泵锅炉产线回迁与量产": {
+      "event_key": "samsung-korea-ehs-heatpump-plant-2026",
+      "date": "2026-08-19"
+    },
+    "中美Board of Trade非敏感商品平衡贸易与关税调整机制": {
+      "event_key": "us-china-board-of-trade-2026",
+      "date": "2026-06-02"
+    },
+    "丹佛斯家电温控业务出售及斯洛伐克工厂移交": {
+      "event_key": "danfoss-frion-appliance-controls-divestiture-2026",
+      "date": "2026-10-07"
+    },
+    "京东收购CECONOMY的欧盟外国补贴条例审查": {
+      "event_key": "eu-jd-ceconomy-fsr-2026",
+      "date": "2026-05-28"
+    },
+    "以色列批准并实施《基加利修正案》": {
+      "event_key": "israel-kigali-amendment-2026",
+      "date": "2026-10-05"
+    },
+    "全球可持续制冷1亿美元慈善资金计划": {
+      "event_key": "global-sustainable-cooling-philanthropic-fund-2026",
+      "date": "2026-10-15"
+    },
+    "全球钢铁产能过剩Milwaukee Framework联合行动框架": {
+      "event_key": "global-steel-milwaukee-framework-2026",
+      "date": "2026-09-30"
+    },
+    "加拿大国家住宅热泵补贴计划": {
+      "event_key": "canada-national-heat-pump-rebate-2026",
+      "date": "2026-10-08"
+    },
+    "加拿大对美国钢铁、电子产品及家电反制关税": {
+      "event_key": "canada-us-retaliatory-tariffs-2026",
+      "date": "2026-08-22"
+    },
+    "北美三项合资、安德森工厂转产及北美盈利修复": {
+      "event_key": "electrolux-midea-na-jv-2026",
+      "date": "2026-04-23"
+    },
+    "印度LG、三星OLED电视零部件关税归类调查": {
+      "event_key": "india-oled-tv-open-cell-tariff-investigation-2026",
+      "date": "2026-09-23"
+    },
+    "印度关键进口本土化计划": {
+      "event_key": "india-critical-import-substitution-2026",
+      "date": "2026-07-16"
+    },
+    "印度放宽外资电商出口规则": {
+      "event_key": "india-ecommerce-export-fdi-2026",
+      "date": "2026-07-23"
+    },
+    "埃及冷轧、镀锌及预涂钢进口保障措施": {
+      "event_key": "egypt-flat-steel-safeguard-2026",
+      "date": "2026-03-03"
+    },
+    "墨西哥对非自贸伙伴进口限制与关税调整": {
+      "event_key": "mexico-nonfta-trade-restrictions-2026",
+      "date": "2026-08-18"
+    },
+    "墨西哥海关经纪代理计划、USMCA谈判及共同钢铝外部壁垒": {
+      "event_key": "mexico-customs-broker-usmca-2026",
+      "date": "2026-07-18"
+    },
+    "大金美国凤凰城模块化HVAC工厂扩建项目": {
+      "event_key": "daikin-us-phoenix-modular-hvac-expansion-2026",
+      "date": "2026-10-14"
+    },
+    "奥马泰国冰箱工厂投产与本地化": {
+      "event_key": "homa-thailand-refrigerator-plant-2026",
+      "date": "2026-09-15"
+    },
+    "对俄罗斯能源主要购买方制裁法案": {
+      "event_key": "us-russia-oil-buyers-sanctions-2026",
+      "date": "2026-07-14"
+    },
+    "巴西对中国R600a制冷压缩机反倾销调查": {
+      "event_key": "brazil-china-r600a-refrigeration-compressor-ad-2026",
+      "date": "2026-04-30"
+    },
+    "巴西对中国家电用钢化玻璃反倾销调查": {
+      "event_key": "brazil-china-appliance-tempered-glass-ad-2026",
+      "date": "2026-09-01"
+    },
+    "强迫劳动301关税司法挑战": {
+      "event_key": "us-forcedlabor301-lawsuit-2026",
+      "date": "2026-07-24"
+    },
+    "强迫劳动进口禁令执行不足301调查及中美后续经贸沟通": {
+      "event_key": "ustr-usa-forcedlabor301-2026",
+      "date": "2026-07-24"
+    },
+    "意大利制造网络重组、裁员与新工业方案谈判": {
+      "event_key": "electrolux-italy-restructuring-2026",
+      "date": "2026-05-11"
+    },
+    "欧中贸易失衡再平衡磋商": {
+      "event_key": "eu-china-trade-rebalancing-2026",
+      "date": "2026-09-08"
+    },
+    "欧洲空调高温季需求激增及中欧班列加急补货": {
+      "event_key": "cn-brands-eu-ac-surge-2026",
+      "date": "2026-07-28"
+    },
+    "欧盟CBAM扩围与紧急刹车条款调整": {
+      "event_key": "eu-cbam-expansion-2026",
+      "date": "2026-09-15"
+    },
+    "欧盟—菲律宾自由贸易协定": {
+      "event_key": "eu-philippines-fta-2026",
+      "date": "2026-09-22"
+    },
+    "欧盟公共采购法欧洲优先与互惠准入改革": {
+      "event_key": "eu-public-procurement-european-preference-2026",
+      "date": "2026-09-08"
+    },
+    "欧盟审查京东收购CECONOMY": {
+      "event_key": "eu-jd-ceconomy-fsr-2026",
+      "date": "2026-05-28"
+    },
+    "欧盟家电产业专项行动计划倡议": {
+      "event_key": "eu-household-appliances-action-plan-2026",
+      "date": "2026-09-24"
+    },
+    "欧盟工业加速法案“等同欧盟原产”规则": {
+      "event_key": "eu-iaa-equivalent-origin-2026",
+      "date": "2026-03-04"
+    },
+    "欧盟工业风机新版生态设计规则": {
+      "event_key": "eu-industrial-fans-ecodesign-2026",
+      "date": "2026-07-24"
+    },
+    "欧盟快速贸易反制工具法德联合提案": {
+      "event_key": "eu-rapid-trade-response-france-germany-2026",
+      "date": "2026-10-05"
+    },
+    "法国超市制冷控制系统网络攻击事件": {
+      "event_key": "france-supermarket-refrigeration-cyberattack-2026",
+      "date": "2026-10-12"
+    },
+    "海尔埃及冰箱冷柜二期工厂建设与投产": {
+      "event_key": "haier-egypt-refrigeration-phase2-2026",
+      "date": "2026-09-09"
+    },
+    "美印临时贸易协定框架调整与后续谈判": {
+      "event_key": "india-us-interim-trade-agreement-2026",
+      "date": "2026-10-10"
+    },
+    "美国2018年对华301关税措施第二次四年法定复审": {
+      "event_key": "us-china-2018-301-second-four-year-review-2026",
+      "date": "2026-10-07"
+    },
+    "美国FCC非互认经济体电子设备检测实验室限制规则": {
+      "event_key": "us-fcc-nonreciprocal-labs-equipment-authorization-2026",
+      "date": "2026-10-07"
+    },
+    "美国UFLPA实体清单扩容": {
+      "event_key": "us-uflpa-entity-list-2026",
+      "date": "2026-07-31"
+    },
+    "美国产能过剩Section 301调查及拟议关税行动": {
+      "event_key": "us-structural-overcapacity-301-2026",
+      "date": "2026-03-11"
+    },
+    "美国全球反转运与关税规避执法升级": {
+      "event_key": "us-global-transshipment-enforcement-2026",
+      "date": "2026-08-13"
+    },
+    "美国对加拿大第338条50%附加关税及生效前谈判": {
+      "event_key": "US-CANADA-SECTION338-2026",
+      "date": "2026-07-20"
+    },
+    "美国强迫劳动301关税及后续产能过剩调查": {
+      "event_key": "ustr-usa-forcedlabor301-2026",
+      "date": "2026-07-27"
+    },
+    "美国强迫劳动进口禁令执行不足301调查": {
+      "event_key": "ustr-usa-forcedlabor301-2026",
+      "date": "2026-07-24"
+    },
+    "美泰对等贸易协定谈判与签署": {
+      "event_key": "thailand-us-reciprocal-trade-agreement-2026",
+      "date": "2026-10-07"
+    },
+    "美的Clivet意大利Feltre热泵工厂投产与扩产": {
+      "event_key": "midea-clivet-feltre-heatpump-plant-2026",
+      "date": "2026-09-14"
+    },
+    "美的南非洗衣机工厂建设与投产": {
+      "event_key": "midea-south-africa-washer-plant-2026",
+      "date": "2026-09-03"
+    },
+    "美的印尼家电制造基地扩张与本地化": {
+      "event_key": "midea-indonesia-appliance-manufacturing-2026",
+      "date": "2026-09-09"
+    },
+    "美越贸易谈判、工厂核查及反转运执法": {
+      "event_key": "us-vietnam-trade-enforcement-2026",
+      "date": "2026-07-16"
+    },
+    "美越贸易谈判、越南工厂现场核查及反转运联合执法": {
+      "event_key": "us-vietnam-trade-enforcement-2026",
+      "date": "2026-07-16"
+    },
+    "荷兰2029年智能混合热泵住宅标准": {
+      "event_key": "netherlands-smart-hybrid-heatpump-standard-2029",
+      "date": "2026-10-07"
+    },
+    "韩国对泰国无缝铜管反倾销措施": {
+      "event_key": "korea-thailand-seamless-copper-ad-2026",
+      "date": "2025-09-12"
+    },
+    "马来西亚NUR MADANI节能家电补贴计划": {
+      "event_key": "malaysia-nur-madani-efficient-appliance-rebate-2027",
+      "date": "2026-10-09"
+    },
+    "马来西亚电子商务法案与境外平台监管改革": {
+      "event_key": "malaysia-ecommerce-bill-2027",
+      "date": "2026-10-09"
+    },
+    "魁北克家电法定良好运作保证制度": {
+      "event_key": "quebec-appliance-good-working-order-warranty-2026",
+      "date": "2026-10-05"
+    }
+  }
+}
