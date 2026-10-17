@@ -21,8 +21,9 @@ for path in (ROOT / "public-batches").glob("*/public-batch.json"):
         pid = item["public_id"]
         published.setdefault(pid, []).append({"batch": path.parent.name, "source_url": item.get("source_url")})
 
-duplicates = {pid: entries for pid, entries in published.items() if len(entries) > 1}
-print("Historical duplicate public IDs:", json.dumps(duplicates, ensure_ascii=False))
+reused = {pid: entries for pid, entries in published.items() if len(entries) > 1}
+duplicates = {pid: entries for pid, entries in reused.items() if len({e["source_url"] for e in entries}) > 1}
+print(f"Historical repeated article references: {len(reused)}; conflicting public identities: {len(duplicates)}")
 approved = {}
 for path in FILES:
     data = json.loads(path.read_text(encoding="utf-8"))
