@@ -10,6 +10,10 @@ on:
       - "publishing/validate_public_batch.py"
       - "publishing/validate_repository.py"
       - "config/public-batch-contract.json"
+      - "config/news-labels/**"
+      - "config/news-taxonomy.json"
+      - "config/news-geo-hierarchy.json"
+      - "publishing/news_taxonomy.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -43,10 +47,14 @@ jobs:
       - name: Build static site
         run: python scripts/build-pages.py
 
+      - name: Validate approved Sheet label archive before publishing
+        run: python3 -m publishing.validate_news_labels
+
       - name: Smoke test output
         run: |
           test -f _site/index.html
           test -f _site/archive.html
+          test -f _site/news.html
           test -f _site/events.html
           test -f _site/rss.xml
           test -f _site/data/latest.json
@@ -91,6 +99,9 @@ jobs:
           assert pub_times == sorted(pub_times, reverse=True), "RSS items are not newest-first"
           print(f"WordPress-compatible RSS smoke test OK: {len(items)} items")
           PY
+
+      - name: Verify rendered news label filters
+        run: python3 -m publishing.test_news_browser
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
