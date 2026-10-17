@@ -7,6 +7,8 @@ assert len(TAXONOMY["facets"]["news_mark"]) == 5
 assert len(TAXONOMY["facets"]["impact"]) == 4
 assert stage_tag("法案提出") == "规划拟议"
 assert stage_tag("试产中/9月底量产") == "推进中"
+assert stage_tag("已生效/谈判破裂") == "已生效/投产"
+assert stage_tag("已公告/生效前最后谈判窗口") == "已宣布待实施"
 assert stage_tag("交易完成/并表") == "已生效/投产"
 assert stage_tag("未知且不能归类") is None
 assert news_mark_tag("今日新增/既有事件新增进展") == "事件进展"
@@ -19,6 +21,7 @@ assert category_tag("竞品动态/制造布局/出口/市场与渠道") == "制�
 assert category_tag("竞品动态/产品平台") == "市场与渠道"
 assert geo_tags("欧洲/欧盟/德国/印尼/美国") == ["欧洲","欧盟","德国","印度尼西亚","美国"]
 assert geo_tags("欧盟/中国") == ["欧盟","中国"]
+assert geo_tags("以色列") == ["以色列"]
 assert "欧盟" not in geo_tags("德国/欧洲")
 row = {"事件阶段":"法院裁决/措施继续有效","国家/地区":"美国/中国","新闻标注":"今日新增/既有事件新增进展","影响程度":"中高","事件分类":"贸易政策/贸易救济"}
 out = normalize_labels(row)
