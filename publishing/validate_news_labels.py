@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 LABEL_DIR = ROOT / "config/news-labels"
 FILES = sorted(LABEL_DIR.glob("part-*.json"))
 FIELDS = {"事件阶段", "国家/地区", "新闻标注", "影响程度", "事件分类"}
-assert len(FILES) == 5, "Unexpected number of reviewed historical label files"
+assert FILES and [p.name for p in FILES] == [f"part-{i:02d}.json" for i in range(1, len(FILES) + 1)], "Nonconsecutive reviewed label archive segments"
 
 published = {}
 for path in (ROOT / "public-batches").glob("*/public-batch.json"):
@@ -49,6 +49,7 @@ print(json.dumps({
     "distinct_public_ids": len(published),
     "published_articles": sum(len(v) for v in published.values()),
     "safely_matched_labels": len(approved),
-    "published_without_reviewed_labels": sum(len(v) for v in published.values()) - len(approved),
+    "matched_article_occurrences": sum(len(published[pid]) for pid in approved),
+    "published_without_reviewed_labels": sum(len(v) for v in published.values()) - sum(len(published[pid]) for pid in approved),
     "status": "ok",
 }, ensure_ascii=False))
