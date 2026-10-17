@@ -19,16 +19,23 @@
         "date": "2026-09-08",
         "latest_progress": "2026年9月16日，欧委会主席冯德莱恩表示欧盟将动用所有可用工具推动欧中贸易再平衡，并再次要求当前磋商取得实际成果，10月成果窗口的政治压力进一步上升。",
         "status": "in_progress",
-        "countries": ["欧盟", "中国"],
-        "entities": ["European Commission", "Ursula von der Leyen", "Maroš Šefčovič"],
+        "countries": [
+          "欧盟",
+          "中国"
+        ],
+        "entities": [
+          "European Commission",
+          "Ursula von der Leyen",
+          "Maroš Šefčovič"
+        ],
         "category": "贸易与政策"
       }
     },
     {
       "public_id": "gai-20260917-002",
-      "title": "欧洲议会推动取消CBAM“紧急刹车”，最终规则同时拟扩展至洗衣机等下游产品",
-      "excerpt": "欧洲议会支持删除CBAM紧急暂停条款，并推动最终规则扩展至洗衣机等新产品；最终文本仍需与成员国谈判。",
-      "content_html": "<p>欧洲议会9月15日投票支持删除CBAM在严重、不可预见价格上涨时可临时暂停征费的“紧急刹车”条款，并主张以CBAM收入补偿受影响产业。</p><p>Reuters同时确认，欧洲议会与成员国接下来将谈判最终规则，扩围方案包括洗衣机和汽车零部件等新产品，并进一步收紧铝进口覆盖。当前为欧洲议会立场，尚非最终法规。</p>",
+      "title": "欧洲议会推进CBAM下游产品扩围，洗衣机纳入范围仍待立法完成；紧急暂停条款另存争议",
+      "excerpt": "欧洲议会9月15日就CBAM下游产品扩围及反规避提案形成议会立场；部分洗衣机等产品仍属拟议范围，并非已实施征费。同时，Reuters报道议员主张删除价格异常波动情况下的紧急暂停机制。",
+      "content_html": "<p>2026年9月15日，欧洲议会就欧盟碳边境调节机制（CBAM）扩大覆盖下游产品及反规避措施的立法提案（2025/0419(COD)）通过修正案，进入后续机构间谈判阶段。相关扩围讨论涉及部分钢铝密集型下游产品，包括洗衣机等家用产品；欧委会最初提议自2028年1月1日起扩大范围，具体税号、实施时间与最终规则仍未确定。</p><p>另据Reuters同日报道，议员支持删除在价格异常上涨等特殊情况下临时暂停CBAM征费的“紧急刹车”安排，并建议以其他措施支持受影响行业。暂停条款与下游产品扩围属于不同制度问题，均不得表述为最终规则已经生效。</p><p>补充来源：<a href=\"https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1914940\">欧洲议会立法观察站（2025/0419(COD)，2026年9月15日）</a>；<a href=\"https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/07/EPRS_BRI%282026%29789314.html\">欧洲议会研究服务局：CBAM下游产品扩围背景</a></p>",
       "source_name": "Reuters",
       "source_url": "https://www.reuters.com/business/environment/eu-lawmakers-move-scrap-carbon-border-levys-emergency-brake-2026-09-15",
       "source_published_date": "2026-09-15",
@@ -37,10 +44,16 @@
         "event_key": "eu-cbam-expansion-2026",
         "title": "欧盟CBAM扩围与紧急刹车条款调整",
         "date": "2026-09-15",
-        "latest_progress": "2026年9月15日，欧洲议会支持删除CBAM紧急暂停条款，并推动将洗衣机等下游产品纳入扩围规则；最终文本仍需与欧盟成员国谈判。",
+        "latest_progress": "2026年9月15日，欧洲议会就CBAM下游产品扩围提案通过修正案，仍待机构间谈判；Reuters同期报道有关紧急暂停条款的修改主张，相关措施均非最终生效法规。",
         "status": "in_progress",
-        "countries": ["欧盟"],
-        "entities": ["European Parliament", "European Commission", "EU member states"],
+        "countries": [
+          "欧盟"
+        ],
+        "entities": [
+          "European Parliament",
+          "European Commission",
+          "EU member states"
+        ],
         "category": "贸易与政策"
       }
     }

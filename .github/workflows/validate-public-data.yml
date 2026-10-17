@@ -36,6 +36,8 @@ jobs:
         run: python3 -m publishing.validate_news_labels
       - name: Validate historical public batches
         run: python3 publishing/validate_repository.py
+      - name: Test reviewed CBAM and Whirlpool historical source corrections
+        run: python3 -m publishing.test_historical_source_qa
       - name: Build all Pages including news tag browser
         run: python3 scripts/build-pages.py
       - name: Check five-field label display, filter behavior contract and safe JSON fields
