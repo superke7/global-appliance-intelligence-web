@@ -35,6 +35,10 @@ jobs:
         run: python3 -m publishing.validate_news_labels
       - name: Validate historical public batches
         run: python3 publishing/validate_repository.py
+      - name: Build all Pages including news tag browser
+        run: python3 scripts/build-pages.py
+      - name: Check five-field label display, filter behavior contract and safe JSON fields
+        run: python3 -m publishing.test_news_browser
       - name: Verify public event registry reproducibility in PRs
         if: github.event_name == 'pull_request'
         run: |
