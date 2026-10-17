@@ -1,0 +1,29 @@
+name: Validate public data contract
+
+on:
+  pull_request:
+    paths:
+      - "public-batches/**"
+      - "config/**"
+      - "publishing/**"
+      - ".github/workflows/validate-public-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-public-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout public repository
+        uses: actions/checkout@v4
+      - name: Compile public-only validators
+        run: python3 -m py_compile publishing/*.py
+      - name: Validate historical public batches
+        run: python3 publishing/validate_repository.py
+      - name: Rebuild public event identities deterministically
+        run: |
+          python3 publishing/rebuild_public_event_registry.py
+          git diff --exit-code -- config/public-event-registry.json
