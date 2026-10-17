@@ -35,4 +35,30 @@ try:
     raise AssertionError("unknown Sheet column was accepted")
 except ValueError:
     pass
+
+# Geographic coverage is expanded only for browsing, never by changing Sheet raw labels.
+from publishing.news_taxonomy import expand_geo_filter_tags, GEO_HIERARCHY
+assert len(GEO_HIERARCHY["organization_membership"]["欧盟"]) == 27
+assert len(GEO_HIERARCHY["organization_membership"]["东盟"]) == 11
+assert geo_tags("法国") == ["法国"]
+assert set(expand_geo_filter_tags(geo_tags("法国"))) == {"法国", "欧盟", "欧洲"}
+assert set(expand_geo_filter_tags(geo_tags("德国"))) == {"德国", "欧盟", "欧洲"}
+assert "欧盟" not in expand_geo_filter_tags(geo_tags("英国"))
+assert "欧洲" in expand_geo_filter_tags(geo_tags("英国"))
+assert "欧盟" not in expand_geo_filter_tags(geo_tags("挪威"))
+assert "欧盟" not in expand_geo_filter_tags(geo_tags("土耳其"))
+assert "欧盟" not in expand_geo_filter_tags(geo_tags("欧洲"))
+assert "法国" not in expand_geo_filter_tags(geo_tags("欧盟"))
+assert set(expand_geo_filter_tags(geo_tags("越南"))) == {"越南", "东南亚", "东盟", "亚洲"}
+assert set(expand_geo_filter_tags(geo_tags("东盟"))) == {"东盟", "东南亚", "亚洲"}
+assert "东盟" in expand_geo_filter_tags(geo_tags("东帝汶"))
+assert set(expand_geo_filter_tags(geo_tags("墨西哥"))) == {"墨西哥", "北美", "拉美"}
+assert "南美" not in expand_geo_filter_tags(geo_tags("墨西哥"))
+assert set(expand_geo_filter_tags(geo_tags("巴西"))) == {"巴西", "南美", "拉美"}
+assert "大洋洲" in expand_geo_filter_tags(geo_tags("澳大利亚"))
+assert set(expand_geo_filter_tags(geo_tags("法国/越南"))) == {"法国","越南","欧盟","欧洲","东盟","东南亚","亚洲"}
+# A bare region is not treated as every country/member in that region.
+assert "欧盟" not in expand_geo_filter_tags(geo_tags("欧洲"))
+assert "法国" not in expand_geo_filter_tags(geo_tags("欧洲"))
+
 print("Standard five-facet public news taxonomy and ambiguity safeguards verified.")
