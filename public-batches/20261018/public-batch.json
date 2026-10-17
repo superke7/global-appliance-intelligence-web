@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261018-0715",
+  "generated_at_bjt": "2026-10-18T07:40:28+08:00",
+  "target_publish_at_bjt": "2026-10-18T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261018-001",
+      "title": "美国白宫行政令暂缓执行对俄及俄罗斯能源购买国制裁关税，相关新增税率尚未实施",
+      "excerpt": "美国白宫行政令允许提高俄罗斯商品及俄罗斯能源主要购买国等相关商品税率，但同时立即豁免相关新增关税和多项制裁，因此新增税率目前尚未实施。",
+      "content_html": "<p>美国白宫10月16日发布行政令：俄罗斯商品税率可提高500%，俄罗斯油气五大进口国及协助规避俄油制裁的五大国家商品税率可提高100%；但行政令第4节同时立即豁免上述新增关税和多项制裁，豁免持续至总统或有关官员决定采取进一步行动。因而相关新增税率目前尚未实施。</p><p>背景补充：该行政令执行9月已成法的Graham Act（格雷厄姆法案）；法案及行政令可能影响中国、印度等俄能源购买国输美商品，包括家电及零部件。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/\">Reuters</a>；<a href=\"https://apnews.com/article/russia-sanctions-trump-ukraine-e50c561ab805883bb4e484c092d8fadd\">AP</a></p>",
+      "source_name": "The White House",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+      "source_published_date": "2026-10-16",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-russia-oil-buyers-sanctions-2026",
+        "title": "对俄罗斯能源主要购买方制裁法案",
+        "date": "2026-07-14",
+        "latest_progress": "美国白宫10月16日发布实施Graham Act的行政令，但同时立即豁免相关新增关税和多项制裁，豁免持续至总统或有关官员决定采取进一步行动；相关新增税率目前尚未实施。",
+        "status": "delayed",
+        "countries": [
+          "美国",
+          "俄罗斯",
+          "中国",
+          "印度",
+          "全球"
+        ],
+        "entities": [
+          "The White House",
+          "USTR"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "行政令发布/相关新增关税与制裁暂缓执行",
+        "国家/地区": "美国/俄罗斯/中国/印度/全球",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/制裁/国别关税"
+      }
+    },
+    {
+      "public_id": "gai-20261018-002",
+      "title": "美国制冷剂生产商Solstice称对德国Chillventa五家参展商取得HFO专利临时禁令",
+      "excerpt": "Solstice称已从德国法兰克福和纽伦堡地区法院取得针对五家Chillventa参展商的HFO相关欧洲专利临时禁令；被诉主体及具体制冷剂尚未披露。",
+      "content_html": "<p>美国制冷剂生产商Solstice称，其已就某种HFO（氢氟烯烃）制造工艺及一种专有HFO混配物的欧洲专利，从德国法兰克福和纽伦堡地区法院取得针对五家Chillventa参展商的临时禁令。报道说执法人员在展会现场移除了相关营销材料；企业未披露五家参展商或具体制冷剂，因此不能据此推断更广泛的禁售范围。</p><p>背景补充：Chillventa是德国纽伦堡举行的国际制冷、空调、通风和热泵展；HFO属于低GWP制冷剂家族。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/solstice-issues-injunctions-on-chillventa-exhibitors/",
+      "source_published_date": "2026-10-17",
+      "event_action": "none"
+    }
+  ]
+}
