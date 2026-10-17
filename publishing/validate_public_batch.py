@@ -14,7 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_PATH = REPO_ROOT / "config" / "public-batch-contract.json"
 
 TOP_LEVEL_FIELDS = {"schema_version", "batch_id", "generated_at_bjt", "target_publish_at_bjt", "items"}
-ITEM_FIELDS = {"public_id", "title", "excerpt", "content_html", "source_name", "source_url", "source_published_date", "event_action", "event"}
+ITEM_FIELDS = {"public_id", "title", "excerpt", "content_html", "source_name", "source_url", "source_published_date", "event_action", "event", "news_labels"}
 EVENT_FIELDS = {"event_key", "title", "date", "latest_progress", "status", "countries", "entities", "category"}
 FORBIDDEN_KEYS = {"internal_analysis", "internal_strategy", "internal_risk_level", "internal_priority", "internal_owner", "internal_project", "internal_note", "private_note"}
 FORBIDDEN_PHRASES = {"仅供内部", "内部机密", "内部风险等级", "内部负责人", "内部项目编号", "internal use only", "strictly confidential"}
@@ -141,7 +141,7 @@ def validate_item(item: Any, index: int, public_ids: set[str]) -> None:
     if not isinstance(item, dict):
         fail(path, "must be an object")
     reject_unknown_fields(item, ITEM_FIELDS, path)
-    required = ITEM_FIELDS - {"event"}
+    required = ITEM_FIELDS - {"event", "news_labels"}
     missing = required - set(item)
     if missing:
         fail(path, f"missing field(s): {', '.join(sorted(missing))}")
@@ -161,6 +161,12 @@ def validate_item(item: Any, index: int, public_ids: set[str]) -> None:
     if action not in EVENT_ACTIONS:
         fail(f"{path}.event_action", "unsupported event action")
     has_event = "event" in item
+    if "news_labels" in item:
+        from publishing.news_taxonomy import normalize_labels
+        try:
+            normalize_labels(item["news_labels"])
+        except (ValueError, TypeError, KeyError) as exc:
+            fail(f"{path}.news_labels", f"invalid approved public tag fields: {exc}")
     if action == "none" and has_event:
         fail(f"{path}.event", "must be omitted when event_action is none")
     if action in {"create", "update"}:
