@@ -69,6 +69,16 @@ jobs:
 
                       home = get("index.html").decode("utf-8")
                       daily = get(f"daily/{day}/index.html").decode("utf-8")
+                      # Check the live, Sheet-aligned five-facet news browser.
+                      browser = get("news.html").decode("utf-8")
+                      if ("新闻快速筛选" not in browser
+                              or 'data-filter="geo"' not in browser
+                              or 'data-filter="category"' not in browser
+                              or 'data-filter="news_mark"' not in browser):
+                          raise AssertionError("News facet browser missing or incomplete")
+                      article = get("articles/gai-20261017-001/index.html").decode("utf-8")
+                      if not all(word in article for word in ("新闻标签", "事件阶段", "国家/地区", "影响程度", "事件分类")):
+                          raise AssertionError("Tagged article missing five Sheet metadata fields")
                       rss = ET.fromstring(get("rss.xml"))
                       channel = rss.find("channel")
                       if channel is None:
