@@ -25,7 +25,9 @@ merged, state = prepare(incoming, day, existing, [], registry)
 assert state == "APPEND_READY"
 assert merged["items"][:-1] == existing["items"]
 assert merged["items"][-1] == new_item
-assert prepare(incoming, day, None, [], registry)[1] == "CREATE_READY"
+fresh_batch = copy.deepcopy(incoming)
+fresh_batch["items"] = [new_item]
+assert prepare(fresh_batch, day, None, [], registry)[1] == "CREATE_READY"
 
 
 def rejects(candidate, previous=existing, history=None):
