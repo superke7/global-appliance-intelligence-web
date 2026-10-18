@@ -98,6 +98,41 @@ jobs:
 
           assert pub_times == sorted(pub_times, reverse=True), "RSS items are not newest-first"
           print(f"WordPress-compatible RSS smoke test OK: {len(items)} items")
+
+          # Exercise the actual RSS builder without publishing test articles.
+          import importlib.util
+          from datetime import datetime, timedelta, timezone
+          spec = importlib.util.spec_from_file_location("gai_test_builder", "scripts/build-pages.py")
+          builder = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(builder)
+          now_bjt = datetime.now(timezone(timedelta(hours=8)))
+          today_key = now_bjt.strftime("%Y%m%d")
+          yesterday_key = (now_bjt - timedelta(days=1)).strftime("%Y%m%d")
+          old_item = {
+              "public_id": f"gai-{today_key}-999",
+              "title": "历史补录模拟新闻",
+              "source_published_date": "2026-01-01",
+              "source_name": "模拟来源",
+              "source_url": "https://example.com/story",
+              "excerpt": "用于RSS规则检查",
+              "content_html": "<p>历史新闻正文</p>",
+          }
+          def rss_entries(test_batches):
+              return ET.fromstring(builder.build_rss(test_batches)).findall("./channel/item")
+
+          assert not rss_entries([(yesterday_key, {"items": [old_item]})]), "Yesterday-only RSS must be empty"
+          assert not rss_entries([
+              (yesterday_key, {"items": [old_item]}),
+              (today_key, {"items": []}),
+          ]), "Today's approved zero-news batch must produce empty RSS"
+          backfill = rss_entries([
+              (yesterday_key, {"items": []}),
+              (today_key, {"items": [old_item]}),
+          ])
+          assert len(backfill) == 1, "Historical backfill must enter today's RSS batch"
+          assert backfill[0].findtext("guid") == old_item["public_id"], "Historical backfill ID mismatch"
+          assert "历史新闻正文" in backfill[0].findtext("content:encoded", namespaces=ns), "RSS full article missing"
+          print("RSS regression checks OK: yesterday-only empty; zero-news empty; same-day historical backfill")
           PY
 
       - name: Verify rendered news label filters
