@@ -697,9 +697,12 @@ def build_rss(batches):
             + '</channel></rss>'
         )
 
-    # RSS is synchronized to the newest public website batch. Same-day supplements
-    # immediately appear in both the website and RSS in the same Pages deployment.
+    # The RSS serves only the current Beijing-date batch, not historical news.
+    # A build without today's approved batch must not replay yesterday's items.
     date_key, batch = batches[-1]
+    today_key = datetime.now(BJT).strftime("%Y%m%d")
+    if date_key != today_key:
+        date_key, batch = today_key, {"items": []}
     base_publish_time = batch_publish_time(date_key, batch)
     entries = []
     for index, item in enumerate(batch.get("items", [])):
