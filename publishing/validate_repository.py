@@ -8,9 +8,14 @@ from __future__ import annotations
 import importlib.util
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Direct-script entry points otherwise omit the repository root from sys.path.
+# Required for importing publishing.news_taxonomy when a batch has news_labels.
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 spec = importlib.util.spec_from_file_location("public_validation", ROOT / "publishing/validate_public_batch.py")
 mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
