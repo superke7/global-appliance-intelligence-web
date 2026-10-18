@@ -106,4 +106,29 @@ assert parser.entries["gai-20260916-002"]["data-stage"] == "已宣布待实施"
 assert parser.entries["gai-20260728-004"]["data-category"] == "市场与渠道"
 assert parser.entries["gai-20261001-002"]["data-impact"] == "高"
 
+
+# Correctly link the six validated historical Sheet items to their original public
+# article identity; do not recreate article IDs, modify RSS, or derive wrong regions.
+for public_id in (
+    "gai-20260917-002", "gai-20260919-001", "gai-20260922-002",
+    "gai-20260923-001", "gai-20260923-002", "gai-20261002-003"
+):
+    assert public_id in parser.entries, "Historic article lost: " + public_id
+    assert parser.entries[public_id]["data-news-mark"] == "历史补录"
+
+assert parser.entries["gai-20260917-002"]["data-stage"] == "谈判磋商"
+assert parser.entries["gai-20260917-002"]["data-impact"] == "高"
+assert "欧盟" in parser.entries["gai-20260917-002"]["data-geos"].split("|")
+assert parser.entries["gai-20260919-001"]["data-stage"] == "已宣布待实施"
+assert "欧洲" in parser.entries["gai-20260919-001"]["data-geos"].split("|")
+assert parser.entries["gai-20260922-002"]["data-category"] == "制造与产能"
+assert "亚洲" in parser.entries["gai-20260922-002"]["data-geos"].split("|")
+assert parser.entries["gai-20260923-001"]["data-stage"] == "推进中"
+assert "印度" in parser.entries["gai-20260923-001"]["data-geos"].split("|")
+assert parser.entries["gai-20260923-002"]["data-stage"] == "已生效/投产"
+assert "欧盟" in parser.entries["gai-20260923-002"]["data-geos"].split("|")
+assert parser.entries["gai-20261002-003"]["data-stage"] == "规划拟议"
+assert "法国" in parser.entries["gai-20261002-003"]["data-geos"].split("|")
+assert "欧盟" in parser.entries["gai-20261002-003"]["data-geos"].split("|")
+
 print("Public faceted browser, full original labels, optional schema and private-field rejection verified.")

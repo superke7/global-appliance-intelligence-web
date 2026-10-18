@@ -63,4 +63,13 @@ assert set(expand_geo_filter_tags(geo_tags("法国/越南"))) == {"法国","越�
 assert "欧盟" not in expand_geo_filter_tags(geo_tags("欧洲"))
 assert "法国" not in expand_geo_filter_tags(geo_tags("欧洲"))
 
+
+# Independent historical backfill uses exactly the reviewed original Sheet descriptions.
+assert stage_tag("议会立场已通过/最终法规仍待谈判") == "谈判磋商"
+assert stage_tag("拟关闭计划已披露/尚未执行") == "已宣布待实施"
+assert stage_tag("自愿离职方案已启动/人员结构调整中") == "推进中"
+assert stage_tag("工厂建设推进/预计12月启动空调生产") == "推进中"
+assert stage_tag("展厅已正式启用/常态化B2B运营") == "已生效/投产"
+assert stage_tag("联合政策倡议提出/欧委会尚未出台正式措施") == "规划拟议"
+
 print("Standard five-facet public news taxonomy and ambiguity safeguards verified.")
