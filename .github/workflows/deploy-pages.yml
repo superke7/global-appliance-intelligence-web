@@ -15,6 +15,10 @@ on:
       - "config/news-geo-hierarchy.json"
       - "publishing/news_taxonomy.py"
       - ".github/workflows/deploy-pages.yml"
+  # Daily Beijing 07:50 snapshot: the existing builder emits zero RSS items if no current-day batch.
+  # GitHub Actions uses UTC; 23:50 UTC = 07:50 Beijing the following day.
+  schedule:
+    - cron: "50 23 * * *"
   workflow_dispatch:
 
 permissions:
