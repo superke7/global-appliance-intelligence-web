@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261019-0715",
+  "generated_at_bjt": "2026-10-19T07:39:50+08:00",
+  "target_publish_at_bjt": "2026-10-19T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261019-001",
+      "title": "越南与EFTA四国正式签署自由贸易协定，生效日期仍待完成程序",
+      "excerpt": "EFTA四国与越南于10月18日在河内签署自由贸易协定，覆盖货物贸易、原产地、贸易救济和政府采购等领域，生效仍待双方完成国内程序。",
+      "content_html": "<p>欧洲自由贸易联盟（EFTA，由瑞士、挪威、冰岛和列支敦士登组成）与越南于10月18日在河内正式签署自由贸易协定。协定覆盖货物贸易、原产地、贸易救济和政府采购等领域；签署不等于生效，双方仍需完成各自国内程序，具体减让税目与生效日期以正式实施文件为准。</p><p>背景补充：双方自2012年启动谈判，2026年7月宣布完成谈判，本次由计划签署推进至正式签署。</p><p>补充核验来源：<a href=\"https://finance.yahoo.com/economy/policy/articles/vietnam-signs-free-trade-pact-053038510.html\">Reuters转载</a>；<a href=\"https://vtv.vn/chinh-thuc-ky-ket-hiep-dinh-thuong-mai-tu-do-viet-nam-efta-100261018104544578.htm\">VTV</a></p>",
+      "source_name": "EFTA",
+      "source_url": "https://www.efta.int/media-resources/news/efta-and-viet-nam-sign-free-trade-agreement",
+      "source_published_date": "2026-10-18",
+      "event_action": "update",
+      "event": {
+        "event_key": "efta-vietnam-fta-2026",
+        "title": "EFTA—越南自由贸易协定",
+        "date": "2026-10-14",
+        "latest_progress": "EFTA四国与越南于10月18日正式签署自由贸易协定；双方仍需完成各自国内程序，具体减让税目与生效日期以正式实施文件为准。",
+        "status": "announced",
+        "countries": [
+          "越南",
+          "瑞士",
+          "挪威",
+          "冰岛",
+          "列支敦士登"
+        ],
+        "entities": [
+          "EFTA",
+          "越南政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已签署/尚未生效",
+        "国家/地区": "越南/瑞士/挪威/冰岛/列支敦士登",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/自由贸易协定/原产地/市场准入"
+      }
+    },
+    {
+      "public_id": "gai-20261019-002",
+      "title": "美国国务卿称将用最多60天评估已豁免的对俄制裁及第三国关税",
+      "excerpt": "美国国务卿Marco Rubio表示，总统将用最多60天评估此前豁免的对俄制裁及相关关税影响；当前豁免状态未变，法定新增关税尚未实施。",
+      "content_html": "<p>Reuters 10月18日报道，美国国务卿Marco Rubio称，总统将用最多60天评估此前豁免的对俄制裁及相关关税对全球和美国经济的影响。10月16日行政令未列明豁免期限；本次表述提供了评估窗口，但不代表法定新增关税已实施，也未改变当前豁免状态。</p><p>补充核验来源：<a href=\"https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/\">白宫行政令</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/",
+      "source_published_date": "2026-10-18",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-russia-oil-buyers-sanctions-2026",
+        "title": "对俄罗斯能源主要购买方制裁法案",
+        "date": "2026-07-14",
+        "latest_progress": "美国国务卿称总统将用最多60天评估此前豁免的对俄制裁及相关关税影响；当前豁免状态未变，法定新增关税尚未实施。",
+        "status": "delayed",
+        "countries": [
+          "美国",
+          "俄罗斯",
+          "中国",
+          "印度",
+          "全球"
+        ],
+        "entities": [
+          "美国国务院",
+          "白宫",
+          "Marco Rubio"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "豁免持续/最多60天评估中",
+        "国家/地区": "美国/俄罗斯/中国/印度/全球",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/制裁/国别关税"
+      }
+    },
+    {
+      "public_id": "gai-20261019-003",
+      "title": "英国能源企业Octopus推出Cosy热泵制冷附加模块，计划2027年上市",
+      "excerpt": "Octopus Energy发布Cosy Cooler住宅制冷附加模块，可接入既有Cosy热泵，计划2027年上市，目标售价500—600英镑。",
+      "content_html": "<p>Octopus Energy于10月14日发布Cosy Cooler，为既有Cosy热泵增加住宅制冷能力。该室内模块接入现有供暖管路，以冷水和换热器带走室内热量；公司称安装约需3小时，可按热泵型号同时运行1至3台。产品计划2027年上市，目标售价500—600英镑，目前已开始住宅和办公室试用，尚未正式销售。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/uk-news/octopus-develops-a-heat-pump-cooler-add-on/\">Cooling Post</a></p>",
+      "source_name": "Octopus Energy",
+      "source_url": "https://octopus.energy/press/more-news-press-releases/octopus-new-low-cost-add-on-will-turn-heat-pumps-into-air-cons/",
+      "source_published_date": "2026-10-14",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "产品发布/测试中/计划2027年上市",
+        "国家/地区": "英国",
+        "新闻标注": "今日新增/竞品动态/历史补漏",
+        "影响程度": "中",
+        "事件分类": "竞品动态/产品平台/热泵/住宅制冷"
+      }
+    },
+    {
+      "public_id": "gai-20261019-004",
+      "title": "英国能源企业Octopus北爱尔兰工厂累计生产1万台Cosy热泵",
+      "excerpt": "Octopus Energy披露，其北爱尔兰Portadown工厂成立三年后累计生产第1万台Cosy热泵，并称过去18个月收到约57万次安装咨询。",
+      "content_html": "<p>Octopus Energy于10月15日披露，其位于Portadown（波塔当，英国北爱尔兰阿马郡城镇）的工厂在设立三年后累计生产第1万台Cosy热泵。Cosy现有6kW、9kW和12kW三种规格；公司同时称过去18个月收到约57万次热泵安装咨询，咨询量不等同于实际销量。</p><p>背景补充：该节点反映Octopus自有热泵平台在英国的本地制造规模。</p>",
+      "source_name": "Octopus Energy",
+      "source_url": "https://octopus.energy/press/more-news-press-releases/pump-it-up-octopus-energy-celebrates-10-000th-cosy-heat-pump-made-in-northern-ireland/",
+      "source_published_date": "2026-10-15",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "累计产量里程碑/持续生产",
+        "国家/地区": "英国/北爱尔兰",
+        "新闻标注": "今日新增/竞品动态/历史补漏",
+        "影响程度": "中",
+        "事件分类": "竞品动态/制造与产能/热泵"
+      }
+    },
+    {
+      "public_id": "gai-20261019-005",
+      "title": "LG启动25英寸WashTower全球推广，2026年覆盖亚洲、中东和拉美",
+      "excerpt": "LG启动25英寸WashTower洗烘塔全球推广，计划2026年先在亚洲、中东和拉丁美洲上市，2027年扩展至其他市场。",
+      "content_html": "<p>LG于10月15日启动25英寸WashTower洗烘塔全球推广。新机型将24英寸和27英寸产品之间的规格补齐，洗涤和烘干容量均最高20公斤，可同时处理两批衣物。LG计划2026年先在亚洲、中东和拉丁美洲推出，2027年再扩展至其他市场；该机型9月已在IFA展会亮相，本次新增的是区域上市安排。</p><p>补充核验来源：<a href=\"https://www.lg.com/my/about-lg/press-and-media/lg-electronics-expands-washtower-lineup-with-new-25-inch-model/\">LG马来西亚官方镜像</a></p>",
+      "source_name": "LG Global Newsroom",
+      "source_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-expands-washtower-lineup-with-new-25-inch-model/",
+      "source_published_date": "2026-10-15",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "全球推广启动/分区域上市",
+        "国家/地区": "韩国/亚洲/中东/拉丁美洲/全球",
+        "新闻标注": "今日新增/竞品动态/历史补漏",
+        "影响程度": "中",
+        "事件分类": "竞品动态/产品平台/市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261019-006",
+      "title": "Whirlpool正式决定关闭意大利Fabriano洗涤电子研发办公室，约40个岗位进入磋商",
+      "excerpt": "Whirlpool已正式通知工会关闭意大利Fabriano洗涤电子研发办公室，约40个岗位面临风险，后续将进入工会及机构层面磋商。",
+      "content_html": "<p>ANSA 10月6日报道，Whirlpool已正式向工会通知关闭Fabriano（法布里亚诺，意大利马尔凯大区城市）洗涤电子研发办公室的决定，约40个岗位面临风险；后续将先后进入工会及机构层面的磋商程序。该节点使9月披露的拟关闭计划推进为正式决定，但办公室并非报道当日已经完成关闭。</p><p>补充核验来源：<a href=\"https://www.ansa.it/amp/marche/notizie/2026/09/18/chiusura-sede-whirlpool-a-fabriano-sindacati-convocano-unassemblea_78fafdc2-1ed1-401a-b126-ac459251a205.html\">ANSA前序报道</a></p>",
+      "source_name": "ANSA",
+      "source_url": "https://www.ansa.it/marche/notizie/2026/10/06/whirlpool-technology-ai-sindacati-la-sede-di-fabriano-chiudera_ddcdda4c-09b0-453d-a53c-48073d53fd16.html",
+      "source_published_date": "2026-10-06",
+      "event_action": "update",
+      "event": {
+        "event_key": "whirlpool-italy-fabriano-rd-closure-2026",
+        "title": "Whirlpool意大利Fabriano洗涤电子研发办公室关闭计划",
+        "date": "2026-09-18",
+        "latest_progress": "Whirlpool已正式通知工会关闭Fabriano洗涤电子研发办公室，约40个岗位面临风险；后续将进入工会及机构层面的磋商程序，办公室尚未完成关闭。",
+        "status": "announced",
+        "countries": [
+          "意大利",
+          "美国"
+        ],
+        "entities": [
+          "Whirlpool Technology",
+          "Fim-Fiom-Uilm"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "正式关闭决定/工会与机构磋商待进行",
+        "国家/地区": "意大利/美国",
+        "新闻标注": "今日新增/历史补漏/既有事件新增进展",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/制造与产能/研发基地关闭计划"
+      }
+    },
+    {
+      "public_id": "gai-20261019-007",
+      "title": "欧洲经济区联合委员会将欧盟CBAM基础法规纳入EEA协定",
+      "excerpt": "欧洲经济区联合委员会通过决定，将欧盟CBAM基础法规纳入EEA协定，使欧盟与挪威、冰岛和列支敦士登进一步协调该机制。",
+      "content_html": "<p>欧洲经济区（EEA）联合委员会于9月25日通过决定，将建立欧盟碳边境调节机制的Regulation (EU) 2023/956纳入EEA协定，使欧盟与挪威、冰岛和列支敦士登在该机制上进一步协调。CBAM（碳边境调节机制）当前主要覆盖钢铁、铝等高碳商品，可通过材料成本与申报要求传导至家电供应链；具体生效安排和整机适用范围仍以实施文件为准。</p><p>补充核验来源：<a href=\"https://eur-lex.europa.eu/eli/reg/2023/956/oj\">欧盟法规文本</a></p>",
+      "source_name": "EFTA",
+      "source_url": "https://www.efta.int/media-resources/news/eea-joint-committee-incorporates-carbon-border-adjustment-mechanism-along",
+      "source_published_date": "2026-09-25",
+      "event_action": "create",
+      "event": {
+        "event_key": "eea-cbam-incorporation-2026",
+        "title": "欧洲经济区纳入欧盟碳边境调节机制",
+        "date": "2026-09-25",
+        "latest_progress": "EEA联合委员会通过决定，将欧盟CBAM基础法规纳入EEA协定；具体生效安排和整机适用范围仍以实施文件为准。",
+        "status": "announced",
+        "countries": [
+          "欧洲经济区",
+          "欧盟",
+          "挪威",
+          "冰岛",
+          "列支敦士登"
+        ],
+        "entities": [
+          "EEA Joint Committee",
+          "EFTA",
+          "欧盟"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
