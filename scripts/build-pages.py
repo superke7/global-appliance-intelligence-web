@@ -267,8 +267,14 @@ def parse_bjt_timestamp(value):
 
 
 def batch_publish_time(date_key: str, batch: dict):
+    # Keep item pubDate stable across rebuilds, using the actual batch
+    # generation timestamp rather than its planned publication time.
+    generated = parse_bjt_timestamp(batch.get("generated_at_bjt"))
+    if generated and generated.astimezone(BJT).strftime("%Y%m%d") == date_key:
+        return generated
+    # Backward compatibility for older batches lacking generated_at_bjt.
     target = parse_bjt_timestamp(batch.get("target_publish_at_bjt"))
-    if target and target.strftime("%Y%m%d") == date_key:
+    if target and target.astimezone(BJT).strftime("%Y%m%d") == date_key:
         return target
     try:
         day = datetime.strptime(date_key, "%Y%m%d")
@@ -745,7 +751,8 @@ def build_rss(batches):
             '</item>'
         )
 
-    last_build = entries[0][0] if entries else base_publish_time
+    # lastBuildDate records this RSS build, not a scheduled batch timestamp.
+    last_build = datetime.now(timezone.utc)
     channel_description = SITE_DESCRIPTION
     rss = (
         '<?xml version="1.0" encoding="UTF-8"?>'
