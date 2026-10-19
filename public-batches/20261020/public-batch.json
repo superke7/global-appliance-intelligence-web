@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261020-0715",
+  "generated_at_bjt": "2026-10-20T07:37:48+08:00",
+  "target_publish_at_bjt": "2026-10-20T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261020-001",
+      "title": "中国9月家电及音像器材零售额881亿元，同比增长1.9%",
+      "excerpt": "国家统计局公布，9月限额以上单位家电及音像器材零售额为881亿元，同比增长1.9%；1—9月累计8105亿元，同比下降4.9%。",
+      "content_html": "<p>国家统计局10月19日公布，9月限额以上单位家用电器和音像器材类零售额为881亿元，同比增长1.9%；1—9月累计8105亿元，同比下降4.9%。本次数据提供中国家电零售市场的最新月度和累计口径。</p>",
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html",
+      "source_published_date": "2026-10-19",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "月度数据发布",
+        "国家/地区": "中国",
+        "新闻标注": "今日新增/市场数据",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/零售数据/中国市场"
+      }
+    },
+    {
+      "public_id": "gai-20261020-002",
+      "title": "美国国务卿称美印贸易协议已非常接近完成，对俄制裁豁免考虑了谈判因素",
+      "excerpt": "美国国务卿Marco Rubio称美印贸易协议已非常接近完成，并表示对俄制裁豁免考虑了贸易谈判因素；协议尚未签署。",
+      "content_html": "<p>Reuters 10月19日报道，美国国务卿Marco Rubio称，美印贸易协议已“非常接近”完成，美国在给予印度对俄制裁豁免时考虑了贸易谈判因素。协议尚未正式签署，针对印度等经济体的Section 301（美国《贸易法》第301条）产能过剩调查也仍待完成；本次变化是既有美印临时贸易协定谈判的新官方表态。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/india/trumps-russia-sanctions-waiver-eases-indias-energy-woes-lifts-trade-deal-chances-2026-10-19",
+      "source_published_date": "2026-10-19",
+      "event_action": "update",
+      "event": {
+        "event_key": "india-us-interim-trade-agreement-2026",
+        "title": "美印临时贸易协定框架调整与后续谈判",
+        "date": "2026-10-10",
+        "latest_progress": "美国国务卿Marco Rubio称，美印贸易协议已“非常接近”完成，美国在给予印度对俄制裁豁免时考虑了贸易谈判因素；协议尚未正式签署，相关Section 301产能过剩调查也仍待完成。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "印度",
+          "俄罗斯"
+        ],
+        "entities": [
+          "美国国务院",
+          "印度政府",
+          "Marco Rubio"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261020-003",
+      "title": "印度—新西兰自由贸易协定10月20日生效，印度商品获全税目零关税准入",
+      "excerpt": "印度—新西兰自由贸易协定于10月20日生效；新西兰对印度全部出口税目实行零关税，优惠适用须满足原产地规则。",
+      "content_html": "<p>印度—新西兰自由贸易协定于10月20日生效。印度政府材料显示，新西兰自生效日起对印度全部出口税目实行零关税；新西兰海关称，协定将降低印度对新西兰当前出口中95%商品的关税，具体优惠须满足原产地规则。协定覆盖机械、电气产品等货物贸易，并要求进口商按规则提供原产地证明。</p><p>背景补充：两国于2026年4月27日签署协定，9月完成批准程序，本次由已批准推进至正式实施。</p><p>补充核验来源：<a href=\"https://www.commerce.gov.in/files/d-m-y/14-India-New%20Zealand%20FTA.pdf\">印度商工部</a>；<a href=\"https://www.customs.govt.nz/information-releases-and-legislation/legislation/international-agreements/free-trade-agreements/new-zealand-india-free-trade-agreement/\">新西兰海关</a></p>",
+      "source_name": "Financial Express",
+      "source_url": "https://www.financialexpress.com/policy/economy-india-new-zealand-fta-kicks-in-goods-get-zero-duty-access-4364844",
+      "source_published_date": "2026-10-19",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-new-zealand-fta-2026",
+        "title": "印度—新西兰自由贸易协定",
+        "date": "2026-04-27",
+        "latest_progress": "印度—新西兰自由贸易协定于10月20日生效；新西兰自生效日起对印度全部出口税目实行零关税，具体优惠须满足原产地规则。",
+        "status": "implemented",
+        "countries": [
+          "印度",
+          "新西兰"
+        ],
+        "entities": [
+          "印度商工部",
+          "新西兰外交贸易部",
+          "新西兰海关"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已生效/进入实施",
+        "国家/地区": "印度/新西兰",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易政策/自由贸易协定/原产地/市场准入"
+      }
+    },
+    {
+      "public_id": "gai-20261020-004",
+      "title": "瑞典制冷集团Beijer Ref任命Jonas Steen为CEO，11月1日履新",
+      "excerpt": "Beijer Ref任命现任EMEA业务区首席运营官Jonas Steen为首席执行官兼总裁，11月1日履新。",
+      "content_html": "<p>Beijer Ref 10月19日宣布，董事会任命Jonas Steen为首席执行官兼总裁，11月1日履新。他目前担任公司EMEA业务区首席运营官，2010年加入集团；代理CEO兼总裁Joel Davidsson将在交接后继续担任首席财务官。</p><p>背景补充：Beijer Ref是全球制冷与气候控制分销集团，在45个国家经营，业务覆盖商用制冷、HVAC和热泵。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/jonas-steen-appointed-beijer-ref-ceo\">Cooling Post</a></p>",
+      "source_name": "Beijer Ref",
+      "source_url": "https://www.beijerref.com/pressrelease/beijer-ref-ab-appoints-jonas-steen-as-chief-executive-officer",
+      "source_published_date": "2026-10-19",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261020-005",
+      "title": "美国司法部披露涉空调企业的墨美R22制冷剂走私案认罪",
+      "excerpt": "美国司法部披露一宗从墨西哥向美国走私R22制冷剂的案件，两名被告认罪；相关量刑和附条件处置仍待进行。",
+      "content_html": "<p>美国司法部10月16日披露，Ricky Jesus Rodriguez及其女儿Jasmine Rodriguez在联邦法院承认参与从墨西哥向美国走私R22（HCFC-22，一种已停止在美国生产和进口的消耗臭氧层制冷剂）的共谋。司法部称，至少两家美国HVAC企业招募并付费让走私人员驾车藏运气瓶；Ricky Rodriguez的量刑定于2027年1月11日，Jasmine Rodriguez的协议允许其在满足条件后延期判决并可能撤案。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/father-and-daughter-plead-guilty-to-r22-smuggling\">Cooling Post</a></p>",
+      "source_name": "美国司法部",
+      "source_url": "https://www.justice.gov/usao-sdca/pr/father-and-daughter-admit-roles-conspiracy-violate-clean-air-act",
+      "source_published_date": "2026-10-16",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-mexico-r22-smuggling-enforcement-2026",
+        "title": "美国查处墨西哥R22制冷剂跨境走私案",
+        "date": "2026-10-16",
+        "latest_progress": "美国司法部披露Ricky Jesus Rodriguez及Jasmine Rodriguez承认参与从墨西哥向美国走私R22制冷剂的共谋；相关量刑和附条件处置仍待进行。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "墨西哥"
+        ],
+        "entities": [
+          "美国司法部",
+          "美国环保署",
+          "美国国土安全调查局",
+          "Ricky Jesus Rodriguez",
+          "Jasmine Rodriguez"
+        ],
+        "category": "监管与供应链"
+      },
+      "news_labels": {
+        "事件阶段": "认罪/量刑及附条件处置待进行",
+        "国家/地区": "美国/墨西哥",
+        "新闻标注": "今日新增/历史补录/新事件",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/制冷剂/海关执法/环境监管"
+      }
+    }
+  ]
+}
