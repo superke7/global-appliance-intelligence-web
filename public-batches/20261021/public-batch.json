@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261021-0715",
+  "generated_at_bjt": "2026-10-21T07:37:32+08:00",
+  "target_publish_at_bjt": "2026-10-21T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261021-001",
+      "title": "LG在英国扩展THERMA V R290住宅热泵功率段，新增12—16kW机型",
+      "excerpt": "LG在英国把THERMA V R290一体式空气源热泵扩展至12、14和16kW，补齐住宅产品功率段；16kW机型最高出水温度75℃。",
+      "content_html": "<p>Cooling Post 10月20日报道，LG在英国把THERMA V R290一体式空气源热泵扩展至12、14和16kW，与此前的5、7和9kW机型组成更完整的住宅功率段；配套室内控制单元覆盖5—16kW。LG英国官方产品页确认16kW机型采用R290（丙烷制冷剂），最高出水温度75℃。</p><p>补充核验来源：<a href=\"https://www.lg.com/uk/business/hvac/residential-solutions/air-to-water-heat-pump/r290-monobloc/hm163hf-ub60-phcs0-encxleu/\">LG英国官方产品页</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/products/lg-extends-r290-monobloc-range/",
+      "source_published_date": "2026-10-20",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "英国市场产品线扩展",
+        "国家/地区": "英国",
+        "新闻标注": "今日新增",
+        "影响程度": "中",
+        "事件分类": "竞品动态/产品平台/热泵"
+      }
+    },
+    {
+      "public_id": "gai-20261021-002",
+      "title": "特朗普称美墨接近达成贸易协议，具体关税条款尚未公布",
+      "excerpt": "特朗普称美国与墨西哥非常接近达成贸易协议，但未公布关税、产品范围或签署时间，现有安排尚未改变。",
+      "content_html": "<p>Reuters 10月20日报道，美国总统特朗普10月19日在一次集会上称，美国与墨西哥“非常接近”达成一项贸易协议，但未公布关税、产品范围或签署时间等具体条款。这一表态构成美墨贸易磋商的新节点，现阶段仍属政治层面的接近达成信号，不等同于协议已签署或现有关税已改变。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/americas/trump-says-mexico-us-are-close-trade-deal-2026-10-20/",
+      "source_published_date": "2026-10-20",
+      "event_action": "update",
+      "event": {
+        "event_key": "mexico-customs-broker-usmca-2026",
+        "title": "墨西哥海关经纪代理计划、USMCA谈判及共同钢铝外部壁垒",
+        "date": "2026-07-18",
+        "latest_progress": "美国总统特朗普称美国与墨西哥“非常接近”达成贸易协议，但未公布关税、产品范围或签署时间；协议尚未签署，现有关税未改变。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "墨西哥"
+        ],
+        "entities": [
+          "美国政府",
+          "墨西哥政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "谈判接近完成/尚未签署",
+        "国家/地区": "美国/墨西哥",
+        "新闻标注": "今日新增/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/双边谈判"
+      }
+    },
+    {
+      "public_id": "gai-20261021-003",
+      "title": "鲁比奥称美印贸易协议仅余技术细节，预计数周内取得结果",
+      "excerpt": "美国国务卿鲁比奥称美印贸易协议谈判仅余少数技术细节，预计数周内取得结果；截至报道时协议尚未签署。",
+      "content_html": "<p>Reuters 10月20日报道，美国国务卿鲁比奥在孟买与印度外长苏杰生会谈后表示，美印贸易协议谈判已缩小到少数技术细节，预计取得结果的时间尺度是数周而非数月。美联社对同次会晤的报道亦确认，双方讨论贸易、能源、技术和防务合作；截至报道时协议尚未签署。</p><p>补充核验来源：<a href=\"https://apnews.com/article/india-us-rubio-reliance-61e40567f8f8453f1117328594d0445c\">AP</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/india/rubio-kicks-off-india-visit-with-trade-deal-russian-oil-agenda-2026-10-20/",
+      "source_published_date": "2026-10-20",
+      "event_action": "update",
+      "event": {
+        "event_key": "india-us-interim-trade-agreement-2026",
+        "title": "美印临时贸易协定框架调整与后续谈判",
+        "date": "2026-10-10",
+        "latest_progress": "美国国务卿鲁比奥称美印贸易协议谈判已缩小到少数技术细节，预计数周内取得结果；截至报道时协议尚未签署。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "印度"
+        ],
+        "entities": [
+          "美国国务院",
+          "印度外交部"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261021-004",
+      "title": "美国进口商起诉挑战对加拿大50%关税的第338条法律依据",
+      "excerpt": "美国进口商在美国国际贸易法院起诉，挑战依据第338条对加拿大商品征收50%关税的法律基础；关税仍在实施，法院尚未裁决。",
+      "content_html": "<p>Reuters 10月21日报道，美国食品进口商Gellert Global Group在美国国际贸易法院起诉美国政府，挑战依据《1930年关税法》第338条对加拿大商品征收50%关税的法律基础，并申请临时救济。美联社与诉讼代理机构公告对案件主体和诉求作了交叉确认；截至报道时关税仍在实施，法院尚未作出裁决。</p><p>补充核验来源：<a href=\"https://apnews.com/article/canada-trump-tariffs-lawsuit-3c3097a0ec530327281a89ecc05452ff\">AP</a>；<a href=\"https://libertyjusticecenter.org/pressrelease/ljc-sues-over-trumps-revival-of-1930-tariff-law/\">Liberty Justice Center</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/americas/food-importer-files-new-lawsuit-block-trumps-canada-tariffs-2026-10-20/",
+      "source_published_date": "2026-10-20",
+      "event_action": "update",
+      "event": {
+        "event_key": "US-CANADA-SECTION338-2026",
+        "title": "美国对加拿大第338条50%附加关税及生效前谈判",
+        "date": "2026-07-20",
+        "latest_progress": "美国食品进口商Gellert Global Group在美国国际贸易法院起诉，挑战依据第338条对加拿大商品征收50%关税的法律基础；截至报道时关税仍在实施，法院尚未作出裁决。",
+        "status": "implemented",
+        "countries": [
+          "美国",
+          "加拿大"
+        ],
+        "entities": [
+          "Gellert Global Group",
+          "美国政府",
+          "美国国际贸易法院"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "关税已生效/司法审查启动/尚无裁决",
+        "国家/地区": "美国/加拿大",
+        "新闻标注": "今日新增/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/关税/司法审查"
+      }
+    },
+    {
+      "public_id": "gai-20261021-005",
+      "title": "意大利制冷设备商Rivacold推出ADAPTIX跨临界CO₂制冷控制方案",
+      "excerpt": "Rivacold推出ADAPTIX跨临界CO₂制冷控制方案；厂商称一套32kW试点系统初步净节能18%—22%，仍属厂商测试结果。",
+      "content_html": "<p>Cooling Post 10月20日报道，意大利制冷设备商Rivacold推出获专利的ADAPTIX方案，把换热器、阀门、传感器和RIV-EVO控制器整合用于跨临界CO₂（R744）系统，并根据环境温度和负荷调节运行参数。该方案已在意大利中部一套32kW中温超市系统上自2026年6月运行；厂商称初步净节能为18%—22%，该数据尚属厂商测试结果。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/products/adaptix-designed-to-boost-co2-system-efficiency/",
+      "source_published_date": "2026-10-20",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261021-006",
+      "title": "南方共同市场—EFTA自贸协定分批生效，巴西与冰岛10月1日起实施",
+      "excerpt": "南方共同市场—EFTA自贸协定分国别生效：巴西与冰岛10月1日起实施，巴西与挪威11月1日起实施，瑞士和列支敦士登仍待完成程序。",
+      "content_html": "<p>巴西发展、工业、贸易和服务部9月24日公告，南方共同市场—欧洲自由贸易联盟（EFTA）自由贸易协定经巴西国内程序完成后分国别生效：巴西与冰岛自2026年10月1日起实施，巴西与挪威自11月1日起实施，瑞士和列支敦士登尚待完成程序。官方资料显示，协定于2025年9月16日签署，涵盖货物、原产地、贸易便利化、服务、投资和政府采购等规则。</p><p>补充核验来源：<a href=\"https://www.gov.br/mdic/pt-br/assuntos/noticias/2025/setembro/FACTSHEETACORDOMERCOSULEFTAreunioRJfinal1.pdf\">巴西政府官方事实说明</a></p>",
+      "source_name": "巴西发展、工业、贸易和服务部",
+      "source_url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026-periodo-eleitoral/setembro/acordo-mercosul-efta-entra-em-vigor-mdic-lanca-painel-para-ampliar-acesso-as-novas-oportunidades",
+      "source_published_date": "2026-09-24",
+      "event_action": "create",
+      "event": {
+        "event_key": "mercosur-efta-fta-2025",
+        "title": "南方共同市场—EFTA自由贸易协定",
+        "date": "2025-09-16",
+        "latest_progress": "南方共同市场—EFTA自由贸易协定分国别生效：巴西与冰岛自2026年10月1日起实施，巴西与挪威自11月1日起实施，瑞士和列支敦士登尚待完成程序。",
+        "status": "implemented",
+        "countries": [
+          "巴西",
+          "冰岛",
+          "挪威",
+          "瑞士",
+          "列支敦士登"
+        ],
+        "entities": [
+          "巴西发展、工业、贸易和服务部",
+          "南方共同市场",
+          "EFTA"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261021-007",
+      "title": "英国资源管理企业Enva投资950万英镑扩建冰箱回收能力",
+      "excerpt": "Enva投资950万英镑在英国Grantham建设新的冰箱回收线，计划2028年2月全面投运，年处理能力增加8,000吨。",
+      "content_html": "<p>英国资源管理企业Enva 9月22日宣布追加950万英镑投资，在Grantham（格兰瑟姆，英格兰林肯郡城镇）建设新的冰箱回收线，计划于2028年2月全面投运，年处理能力增加8,000吨，届时该场址年处理能力约33,000吨。公司称，结合其他设施后，其英国冰箱处理能力将超过每年230万台、10万吨。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/uk-news/enva-invests-9-5m-in-uk-fridge-recycling/\">Cooling Post</a></p>",
+      "source_name": "Enva",
+      "source_url": "https://enva.com/news-insights/enva-investment-to-take-its-uk-fridge-recycling-capacity-beyond-23m-appliances-a-year",
+      "source_published_date": "2026-09-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "enva-uk-fridge-recycling-expansion-2026",
+        "title": "Enva英国冰箱回收产能扩建项目",
+        "date": "2026-09-22",
+        "latest_progress": "Enva宣布追加950万英镑投资，在Grantham建设新的冰箱回收线，计划于2028年2月全面投运，年处理能力增加8,000吨。",
+        "status": "in_progress",
+        "countries": [
+          "英国"
+        ],
+        "entities": [
+          "Enva"
+        ],
+        "category": "监管与供应链"
+      },
+      "news_labels": {
+        "事件阶段": "宣布投资/建设推进/计划2028年投运",
+        "国家/地区": "英国",
+        "新闻标注": "历史补录/新事件",
+        "影响程度": "中高",
+        "事件分类": "供应链与循环经济/回收基础设施"
+      }
+    }
+  ]
+}
