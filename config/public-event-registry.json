@@ -66,6 +66,10 @@
       "event_key": "elin-india-bhiwadi-appliance-plant-2026",
       "date": "2026-09-14"
     },
+    "Enva英国冰箱回收产能扩建项目": {
+      "event_key": "enva-uk-fridge-recycling-expansion-2026",
+      "date": "2026-09-22"
+    },
     "GE Appliances路易斯维尔洗涤产能回迁与Appliance Park重构": {
       "event_key": "ge-appliances-louisville-laundry-reshoring-2026",
       "date": "2026-09-02"
@@ -181,6 +185,10 @@
     "北美三项合资、安德森工厂转产及北美盈利修复": {
       "event_key": "electrolux-midea-na-jv-2026",
       "date": "2026-04-23"
+    },
+    "南方共同市场—EFTA自由贸易协定": {
+      "event_key": "mercosur-efta-fta-2025",
+      "date": "2025-09-16"
     },
     "印度LG、三星OLED电视零部件关税归类调查": {
       "event_key": "india-oled-tv-open-cell-tariff-investigation-2026",
