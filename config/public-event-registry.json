@@ -182,6 +182,10 @@
       "event_key": "canada-us-retaliatory-tariffs-2026",
       "date": "2026-08-22"
     },
+    "加拿大钢铁、汽车及关键矿产支持方案": {
+      "event_key": "canada-steel-auto-critical-minerals-support-2026",
+      "date": "2026-10-21"
+    },
     "北美三项合资、安德森工厂转产及北美盈利修复": {
       "event_key": "electrolux-midea-na-jv-2026",
       "date": "2026-04-23"
@@ -302,6 +306,10 @@
       "event_key": "haier-egypt-refrigeration-phase2-2026",
       "date": "2026-09-09"
     },
+    "科慕Chillventa HFO制冷剂专利执法": {
+      "event_key": "chemours-chillventa-hfo-patent-enforcement-2026",
+      "date": "2026-10-19"
+    },
     "美印临时贸易协定框架调整与后续谈判": {
       "event_key": "india-us-interim-trade-agreement-2026",
       "date": "2026-10-10"
@@ -357,6 +365,10 @@
     "美的印尼家电制造基地扩张与本地化": {
       "event_key": "midea-indonesia-appliance-manufacturing-2026",
       "date": "2026-09-09"
+    },
+    "美的埃及大烤箱工厂投产": {
+      "event_key": "midea-egypt-large-oven-plant-2026",
+      "date": "2026-05-31"
     },
     "美越贸易谈判、工厂核查及反转运执法": {
       "event_key": "us-vietnam-trade-enforcement-2026",
