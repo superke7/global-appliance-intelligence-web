@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261022-0715",
+  "generated_at_bjt": "2026-10-22T07:40:31+08:00",
+  "target_publish_at_bjt": "2026-10-22T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261022-001",
+      "title": "美的埃及大烤箱工厂已于5月底量产，成为当地第七座工厂",
+      "excerpt": "美的埃及大烤箱生产基地已于5月底正式量产，为其当地第七座工厂，可辐射中东和北非市场；本条为历史补录。",
+      "content_html": "<p>第一财经10月15日报道援引美的集团品牌与传播总监胡添帅称，公司近期在埃及落地大烤箱工厂，为美的在当地的第七座工厂；美的6月25日投资者关系活动记录显示，该生产基地已于5月底正式量产。该基地可辐射中东和北非市场。本条为历史补录，并非10月新投产。</p><p>补充核验来源：<a href=\"https://stock.10jqka.com.cn/20260626/c677726331.shtml\">美的投资者关系记录</a></p>",
+      "source_name": "第一财经",
+      "source_url": "https://m.yicai.com/news/103395533.html",
+      "source_published_date": "2026-10-15",
+      "event_action": "create",
+      "event": {
+        "event_key": "midea-egypt-large-oven-plant-2026",
+        "title": "美的埃及大烤箱工厂投产",
+        "date": "2026-05-31",
+        "latest_progress": "美的埃及大烤箱生产基地已于5月底正式量产，为其在埃及的第七座工厂，可辐射中东和北非市场。",
+        "status": "implemented",
+        "countries": [
+          "埃及",
+          "中国"
+        ],
+        "entities": [
+          "美的集团"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "已投产/历史补录",
+        "国家/地区": "埃及/中国",
+        "新闻标注": "历史补录/新事件",
+        "影响程度": "高",
+        "事件分类": "制造与产能/海外工厂/厨电"
+      }
+    },
+    {
+      "public_id": "gai-20261022-002",
+      "title": "欧委会主席称将提出低价进口快速限制工具及贸易团结支持方案",
+      "excerpt": "欧委会主席称将提出低价进口快速限制工具和贸易团结支持方案，但适用行业、触发门槛及法律文本尚未公布。",
+      "content_html": "<p>欧委会主席冯德莱恩10月21日称，欧盟将提出新工具，使成员国在低价进口激增威胁本国产业时能够迅速限制相关产品进入单一市场；欧委会还将提出“贸易团结”支持方案，帮助面对特定贸易威胁的成员国。具体适用行业、触发门槛和法律文本尚未公布。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/china/eu-propose-import-curbs-other-chinese-sectors-says-eu-chief-2026-10-16/\">Reuters前序报道</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/eu-will-propose-new-tools-protect-market-von-der-leyen-says-2026-10-21",
+      "source_published_date": "2026-10-21",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-rapid-trade-response-france-germany-2026",
+        "title": "欧盟快速贸易反制工具法德联合提案",
+        "date": "2026-10-05",
+        "latest_progress": "欧委会主席称将提出低价进口快速限制工具及贸易团结支持方案；具体适用行业、触发门槛和法律文本尚未公布。",
+        "status": "announced",
+        "countries": [
+          "欧盟"
+        ],
+        "entities": [
+          "欧盟委员会",
+          "欧盟成员国"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261022-003",
+      "title": "USTR就欧盟CBAM及下游产品扩围征求意见，11月9日截止",
+      "excerpt": "USTR就欧盟CBAM及下游产品扩围影响征求意见，11月9日截止；欧盟三方谈判尚未完成，最终产品范围仍未确定。",
+      "content_html": "<p>美国贸易代表办公室（USTR）10月8日就欧盟碳边境调节机制（CBAM）及其拟向钢铝下游产品扩围对美国生产商和贸易的影响征求意见，截止日期为11月9日，并询问美国可采取何种执法行动。公告称欧委会、欧盟理事会和欧洲议会分别提出覆盖超过100、300和约400项产品的方案，三方谈判尚未完成，因此最终范围仍未确定，家电产品也不能据此视为已被自动纳入。</p>",
+      "source_name": "美国贸易代表办公室/Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20615/request-for-comments-on-the-effect-of-the-european-unions-carbon-border-adjustment-mechanism-and-the",
+      "source_published_date": "2026-10-08",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-cbam-expansion-2026",
+        "title": "欧盟CBAM扩围与紧急刹车条款调整",
+        "date": "2026-09-15",
+        "latest_progress": "USTR就欧盟CBAM及下游产品扩围影响征求意见，截止11月9日；欧盟三方谈判尚未完成，最终产品范围仍未确定。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "欧盟"
+        ],
+        "entities": [
+          "美国贸易代表办公室",
+          "欧盟机构"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "美国征求意见/欧盟三方谈判待完成",
+        "国家/地区": "美国/欧盟",
+        "新闻标注": "历史补录/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/碳边境调节/征求意见"
+      }
+    },
+    {
+      "public_id": "gai-20261022-004",
+      "title": "印度与新西兰海关签署原产地电子数据交换合作，落实新生效FTA",
+      "excerpt": "印度与新西兰海关签署合作备忘录，建立原产地数据预先电子交换机制，以支持10月20日生效的双边FTA执行。",
+      "content_html": "<p>印度中央间接税和海关委员会与新西兰海关于10月19日签署合作备忘录，建立原产地数据预先电子交换机制，以提升贸易审核的效率、安全性和可预见性。印度—新西兰自由贸易协定（FTA）已于10月20日生效，这项海关数字化安排用于支持协定执行。</p>",
+      "source_name": "印度财政部/PIB",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2326043&lang=1&reg=3",
+      "source_published_date": "2026-10-21",
+      "event_action": "update",
+      "event": {
+        "event_key": "india-new-zealand-fta-2026",
+        "title": "印度—新西兰自由贸易协定",
+        "date": "2026-04-27",
+        "latest_progress": "印度与新西兰海关签署合作备忘录，建立原产地数据预先电子交换机制，以支持10月20日生效的双边FTA执行。",
+        "status": "implemented",
+        "countries": [
+          "印度",
+          "新西兰"
+        ],
+        "entities": [
+          "印度中央间接税和海关委员会",
+          "新西兰海关"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "FTA已生效/海关数字化执行安排",
+        "国家/地区": "印度/新西兰",
+        "新闻标注": "今日新增/既有事件进展",
+        "影响程度": "中高",
+        "事件分类": "贸易政策/自由贸易协定/海关数字化"
+      }
+    },
+    {
+      "public_id": "gai-20261022-005",
+      "title": "鲁比奥称美印贸易协议已完成99%，剩余分歧集中在文本措辞",
+      "excerpt": "美国国务卿鲁比奥称美印贸易协议相关工作已完成99%，余下问题主要是文本措辞，预计数周内完成；协议尚未签署。",
+      "content_html": "<p>美国国务卿鲁比奥在10月21日刊发的专访中称，美印贸易协议相关工作已完成99%，余下问题主要集中在文本措辞，并预计完成时间以“数周”而非“数月”计。该表态显示谈判进入收尾阶段，但协议尚未签署或公布正式文本。</p>",
+      "source_name": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/india/marco-rubio-india-us-trade-deal-visa-curbs-10929992",
+      "source_published_date": "2026-10-21",
+      "event_action": "update",
+      "event": {
+        "event_key": "india-us-interim-trade-agreement-2026",
+        "title": "美印临时贸易协定框架调整与后续谈判",
+        "date": "2026-10-10",
+        "latest_progress": "美国国务卿鲁比奥称美印贸易协议相关工作已完成99%，余下问题主要集中在文本措辞；协议尚未签署或公布正式文本。",
+        "status": "in_progress",
+        "countries": [
+          "印度",
+          "美国"
+        ],
+        "entities": [
+          "美国国务院",
+          "印度政府"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261022-006",
+      "title": "加拿大与安大略省公布近90亿加元钢铁、汽车及关键矿产支持方案",
+      "excerpt": "加拿大联邦政府与安大略省公布约87亿加元产业支持安排，覆盖钢铁、汽车和关键矿产，并非家电专项补贴。",
+      "content_html": "<p>加拿大联邦政府与安大略省10月21日公布合计约87亿加元、即近90亿加元的产业支持安排，包括约52亿加元钢铁支持、25亿加元汽车产业支持，以及联邦政府最高10亿加元用于连接“火环”关键矿产区的道路项目。方案直接面向钢铁、汽车和关键矿产，并非家电专项补贴，但可能通过材料供应和区域制造链传导。</p><p>补充核验来源：<a href=\"https://apnews.com/article/a9b923802d5e2d5a37f0e213db91ef56\">AP</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/canada-ontario-unveil-multi-billion-steel-auto-support-package-2026-10-21",
+      "source_published_date": "2026-10-21",
+      "event_action": "create",
+      "event": {
+        "event_key": "canada-steel-auto-critical-minerals-support-2026",
+        "title": "加拿大钢铁、汽车及关键矿产支持方案",
+        "date": "2026-10-21",
+        "latest_progress": "加拿大联邦政府与安大略省公布约87亿加元产业支持安排，覆盖钢铁、汽车和关键矿产；具体分项实施仍待推进。",
+        "status": "announced",
+        "countries": [
+          "加拿大"
+        ],
+        "entities": [
+          "加拿大联邦政府",
+          "安大略省政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "方案公布/分项实施待推进",
+        "国家/地区": "加拿大",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "产业政策/供应链材料/加拿大"
+      }
+    },
+    {
+      "public_id": "gai-20261022-007",
+      "title": "美国制冷剂生产商科慕称对Chillventa四家参展商取得HFO专利禁令",
+      "excerpt": "科慕称德国当地法院在Chillventa展会期间对四家参展企业签发HFO制冷剂混配物专利临时禁令，被禁企业和完整裁判文书未披露。",
+      "content_html": "<p>美国制冷剂生产商科慕10月19日称，德国当地法院在Chillventa 2026展会期间针对四家参展企业签发临时禁令，涉及部分HFO（氢氟烯烃）制冷剂混配物专利。行业媒体Cooling Post称相关专利围绕R1234yf混配物，覆盖R454B、R452A、R454A、R454C和R513A等配方；科慕公告未披露被禁企业名称及完整裁判文书。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/chemours-injunctions-relate-to-r1234yf-blends\">Cooling Post</a></p>",
+      "source_name": "Chemours",
+      "source_url": "https://www.chemours.com/en/news-media-center/all-news/press-releases/2026/chemours-and-local-officials-take-action-to-protect-refrigerant-intellectual-property-at-chillventa",
+      "source_published_date": "2026-10-19",
+      "event_action": "create",
+      "event": {
+        "event_key": "chemours-chillventa-hfo-patent-enforcement-2026",
+        "title": "科慕Chillventa HFO制冷剂专利执法",
+        "date": "2026-10-19",
+        "latest_progress": "科慕称德国当地法院在Chillventa 2026展会期间针对四家参展企业签发HFO制冷剂混配物专利临时禁令；被禁企业名称及完整裁判文书未披露。",
+        "status": "in_progress",
+        "countries": [
+          "德国",
+          "美国",
+          "欧洲"
+        ],
+        "entities": [
+          "Chemours",
+          "德国地方法院",
+          "Chillventa参展商"
+        ],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261022-008",
+      "title": "美国固态制冷初创企业Pascal融资850万美元并获饮料企业冰箱试点",
+      "excerpt": "Pascal完成850万美元种子轮追加融资，并获得一家未具名跨国饮料企业的冰箱制冷技术试点合同，计划2027年初完成首台原型机。",
+      "content_html": "<p>美国固态制冷初创企业Pascal完成850万美元种子轮追加融资，并与一家未具名跨国饮料企业签署冰箱制冷技术试点合同。公司称其多孔固态制冷材料方案可较现有系统提高约20%能效；计划在2027年初完成首台原型机，2028年再推出一批更成熟样机。上述效率与时间表均为公司目标，尚未进入规模量产。</p><p>补充核验来源：<a href=\"https://pascaltechnology.com/\">Pascal公司信息</a></p>",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update",
+      "source_published_date": "2026-10-21",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "融资完成/客户试点准备",
+        "国家/地区": "美国",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中",
+        "事件分类": "技术与产品/固态制冷/融资"
+      }
+    },
+    {
+      "public_id": "gai-20261022-009",
+      "title": "欧洲热泵协会估计产业直接及间接就业约48万人",
+      "excerpt": "欧洲热泵协会估计欧洲热泵产业直接及间接就业约48万人；该数字为就业存量估计，新闻稿未披露完整方法学。",
+      "content_html": "<p>欧洲热泵协会（EHPA）10月19日发布研究称，欧洲热泵产业当前直接及间接就业规模约为48万人。该数字是就业存量估计，并非新增岗位；新闻稿未披露完整方法学。相关内容在欧洲热泵日活动期间发布，用于展示制造、安装和供应链的就业覆盖面。</p>",
+      "source_name": "欧洲热泵协会（EHPA）",
+      "source_url": "https://ehpa.org/news-and-resources/press-releases/heat-pump-day-celebrates-sectors-480000-jobs-in-europe",
+      "source_published_date": "2026-10-19",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "行业研究数据发布",
+        "国家/地区": "欧洲",
+        "新闻标注": "历史补录/独立新闻",
+        "影响程度": "中",
+        "事件分类": "市场与行业数据/热泵/欧洲"
+      }
+    }
+  ]
+}
