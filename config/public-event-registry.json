@@ -46,6 +46,10 @@
       "event_key": "carrier-intercool-benelux-acquisition-2026",
       "date": "2026-08-18"
     },
+    "Carrier美国沃思堡商用冷水机组制造中心建设": {
+      "event_key": "carrier-fort-worth-chiller-plant-2026",
+      "date": "2026-10-22"
+    },
     "Cummins-Wagner收购Syracuse Thermal并扩展纽约州HVAC渠道": {
       "event_key": "cummins-wagner-syracuse-thermal-acquisition-2026",
       "date": "2026-09-16"
@@ -122,6 +126,10 @@
       "event_key": "tcl-electronics-airconditioning-acquisition-2026",
       "date": "2026-07-15"
     },
+    "Trane Technologies收购Cancoil换热器制造业务": {
+      "event_key": "trane-cancoil-acquisition-2026",
+      "date": "2026-10-21"
+    },
     "Voltatron收购Kurz Elektronik并整合家电电子与线束制造能力": {
       "event_key": "voltatron-kurz-elektronik-acquisition-2026",
       "date": "2026-08-28"
@@ -150,6 +158,10 @@
       "event_key": "samsung-korea-ehs-heatpump-plant-2026",
       "date": "2026-08-19"
     },
+    "中国对非洲建交国零关税安排": {
+      "event_key": "china-africa-zero-tariff-treatment-2026",
+      "date": "2026-10-22"
+    },
     "中美Board of Trade非敏感商品平衡贸易与关税调整机制": {
       "event_key": "us-china-board-of-trade-2026",
       "date": "2026-06-02"
@@ -173,6 +185,10 @@
     "全球钢铁产能过剩Milwaukee Framework联合行动框架": {
       "event_key": "global-steel-milwaukee-framework-2026",
       "date": "2026-09-30"
+    },
+    "加拿大—土耳其自由贸易协定谈判": {
+      "event_key": "canada-turkey-fta-2026",
+      "date": "2026-10-22"
     },
     "加拿大国家住宅热泵补贴计划": {
       "event_key": "canada-national-heat-pump-rebate-2026",
@@ -201,6 +217,10 @@
     "印度—新西兰自由贸易协定": {
       "event_key": "india-new-zealand-fta-2026",
       "date": "2026-04-27"
+    },
+    "印度—欧盟自由贸易协定": {
+      "event_key": "india-eu-fta-2026",
+      "date": "2026-10-22"
     },
     "印度关键进口本土化计划": {
       "event_key": "india-critical-import-substitution-2026",
