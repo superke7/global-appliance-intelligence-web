@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261023-0715",
+  "generated_at_bjt": "2026-10-23T07:39:00+08:00",
+  "target_publish_at_bjt": "2026-10-23T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261023-001",
+      "title": "全球暖通企业Trane Technologies签约收购北美换热器制造商Cancoil",
+      "excerpt": "Trane Technologies签署收购Cancoil的最终协议，交易涵盖其加拿大及美国制造业务，预计在监管批准等条件满足后于年底前完成。",
+      "content_html": "<p>Trane Technologies于10月21日签署收购Cancoil Thermal Corporation的最终协议。交易涵盖Cancoil位于加拿大安大略省及美国得州杰克逊维尔的制造业务和450余名员工，产品包括流体冷却器、风冷冷凝器及定制翅片管盘管，服务商用冷水机组、超市和冷库等场景。交易条款未披露，预计年底前在取得监管批准并满足惯常条件后完成。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/trane-technologies-to-acquire-cancoil\">Cooling Post</a></p>",
+      "source_name": "Trane Technologies",
+      "source_url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-to-Acquire-Cancoil-Strengthening-Supply-Chain-Resiliency-and-Thermal-Management-Expertise/default.aspx",
+      "source_published_date": "2026-10-21",
+      "event_action": "create",
+      "event": {
+        "event_key": "trane-cancoil-acquisition-2026",
+        "title": "Trane Technologies收购Cancoil换热器制造业务",
+        "date": "2026-10-21",
+        "latest_progress": "Trane Technologies签署收购Cancoil的最终协议，交易涵盖其加拿大及美国制造业务，预计在监管批准等条件满足后于年底前完成。",
+        "status": "announced",
+        "countries": [
+          "加拿大",
+          "美国"
+        ],
+        "entities": [
+          "Trane Technologies",
+          "Cancoil Thermal Corporation"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261023-002",
+      "title": "开利将在美国得州投资逾6亿美元建设商用冷水机组制造中心",
+      "excerpt": "开利将在得州沃思堡投资逾6亿美元建设商用冷水机组制造与工程中心，计划2027年投运并创造约1,500个岗位。",
+      "content_html": "<p>开利10月22日宣布，未来三年将在美国得克萨斯州Fort Worth（沃思堡）投资超过6亿美元，建设面积超过100万平方英尺的先进制造与工程中心，扩充风冷和水冷商用冷水机组产能。项目计划2027年投运并创造约1,500个制造及工程岗位，产品面向数据中心、医院、学校和工业设施等市场，并非家用空调专用工厂。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/carrier-plans-new-600m-fort-worth-plant\">Cooling Post</a>；<a href=\"https://www.wsj.com/business/carrier-plans-600-million-texas-plant-to-make-cooling-gear-for-ai-data-centers-01c1a1dc\">The Wall Street Journal</a></p>",
+      "source_name": "Carrier",
+      "source_url": "https://www.carrier.com/us/en/news/corporate/2026/carrierto-invest-more-than-600-million-to-expand-advanced-us-manufacturing-and-engineering-capacity/",
+      "source_published_date": "2026-10-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "carrier-fort-worth-chiller-plant-2026",
+        "title": "Carrier美国沃思堡商用冷水机组制造中心建设",
+        "date": "2026-10-22",
+        "latest_progress": "开利宣布未来三年在得州沃思堡投资超过6亿美元建设商用冷水机组制造与工程中心，计划2027年投运。",
+        "status": "announced",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "Carrier Global",
+          "沃思堡市",
+          "AllianceTexas"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "项目宣布/建设筹备/计划2027年投运",
+        "国家/地区": "美国",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "竞品动态/制造与产能/商用HVAC/投资"
+      }
+    },
+    {
+      "public_id": "gai-20261023-003",
+      "title": "瑞典制冷集团Beijer Ref第三季度销售增长20%，单季销售与利润创新高",
+      "excerpt": "Beijer Ref第三季度净销售额约116.41亿瑞典克朗，同比增长约20%；EBITA同比增长19%，经营现金流首次超过20亿瑞典克朗。",
+      "content_html": "<p>Beijer Ref公布2026年第三季度净销售额约116.41亿瑞典克朗，同比增长约20%；EBITA同比增长19%，经营现金流首次超过20亿瑞典克朗，公司称单季销售、利润和经营现金流均创历史新高。行业媒体称西欧高温带动空调需求，北美有机增长约3%。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/beijer-ref-sales-up-20\">Cooling Post</a></p>",
+      "source_name": "Beijer Ref",
+      "source_url": "https://www.beijerref.com/interim/q3-2026",
+      "source_published_date": "2026-10-22",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026年第三季度业绩发布",
+        "国家/地区": "瑞典/欧洲/北美",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/财报经营/制冷渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261023-004",
+      "title": "法国电气分销集团Rexel第三季度销售增长11.4%，再次上调全年目标",
+      "excerpt": "Rexel第三季度销售增长11.4%，将全年销售增长预期上调至约7%，并把调整后EBITA利润率目标定为至少6.4%。",
+      "content_html": "<p>Rexel第三季度销售同比增长11.4%，前九个月销售增长7.3%至154.4亿欧元，并把全年销售增长预期由约5%上调至约7%，调整后EBITA利润率目标为至少6.4%。管理层称欧洲电气化趋势继续带动热泵、空调、光伏及充电设备需求，美国数据中心投资也是主要增长来源。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/rexel-raises-outlook-again-us-data-centre-demand-european-electrification-drive-2026-10-22",
+      "source_published_date": "2026-10-22",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261023-005",
+      "title": "印度部长称印欧自贸协定拟于年底签署，签署后4至5个月实施",
+      "excerpt": "印度商工部长称印欧自贸协定预计在2026年底前签署，并可能在签署后4至5个月实施；协定目前尚未签署。",
+      "content_html": "<p>印度商工部长Piyush Goyal 10月22日表示，印度—欧盟自由贸易协定预计在2026年底前签署，并可能在签署后4至5个月投入实施，即最早于2027年初运行。该表态提供了新的签署和实施时间窗口，但协定尚未签署，最终生效时间及产品减让仍以正式法律文本和双方程序为准。</p><p>补充核验来源：<a href=\"https://www.newindianexpress.com/business/2026/Oct/22/india-eu-trade-pact-may-come-into-force-in-4-5-months-goyal\">The New Indian Express</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/india/india-eu-trade-deal-could-become-operational-early-2027-indian-trade-minister-2026-10-22",
+      "source_published_date": "2026-10-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-eu-fta-2026",
+        "title": "印度—欧盟自由贸易协定",
+        "date": "2026-10-22",
+        "latest_progress": "印度商工部长称协定预计在2026年底前签署，并可能在签署后4至5个月实施；协定目前尚未签署。",
+        "status": "in_progress",
+        "countries": [
+          "印度",
+          "欧盟"
+        ],
+        "entities": [
+          "印度商工部",
+          "欧盟委员会"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261023-006",
+      "title": "加拿大与土耳其建立战略伙伴关系，将启动自贸协定首轮谈判",
+      "excerpt": "加拿大与土耳其宣布建立战略伙伴关系并启动自贸协定谈判，首轮实质谈判计划于下月在安卡拉举行。",
+      "content_html": "<p>加拿大总理Mark Carney与土耳其总统Recep Tayyip Erdoğan 10月22日宣布建立涵盖贸易、投资、能源、运输和防务等领域的战略伙伴关系。两国欢迎启动自由贸易协定谈判，Reuters与美联社报道首轮实质谈判计划于下月在安卡拉举行。双方尚未签署自由贸易协定，具体关税和产品范围仍待谈判。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/americas/canadas-carney-visits-turkey-push-ease-us-trade-dependence-2026-10-22\">Reuters</a>；<a href=\"https://apnews.com/article/turkey-canada-carney-erdogan-visit-e77f7f400c4ac4712ee28a221a0c3e69\">AP</a></p>",
+      "source_name": "加拿大总理办公室",
+      "source_url": "https://www.newswire.ca/news-releases/readout-prime-minister-carney-meets-with-president-of-turkiye-recep-tayyip-erdogan-822527142.html",
+      "source_published_date": "2026-10-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "canada-turkey-fta-2026",
+        "title": "加拿大—土耳其自由贸易协定谈判",
+        "date": "2026-10-22",
+        "latest_progress": "加拿大与土耳其宣布建立战略伙伴关系并启动自贸协定谈判，首轮实质谈判计划于下月在安卡拉举行。",
+        "status": "in_progress",
+        "countries": [
+          "加拿大",
+          "土耳其"
+        ],
+        "entities": [
+          "加拿大总理办公室",
+          "土耳其总统府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "战略伙伴关系建立/FTA首轮谈判待启动",
+        "国家/地区": "加拿大/土耳其",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易政策/自由贸易协定谈判/战略伙伴关系"
+      }
+    },
+    {
+      "public_id": "gai-20261023-007",
+      "title": "南非5—8月对华出口同比增长近25%，零关税安排进入执行观察期",
+      "excerpt": "中国相关零关税安排于5月实施后，南非5—8月对华出口同比增长近25%；数据不能单独归因于关税安排。",
+      "content_html": "<p>Reuters 10月22日报道，中国面向符合条件非洲出口商品的零关税安排于5月实施后，南非5—8月对华出口同比增长近25%，同期自中国进口增长23%。南非官员同时预计11月初获悉其是否继续符合《非洲增长与机会法案》（AGOA）优惠资格。上述数据反映政策实施后的贸易变化，但不能单独归因于关税安排，且不代表10月出台了新的零关税政策。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/south-africas-trade-with-china-surges-after-duty-free-deal-2026-10-22",
+      "source_published_date": "2026-10-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "china-africa-zero-tariff-treatment-2026",
+        "title": "中国对非洲建交国零关税安排",
+        "date": "2026-10-22",
+        "latest_progress": "零关税安排于5月实施后，南非5—8月对华出口同比增长近25%；该数据不能单独归因于关税安排。",
+        "status": "implemented",
+        "countries": [
+          "南非",
+          "中国",
+          "美国"
+        ],
+        "entities": [
+          "南非贸易、工业和竞争部",
+          "中国政府",
+          "AGOA"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "零关税安排已实施/贸易数据发布/AGOA资格待定",
+        "国家/地区": "南非/中国/美国",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易政策/零关税/非洲市场准入/AGOA"
+      }
+    }
+  ]
+}
