@@ -14,6 +14,10 @@
       "event_key": "us-sec232-tiered-metals-2026",
       "date": "2026-06-18"
     },
+    "Arçelik土耳其Manisa洗衣机工厂投产": {
+      "event_key": "arcelik-manisa-washer-plant-2026",
+      "date": "2026-10-23"
+    },
     "Aspen Pumps收购Henry Group等制冷部件企业": {
       "event_key": "aspen-pumps-refrigeration-components-acquisitions-2026",
       "date": "2026-10-05"
@@ -65,6 +69,10 @@
     "Electrolux意大利制造网络重组与新工业方案谈判": {
       "event_key": "electrolux-italy-restructuring-2026",
       "date": "2026-05-11"
+    },
+    "Electrolux阿根廷Rosario家电工厂关闭": {
+      "event_key": "electrolux-argentina-rosario-plant-closure-2026",
+      "date": "2026-10-23"
     },
     "Elin Electronics印度Bhiwadi家电工厂投产与产能扩张": {
       "event_key": "elin-india-bhiwadi-appliance-plant-2026",
@@ -137,6 +145,10 @@
     "Watsco收购The Granite Group并扩展美国东北部HVAC分销网络": {
       "event_key": "watsco-granite-group-acquisition-2026",
       "date": "2026-09-14"
+    },
+    "Westfalen德国Münster-Gelmer高纯R290制冷剂工厂投产": {
+      "event_key": "westfalen-germany-r290-plant-2026",
+      "date": "2026-10-22"
     },
     "Whirlpool北美业务重组与盈利修复": {
       "event_key": "whirlpool-north-america-restructuring-2026",
@@ -353,6 +365,10 @@
     "美国全球反转运与关税规避执法升级": {
       "event_key": "us-global-transshipment-enforcement-2026",
       "date": "2026-08-13"
+    },
+    "美国对中国海事物流造船业301措施暂停": {
+      "event_key": "us-china-maritime-section301-2026",
+      "date": "2026-10-23"
     },
     "美国对加拿大第338条50%附加关税及生效前谈判": {
       "event_key": "US-CANADA-SECTION338-2026",
