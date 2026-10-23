@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261024-0715",
+  "generated_at_bjt": "2026-10-24T07:31:42+08:00",
+  "target_publish_at_bjt": "2026-10-24T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261024-001",
+      "title": "土耳其家电集团Arçelik投资约2亿欧元的Manisa洗衣机工厂正式开业",
+      "excerpt": "Arçelik正式启用土耳其Manisa洗衣机制造基地，投资约2亿欧元，年产能接近400万台。",
+      "content_html": "<p>Arçelik于10月23日正式启用位于Manisa（马尼萨，土耳其西部工业城市）的洗衣机制造基地。项目投资约2亿欧元，占地约9.2万平方米，年产能接近400万台；公司称约44%的产量出口至106个国家。该基地与同园区冰箱业务合计约1,800名员工，并采用自动化和数据驱动生产技术。</p><p>补充核验来源：<a href=\"https://www.bloomberght.com/arcelik-ten-200-milyon-euroluk-yatirim-3792427\">Bloomberg HT</a></p>",
+      "source_name": "Anadolu Ajansı",
+      "source_url": "https://www.aa.com.tr/tr/ekonomi/arcelik-200-milyon-avroluk-yatirimla-manisada-camasir-makinesi-isletmesini-acti/4098621",
+      "source_published_date": "2026-10-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "arcelik-manisa-washer-plant-2026",
+        "title": "Arçelik土耳其Manisa洗衣机工厂投产",
+        "date": "2026-10-23",
+        "latest_progress": "Arçelik正式启用土耳其Manisa洗衣机制造基地，投资约2亿欧元，年产能接近400万台。",
+        "status": "implemented",
+        "countries": [
+          "土耳其",
+          "欧洲"
+        ],
+        "entities": [
+          "Arçelik",
+          "Beko",
+          "Koç Holding"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "正式开业/已投产",
+        "国家/地区": "土耳其/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "竞品动态/制造与产能/海外供应"
+      }
+    },
+    {
+      "public_id": "gai-20261024-002",
+      "title": "伊莱克斯关闭阿根廷Rosario工厂，第三季度有机销售增长3.5%",
+      "excerpt": "Electrolux确认已关闭阿根廷Rosario工厂；第三季度有机销售增长3.5%，三家北美合资企业现已全面运营。",
+      "content_html": "<p>Electrolux Group第三季度报告确认，公司已在季度内关闭Rosario（罗萨里奥，阿根廷第三大城市）工厂。第三季度净销售额为339.19亿瑞典克朗，有机销售增长3.5%，剔除非经常项目的营业利润为9.12亿瑞典克朗。报告同时确认，与美的合作的美国Anderson洗涤合资公司9月1日运营，美国销售合资及墨西哥Juarez制冷制造合资10月1日运营，三家北美合资现已全面运营。</p><p>补充核验来源：<a href=\"https://www.reuters.com/business/electrolux-q3-core-profit-tops-expectations-2026-10-23/\">Reuters</a></p>",
+      "source_name": "Electrolux Group",
+      "source_url": "https://www.electroluxgroup.com/en/electrolux-group-interim-report-q3-2026-47822/",
+      "source_published_date": "2026-10-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "electrolux-argentina-rosario-plant-closure-2026",
+        "title": "Electrolux阿根廷Rosario家电工厂关闭",
+        "date": "2026-10-23",
+        "latest_progress": "Electrolux确认已在第三季度关闭阿根廷Rosario工厂；同期三家北美合资企业已全面运营。",
+        "status": "terminated",
+        "countries": [
+          "瑞典",
+          "阿根廷"
+        ],
+        "entities": [
+          "Electrolux Group",
+          "AEG",
+          "Midea"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "工厂已关闭/季度业绩发布",
+        "国家/地区": "瑞典/阿根廷/美国/墨西哥",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "竞品动态/工厂关闭/制造布局/财报经营"
+      }
+    },
+    {
+      "public_id": "gai-20261024-003",
+      "title": "德国工业气体企业Westfalen投用高纯R290制冷剂工厂",
+      "excerpt": "Westfalen在德国Münster-Gelmer投用高纯R290生产设施，增加欧洲天然制冷剂本地供应能力。",
+      "content_html": "<p>Westfalen在德国Münster-Gelmer（明斯特-盖尔默，德国北莱茵-威斯特法伦州）投用高纯R290生产设施，投资规模为低两位数百万欧元。R290即丙烷制冷剂，主要用于热泵和制冷设备；报道未披露具体年产能。该项目增加了欧洲天然制冷剂本地供应能力。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/westfalen-opens-r290-plant\">Cooling Post</a></p>",
+      "source_name": "NaturalRefrigerants.com",
+      "source_url": "https://naturalrefrigerants.com/news/westfalen-commissions-new-plant-in-germany-for-producing-r290/",
+      "source_published_date": "2026-10-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "westfalen-germany-r290-plant-2026",
+        "title": "Westfalen德国Münster-Gelmer高纯R290制冷剂工厂投产",
+        "date": "2026-10-22",
+        "latest_progress": "Westfalen在德国Münster-Gelmer投用高纯R290生产设施，投资规模为低两位数百万欧元。",
+        "status": "implemented",
+        "countries": [
+          "德国",
+          "欧洲"
+        ],
+        "entities": [
+          "Westfalen Group"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261024-004",
+      "title": "美国调整对加拿大50%关税清单，新增窗墙式空调和卧式冷柜",
+      "excerpt": "美国调整对加拿大商品50%附加关税清单，新增部分空调和卧式冷柜税号，相关变化自10月30日起生效。",
+      "content_html": "<p>美国白宫10月23日调整依据《1930年关税法》第338条实施的加拿大商品50%附加关税范围，相关变化自10月30日起生效。新增HTS 8415.10.30窗式或墙式一体空调及8418.30.00不超过800升卧式冷柜，同时移除8418.69.01等部分制冷设备税号。此次属于既有第338条关税事件的产品清单调整，并非全面取消对加拿大附加税。</p><p>补充核验来源：<a href=\"https://www.reuters.com/business/us-expected-remove-50-tariffs-some-canadian-agricultural-forestry-goods-wsj-2026-10-23/\">Reuters</a>；<a href=\"https://apnews.com/article/trump-tariffs-canada-susan-collins-ede51283125c071561178e6455048994\">AP</a></p>",
+      "source_name": "美国白宫",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/",
+      "source_published_date": "2026-10-23",
+      "event_action": "update",
+      "event": {
+        "event_key": "US-CANADA-SECTION338-2026",
+        "title": "美国对加拿大第338条50%附加关税及生效前谈判",
+        "date": "2026-07-20",
+        "latest_progress": "美国调整对加拿大商品50%附加关税清单，新增窗墙式空调和卧式冷柜税号，相关变化自10月30日起生效。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "加拿大"
+        ],
+        "entities": [
+          "美国白宫",
+          "美国海关与边境保护局"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "清单调整已宣布/10月30日生效",
+        "国家/地区": "美国/加拿大",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/Section 338/关税清单/家电税号"
+      }
+    },
+    {
+      "public_id": "gai-20261024-005",
+      "title": "欧盟评估塑料保障调查，并将机械和化工列入对华贸易再平衡讨论",
+      "excerpt": "欧盟贸易部长讨论中国进口增长，欧委会正评估PET进口是否满足保障调查条件；家电专项调查尚未启动。",
+      "content_html": "<p>欧盟贸易部长10月23日讨论中国进口增长及贸易失衡问题。欧盟贸易委员Maroš Šefčovič表示，塑料保障措施调查最接近启动，欧委会正在评估聚对苯二甲酸乙二醇酯（PET）进口是否满足调查条件；化工和机械等领域也被列入后续对话与贸易防御讨论。欧盟目前尚未启动家电专项保障调查，也未公布针对家电的新关税。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/eu-ministers-vow-tackle-china-shock-20-through-talks-with-beijing-2026-10-23/",
+      "source_published_date": "2026-10-23",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-china-trade-rebalancing-2026",
+        "title": "欧中贸易失衡再平衡磋商",
+        "date": "2026-09-08",
+        "latest_progress": "欧盟贸易部长讨论中国进口增长；欧委会正评估PET进口是否满足保障调查条件，化工和机械等领域也被列入后续讨论。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "中国"
+        ],
+        "entities": [
+          "欧盟委员会",
+          "欧盟成员国贸易部长"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "行业调查准备/尚未正式启动",
+        "国家/地区": "欧盟/中国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易政策/保障措施/欧中贸易再平衡"
+      }
+    },
+    {
+      "public_id": "gai-20261024-006",
+      "title": "USTR拟将中国海事物流造船业301措施继续暂停至2027年1月9日",
+      "excerpt": "USTR提议将中国海事、物流和造船业301措施再暂停两个月，并就拟议修改征求意见至10月30日。",
+      "content_html": "<p>USTR于10月23日公开待刊登通知，提议将针对中国海事、物流和造船业的301应对措施继续暂停两个月，拟自2026年11月10日零时起延长至2027年1月9日23时59分。意见征集截至10月30日，通知计划10月26日刊登于《联邦公报》。当前仍属拟议修改，原暂停期限为2026年11月9日。</p>",
+      "source_name": "USTR / Federal Register",
+      "source_url": "https://public-inspection.federalregister.gov/2026-21755.pdf",
+      "source_published_date": "2026-10-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-china-maritime-section301-2026",
+        "title": "美国对中国海事物流造船业301措施暂停",
+        "date": "2026-10-23",
+        "latest_progress": "USTR提议将中国海事、物流和造船业301措施继续暂停两个月，并就拟议修改征求意见至10月30日。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "中国",
+          "全球"
+        ],
+        "entities": [
+          "美国贸易代表办公室",
+          "联邦公报"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "拟议继续暂停/征求意见",
+        "国家/地区": "美国/中国/全球",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易政策/Section 301/航运物流/征求意见"
+      }
+    },
+    {
+      "public_id": "gai-20261024-007",
+      "title": "松下六台R290商用冷水机组在英国利兹法院投入应用",
+      "excerpt": "松下为英国利兹治安法院供应六台80kW R290商用冷水机组，总制冷能力约480kW。",
+      "content_html": "<p>松下为Leeds Magistrates Court（英国利兹治安法院）冷却系统升级供应六台80kW ECOi-W Aqua-G Blue冷水机组，总制冷能力约480kW。机组使用R290（丙烷制冷剂），项目同时升级楼宇管理系统的运行排程。该案例体现松下R290普通商用空调产品的实际项目应用，不涉及新增制造产能。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/features/court-installation-judges-r290-chillers/",
+      "source_published_date": "2026-10-23",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "商用项目已实施",
+        "国家/地区": "英国/日本",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中",
+        "事件分类": "竞品动态/产品应用/商用HVAC"
+      }
+    }
+  ]
+}
