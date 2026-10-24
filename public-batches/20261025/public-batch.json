@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261025-0715",
+  "generated_at_bjt": "2026-10-25T07:37:35+08:00",
+  "target_publish_at_bjt": "2026-10-25T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261025-001",
+      "title": "TCL智家前三季度收入增长6.69%，海外自有品牌收入增长62.01%",
+      "excerpt": "TCL智家前三季度营业收入153.06亿元，同比增长6.69%；海外收入增长19.12%，海外自有品牌收入增长62.01%。",
+      "content_html": "<p>TCL智家2026年前三季度营业收入153.06亿元，同比增长6.69%；归母净利润7.75亿元，同比下降20.67%。公司披露人民币升值产生汇兑损失2.84亿元，损失同比增加3.58亿元；按公司剔除汇兑损益口径，归母净利润9.43亿元，同比增长0.70%。同期海外收入增长19.12%，海外自有品牌收入增长62.01%。作为制造布局背景，公司9月公告显示，泰国30万台冷柜一期产线已基本满产，140万台冰箱二期进入试生产。</p><p>补充核验来源：<a href=\"https://paper.cnstock.com/html/2026-10/24/content_2280493.htm\">上海证券报</a>；<a href=\"https://finance.eastmoney.com/a/202610243907067949.html\">证券日报转载</a></p>",
+      "source_name": "TCL智家 / 巨潮资讯网",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF",
+      "source_published_date": "2026-10-24",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026年第三季度报告发布/海外品牌增长",
+        "国家/地区": "中国/泰国/全球",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/财报经营/海外市场"
+      }
+    },
+    {
+      "public_id": "gai-20261025-002",
+      "title": "海信家电第三季度归母净利润下降74%，前三季度收入670.14亿元",
+      "excerpt": "海信家电第三季度营业收入202.48亿元，同比下降8.76%；归母净利润1.91亿元，同比下降74.00%。",
+      "content_html": "<p>海信家电2026年第三季度营业收入202.48亿元，同比下降8.76%；归母净利润1.91亿元，同比下降74.00%，扣非净利润1667.81万元，同比下降96.73%。前三季度营业收入670.14亿元，同比下降6.32%；归母净利润18.49亿元，同比下降34.23%。公司披露前三季度财务费用2.34亿元，同比增长93.32%，主要受汇兑损益波动影响。</p><p>补充核验来源：<a href=\"https://www1.hkexnews.hk/search/predefineddoc.xhtml?predefineddocuments=7\">港交所披露索引</a>；<a href=\"https://www.guandian.cn/article/20261023/617361.html\">观点网</a></p>",
+      "source_name": "海信家电 / 港交所披露转载",
+      "source_url": "https://www.cfi.net.cn/p20261023000908.html",
+      "source_published_date": "2026-10-23",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261025-003",
+      "title": "美的旗下意大利商用空调企业Clivet推出SMARTPACK3低GWP屋顶式空调平台",
+      "excerpt": "Clivet推出采用R454C制冷剂的SMARTPACK3商用屋顶空调平台，制冷量覆盖25.3—42.4kW。",
+      "content_html": "<p>美的旗下Clivet推出SMARTPACK3（CKN-iM）一体式商用屋顶空调平台，采用R454C（低全球变暖潜值制冷剂，GWP为148）、全变频压缩机和EC无刷风机。产品制冷量覆盖25.3—42.4kW，配套REVO排风热回收系统；Clivet称其制冷剂相关全球变暖影响较上一代R410A机型最多降低95%，并面向欧盟2027年起适用于50kW以下一体机的F-gas要求。节能和减排比例为厂商披露口径。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/products/clivet-rooftops-using-r454c\">Cooling Post</a>；<a href=\"https://refindustry.com/news/clivet-introduces-smartpack3-rooftop-air-conditioners-with-r454c/\">Refrigeration Industry</a></p>",
+      "source_name": "Clivet",
+      "source_url": "https://www.clivet.com/en/blog-news/news-article/product-launch-smartpack-3",
+      "source_published_date": "2026-10-21",
+      "event_action": "none"
+    }
+  ]
+}
