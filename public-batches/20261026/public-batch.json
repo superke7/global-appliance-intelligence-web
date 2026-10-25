@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261026-0715",
+  "generated_at_bjt": "2026-10-26T07:31:44+08:00",
+  "target_publish_at_bjt": "2026-10-26T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261026-001",
+      "title": "松下在日本和台湾召回约64万台滚筒洗烘机，自动投放部件涉冒烟起火风险",
+      "excerpt": "松下因自动投放单元可能导致冒烟或起火，在日本和台湾召回约64万台滚筒洗烘机，并提供免费部件更换、点检和维修。",
+      "content_html": "<p>松下于10月15日发布滚筒式洗烘机召回，因洗涤剂和柔顺剂自动投放单元存在不具合，可能导致发烟、发火。公司要求用户停用自动投放功能，并提供免费投放罐、部件更换、点检和维修。Jiji Press报道，日本和台湾合计约64万台、涉及21款机型；日本报告6起、台湾报告1起冒烟或起火事件，未报告人员受伤。</p><p>背景补充：松下日本官方页面列明日本市场2021—2024年生产批次；台湾涉及机型的生产期另由当地召回信息确定。</p><p>补充核验来源：<a href=\"https://www.nippon.com/en/news/yjj2026101500820/panasonic-recalls-640-000-washer-dryers-over-fire-risk.html\">Jiji Press / Nippon.com</a>；<a href=\"https://www.japantimes.co.jp/business/2026/10/15/companies/panasonic-washer-recall/\">The Japan Times</a></p>",
+      "source_name": "Panasonic",
+      "source_url": "https://panasonic.jp/support/information/wash_2610.html",
+      "source_published_date": "2026-10-15",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261026-002",
+      "title": "惠而浦计划于2027年二季度前关闭墨西哥Apodaca制冷工厂，产能转移至Ramos Arizpe",
+      "excerpt": "惠而浦计划于2027年第二季度前关闭墨西哥Apodaca的Supsa制冷工厂，并将相关生产转移至Ramos Arizpe等设施。",
+      "content_html": "<p>惠而浦在7月1日提交的Form 8-K中披露，作为北美业务调整的一部分，计划于2027年第二季度前关闭位于Apodaca（阿波达卡，墨西哥新莱昂州城市）的Supsa制冷产品工厂，并将相关生产转移至Ramos Arizpe（拉莫斯阿里斯佩，墨西哥科阿韦拉州工业城市）及公司制造网络其他设施。公司预计相关项目重组成本最高1.65亿美元，其中未来现金支出约7000万美元。</p><p>背景补充：该计划于2026年7月首次披露，目前仍处执行期。</p><p>补充核验来源：<a href=\"https://mexicobusiness.news/automotive/news/whirlpool-close-nuevo-leon-plant-2027\">Mexico Business News</a>；<a href=\"https://ebs.publicnow.com/view/680E583809E37BFA2DBFE7784895776438B15406\">PublicNow转载</a></p>",
+      "source_name": "Whirlpool Corporation / SEC",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/106640/000010664026000052/whr-20260701.htm",
+      "source_published_date": "2026-07-01",
+      "event_action": "update",
+      "event": {
+        "event_key": "whirlpool-north-america-restructuring-2026",
+        "title": "Whirlpool北美业务重组与盈利修复",
+        "date": "2026-08-04",
+        "latest_progress": "惠而浦计划于2027年第二季度前关闭墨西哥Apodaca的Supsa制冷工厂，并将相关生产转移至Ramos Arizpe及其他设施。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "墨西哥"
+        ],
+        "entities": [
+          "Whirlpool Corporation",
+          "Supsa",
+          "Ramos Arizpe"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "计划已宣布/拟于2027年二季度前完成关闭与产能转移",
+        "国家/地区": "美国/墨西哥",
+        "新闻标注": "历史补录/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "竞品动态/制造与产能/工厂关闭与产能转移"
+      }
+    }
+  ]
+}
