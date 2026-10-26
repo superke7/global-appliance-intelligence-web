@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261027-0715",
+  "generated_at_bjt": "2026-10-27T07:32:36+08:00",
+  "target_publish_at_bjt": "2026-10-27T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261027-001",
+      "title": "海尔在泰国罗勇为洗衣机工厂奠基，规划年产300万台",
+      "excerpt": "海尔在泰国罗勇为洗衣机工厂奠基，项目规划年产300万台，一期投资1.5亿美元、规划年产100万台。",
+      "content_html": "<p>海尔10月26日在Rayong（罗勇，泰国东部制造业中心）的WHA ESIE 5工业园举行洗衣机工厂奠基仪式。项目规划年产300万台；一期投资1.5亿美元，规划年产100万台，主要生产Triple Drum三筒洗衣机及X系列高端机型。当前处于建设启动阶段，尚未投产。</p><p>背景补充：该项目被海尔定位为其海外规模最大的洗衣机智能工厂，将进一步扩充东南亚洗涤产品制造能力。</p><p>补充核验来源：<a href=\"https://www.beartai.com/read/1511174/\">补充来源</a></p>",
+      "source_name": "Haier",
+      "source_url": "https://www.haier.com/press-events/news/20261026_295928.shtml",
+      "source_published_date": "2026-10-26",
+      "event_action": "create",
+      "event": {
+        "event_key": "haier-thailand-rayong-washer-plant-2026",
+        "title": "海尔泰国罗勇洗衣机工厂建设与投产",
+        "date": "2026-10-26",
+        "latest_progress": "海尔在泰国罗勇的洗衣机工厂已举行奠基仪式，一期建设启动，项目规划年产300万台。",
+        "status": "in_progress",
+        "countries": [
+          "泰国",
+          "中国"
+        ],
+        "entities": [
+          "Haier Smart Home",
+          "Haier Washing Machine"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "奠基/一期建设启动",
+        "国家/地区": "泰国/中国",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "竞品动态/制造与产能/海外工厂"
+      }
+    },
+    {
+      "public_id": "gai-20261027-002",
+      "title": "开利旗下德国暖通品牌Viessmann调整德国销售服务负责人，Conrad Wiedeler即日起接任",
+      "excerpt": "Viessmann Deutschland总经理Frank Voßloh将离任，Conrad Wiedeler即日起负责德国销售及服务运营。",
+      "content_html": "<p>Viessmann Climate Solutions 10月22日宣布，Viessmann Deutschland总经理Frank Voßloh将于10月31日离任；管理委员会成员Conrad Wiedeler即日起全面负责德国销售及服务运营。公司称该安排旨在保持客户与安装商合作的连续性。</p><p>背景补充：Viessmann Climate Solutions现隶属开利，产品覆盖供暖、制冷、通风及热泵等气候与能源解决方案。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/viessmann-deutschland-md-to-step-down/\">补充来源</a></p>",
+      "source_name": "Viessmann Climate Solutions",
+      "source_url": "https://www.viessmann-climatesolutions.com/en/newsroom/company/leadership-transition-at-viessmann-deutschland-gmbh.html",
+      "source_published_date": "2026-10-22",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261027-003",
+      "title": "阿根廷家电企业Longvie将热水器和灶具生产集中迁至Catamarca，预计11月完成",
+      "excerpt": "Longvie将燃气即热式热水器和嵌入式灶具生产集中迁至Catamarca，预计11月完成。",
+      "content_html": "<p>阿根廷家电企业Longvie向当地监管机构披露，将燃气即热式热水器和嵌入式灶具生产全部集中迁至Catamarca（卡塔马卡，阿根廷西北部省份）工厂。Paraná工厂将聚焦储水式热水器和取暖设备，Villa Martelli工厂继续生产炉灶和烤箱。</p><p>公司称迁移将分阶段实施以维持供货连续性，预计在11月完成，目标是扩大生产规模、降低单位制造成本并提高运营效率。</p>",
+      "source_name": "Uno Entre Ríos",
+      "source_url": "https://www.unoentrerios.com.ar/la-provincia/longvie-trasladara-catamarca-la-fabricacion-calefones-que-hoy-realiza-parana-n10284442.html",
+      "source_published_date": "2026-10-02",
+      "event_action": "create",
+      "event": {
+        "event_key": "longvie-argentina-catamarca-production-relocation-2026",
+        "title": "Longvie阿根廷Catamarca生产线迁移与工厂分工调整",
+        "date": "2026-10-02",
+        "latest_progress": "Longvie正将燃气即热式热水器和嵌入式灶具生产集中迁至Catamarca，预计11月完成。",
+        "status": "in_progress",
+        "countries": [
+          "阿根廷"
+        ],
+        "entities": [
+          "Longvie"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "生产线迁移执行中/预计11月完成",
+        "国家/地区": "阿根廷",
+        "新闻标注": "历史补录/新事件",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/制造与产能/生产线迁移"
+      }
+    },
+    {
+      "public_id": "gai-20261027-004",
+      "title": "日本9月家用空调出货91.5万台创同期新高，冰箱和洗衣机同比下降",
+      "excerpt": "日本2026年9月家用空调出货91.5万台，同比增长41.8%，创9月单月历史新高。",
+      "content_html": "<p>日本电机工业会（JEMA）10月20日发布统计：2026年9月日本家用空调出货91.5万台，同比增长41.8%，创9月单月历史新高；冰箱出货27.3万台，同比下降13.9%；洗衣机出货35.8万台，同比下降4.1%。</p><p>2026财年上半年，家用空调累计出货732.3万台，同比增长25.5%，同样创上半年历史新高。JEMA称，能效标准目标年度临近、地方补贴及高温天气共同推升需求。</p><p>补充核验来源：<a href=\"https://www.jema-net.or.jp/stat/evefa20000004jb4-att/2609ds-comment.pdf\">补充来源</a>；<a href=\"https://www.j-harb.com/2026/10/22/syukkatoukei_siromonokaden_202609\">补充来源</a>；<a href=\"https://www.coolingpost.com/world-news/japanese-ac-shipments-hit-record-levels/\">补充来源</a></p>",
+      "source_name": "日本电机工业会（JEMA）",
+      "source_url": "https://www.jema-net.or.jp/stat/kakoku.html",
+      "source_published_date": "2026-10-20",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261027-005",
+      "title": "美加磋商降低钢铁和汽车Section 232关税，尚未形成协议",
+      "excerpt": "美国与加拿大正磋商降低钢铁和汽车Section 232关税，截至报道时尚未签署协议。",
+      "content_html": "<p>Reuters 10月26日报道，美国与加拿大正就钢铁和汽车Section 232关税减让展开磋商。目前加拿大钢铁面临最高50%的相关关税，汽车关税为25%；消息人士称双方可能在11月3日前形成有限协议，但截至报道时尚未签署，也未公布新的正式税率。</p><p>Section 232是美国《贸易扩展法》第232条下的国家安全进口限制工具。本轮磋商与既有第338条国别附加关税属于不同法律工具。</p><p>补充核验来源：<a href=\"https://apnews.com/article/canada-trump-trade-talks-carney-midterms-0e6749a03730bd292cd32dea47518394\">补充来源</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/us-canada-working-deal-ease-steel-auto-tariffs-sources-say-2026-10-26/",
+      "source_published_date": "2026-10-26",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-canada-section232-tariff-talks-2026",
+        "title": "美加钢铁与汽车Section 232关税减让谈判",
+        "date": "2026-10-26",
+        "latest_progress": "美国与加拿大正就钢铁和汽车Section 232关税减让展开磋商，截至报道时尚未签署协议。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "加拿大"
+        ],
+        "entities": [
+          "美国商务部",
+          "加拿大政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "谈判中/尚未签署",
+        "国家/地区": "美国/加拿大",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 232/双边谈判"
+      }
+    },
+    {
+      "public_id": "gai-20261027-006",
+      "title": "英国议会委员会建议将能源转型政策成本从电价转移至燃气价格",
+      "excerpt": "英国议会委员会建议将剩余能源转型政策成本从居民电价转移至燃气价格，政府尚未采纳。",
+      "content_html": "<p>英国下议院能源安全与净零委员会10月21日报告建议，将剩余能源转型政策成本从居民电价转移至燃气价格，并为难以从能源转型受益的低收入燃气用户提供专项支持。委员会认为，降低电价中的政策负担有助于改善热泵等电气化技术的经济性。</p><p>该内容属于议会委员会建议，英国政府尚未批准或实施；后续需观察政府和Ofgem是否采纳。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/uk-news/committee-backs-delinking-gas-and-electricity-prices/\">补充来源</a></p>",
+      "source_name": "UK Parliament Energy Security and Net Zero Committee",
+      "source_url": "https://committees.parliament.uk/committee/664/energy-security-and-net-zero-committee/news/218348/move-all-energy-policy-costs-onto-gas-and-tap-windfall-profits-to-reduce-uk-energy-bills-says-esnz-committee/",
+      "source_published_date": "2026-10-21",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261027-007",
+      "title": "英国热泵协会发布地源热泵垂直闭式钻孔标准第5版",
+      "excerpt": "英国热泵协会发布《垂直闭式钻孔标准》第5版，更新地源热泵系统设计、安装和维护框架。",
+      "content_html": "<p>英国热泵协会（HPA UK）10月26日发布《垂直闭式钻孔标准》第5版，更新地源热泵垂直钻孔系统的设计、安装和维护框架，覆盖健康安全、环境保护、系统寿命及运行可靠性等要求。</p><p>该标准获得英国特许建筑设备工程师学会（CIBSE）认可，面向工程师、安装商和项目规范制定人员；它是行业技术标准，不是政府强制法规。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/uk-news/update-of-closed-loop-vertical-borehole-standard/\">补充来源</a></p>",
+      "source_name": "Heat Pump Association UK",
+      "source_url": "https://hpauk.org.uk/news/hpa-uk-launches-updated-closed-loop-vertical-borehole-standard/",
+      "source_published_date": "2026-10-26",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "行业标准发布/第5版",
+        "国家/地区": "英国",
+        "新闻标注": "今日新增/行业标准",
+        "影响程度": "中",
+        "事件分类": "技术与标准/热泵/安装规范"
+      }
+    },
+    {
+      "public_id": "gai-20261027-008",
+      "title": "南苏丹批准《基加利修正案》，加入HFC制冷剂逐步削减机制",
+      "excerpt": "南苏丹已交存《基加利修正案》批准书，加入HFC制冷剂逐步削减机制。",
+      "content_html": "<p>联合国条约登记显示，南苏丹于10月23日交存《蒙特利尔议定书》基加利修正案批准书。该修正案要求缔约方逐步削减HFC（氢氟碳化物）制冷剂的生产和消费。</p><p>批准确立了南苏丹参与国际HFC削减机制的法律基础；当地配额、许可和设备端实施细则仍待后续公布。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/south-sudan-ratifies-kigali-amendment/\">补充来源</a></p>",
+      "source_name": "United Nations Treaty Collection",
+      "source_url": "https://treaties.un.org/doc/Publication/CN/2026/CN.437.2026-Eng.pdf",
+      "source_published_date": "2026-10-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "south-sudan-kigali-amendment-2026",
+        "title": "南苏丹批准并实施《基加利修正案》",
+        "date": "2026-10-23",
+        "latest_progress": "南苏丹已交存《蒙特利尔议定书》基加利修正案批准书，设备端实施细则仍待公布。",
+        "status": "implemented",
+        "countries": [
+          "南苏丹"
+        ],
+        "entities": [
+          "南苏丹政府",
+          "United Nations Treaty Collection"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
