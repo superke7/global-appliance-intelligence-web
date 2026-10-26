@@ -114,6 +114,10 @@
       "event_key": "lg-korea-apartment-heatpump-pilot-2026",
       "date": "2026-09-15"
     },
+    "Longvie阿根廷Catamarca生产线迁移与工厂分工调整": {
+      "event_key": "longvie-argentina-catamarca-production-relocation-2026",
+      "date": "2026-10-02"
+    },
     "Madison Air收购ebm-papst": {
       "event_key": "madison-air-ebmpapst-acquisition-2026",
       "date": "2026-08-17"
@@ -221,6 +225,10 @@
     "南方共同市场—EFTA自由贸易协定": {
       "event_key": "mercosur-efta-fta-2025",
       "date": "2025-09-16"
+    },
+    "南苏丹批准并实施《基加利修正案》": {
+      "event_key": "south-sudan-kigali-amendment-2026",
+      "date": "2026-10-23"
     },
     "印度LG、三星OLED电视零部件关税归类调查": {
       "event_key": "india-oled-tv-open-cell-tariff-investigation-2026",
@@ -338,9 +346,17 @@
       "event_key": "haier-egypt-refrigeration-phase2-2026",
       "date": "2026-09-09"
     },
+    "海尔泰国罗勇洗衣机工厂建设与投产": {
+      "event_key": "haier-thailand-rayong-washer-plant-2026",
+      "date": "2026-10-26"
+    },
     "科慕Chillventa HFO制冷剂专利执法": {
       "event_key": "chemours-chillventa-hfo-patent-enforcement-2026",
       "date": "2026-10-19"
+    },
+    "美加钢铁与汽车Section 232关税减让谈判": {
+      "event_key": "us-canada-section232-tariff-talks-2026",
+      "date": "2026-10-26"
     },
     "美印临时贸易协定框架调整与后续谈判": {
       "event_key": "india-us-interim-trade-agreement-2026",
