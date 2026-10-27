@@ -62,6 +62,10 @@
       "event_key": "efta-vietnam-fta-2026",
       "date": "2026-10-14"
     },
+    "Electrolux匈牙利Jászberény冰箱工厂关闭计划": {
+      "event_key": "electrolux-hungary-jaszbereny-closure-2026",
+      "date": "2026-04-22"
+    },
     "Electrolux巴西BNDES融资与节能智能家电研发项目": {
       "event_key": "electrolux-brazil-bndes-innovation-2026",
       "date": "2026-08-31"
@@ -206,6 +210,10 @@
       "event_key": "canada-turkey-fta-2026",
       "date": "2026-10-22"
     },
+    "加拿大—阿联酋全面经济伙伴关系协定": {
+      "event_key": "canada-uae-cepa-2026",
+      "date": "2026-10-27"
+    },
     "加拿大国家住宅热泵补贴计划": {
       "event_key": "canada-national-heat-pump-rebate-2026",
       "date": "2026-10-08"
@@ -245,6 +253,10 @@
     "印度关键进口本土化计划": {
       "event_key": "india-critical-import-substitution-2026",
       "date": "2026-07-16"
+    },
+    "印度制冷压缩机工厂": {
+      "event_key": "nidec-india-embraco-plant-2026",
+      "date": "2026-05-11"
     },
     "印度放宽外资电商出口规则": {
       "event_key": "india-ecommerce-export-fdi-2026",
@@ -309,6 +321,10 @@
     "欧盟CBAM扩围与紧急刹车条款调整": {
       "event_key": "eu-cbam-expansion-2026",
       "date": "2026-09-15"
+    },
+    "欧盟—澳大利亚自由贸易协定": {
+      "event_key": "eu-australia-fta-2026",
+      "date": "2026-10-27"
     },
     "欧盟—菲律宾自由贸易协定": {
       "event_key": "eu-philippines-fta-2026",
