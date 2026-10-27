@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261028-0715",
+  "generated_at_bjt": "2026-10-28T07:35:08+08:00",
+  "target_publish_at_bjt": "2026-10-28T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261028-001",
+      "title": "格力电器第三季度归母净利润同比下降43.31%，前三季度营收下降8.10%",
+      "excerpt": "格力电器2026年第三季度营收同比下降7.97%，归母净利润同比下降43.31%；前三季度营收同比下降8.10%。",
+      "content_html": "<p>格力电器2026年第三季度营业收入366.78亿元，同比下降7.97%，归母净利润39.96亿元，同比下降43.31%；前三季度营业收入1260.75亿元，同比下降8.10%，归母净利润172.74亿元，同比下降19.51%。公司称第三季度利润下降主要受消费电器业务同比下降影响，并援引产业在线数据称前三季度中国家用空调行业总销量同比下降8.4%。</p><p>补充核验来源：<a href=\"https://stock.10jqka.com.cn/20261026/c681102092.shtml\">补充来源</a></p>",
+      "source_name": "格力电器/巨潮资讯",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF",
+      "source_published_date": "2026-10-27",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261028-002",
+      "title": "加拿大与阿联酋签署CEPA，预计2027年生效",
+      "excerpt": "加拿大与阿联酋已签署全面经济伙伴关系协定，预计2027年生效，目前仍待批准及实施程序。",
+      "content_html": "<p>加拿大与阿联酋10月27日签署CEPA（全面经济伙伴关系协定）。加拿大政府称，协定全面实施后将削减或取消阿联酋对超过99%当前加拿大出口商品的关税，并处理非关税壁垒、扩大商品和服务市场准入。协定预计2027年生效，目前仍待后续批准及实施程序。</p><p>补充核验来源：<a href=\"https://reuters.com/world/canada-uae-sign-trade-deal-tuesday-source-says-2026-10-27\">补充来源</a></p>",
+      "source_name": "加拿大总理办公室",
+      "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/27/prime-minister-carney-launches-new-strategic-partnership-uae-welcomes",
+      "source_published_date": "2026-10-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "canada-uae-cepa-2026",
+        "title": "加拿大—阿联酋全面经济伙伴关系协定",
+        "date": "2026-10-27",
+        "latest_progress": "加拿大与阿联酋已签署全面经济伙伴关系协定，预计2027年生效，目前仍待批准及实施程序。",
+        "status": "announced",
+        "countries": [
+          "加拿大",
+          "阿联酋"
+        ],
+        "entities": [
+          "加拿大政府",
+          "阿联酋政府"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261028-003",
+      "title": "德国总理默茨倡议深化欧盟与CPTPP及东盟贸易合作",
+      "excerpt": "德国与新加坡领导人倡议加强欧盟同CPTPP及东盟的贸易联系，欧盟尚未启动正式谈判。",
+      "content_html": "<p>德国总理默茨与新加坡总理黄循财10月27日表示，双方支持加强欧盟与CPTPP（《全面与进步跨太平洋伙伴关系协定》）及东盟之间的贸易联系，以扩大开放市场、投资与供应链合作。该表态属于跨区域贸易合作倡议，欧盟尚未据此启动或授权新的自由贸易协定谈判。</p><p>补充核验来源：<a href=\"https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/-official-visit-by-federal-chancellor-of-the-federal-republic-of-germany-friedrich-merz--27-to-28-october-2026/\">补充来源1</a>；<a href=\"https://reuters.com/world/china/germanys-merz-says-eu-has-strategic-interest-open-market-access-2026-10-27\">补充来源2</a></p>",
+      "source_name": "德国联邦政府",
+      "source_url": "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/pk-merz-wong-singapur-2458272",
+      "source_published_date": "2026-10-27",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "政策倡议/尚未启动正式谈判",
+        "国家/地区": "德国/欧盟/新加坡/亚太",
+        "新闻标注": "今日新增/政策信号",
+        "影响程度": "中高",
+        "事件分类": "贸易与政策/区域贸易合作/政策倡议"
+      }
+    },
+    {
+      "public_id": "gai-20261028-004",
+      "title": "英国与欧盟就“欧洲制造”规则磋商可信伙伴待遇",
+      "excerpt": "英国与欧盟正就拟议的“欧洲制造”规则磋商可信伙伴待遇，最终方案仍待欧盟批准。",
+      "content_html": "<p>英国商务部长Jonathan Reynolds 10月27日表示，英国与欧盟正就欧盟拟议的“欧洲制造”规则寻求解决方案。该方案拟在公共采购、拍卖和补贴中优待欧洲制造产品；英国能否以可信伙伴身份获得相应待遇尚未敲定，最终方案仍需欧盟成员国和欧洲议会批准。本次表态是既有欧盟公共采购欧洲优先改革的谈判进展。</p><p>补充核验来源：<a href=\"https://public-buyers-community.ec.europa.eu/news/eu-public-procurement-act-proposal-unveiled\">补充来源</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://reuters.com/world/uk/britain-eu-finding-way-through-made-europe-concerns-uk-minister-says-2026-10-27",
+      "source_published_date": "2026-10-27",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-public-procurement-european-preference-2026",
+        "title": "欧盟公共采购法欧洲优先与互惠准入改革",
+        "date": "2026-09-08",
+        "latest_progress": "英国与欧盟正就拟议的“欧洲制造”规则磋商可信伙伴待遇，最终方案仍待欧盟批准。",
+        "status": "in_progress",
+        "countries": [
+          "英国",
+          "欧盟"
+        ],
+        "entities": [
+          "英国商务部",
+          "欧盟机构"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "政策磋商/最终方案待批准",
+        "国家/地区": "英国/欧盟",
+        "新闻标注": "今日新增/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/公共采购/本地化/市场准入"
+      }
+    },
+    {
+      "public_id": "gai-20261028-005",
+      "title": "欧盟驻澳大使称欧澳FTA预计2027年初签署批准",
+      "excerpt": "欧盟与澳大利亚已完成FTA谈判，预计2027年初签署和批准。",
+      "content_html": "<p>欧盟驻澳大利亚大使Lawrence Meredith 10月27日表示，欧盟与澳大利亚在2026年3月完成谈判的FTA（自由贸易协定）预计于2027年初签署和批准；签署并批准后，欧盟对相关关键矿产征收的5.5%关税将取消。双方尚未完成签署和批准，本次为时间表与关键原材料供应链投资预期更新。</p>",
+      "source_name": "Reuters",
+      "source_url": "https://reuters.com/world/eu-readying-major-australian-resources-investment-ambassador-says-2026-10-27",
+      "source_published_date": "2026-10-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-australia-fta-2026",
+        "title": "欧盟—澳大利亚自由贸易协定",
+        "date": "2026-10-27",
+        "latest_progress": "欧盟与澳大利亚已完成FTA谈判，预计2027年初签署和批准，目前尚未完成相关程序。",
+        "status": "announced",
+        "countries": [
+          "欧盟",
+          "澳大利亚"
+        ],
+        "entities": [
+          "欧盟",
+          "澳大利亚政府",
+          "欧洲投资银行"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "谈判已完成/待签署批准",
+        "国家/地区": "欧盟/澳大利亚",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "贸易与政策/自由贸易协定/关键原材料"
+      }
+    },
+    {
+      "public_id": "gai-20261028-006",
+      "title": "瑞典家电集团Electrolux拟于2026年底关闭匈牙利Jászberény冰箱厂",
+      "excerpt": "Electrolux计划于2026年底前停止匈牙利Jászberény工厂的冰箱生产，约600名员工将受影响。",
+      "content_html": "<p>瑞典家电集团Electrolux 4月22日宣布，计划在2026年底前停止Jászberény（亚斯贝雷尼，匈牙利北部城市）工厂的嵌入式及独立式冰箱生产，约600名员工将受影响，预计计提约6亿瑞典克朗重组费用。公司拟由其他工厂及外部OEM（原始设备制造商）承接需求；截至本次核验，尚无可确认的已停产节点。</p><p>补充核验来源：<a href=\"https://www.reuters.com/business/appliances-maker-electrolux-close-hungarian-factory-2026-04-22/\">补充来源1</a>；<a href=\"https://apps.eurofound.europa.eu/restructuring-events/detail/300246\">补充来源2</a></p>",
+      "source_name": "Electrolux Group",
+      "source_url": "https://www.electroluxgroup.com/en/electrolux-group-to-end-production-in-jaszbereny-hungary-46564/",
+      "source_published_date": "2026-04-22",
+      "event_action": "create",
+      "event": {
+        "event_key": "electrolux-hungary-jaszbereny-closure-2026",
+        "title": "Electrolux匈牙利Jászberény冰箱工厂关闭计划",
+        "date": "2026-04-22",
+        "latest_progress": "Electrolux计划于2026年底前停止匈牙利Jászberény工厂的冰箱生产，当前尚无可确认的已停产节点。",
+        "status": "in_progress",
+        "countries": [
+          "匈牙利",
+          "瑞典"
+        ],
+        "entities": [
+          "Electrolux Group"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "关厂计划执行中/预计年底停产",
+        "国家/地区": "匈牙利/瑞典",
+        "新闻标注": "历史补录/新事件",
+        "影响程度": "高",
+        "事件分类": "竞品动态/制造与产能/关厂"
+      }
+    },
+    {
+      "public_id": "gai-20261028-007",
+      "title": "日本家电零部件企业Nidec推进印度Embraco压缩机新厂，计划2026年第四季度出样",
+      "excerpt": "Nidec在印度的Embraco压缩机新厂建设进入关键阶段，计划2026年第四季度生产首批样品。",
+      "content_html": "<p>日本家电零部件企业Nidec Global Appliance披露，位于Chhatrapati Sambhaji Nagar（恰特拉帕蒂·桑巴吉讷格尔，印度马哈拉施特拉邦城市）的Embraco压缩机新厂建设进入关键阶段。项目投资超过1.2亿美元，规划年产600万台家用及商用制冷压缩机，计划2026年第四季度生产首批样品，全面投运后直接雇用约1500人；当前尚不能认定已经量产。</p><p>补充核验来源：<a href=\"https://www.embraco.com/en/news-and-media/embraco-compressors-to-be-manufactured-also-in-india.html\">补充来源1</a>；<a href=\"https://www.nidec.com/cn/corporate/news/2025/news0729-01/?prnt=1\">补充来源2</a></p>",
+      "source_name": "Nidec Global Appliance / PRNewswire",
+      "source_url": "https://www.prnewswire.com/in/news-releases/construction-of-factory-to-produce-embraco-compressors-in-india-advances-rapidly-towards-ramp-up-in-the-end-of-2026-302768421.html",
+      "source_published_date": "2026-05-11",
+      "event_action": "create",
+      "event": {
+        "event_key": "nidec-india-embraco-plant-2026",
+        "title": "印度制冷压缩机工厂",
+        "date": "2026-05-11",
+        "latest_progress": "Nidec在印度的Embraco压缩机新厂建设进入关键阶段，计划2026年第四季度生产首批样品。",
+        "status": "in_progress",
+        "countries": [
+          "印度",
+          "日本"
+        ],
+        "entities": [
+          "Nidec Global Appliance",
+          "Embraco"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "建设推进/首批样品待生产",
+        "国家/地区": "印度/日本",
+        "新闻标注": "历史补录/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "市场与供应链/核心零部件/制造与产能"
+      }
+    }
+  ]
+}
