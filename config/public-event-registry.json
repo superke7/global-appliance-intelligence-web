@@ -58,6 +58,10 @@
       "event_key": "cummins-wagner-syracuse-thermal-acquisition-2026",
       "date": "2026-09-16"
     },
+    "Danfoss与Engie R600a冷水机联合开发项目": {
+      "event_key": "danfoss-engie-r600a-chiller-2026",
+      "date": "2026-10-27"
+    },
     "EFTA—越南自由贸易协定": {
       "event_key": "efta-vietnam-fta-2026",
       "date": "2026-10-14"
@@ -170,6 +174,10 @@
       "event_key": "wonder-electricals-geyser-plant-acquisition-2026",
       "date": "2026-09-23"
     },
+    "ebm-papst马来西亚风机技术中心启用与本地组装": {
+      "event_key": "ebmpapst-malaysia-air-tech-hub-2026",
+      "date": "2026-10-22"
+    },
     "万和埃及燃气热水器与换热器工厂投产": {
       "event_key": "vanward-egypt-water-heater-plant-2026",
       "date": "2026-01-11"
@@ -242,6 +250,10 @@
       "event_key": "india-oled-tv-open-cell-tariff-investigation-2026",
       "date": "2026-09-23"
     },
+    "印度—墨西哥优惠贸易协定谈判": {
+      "event_key": "india-mexico-pta-2026",
+      "date": "2026-10-28"
+    },
     "印度—新西兰自由贸易协定": {
       "event_key": "india-new-zealand-fta-2026",
       "date": "2026-04-27"
@@ -290,9 +302,17 @@
       "event_key": "brazil-china-r600a-refrigeration-compressor-ad-2026",
       "date": "2026-04-30"
     },
+    "巴西对中国冷轧碳钢板反倾销措施": {
+      "event_key": "brazil-china-cold-rolled-steel-ad-2026",
+      "date": "2026-10-05"
+    },
     "巴西对中国家电用钢化玻璃反倾销调查": {
       "event_key": "brazil-china-appliance-tempered-glass-ad-2026",
       "date": "2026-09-01"
+    },
+    "巴西对中国镀层钢板反倾销措施": {
+      "event_key": "brazil-china-coated-steel-ad-2026",
+      "date": "2026-10-05"
     },
     "强迫劳动301关税司法挑战": {
       "event_key": "us-forcedlabor301-lawsuit-2026",
@@ -305,6 +325,10 @@
     "意大利制造网络重组、裁员与新工业方案谈判": {
       "event_key": "electrolux-italy-restructuring-2026",
       "date": "2026-05-11"
+    },
+    "意大利非法HFC制冷剂查扣与执法案": {
+      "event_key": "italy-illegal-hfc-seizure-2026",
+      "date": "2026-10-27"
     },
     "欧中贸易失衡再平衡磋商": {
       "event_key": "eu-china-trade-rebalancing-2026",
