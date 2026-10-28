@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261029-0715",
+  "generated_at_bjt": "2026-10-29T07:39:30+08:00",
+  "target_publish_at_bjt": "2026-10-29T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261029-001",
+      "title": "LG电子家电业务第三季度收入7.04万亿韩元、营业利润2592亿韩元",
+      "excerpt": "LG电子家电业务2026年第三季度收入7.04万亿韩元、营业利润2592亿韩元，收入连续第二个季度超过7万亿韩元。",
+      "content_html": "<p>LG电子10月28日发布2026年第三季度正式业绩：Home Appliance Solution家电业务收入7.04万亿韩元、营业利润2592亿韩元，收入连续第二个季度超过7万亿韩元。公司称高端与大众市场双轨战略支撑表现，物流和营销成本短期上升，但通过运营效率保持稳定盈利；集团同期收入23.82万亿韩元、营业利润7819亿韩元。</p><p>补充核验来源：<a href=\"https://www.wsj.com/business/earnings/lg-electronics-quarterly-net-profit-jumps-topping-views-f189abc9\">补充来源</a></p>",
+      "source_name": "LG Electronics官方",
+      "source_url": "https://www.lgcorp.com/media/release/30726",
+      "source_published_date": "2026-10-28",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "正式财报发布",
+        "国家/地区": "韩国/全球",
+        "新闻标注": "今日新增",
+        "影响程度": "高",
+        "事件分类": "竞品动态/财报经营"
+      }
+    },
+    {
+      "public_id": "gai-20261029-002",
+      "title": "印度与墨西哥签署谈判职权范围文件，正式启动PTA谈判",
+      "excerpt": "印度与墨西哥已签署谈判职权范围文件，正式启动优惠贸易协定谈判。",
+      "content_html": "<p>印度与墨西哥10月28日签署优惠贸易协定（PTA）谈判职权范围文件，正式启动谈判。文件确定谈判框架、范围、方式与路线图，覆盖货物市场准入、原产地规则、海关程序与贸易便利化、技术性贸易壁垒、贸易救济等；目前尚未形成协定正文、具体降税清单或实施日期。背景补充：PTA通常先就部分商品互降关税，范围一般小于全面自由贸易协定。</p><p>补充核验来源：<a href=\"https://www.financialexpress.com/policy/economy-india-mexico-sign-tor-for-preferential-trade-talks-aim-for-early-harvest-4371670/\">补充来源</a></p>",
+      "source_name": "印度新闻信息局PIB／商工部",
+      "source_url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2329303",
+      "source_published_date": "2026-10-28",
+      "event_action": "create",
+      "event": {
+        "event_key": "india-mexico-pta-2026",
+        "title": "印度—墨西哥优惠贸易协定谈判",
+        "date": "2026-10-28",
+        "latest_progress": "印度与墨西哥已签署谈判职权范围文件并正式启动优惠贸易协定谈判，目前尚无协定正文、降税清单或实施日期。",
+        "status": "in_progress",
+        "countries": [
+          "印度",
+          "墨西哥"
+        ],
+        "entities": [
+          "印度商工部",
+          "墨西哥经济部"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "谈判正式启动",
+        "国家/地区": "印度/墨西哥",
+        "新闻标注": "新事件",
+        "影响程度": "高",
+        "事件分类": "贸易政策/区域协定"
+      }
+    },
+    {
+      "public_id": "gai-20261029-003",
+      "title": "德国风机企业ebm-papst在马来西亚启用技术中心，新增本地组装能力",
+      "excerpt": "ebm-papst已在马来西亚启用Air Technology Hub，新增本地组装、仓储、实验室及技术支持能力。",
+      "content_html": "<p>德国风机与电机企业ebm-papst宣布，其位于Shah Alam（莎阿南，马来西亚雪兰莪州首府）的Air Technology Hub已于10月22日启用。约3000平方米设施整合本地组装、仓储、应用支持、实验室与培训，其中约2000平方米用于仓储、500平方米用于组装和实验室，面向东南亚HVAC客户缩短交付与技术响应。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/ebm-papst-opens-technology-hub-in-malaysia/\">补充来源</a></p>",
+      "source_name": "ebm-papst官方",
+      "source_url": "https://www.ebmpapst.com/sg/en/newsroom/news/2026/ebm-papst-opens-new-air-technology-hub-in-malaysia.html",
+      "source_published_date": "2026-10-25",
+      "event_action": "create",
+      "event": {
+        "event_key": "ebmpapst-malaysia-air-tech-hub-2026",
+        "title": "ebm-papst马来西亚风机技术中心启用与本地组装",
+        "date": "2026-10-22",
+        "latest_progress": "ebm-papst已在马来西亚Shah Alam启用Air Technology Hub，并投入本地组装、仓储、实验室和技术支持能力。",
+        "status": "implemented",
+        "countries": [
+          "马来西亚",
+          "东南亚"
+        ],
+        "entities": [
+          "ebm-papst"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261029-004",
+      "title": "丹佛斯与Engie Refrigeration联合开发385kW R600a冷水机组",
+      "excerpt": "Danfoss与Engie Refrigeration正联合开发约385kW的R600a冷水机，整机仍处原型验证阶段。",
+      "content_html": "<p>丹佛斯与德国冷水机制造商Engie Refrigeration在Chillventa 2026展示联合开发进展：项目把Danfoss Turbocor TNS385无油磁悬浮压缩机与专用冷水机原型结合，采用R600a（异丁烷天然制冷剂），名义制冷能力约385kW，面向大型建筑舒适性空调。TNS385计划2027年分阶段导入，整机仍处开发验证阶段。</p><p>补充核验来源：<a href=\"https://www.danfoss.com/en/about-danfoss/news/dcs/danfoss-advances-oil-free-compressor-technology-for-r600a-through-system-level-collaboration/\">补充来源</a></p>",
+      "source_name": "Danfoss官方／Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/danfoss-and-engie-collaborate-on-r600a-chiller/",
+      "source_published_date": "2026-10-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "danfoss-engie-r600a-chiller-2026",
+        "title": "Danfoss与Engie R600a冷水机联合开发项目",
+        "date": "2026-10-27",
+        "latest_progress": "Danfoss与Engie Refrigeration正在联合验证约385kW的R600a冷水机原型，整机仍处开发验证阶段。",
+        "status": "in_progress",
+        "countries": [
+          "丹麦",
+          "德国",
+          "欧洲"
+        ],
+        "entities": [
+          "Danfoss",
+          "Engie Refrigeration"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261029-005",
+      "title": "意大利财警查获42.7吨疑似非法HFC制冷剂，7人被调查",
+      "excerpt": "意大利财政警察查获约42.7吨疑似非法HFC制冷剂并调查7人，案件仍处调查阶段。",
+      "content_html": "<p>意大利财政警察在Castellaneta（卡斯特拉内塔，意大利南部普利亚大区塔兰托省城镇）查获约42.7吨制冷剂，装在3784个钢瓶中，涉及R134a和R410A，并对7人展开调查。执法部门称钢瓶来自中国、在意大利涉嫌重新贴标和流通；案件仍处调查阶段，相关指控尚未经法院最终裁定。背景补充：HFC为氢氟碳化物制冷剂，欧盟按F-gas法规实行配额和流通合规管理。</p><p>补充核验来源：<a href=\"https://www.ansa.it/amp/puglia/notizie/2026/10/26/gdf-sequestra-nel-tarantino-43-tonnellate-di-gas-refrigerante_bc1668f5-537f-40dd-a8ad-e0687f6d9396.html\">补充来源</a></p>",
+      "source_name": "Cooling Post／ANSA",
+      "source_url": "https://www.coolingpost.com/world-news/italian-police-seize-42-8-tonnes-of-illegal-hfcs/",
+      "source_published_date": "2026-10-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "italy-illegal-hfc-seizure-2026",
+        "title": "意大利非法HFC制冷剂查扣与执法案",
+        "date": "2026-10-27",
+        "latest_progress": "意大利财政警察查获约42.7吨疑似非法HFC制冷剂并调查7人，相关指控尚未经法院最终裁定。",
+        "status": "in_progress",
+        "countries": [
+          "意大利",
+          "欧盟",
+          "中国"
+        ],
+        "entities": [
+          "意大利财政警察",
+          "涉案制冷剂经营主体"
+        ],
+        "category": "监管与供应链"
+      },
+      "news_labels": {
+        "事件阶段": "执法查扣/司法调查中",
+        "国家/地区": "意大利/欧盟/中国",
+        "新闻标注": "新事件",
+        "影响程度": "高",
+        "事件分类": "监管执法/制冷剂供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261029-006",
+      "title": "巴西驳回家电行业协会Eletros对中国镀层钢板反倾销复议",
+      "excerpt": "巴西Gecex驳回Eletros复议请求，维持对中国镀层钢板实施的既有最终反倾销措施。",
+      "content_html": "<p>巴西Gecex第968号决议驳回Eletros（巴西家电与电子产品制造商协会）针对第856号决议提出的复议请求；原决议自2026年2月13日起对原产于中国的镀层平板轧材征收最长五年的最终反倾销税。此次决定维持既有措施，并非10月新增反倾销税。</p><p>补充核验来源：<a href=\"https://www.gov.br/mdic/pt-br/assuntos/camex/resolucoes/resolucoes\">补充来源</a></p>",
+      "source_name": "巴西Gecex／MDIC",
+      "source_url": "https://atlaspublico.com.br/regulacao/dou/resolucao-gecex-n-968-de-2-de-outubro-de-2026-826492",
+      "source_published_date": "2026-10-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "brazil-china-coated-steel-ad-2026",
+        "title": "巴西对中国镀层钢板反倾销措施",
+        "date": "2026-10-05",
+        "latest_progress": "巴西Gecex驳回Eletros的复议请求，维持对中国镀层平板轧材实施的既有最终反倾销措施。",
+        "status": "implemented",
+        "countries": [
+          "巴西",
+          "中国"
+        ],
+        "entities": [
+          "巴西Gecex",
+          "Eletros"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261029-007",
+      "title": "巴西驳回Nidec等对中国冷轧碳钢板反倾销复议",
+      "excerpt": "巴西Gecex驳回宝钢、Nidec和WEG复议请求，维持对中国冷轧碳钢板实施的既有最终反倾销措施。",
+      "content_html": "<p>巴西Gecex第967号决议驳回宝钢、Nidec Global Appliance Brasil和WEG针对第854号决议提出的复议请求；原决议自2026年2月12日起对原产于中国的冷轧碳钢平板轧材征收最长五年的最终反倾销税。复议涉及产品排除范围等技术争议，此次决定维持既有措施，并非10月新增反倾销税。</p><p>补充核验来源：<a href=\"https://www.gov.br/mdic/pt-br/assuntos/camex/resolucoes/resolucoes\">补充来源</a></p>",
+      "source_name": "巴西Gecex／MDIC",
+      "source_url": "https://atlaspublico.com.br/regulacao/dou/resolucao-gecex-n-967-de-2-de-outubro-de-2026-826540",
+      "source_published_date": "2026-10-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "brazil-china-cold-rolled-steel-ad-2026",
+        "title": "巴西对中国冷轧碳钢板反倾销措施",
+        "date": "2026-10-05",
+        "latest_progress": "巴西Gecex驳回宝钢、Nidec和WEG的复议请求，维持对中国冷轧碳钢平板轧材实施的既有最终反倾销措施。",
+        "status": "implemented",
+        "countries": [
+          "巴西",
+          "中国"
+        ],
+        "entities": [
+          "巴西Gecex",
+          "Nidec Global Appliance Brasil",
+          "WEG",
+          "宝钢"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
