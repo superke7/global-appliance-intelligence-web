@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261031-0715",
+  "generated_at_bjt": "2026-10-31T07:35:04+08:00",
+  "target_publish_at_bjt": "2026-10-31T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261031-001",
+      "title": "松下上半年Smart Life利润下降52.7%，HVAC及冷链利润增长59.7%",
+      "excerpt": "Panasonic Holdings 10月30日披露2026财年上半年（4—9月）业绩。",
+      "content_html": "<p>Panasonic Holdings 10月30日披露2026财年上半年（4—9月）业绩。Smart Life分部对外销售额6020.18亿日元，同比增长0.8%；分部利润72.79亿日元，同比下降52.7%。HVAC &amp; CC分部对外销售额7048.82亿日元，同比增长21.3%；分部利润307.51亿日元，同比增长59.7%。Smart Life覆盖主要家电等业务，HVAC &amp; CC涵盖暖通空调及冷链。</p><p>补充核验来源：<a href=\"https://holdings.panasonic/global/corporate/investors/release.html\">补充来源</a></p>",
+      "source_name": "Panasonic Holdings官方IR",
+      "source_url": "https://holdings.panasonic/content/dam/holdings/jp/ja/corporate/investors/pdf/2026_2q/6752_2026_2q_supplemental_financial_data_j.pdf",
+      "source_published_date": "2026-10-30",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026财年上半年业绩已披露",
+        "国家/地区": "日本/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "高",
+        "事件分类": "竞品动态/财务业绩"
+      }
+    },
+    {
+      "public_id": "gai-20261031-002",
+      "title": "全球暖通企业Trane第三季度收入增长18%，在手订单达125亿美元",
+      "excerpt": "Trane Technologies 10月29日披露第三季度收入67.60亿美元，同比增长18%；有机订单增长20%，在手订单125亿美元，同比增长73%，其中美洲商用HVAC在手订单增长约80%。",
+      "content_html": "<p>Trane Technologies 10月29日披露第三季度收入67.60亿美元，同比增长18%；有机订单增长20%，在手订单125亿美元，同比增长73%，其中美洲商用HVAC在手订单增长约80%。欧洲、中东和非洲地区订单增长40%，亚太地区订单增长22%。相关分部还包含楼宇控制、能源服务及运输制冷，不能全部视为家用空调业务。</p>",
+      "source_name": "Trane Technologies官方IR",
+      "source_url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Reports-Strong-Third-Quarter-Results-Raises-Full-Year-Revenue-Guidance-Reaffirms-Full-Year-EPS-Guidance/default.aspx",
+      "source_published_date": "2026-10-29",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026年第三季度业绩已披露",
+        "国家/地区": "美国/欧洲/亚太/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "高",
+        "事件分类": "竞品动态/HVAC/财务业绩"
+      }
+    },
+    {
+      "public_id": "gai-20261031-003",
+      "title": "土耳其白电企业Vestel第三季度EBITDA转正，净亏损9.98亿里拉",
+      "excerpt": "Vestel Beyaz Eşya第三季度销售收入157.22亿里拉，环比增长13.2%；EBITDA为16.21亿里拉，第二季度为负1.40亿里拉，EBITDA利润率回升至约10%。",
+      "content_html": "<p>Vestel Beyaz Eşya第三季度销售收入157.22亿里拉，环比增长13.2%；EBITDA为16.21亿里拉，第二季度为负1.40亿里拉，EBITDA利润率回升至约10%。第三季度归属于母公司的净亏损为9.98亿里拉，前三季度净亏损34.02亿里拉。公司称产品组合、原材料毛利、结构性效率及成本管理支持经营改善。</p><p>补充核验来源：<a href=\"https://www.bloomberght.com/vestel-beyaz-esyada-favok-yeniden-pozitife-dondu-3792727\">补充来源</a></p>",
+      "source_name": "Vestel Beyaz Eşya／土耳其KAP",
+      "source_url": "https://www.kap.org.tr/tr/Bildirim/1689070",
+      "source_published_date": "2026-10-28",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026年第三季度业绩已披露",
+        "国家/地区": "土耳其/欧洲/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "高",
+        "事件分类": "竞品动态/财务业绩"
+      }
+    },
+    {
+      "public_id": "gai-20261031-004",
+      "title": "大金发布iCM PRO商用HVAC控制平台，支持第三方设备和最多16台机组",
+      "excerpt": "大金欧洲10月27日发布iCM PRO商用HVAC机房控制平台，计划11月1日起提供。",
+      "content_html": "<p>大金欧洲10月27日发布iCM PRO商用HVAC机房控制平台，计划11月1日起提供。平台可在统一控制策略下管理大金及兼容第三方冷水机和热泵，单个控制器支持4、8、12或16台机组及500—5000个数据点，并可协调泵、冷却塔和阀门。其面向普通商用建筑及改造项目，并非AI数据中心专用液冷。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/products/hvac-plant-management-control-platform/\">补充来源</a></p>",
+      "source_name": "Daikin Europe官方",
+      "source_url": "https://www.daikin.eu/en_us/press-releases/icm-pro.html",
+      "source_published_date": "2026-10-27",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "已发布/11月1日起提供",
+        "国家/地区": "意大利/欧洲/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/产品平台/商用HVAC"
+      }
+    },
+    {
+      "public_id": "gai-20261031-005",
+      "title": "德国总理默茨称将向欧盟转达日韩新加坡对“欧洲制造”的保护主义担忧",
+      "excerpt": "德国总理默茨10月30日在韩国表示，日本、韩国和新加坡均担忧欧盟拟议的Industrial Accelerator Act（工业加速法案）及“欧洲制造”规则形成新保护主义壁垒；他称将把这些担忧带回柏林并转达布鲁塞尔。",
+      "content_html": "<p>德国总理默茨10月30日在韩国表示，日本、韩国和新加坡均担忧欧盟拟议的Industrial Accelerator Act（工业加速法案）及“欧洲制造”规则形成新保护主义壁垒；他称将把这些担忧带回柏林并转达布鲁塞尔。相关规则仍待欧盟成员国与欧洲议会形成最终文本，预计2027年审议，当前尚未获批实施。</p><p>补充核验来源：<a href=\"https://live.euronext.com/en/financial-news/germanys-merz-relay-asian-partners-protectionism-concerns-brussels\">补充来源</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/germanys-merz-relay-asian-partners-protectionism-concerns-brussels-2026-10-30/",
+      "source_published_date": "2026-10-30",
+      "event_action": "update",
+      "event": {
+        "event_key": "eu-public-procurement-european-preference-2026",
+        "title": "欧盟公共采购法欧洲优先与互惠准入改革",
+        "date": "2026-09-08",
+        "latest_progress": "德国总理默茨表示将向欧盟转达日本、韩国和新加坡对“欧洲制造”规则的保护主义担忧；相关规则仍待欧盟形成最终文本。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "德国",
+          "日本",
+          "韩国",
+          "新加坡"
+        ],
+        "entities": [
+          "German Chancellor Friedrich Merz",
+          "European Union"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261031-006",
+      "title": "中国与瑞士正式签署升级版自由贸易协定，后续仍待生效程序",
+      "excerpt": "瑞士联邦经济事务秘书处10月30日确认，中国与瑞士当天签署升级版双边自由贸易协定。",
+      "content_html": "<p>瑞士联邦经济事务秘书处10月30日确认，中国与瑞士当天签署升级版双边自由贸易协定。协定将改善瑞士商品及投资进入中国市场的条件，并首次以具有法律约束力的贸易与可持续发展章节强化环境和劳工保护。官方公告尚未确认生效日期或家电及零部件具体税号降幅。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/china/chinas-xi-swiss-president-praise-trade-deal-that-boosts-access-2026-10-30/\">补充来源</a></p>",
+      "source_name": "瑞士联邦经济事务秘书处SECO",
+      "source_url": "https://www.seco.admin.ch/en/newnsb/Nb4J2LzVCEaA",
+      "source_published_date": "2026-10-30",
+      "event_action": "create",
+      "event": {
+        "event_key": "china-switzerland-fta-upgrade-2026",
+        "title": "中瑞升级版自由贸易协定",
+        "date": "2026-10-30",
+        "latest_progress": "中国与瑞士已正式签署升级版双边自由贸易协定，后续仍待完成生效程序。",
+        "status": "announced",
+        "countries": [
+          "中国",
+          "瑞士",
+          "欧洲"
+        ],
+        "entities": [
+          "中国政府",
+          "Switzerland SECO"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已签署/待完成生效程序",
+        "国家/地区": "中国/瑞士/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/自由贸易协定"
+      }
+    },
+    {
+      "public_id": "gai-20261031-007",
+      "title": "加拿大与欧盟完成数字贸易协定实质谈判，后续仍待正式签署",
+      "excerpt": "加拿大与欧盟10月30日宣布完成数字贸易协定（DTA）实质谈判。",
+      "content_html": "<p>加拿大与欧盟10月30日宣布完成数字贸易协定（DTA）实质谈判。协定拟补充CETA，为跨境数据流、电子合同、电子签名和电子发票建立规则并减少不合理壁垒。双方下一步将进行法律审校及欧盟多语种翻译，再履行正式签署和缔结程序；协定尚未实施。峰会同时提出在关键原材料、能源、清洁和数字技术等领域制定产业路线图。</p><p>补充核验来源：<a href=\"https://policy.trade.ec.europa.eu/news/eu-and-canada-conclude-negotiations-digital-trade-agreement-2026-10-30_en\">补充来源</a></p>",
+      "source_name": "加拿大总理办公室／欧盟委员会",
+      "source_url": "https://www.pm.gc.ca/en/news/statements/2026/10/30/joint-statement-canada-and-european-union-building-together-alliance",
+      "source_published_date": "2026-10-30",
+      "event_action": "create",
+      "event": {
+        "event_key": "canada-eu-digital-trade-agreement-2026",
+        "title": "加拿大—欧盟数字贸易协定",
+        "date": "2026-10-30",
+        "latest_progress": "加拿大与欧盟已完成数字贸易协定实质谈判，后续仍待法律审校、翻译、正式签署和缔结程序。",
+        "status": "in_progress",
+        "countries": [
+          "加拿大",
+          "欧盟"
+        ],
+        "entities": [
+          "Canada Government",
+          "European Commission",
+          "European Council"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "实质谈判完成/待签署缔结",
+        "国家/地区": "加拿大/欧盟",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "贸易与政策/数字贸易协定"
+      }
+    },
+    {
+      "public_id": "gai-20261031-008",
+      "title": "海信印度Sri City代工基地正式量产空调，设计年产能75万套",
+      "excerpt": "EPACK Durable 3月30日向印度交易所披露，其全资子公司在Sri City（斯里城，印度安得拉邦工业城市）工厂当日起为海信量产分体式房间空调，设计年产能75万套。",
+      "content_html": "<p>EPACK Durable 3月30日向印度交易所披露，其全资子公司在Sri City（斯里城，印度安得拉邦工业城市）工厂当日起为海信量产分体式房间空调，设计年产能75万套。当地媒体2月报道，该基地占地约10英亩、投资超过3000万美元，并规划后续增加滚筒及波轮洗衣机和电视；截至本次核验，后续品类尚不能认定已量产。</p><p>补充核验来源：<a href=\"https://timesofindia.indiatimes.com/business/india-business/hisense-opens-first-india-manufacturing-plant-in-sri-city/articleshow/128165956.cms\">补充来源</a></p>",
+      "source_name": "EPACK Durable／印度NSE法定披露",
+      "source_url": "https://nsearchives.nseindia.com/corporate/EPACKNSE_30032026154857_STXIntimation_GeneralUpdates_Commercial_Production.pdf",
+      "source_published_date": "2026-03-30",
+      "event_action": "create",
+      "event": {
+        "event_key": "hisense-india-sri-city-oem-plant-2026",
+        "title": "海信印度Sri City空调代工基地投产与多品类扩张",
+        "date": "2026-03-30",
+        "latest_progress": "EPACK Durable旗下Sri City工厂已为海信量产分体式房间空调，设计年产能75万套；洗衣机和电视仍处规划阶段。",
+        "status": "implemented",
+        "countries": [
+          "印度",
+          "南亚"
+        ],
+        "entities": [
+          "Hisense India",
+          "EPACK Durable",
+          "EPACK Manufacturing Technologies"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "空调已量产/其他品类仍处规划阶段",
+        "国家/地区": "印度/南亚",
+        "新闻标注": "历史补录/新事件",
+        "影响程度": "高",
+        "事件分类": "竞品动态/制造与产能/OEM"
+      }
+    }
+  ]
+}
