@@ -198,6 +198,10 @@
       "event_key": "china-africa-zero-tariff-treatment-2026",
       "date": "2026-10-22"
     },
+    "中瑞升级版自由贸易协定": {
+      "event_key": "china-switzerland-fta-upgrade-2026",
+      "date": "2026-10-30"
+    },
     "中美Board of Trade非敏感商品平衡贸易与关税调整机制": {
       "event_key": "us-china-board-of-trade-2026",
       "date": "2026-06-02"
@@ -225,6 +229,10 @@
     "加拿大—土耳其自由贸易协定谈判": {
       "event_key": "canada-turkey-fta-2026",
       "date": "2026-10-22"
+    },
+    "加拿大—欧盟数字贸易协定": {
+      "event_key": "canada-eu-digital-trade-agreement-2026",
+      "date": "2026-10-30"
     },
     "加拿大—阿联酋全面经济伙伴关系协定": {
       "event_key": "canada-uae-cepa-2026",
@@ -389,6 +397,10 @@
     "法国超市制冷控制系统网络攻击事件": {
       "event_key": "france-supermarket-refrigeration-cyberattack-2026",
       "date": "2026-10-12"
+    },
+    "海信印度Sri City空调代工基地投产与多品类扩张": {
+      "event_key": "hisense-india-sri-city-oem-plant-2026",
+      "date": "2026-03-30"
     },
     "海尔埃及冰箱冷柜二期工厂建设与投产": {
       "event_key": "haier-egypt-refrigeration-phase2-2026",
