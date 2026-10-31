@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261101-0715",
+  "generated_at_bjt": "2026-11-01T07:34:56+08:00",
+  "target_publish_at_bjt": "2026-11-01T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261101-001",
+      "title": "土耳其白电前9月出口下降17%、产量下降11%，9月进口增长73%",
+      "excerpt": "TÜRKBESD披露，2026年1—9月土耳其冰箱、洗衣机、洗碗机、烤箱、冷柜和干衣机六大白电品类出口1263.73万台，同比下降17%；产量1977.32万台，同比下降11%；内销737.95万台，同比下降2%。",
+      "content_html": "<p>TÜRKBESD披露，2026年1—9月土耳其冰箱、洗衣机、洗碗机、烤箱、冷柜和干衣机六大白电品类出口1263.73万台，同比下降17%；产量1977.32万台，同比下降11%；内销737.95万台，同比下降2%。9月单月出口下降13%至159.30万台，内销增长16%至97.34万台，进口增长73%至9.54万台。统计覆盖Arçelik、BSH、Electrolux、Midea、Samsung、Vestel等协会成员，不代表单一品牌业绩。</p><p>补充核验来源：<a href=\"https://www.dunya.com/ekonomi/beyaz-esya-sektorunde-ihracat-yuzde-17-geriledi-ithalat-yuzde-73-artti-haberi-845814\">补充来源</a></p>",
+      "source_name": "Bloomberg HT（土耳其）",
+      "source_url": "https://www.bloomberght.com/beyaz-esya-sektorunde-ihracat-ve-uretimde-daralma-surdu-3792861",
+      "source_published_date": "2026-10-30",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026年1—9月行业统计已发布",
+        "国家/地区": "土耳其/欧洲",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "高",
+        "事件分类": "市场与渠道/行业产销/供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261101-002",
+      "title": "西班牙HVAC厂商Keyter与Tecnalia签署研发协议，聚焦高温热泵和制冷",
+      "excerpt": "西班牙HVAC+R设备厂商Keyter与应用研究机构Tecnalia签署战略合作框架，围绕高温热泵、普通建筑和工业制冷、设备数字化、换热器新材料、区域供热供冷及热储能开展联合研发、实验验证和知识产权合作。",
+      "content_html": "<p>西班牙HVAC+R设备厂商Keyter与应用研究机构Tecnalia签署战略合作框架，围绕高温热泵、普通建筑和工业制冷、设备数字化、换热器新材料、区域供热供冷及热储能开展联合研发、实验验证和知识产权合作。协议也覆盖数据中心设备，但本条仅纳入与普通商用及住宅建筑暖通、热泵和制冷直接相关的合作范围。</p><p>背景补充：Keyter成立于2013年，产品包括冷水机、空气源及水源热泵、屋顶机和空气处理设备。</p><p>补充核验来源：<a href=\"https://www.tecnalia.com/sala-de-prensa/keyter-tecnalia-alian-innovacion-climatizacion-refrigeracion-sostenible\">补充来源 1</a> ｜ <a href=\"https://www.coolingpost.com/world-news/keyter-signs-technology-development-deal\">补充来源 2</a></p>",
+      "source_name": "Keyter官方",
+      "source_url": "https://www.keyter.com/es/keyter-y-tecnalia-se-alian-para-impulsar-la-innovacion-en-climatizacion-y-refrigeracion-sostenible",
+      "source_published_date": "2026-10-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "keyter-tecnalia-hvac-rd-2026",
+        "title": "Keyter与Tecnalia高温热泵及可持续HVAC研发合作",
+        "date": "2026-10-27",
+        "latest_progress": "Keyter与Tecnalia已签署战略合作框架，将围绕高温热泵、普通建筑和工业制冷、设备数字化、换热器新材料及热储能开展联合研发。",
+        "status": "in_progress",
+        "countries": [
+          "西班牙",
+          "欧洲"
+        ],
+        "entities": [
+          "Keyter",
+          "Tecnalia"
+        ],
+        "category": "投资与合作"
+      },
+      "news_labels": {
+        "事件阶段": "框架协议已签署/联合研发待推进",
+        "国家/地区": "西班牙/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/投资与合作/技术研发"
+      }
+    },
+    {
+      "public_id": "gai-20261101-003",
+      "title": "日本对中国及台湾含镍冷轧不锈钢实施5年最终反倾销税，10月31日生效",
+      "excerpt": "日本内阁10月27日通过政令，自2026年10月31日至2031年10月30日对原产于或出口自中国及台湾的含镍冷轧不锈钢卷、板和带征收3.6%—42.1%的最终反倾销税，税率与7月9日起实施的临时措施相同。",
+      "content_html": "<p>日本内阁10月27日通过政令，自2026年10月31日至2031年10月30日对原产于或出口自中国及台湾的含镍冷轧不锈钢卷、板和带征收3.6%—42.1%的最终反倾销税，税率与7月9日起实施的临时措施相同。涉案产品为铬含量不低于10.5%、镍含量超过0.6%的合金钢，官方说明其用于多个需求领域；该措施并非家电整机关税，本条按冰箱、厨电等可用不锈钢材料的供应链政策纳入。</p><p>补充核验来源：<a href=\"https://news.smm.cn/live/detail/104184425\">补充来源</a></p>",
+      "source_name": "日本财务省MOF",
+      "source_url": "https://www.mof.go.jp/english/policy/customs_tariff/traderemedy/20261027_e.html",
+      "source_published_date": "2026-10-27",
+      "event_action": "create",
+      "event": {
+        "event_key": "japan-china-taiwan-nickel-stainless-ad-2026",
+        "title": "日本对中国及台湾含镍冷轧不锈钢反倾销措施",
+        "date": "2026-10-27",
+        "latest_progress": "日本已决定对原产于或出口自中国及台湾的含镍冷轧不锈钢卷板带征收3.6%—42.1%的最终反倾销税，措施自2026年10月31日起实施五年。",
+        "status": "implemented",
+        "countries": [
+          "日本",
+          "中国",
+          "台湾"
+        ],
+        "entities": [
+          "日本财务省MOF",
+          "日本经济产业省METI"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "最终措施已生效/至2031-10-30",
+        "国家/地区": "日本/中国/中国台湾",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/反倾销/原材料"
+      }
+    }
+  ]
+}
