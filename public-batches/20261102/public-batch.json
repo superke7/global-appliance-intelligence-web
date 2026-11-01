@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261102-0715",
+  "generated_at_bjt": "2026-11-02T07:35:11+08:00",
+  "target_publish_at_bjt": "2026-11-02T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261102-001",
+      "title": "BSH德国Dillingen洗碗机工厂披露年产约190万台，三项物流自动化工程推进至2028年",
+      "excerpt": "BSH于10月30日披露，Dillingen（迪林根，德国巴伐利亚州城市）洗碗机工厂约有2300名员工，年产约190万台。",
+      "content_html": "<p>BSH于10月30日披露，Dillingen（迪林根，德国巴伐利亚州城市）洗碗机工厂约有2300名员工，年产约190万台。公司正在推进自动化小件仓库、可存放约11.5万台成品的高架仓库，以及连接生产与物流区域的自动运输桥；后两项计划于2028年投用，运输系统拟配置约60台无人搬运车。</p>",
+      "source_name": "BSH官方",
+      "source_url": "https://presse.bsh-group.com/pressreleases/50-jahre-geschirrspueler-aus-dillingen-bsh-investiert-mit-grossprojekten-konsequent-in-die-zukunft-des-standorts-3475184",
+      "source_published_date": "2026-10-30",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "项目推进/计划2028年投用",
+        "国家/地区": "德国/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "制造与产能"
+      },
+      "event": {
+        "event_key": "bsh-dillingen-dishwasher-modernization-2026",
+        "title": "BSH德国Dillingen洗碗机工厂物流自动化改造",
+        "date": "2026-10-30",
+        "latest_progress": "BSH于10月30日披露，Dillingen（迪林根，德国巴伐利亚州城市）洗碗机工厂约有2300名员工，年产约190万台。公司正在推进自动化小件仓库、可存放约11.5万台成品的高架仓库，以及连接生产与物流区域的自动运输桥；后两项计划于2028年投用，运输系统拟配置约60台无人搬运车。",
+        "status": "in_progress",
+        "countries": [
+          "德国",
+          "欧洲"
+        ],
+        "entities": [
+          "BSH"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261102-002",
+      "title": "LG欧洲专业洗涤渠道扩张，德国Schilling订单已开始交付",
+      "excerpt": "LG于10月26日在米兰EXPODETERGO专业纺织护理展披露，已在欧洲推出半商用和专业洗涤产品线，并于8月获得德国专业洗涤设备经销商SCHILLING Wäschereitechnik订单，相关产品已开始交付。",
+      "content_html": "<p>LG于10月26日在米兰EXPODETERGO专业纺织护理展披露，已在欧洲推出半商用和专业洗涤产品线，并于8月获得德国专业洗涤设备经销商SCHILLING Wäschereitechnik订单，相关产品已开始交付。公司同时展示量产专业洗涤机型、Wet Cleaning（以水和专用洗涤剂护理精细织物的专业方案）及联网管理平台。</p>",
+      "source_name": "LG全球官方",
+      "source_url": "https://lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-accelerates-commercial-laundry-growth-in-europe-a",
+      "source_published_date": "2026-10-26",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "订单交付/渠道扩张",
+        "国家/地区": "德国/意大利/欧洲",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中",
+        "事件分类": "市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261102-003",
+      "title": "欧洲家电协会要求CBAM下游扩围补齐家电税号，欧盟三方谈判仍未定案",
+      "excerpt": "欧洲家电协会APPLiA于10月12日在欧盟三方谈判前提出，欧洲议会与理事会立场均已把部分家电税号纳入CBAM（碳边境调节机制）下游产品扩围，但理事会文本遗漏若干议会支持的家电CN税号（欧盟商品分类编码）。",
+      "content_html": "<p>欧洲家电协会APPLiA于10月12日在欧盟三方谈判前提出，欧洲议会与理事会立场均已把部分家电税号纳入CBAM（碳边境调节机制）下游产品扩围，但理事会文本遗漏若干议会支持的家电CN税号（欧盟商品分类编码）。协会要求最终文本补齐相关税号；该文件属于行业政策主张，最终立法范围尚未确定。</p>",
+      "source_name": "APPLiA Europe官方",
+      "source_url": "https://applia-europe.eu/policy-papers/applia-europe-trilogue-position-on-cbam-scope-extension-to-downstream-goods",
+      "source_published_date": "2026-10-12",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "立法协商/三方谈判前行业立场",
+        "国家/地区": "欧盟/欧洲",
+        "新闻标注": "今日新增/既有事件进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策"
+      },
+      "event": {
+        "event_key": "eu-cbam-expansion-2026",
+        "title": "欧盟CBAM扩围与紧急刹车条款调整",
+        "date": "2026-09-15",
+        "latest_progress": "欧洲家电协会APPLiA于10月12日在欧盟三方谈判前提出，欧洲议会与理事会立场均已把部分家电税号纳入CBAM（碳边境调节机制）下游产品扩围，但理事会文本遗漏若干议会支持的家电CN税号（欧盟商品分类编码）。协会要求最终文本补齐相关税号；该文件属于行业政策主张，最终立法范围尚未确定。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "欧洲"
+        ],
+        "entities": [
+          "APPLiA Europe",
+          "欧洲议会",
+          "欧盟理事会"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261102-004",
+      "title": "BSH德国吸尘器工厂启动迁建，计划2028年迁至Mellrichstadt",
+      "excerpt": "BSH于9月25日宣布新吸尘器工厂已开工，计划2028年把生产从Bad Neustadt（巴特诺伊施塔特，德国巴伐利亚州城市）迁至约15公里外的Mellrichstadt（梅尔里希施塔特，德国巴伐利亚州城市）。",
+      "content_html": "<p>BSH于9月25日宣布新吸尘器工厂已开工，计划2028年把生产从Bad Neustadt（巴特诺伊施塔特，德国巴伐利亚州城市）迁至约15公里外的Mellrichstadt（梅尔里希施塔特，德国巴伐利亚州城市）。新厂面积约2.66万平方米，将整合生产、仓储和行政功能；现有基地约450名员工。</p>",
+      "source_name": "BSH官方",
+      "source_url": "https://presse.bsh-group.com/pressreleases/bsh-staubsaugerfabrik-zieht-von-bad-neustadt-ins-benachbarte-mellrichstadt-3468815",
+      "source_published_date": "2026-09-25",
+      "event_action": "create",
+      "event": {
+        "event_key": "bsh-germany-vacuum-plant-relocation-2026",
+        "title": "BSH德国吸尘器工厂迁建项目",
+        "date": "2026-09-25",
+        "latest_progress": "BSH于9月25日宣布新吸尘器工厂已开工，计划2028年把生产从Bad Neustadt（巴特诺伊施塔特，德国巴伐利亚州城市）迁至约15公里外的Mellrichstadt（梅尔里希施塔特，德国巴伐利亚州城市）。新厂面积约2.66万平方米，将整合生产、仓储和行政功能；现有基地约450名员工。",
+        "status": "in_progress",
+        "countries": [
+          "德国",
+          "欧洲"
+        ],
+        "entities": [
+          "BSH",
+          "Bosch",
+          "Siemens"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261102-005",
+      "title": "BSH德国Nauen洗衣机停产计划完成劳资协议，目标2027年6月30日停产",
+      "excerpt": "BSH与员工代表于4月30日就Nauen（瑙恩，德国勃兰登堡州城市）洗衣机生产关闭签署劳资协议和社会安置方案，目标于2027年6月30日停产，物流活动继续保留。",
+      "content_html": "<p>BSH与员工代表于4月30日就Nauen（瑙恩，德国勃兰登堡州城市）洗衣机生产关闭签署劳资协议和社会安置方案，目标于2027年6月30日停产，物流活动继续保留。BSH在2025年10月公布的原计划还包括Bretten（布雷滕，德国巴登-符腾堡州城市）灶具、吸油烟机生产及物流于2028年一季度结束，两个基地合计约1400个岗位受影响。本次节点是劳资协议完成，并非工厂已停产。</p><p>补充核验来源：<a href=\"https://presse.bsh-group.com/pressreleases/staerkung-der-wettbewerbs-und-zukunftsfaehigkeit-bsh-plant-anpassungen-ihres-produktionsnetzwerks-in-deutschland-3409841\">来源1</a>；<a href=\"https://channelnews.com.au/bsh-shuts-german-plants-cuts-1400-jobs-as-asian-rivals-close-in-on-premium-appliances\">来源2</a></p>",
+      "source_name": "BSH官方",
+      "source_url": "https://presse.bsh-group.com/pressreleases/bsh-und-arbeitnehmervertreter-einigen-sich-auf-sozialplan-fuer-die-schliessung-der-waschmaschinenproduktion-am-standort-nauen-zum-30-punkt-06-punkt-2027-3445985",
+      "source_published_date": "2026-04-30",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "劳资协议完成/停产计划执行中",
+        "国家/地区": "德国/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "制造与产能"
+      },
+      "event": {
+        "event_key": "bsh-germany-nauen-bretten-closures-2025",
+        "title": "BSH德国Nauen洗衣机与Bretten厨电工厂关闭计划",
+        "date": "2026-04-30",
+        "latest_progress": "BSH与员工代表于4月30日就Nauen（瑙恩，德国勃兰登堡州城市）洗衣机生产关闭签署劳资协议和社会安置方案，目标于2027年6月30日停产，物流活动继续保留。BSH在2025年10月公布的原计划还包括Bretten（布雷滕，德国巴登-符腾堡州城市）灶具、吸油烟机生产及物流于2028年一季度结束，两个基地合计约1400个岗位受影响。本次节点是劳资协议完成，并非工厂已停产。",
+        "status": "in_progress",
+        "countries": [
+          "德国",
+          "欧洲"
+        ],
+        "entities": [
+          "BSH",
+          "Nauen",
+          "Bretten"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261102-006",
+      "title": "夏普与印度家电代工集团Amber布局两地空调代工，三年目标50万台",
+      "excerpt": "PTI于3月23日报道，夏普与印度家电代工集团Amber Enterprises合作，计划在Dehradun（德拉敦，印度北阿坎德邦首府）和Sri City（斯里城，印度南部工业园区）生产空调，三年累计目标为50万台。",
+      "content_html": "<p>PTI于3月23日报道，夏普与印度家电代工集团Amber Enterprises合作，计划在Dehradun（德拉敦，印度北阿坎德邦首府）和Sri City（斯里城，印度南部工业园区）生产空调，三年累计目标为50万台。报道所述计划开产时间为2026年3月，但当前实际量产状态尚未获得企业官方后续确认，因此本条仅记录合作与产能目标。</p>",
+      "source_name": "PTI / Economic Times",
+      "source_url": "https://retail.economictimes.indiatimes.com/news/consumer-durables-and-information-technology/sharp-partners-with-amber-enterprises-for-producing-acs-in-india/129745943",
+      "source_published_date": "2026-03-23",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "合作宣布/实际量产状态待核实",
+        "国家/地区": "印度/南亚",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中",
+        "事件分类": "投资与合作"
+      },
+      "event": {
+        "event_key": "sharp-amber-india-ac-oem-2026",
+        "title": "夏普与Amber印度空调代工项目",
+        "date": "2026-03-23",
+        "latest_progress": "PTI于3月23日报道，夏普与印度家电代工集团Amber Enterprises合作，计划在Dehradun（德拉敦，印度北阿坎德邦首府）和Sri City（斯里城，印度南部工业园区）生产空调，三年累计目标为50万台。报道所述计划开产时间为2026年3月，但当前实际量产状态尚未获得企业官方后续确认，因此本条仅记录合作与产能目标。",
+        "status": "announced",
+        "countries": [
+          "印度",
+          "南亚"
+        ],
+        "entities": [
+          "Sharp",
+          "Amber Enterprises"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261102-007",
+      "title": "三菱电机印度金奈空调压缩机工厂启用，年产30万台空调和65万台压缩机",
+      "excerpt": "三菱电机2月6日宣布，位于Chennai（金奈，印度泰米尔纳德邦首府）的空调及压缩机工厂正式启用。",
+      "content_html": "<p>三菱电机2月6日宣布，位于Chennai（金奈，印度泰米尔纳德邦首府）的空调及压缩机工厂正式启用。项目投资约210亿印度卢比，占地约21万平方米，设计年产30万台空调和65万台压缩机；公司称项目将创造超过2100个直接和间接就业岗位。</p>",
+      "source_name": "Mitsubishi Electric India官方",
+      "source_url": "https://mitsubishielectric.in/news/mitsubishi-electric-india-expands-manufacturing-footprint-with-2100-crore-investment-facility-inaugurated-by-tamil-nadus-honble-cm-thiru-mk-stalin",
+      "source_published_date": "2026-02-06",
+      "event_action": "create",
+      "event": {
+        "event_key": "mitsubishi-electric-india-chennai-ac-compressor-plant-2026",
+        "title": "三菱电机印度金奈空调与压缩机工厂",
+        "date": "2026-02-06",
+        "latest_progress": "三菱电机2月6日宣布，位于Chennai（金奈，印度泰米尔纳德邦首府）的空调及压缩机工厂正式启用。项目投资约210亿印度卢比，占地约21万平方米，设计年产30万台空调和65万台压缩机；公司称项目将创造超过2100个直接和间接就业岗位。",
+        "status": "implemented",
+        "countries": [
+          "印度",
+          "南亚"
+        ],
+        "entities": [
+          "Mitsubishi Electric India"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261102-008",
+      "title": "惠而浦投资逾6000万美元建设美国Perrysburg洗涤部件工厂",
+      "excerpt": "惠而浦4月10日宣布，将投资逾6000万美元改造Perrysburg（佩里斯堡，美国俄亥俄州城市）一处既有厂房，用于生产洗衣机和干衣机部件及子组件。",
+      "content_html": "<p>惠而浦4月10日宣布，将投资逾6000万美元改造Perrysburg（佩里斯堡，美国俄亥俄州城市）一处既有厂房，用于生产洗衣机和干衣机部件及子组件。项目计划分两年推进，预计创造100至150个岗位；JobsOhio随后确认州税收抵免机构于4月27日批准相关税收抵免。该项目仍处建设和改造阶段，尚未量产。</p><p>补充核验来源：<a href=\"https://jobsohio.com/newsroom/news-press/whirlpool-announces-60m-investment-up-to-150-jobs-for-new-ohio-facility\">来源1</a>；<a href=\"https://whbl.com/2026/04/10/whirlpool-to-invest-over-60-million-in-ohio-plant\">来源2</a></p>",
+      "source_name": "Whirlpool官方",
+      "source_url": "https://investors.whirlpoolcorp.com/news-and-events/news/news-details/2026/Whirlpool-Announces-60M-Investment-Up-To-150-Jobs-For-New-Ohio-Facility/default.aspx",
+      "source_published_date": "2026-04-10",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "项目宣布并获州税收抵免/建设期",
+        "国家/地区": "美国/北美",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "制造与产能"
+      },
+      "event": {
+        "event_key": "whirlpool-perrysburg-laundry-components-plant-2026",
+        "title": "惠而浦美国Perrysburg洗涤部件工厂",
+        "date": "2026-04-10",
+        "latest_progress": "惠而浦4月10日宣布，将投资逾6000万美元改造Perrysburg（佩里斯堡，美国俄亥俄州城市）一处既有厂房，用于生产洗衣机和干衣机部件及子组件。项目计划分两年推进，预计创造100至150个岗位；JobsOhio随后确认州税收抵免机构于4月27日批准相关税收抵免。该项目仍处建设和改造阶段，尚未量产。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "北美"
+        ],
+        "entities": [
+          "Whirlpool",
+          "JobsOhio"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261102-009",
+      "title": "三星停止中国大陆家电及电视销售，售后服务继续且手机业务正常",
+      "excerpt": "三星中国5月7日确认，在中国大陆停止销售包括电视、显示器、空调、冰箱、洗衣机、干衣机、吸尘器和空气净化器等家电产品；零售渠道可能仍有存量商品。",
+      "content_html": "<p>三星中国5月7日确认，在中国大陆停止销售包括电视、显示器、空调、冰箱、洗衣机、干衣机、吸尘器和空气净化器等家电产品；零售渠道可能仍有存量商品。公司表示将继续提供售后、安装和维修服务，手机业务正常销售。该调整属于销售渠道退出，不等同于中国制造基地同步关闭。</p><p>补充核验来源：<a href=\"https://reuters.com/business/media-telecom/samsung-says-discontinue-china-sales-some-consumer-electronics-products-2026-05-06\">来源1</a>；<a href=\"https://wsj.com/business/samsung-pulling-tvs-home-appliances-from-china-c17fa504\">来源2</a></p>",
+      "source_name": "三星中国官方",
+      "source_url": "https://samsung.com.cn/support/newsalert/129565",
+      "source_published_date": "2026-05-07",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "销售业务调整/已实施",
+        "国家/地区": "中国",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "市场与渠道"
+      },
+      "event": {
+        "event_key": "samsung-china-appliance-sales-exit-2026",
+        "title": "三星停止中国大陆家电及电视销售",
+        "date": "2026-05-07",
+        "latest_progress": "三星中国5月7日确认，在中国大陆停止销售包括电视、显示器、空调、冰箱、洗衣机、干衣机、吸尘器和空气净化器等家电产品；零售渠道可能仍有存量商品。公司表示将继续提供售后、安装和维修服务，手机业务正常销售。该调整属于销售渠道退出，不等同于中国制造基地同步关闭。",
+        "status": "implemented",
+        "countries": [
+          "中国"
+        ],
+        "entities": [
+          "Samsung Electronics"
+        ],
+        "category": "市场与渠道"
+      }
+    }
+  ]
+}
