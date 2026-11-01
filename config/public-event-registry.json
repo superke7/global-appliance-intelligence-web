@@ -30,6 +30,18 @@
       "event_key": "axen-perge-france-r290-heatpump-jv-2026",
       "date": "2026-09-29"
     },
+    "BSH德国Dillingen洗碗机工厂物流自动化改造": {
+      "event_key": "bsh-dillingen-dishwasher-modernization-2026",
+      "date": "2026-10-30"
+    },
+    "BSH德国Nauen洗衣机与Bretten厨电工厂关闭计划": {
+      "event_key": "bsh-germany-nauen-bretten-closures-2025",
+      "date": "2026-04-30"
+    },
+    "BSH德国吸尘器工厂迁建项目": {
+      "event_key": "bsh-germany-vacuum-plant-relocation-2026",
+      "date": "2026-09-25"
+    },
     "Beijer Ref收购FG Europe并扩展欧洲及土耳其HVAC渠道": {
       "event_key": "beijer-ref-fg-europe-acquisition-2026",
       "date": "2026-09-11"
@@ -190,9 +202,17 @@
       "event_key": "vanward-egypt-water-heater-plant-2026",
       "date": "2026-01-11"
     },
+    "三星停止中国大陆家电及电视销售": {
+      "event_key": "samsung-china-appliance-sales-exit-2026",
+      "date": "2026-05-07"
+    },
     "三星韩国光州EHS热泵锅炉产线回迁与量产": {
       "event_key": "samsung-korea-ehs-heatpump-plant-2026",
       "date": "2026-08-19"
+    },
+    "三菱电机印度金奈空调与压缩机工厂": {
+      "event_key": "mitsubishi-electric-india-chennai-ac-compressor-plant-2026",
+      "date": "2026-02-06"
     },
     "中国2026版家电能效标识实施规则": {
       "event_key": "china-energy-efficiency-label-2026",
@@ -306,6 +326,10 @@
       "event_key": "mexico-customs-broker-usmca-2026",
       "date": "2026-07-18"
     },
+    "夏普与Amber印度空调代工项目": {
+      "event_key": "sharp-amber-india-ac-oem-2026",
+      "date": "2026-03-23"
+    },
     "大金美国凤凰城模块化HVAC工厂扩建项目": {
       "event_key": "daikin-us-phoenix-modular-hvac-expansion-2026",
       "date": "2026-10-14"
@@ -341,6 +365,10 @@
     "强迫劳动进口禁令执行不足301调查及中美后续经贸沟通": {
       "event_key": "ustr-usa-forcedlabor301-2026",
       "date": "2026-07-24"
+    },
+    "惠而浦美国Perrysburg洗涤部件工厂": {
+      "event_key": "whirlpool-perrysburg-laundry-components-plant-2026",
+      "date": "2026-04-10"
     },
     "意大利制造网络重组、裁员与新工业方案谈判": {
       "event_key": "electrolux-italy-restructuring-2026",
