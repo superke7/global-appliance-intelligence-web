@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261103-0715",
+  "generated_at_bjt": "2026-11-03T07:33:03+08:00",
+  "target_publish_at_bjt": "2026-11-03T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261103-001",
+      "title": "欧洲多国超市冷柜遭新一轮网络攻击，至少七国零售冷链受影响",
+      "excerpt": "11月2日，欧洲至少七国的部分超市制冷控制系统遭网络攻击或远程操控，涉及比利时、卢森堡、瑞典、爱尔兰、荷兰、芬兰和爱沙尼亚。",
+      "content_html": "<p>11月2日，欧洲至少七国的部分超市制冷控制系统遭网络攻击或远程操控，涉及比利时、卢森堡、瑞典、爱尔兰、荷兰、芬兰和爱沙尼亚。部分冷柜温度被异常调高或进入除霜模式，个别门店显示温度一度升至约50摄氏度，造成食品报废；爱尔兰SuperValu确认13家门店受影响。部分受攻击设备使用丹佛斯控制技术。尚无组织宣称负责，调查方也未确认本轮事件与10月法国超市攻击存在关联。</p><p>背景补充：联网制冷控制器可远程调节冷柜运行参数，遭入侵后会直接影响食品冷链和门店运营。</p><p>补充核验来源：<a href=\"https://apnews.com/article/europe-supermarkets-freezers-cyberattacks-a8ea5b30d67da47957769f29101fe686\">来源1</a>；<a href=\"https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca\">来源2</a>；<a href=\"https://www.coolingpost.com/world-news/europe-hit-by-second-wave-of-cyber-attacks/\">来源3</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/",
+      "source_published_date": "2026-11-02",
+      "event_action": "create",
+      "event": {
+        "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+        "title": "欧洲多国超市制冷控制系统网络攻击事件",
+        "date": "2026-11-02",
+        "latest_progress": "11月2日，欧洲至少七国的部分超市制冷控制系统遭网络攻击或远程操控，涉及比利时、卢森堡、瑞典、爱尔兰、荷兰、芬兰和爱沙尼亚。部分冷柜温度被异常调高或进入除霜模式，个别门店显示温度一度升至约50摄氏度，造成食品报废；爱尔兰SuperValu确认13家门店受影响。部分受攻击设备使用丹佛斯控制技术。尚无组织宣称负责，调查方也未确认本轮事件与10月法国超市攻击存在关联。背景补充：联网制冷控制器可远程调节冷柜运行参数，遭入侵后会直接影响食品冷链和门店运营。",
+        "status": "in_progress",
+        "countries": [
+          "欧洲多国"
+        ],
+        "entities": [
+          "欧洲零售商",
+          "SuperValu",
+          "Danfoss"
+        ],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261103-002",
+      "title": "美国拟自2027年起终止南非与卢旺达AGOA免税优惠资格",
+      "excerpt": "美国贸易代表办公室11月2日表示，总统已通知国会以及南非、卢旺达政府，拟自2027年1月1日起终止两国依据AGOA（《非洲增长与机会法》）享有的优惠资格。",
+      "content_html": "<p>美国贸易代表办公室11月2日表示，总统已通知国会以及南非、卢旺达政府，拟自2027年1月1日起终止两国依据AGOA（《非洲增长与机会法》）享有的优惠资格。当前为终止意向及通知阶段，尚未生效。AGOA允许符合条件的撒哈拉以南非洲国家部分商品免税进入美国；南非同时是非洲重要制造和出口基地，但对家电及零部件的具体影响仍需按最终税目核对。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/africa/us-suspend-south-africa-rwanda-duty-free-trade-access-2026-11-02/\">来源1</a></p>",
+      "source_name": "美国贸易代表办公室USTR",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "source_published_date": "2026-11-02",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-south-africa-rwanda-agoa-termination-2026",
+        "title": "美国拟终止南非与卢旺达AGOA优惠资格",
+        "date": "2026-11-02",
+        "latest_progress": "美国贸易代表办公室11月2日表示，总统已通知国会以及南非、卢旺达政府，拟自2027年1月1日起终止两国依据AGOA（《非洲增长与机会法》）享有的优惠资格。当前为终止意向及通知阶段，尚未生效。AGOA允许符合条件的撒哈拉以南非洲国家部分商品免税进入美国；南非同时是非洲重要制造和出口基地，但对家电及零部件的具体影响仍需按最终税目核对。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "南非",
+          "卢旺达"
+        ],
+        "entities": [
+          "美国政府",
+          "南非政府",
+          "卢旺达政府"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261103-003",
+      "title": "欧洲热泵协会呼吁在欧盟2028—2034年科研预算中设立热泵专项",
+      "excerpt": "欧洲热泵协会10月30日呼吁欧盟在2028—2034年下一期Horizon Europe（欧盟科研与创新框架计划）中设立热泵专项欧洲伙伴关系，并将热泵列为优先技术。",
+      "content_html": "<p>欧洲热泵协会10月30日呼吁欧盟在2028—2034年下一期Horizon Europe（欧盟科研与创新框架计划）中设立热泵专项欧洲伙伴关系，并将热泵列为优先技术。协会提出的研发方向包括能效、制冷剂、成本、电网协同和高温应用。这是行业倡议，尚不代表欧盟已经批准专项或拨款；相关1750亿欧元是拟议科研框架总规模，并非热泵专项金额。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/ehpa-seeks-inclusion-of-heat-pumps-under-e175bn-ri-scheme/\">来源1</a></p>",
+      "source_name": "欧洲热泵协会EHPA",
+      "source_url": "https://ehpa.org/news-and-resources/news/ehpa-calls-for-dedicated-heat-pump-funding-under-horizon-europe/",
+      "source_published_date": "2026-10-30",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261103-004",
+      "title": "印度与欧盟推进自贸协定海关协作及实施准备，协议仍待签署",
+      "excerpt": "印度商务与工业部11月2日通报，印方官员在布鲁塞尔与欧盟贸易总司、税务与关税同盟总司等就印度—欧盟自由贸易协定的实施准备展开磋商，重点涉及海关数字化、贸易便利化、市场准入及制度协调。",
+      "content_html": "<p>印度商务与工业部11月2日通报，印方官员在布鲁塞尔与欧盟贸易总司、税务与关税同盟总司等就印度—欧盟自由贸易协定的实施准备展开磋商，重点涉及海关数字化、贸易便利化、市场准入及制度协调。双方正为协议落地作技术准备，但协定仍待正式签署和生效；媒体所称12月签署属于预期，不应视为已完成节点。</p><p>补充核验来源：<a href=\"https://www.moneycontrol.com/news/business/india-eu-fta-both-sides-discuss-key-implementation-issues-ahead-of-december-signing-14066204.html\">来源1</a></p>",
+      "source_name": "印度新闻信息局PIB",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2331376&lang=1&reg=3",
+      "source_published_date": "2026-11-02",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "实施准备磋商/尚未签署生效",
+        "国家/地区": "印度/欧盟",
+        "新闻标注": "新增进展/既有事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/自贸协定"
+      },
+      "event": {
+        "event_key": "india-eu-fta-2026",
+        "title": "印度—欧盟自由贸易协定",
+        "date": "2026-10-22",
+        "latest_progress": "印度商务与工业部11月2日通报，印方官员在布鲁塞尔与欧盟贸易总司、税务与关税同盟总司等就印度—欧盟自由贸易协定的实施准备展开磋商，重点涉及海关数字化、贸易便利化、市场准入及制度协调。双方正为协议落地作技术准备，但协定仍待正式签署和生效；媒体所称12月签署属于预期，不应视为已完成节点。",
+        "status": "in_progress",
+        "countries": [
+          "印度",
+          "欧盟"
+        ],
+        "entities": [
+          "印度商务与工业部",
+          "欧盟委员会"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261103-005",
+      "title": "江森自控推出FRICK HeatPAC氨热泵平台，供热能力覆盖200—2000千瓦",
+      "excerpt": "江森自控11月2日发布FRICK HeatPAC标准化工业热泵平台，面向食品和饮料工厂回收制冷系统废热。",
+      "content_html": "<p>江森自控11月2日发布FRICK HeatPAC标准化工业热泵平台，面向食品和饮料工厂回收制冷系统废热。该平台以氨为制冷剂，工厂预装，供热能力覆盖200—2000千瓦，出水温度约54—88摄氏度，并采用Mark 5 Sabroe往复式压缩机。公司基于内部模型称其效率最高可达传统燃气锅炉的约7倍。</p><p>背景补充：FRICK是江森自控旗下工业制冷品牌，HeatPAC把制冷端废热转化为工艺热水，属于热泵与冷链系统协同平台。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/products/frick-packaged-ammonia-heat-pump/\">来源1</a></p>",
+      "source_name": "Johnson Controls官方",
+      "source_url": "https://www.johnsoncontrols.com/media-center/news/press-releases/2026/10/26/johnson-controls-new-standardized-heat-pump",
+      "source_published_date": "2026-11-02",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "产品平台发布",
+        "国家/地区": "美国/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中",
+        "事件分类": "竞品动态/热泵/产品平台"
+      }
+    }
+  ]
+}
