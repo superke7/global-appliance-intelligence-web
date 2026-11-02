@@ -386,6 +386,10 @@
       "event_key": "eu-china-trade-rebalancing-2026",
       "date": "2026-09-08"
     },
+    "欧洲多国超市制冷控制系统网络攻击事件": {
+      "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+      "date": "2026-11-02"
+    },
     "欧洲空调高温季需求激增及中欧班列加急补货": {
       "event_key": "cn-brands-eu-ac-surge-2026",
       "date": "2026-07-28"
@@ -493,6 +497,10 @@
     "美国强迫劳动进口禁令执行不足301调查": {
       "event_key": "ustr-usa-forcedlabor301-2026",
       "date": "2026-07-24"
+    },
+    "美国拟终止南非与卢旺达AGOA优惠资格": {
+      "event_key": "us-south-africa-rwanda-agoa-termination-2026",
+      "date": "2026-11-02"
     },
     "美国查处墨西哥R22制冷剂跨境走私案": {
       "event_key": "us-mexico-r22-smuggling-enforcement-2026",
