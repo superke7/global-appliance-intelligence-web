@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261104-0715",
+  "generated_at_bjt": "2026-11-04T07:39:37+08:00",
+  "target_publish_at_bjt": "2026-11-04T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261104-001",
+      "title": "三星反对美国对越南新增关税，知识产权301调查临近11月29日节点",
+      "excerpt": "Reuters 11月2日报道，美国针对越南知识产权保护与执法的Section 301（《1974年贸易法》第301条）调查临近11月29日结案节点。",
+      "content_html": "<p>Reuters 11月2日报道，美国针对越南知识产权保护与执法的Section 301（《1974年贸易法》第301条）调查临近11月29日结案节点。企业意见出现分化：三星美国公司和特斯拉反对新增关税，强调越南在其对美供应链中的重要性；钢铁、木材及部分知识产权行业团体则要求采取更强措施。三星本次意见主要涉及智能手机和网络设备供应链，报道未确认家电产品将被单独征税；拟议关税是普遍适用还是按行业实施也尚未确定。</p><p>背景补充：越南是全球重要家电及零部件制造出口基地，即使措施不以家电为对象，广泛关税仍可能横向影响当地制造供应链。</p><p>补充核验来源：<a href=\"https://ustr.gov/about/policy-offices/press-office/press-releases/2026/may/ustr-announces-section-301-investigation-vietnams-acts-policies-and-practices-related-intellectual\">来源1</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/tesla-samsung-oppose-new-us-tariffs-vietnam-probe-deadline-nears-2026-11-02/",
+      "source_published_date": "2026-11-02",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "301调查临近结案/关税方案未定",
+        "国家/地区": "美国/越南/东南亚",
+        "新闻标注": "新增进展/既有事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 301/越南供应链"
+      },
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "Reuters 11月2日报道，美国针对越南知识产权保护与执法的Section 301（《1974年贸易法》第301条）调查临近11月29日结案节点。企业意见出现分化：三星美国公司和特斯拉反对新增关税，强调越南在其对美供应链中的重要性；钢铁、木材及部分知识产权行业团体则要求采取更强措施。三星本次意见主要涉及智能手机和网络设备供应链，报道未确认家电产品将被单独征税；拟议关税是普遍适用还是按行业实施也尚未确定。背景补充：越南是全球重要家电及零部件制造出口基地，即使措施不以家电为对象，广泛关税仍可能横向影响当地制造供应链。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "越南",
+          "东南亚"
+        ],
+        "entities": [
+          "Samsung Electronics",
+          "USTR",
+          "Tesla"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261104-002",
+      "title": "LG第三季度家电业务收入7.04万亿韩元，营业利润2592亿韩元",
+      "excerpt": "LG Home Appliance Solution第三季度收入7.04万亿韩元，连续第二个季度超过7万亿韩元；营业利润为2592亿韩元。",
+      "content_html": "<p>LG Home Appliance Solution第三季度收入7.04万亿韩元，连续第二个季度超过7万亿韩元；营业利润为2592亿韩元。公司称，高端和大众市场双轨策略支持收入表现；物流及营销成本短期上升，但通过运营效率维持稳定盈利。第四季度家电需求复苏预计仍有限，LG计划重点拓展需求相对稳定的全球南方市场。</p>",
+      "source_name": "LG Electronics官方",
+      "source_url": "https://www.lg.com/global/newsroom/news/corporate/lg-electronics-releases-third-quarter-2026-financial-results/",
+      "source_published_date": "2026-10-28",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "第三季度财报发布",
+        "国家/地区": "韩国/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中高",
+        "事件分类": "竞品动态/财报经营/市场策略"
+      }
+    },
+    {
+      "public_id": "gai-20261104-003",
+      "title": "Carrier第三季度欧洲住宅热泵与空调销售均增长约35%",
+      "excerpt": "Carrier第三季度总销售额62.63亿美元，同比增长12%，有机销售增长15%。",
+      "content_html": "<p>Carrier第三季度总销售额62.63亿美元，同比增长12%，有机销售增长15%。欧洲气候解决方案业务有机销售增长12%，住宅和轻商业务实现低双位数增长，其中住宅热泵和空调销售均增长约35%，抵消锅炉销售高个位数下降。公司总在手订单超过85亿美元，同比增长60%；该总额还包含商用HVAC和数据中心等业务，不应全部归因于住宅热泵与空调。</p>",
+      "source_name": "Carrier官方IR",
+      "source_url": "https://ir.carrier.com/news/news-details/2026/Carrier-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_published_date": "2026-10-29",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "第三季度财报发布",
+        "国家/地区": "美国/欧洲/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "高",
+        "事件分类": "竞品动态/财报经营/HVAC市场"
+      }
+    },
+    {
+      "public_id": "gai-20261104-004",
+      "title": "德国热泵厂商Viessmann推出R290地源热泵及开放式控制平台",
+      "excerpt": "德国热泵厂商Viessmann发布Vitocal 300-G intelligent energy地源热泵，采用R290（丙烷制冷剂），单机供热能力6—16千瓦，最高供水温度70摄氏度，低温应用SCOP（季节性能系数）最高5.5。",
+      "content_html": "<p>德国热泵厂商Viessmann发布Vitocal 300-G intelligent energy地源热泵，采用R290（丙烷制冷剂），单机供热能力6—16千瓦，最高供水温度70摄氏度，低温应用SCOP（季节性能系数）最高5.5。新One Base Intelligence控制平台首次支持第三方产品接入；系统最多可将四台设备级联至64千瓦，并共用一个控制器。产品已经开放订购，计划11月30日起交付。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/\">来源1</a></p>",
+      "source_name": "Viessmann Climate Solutions官方",
+      "source_url": "https://www.viessmann-climatesolutions.com/en/newsroom/solution-offering/new-vitocal-300-g-ie-ground-source-heat-pump.html",
+      "source_published_date": "2026-11-02",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "产品发布/11月30日起交付",
+        "国家/地区": "德国/欧洲",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中",
+        "事件分类": "竞品动态/热泵/产品平台"
+      }
+    }
+  ]
+}
