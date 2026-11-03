@@ -43,7 +43,7 @@ STYLE = """
 @media(max-width:900px){.hero-dashboard{flex-direction:column}.stats-box{min-width:0;width:100%}.home-grid{grid-template-columns:1fr}.archive-side{position:static}.archive-panel{padding:14px}.info-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.nav{gap:12px;font-size:13px;flex-wrap:wrap;justify-content:flex-end}.top .wrap{align-items:flex-start}.hero h1,.detail-title{font-size:27px}.detail-shell{padding:20px}.stats-row{gap:8px}.stat{font-size:21px}}
 
-/* Minimal, accessible five-facet public news browser */
+/* Public news browser: three facets and combined full-text keywords */
 .news-filter-lead{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .news-filter-link{color:var(--accent);font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .label-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0 18px}
@@ -52,10 +52,11 @@ STYLE = """
 .label-cell dd{margin:0;line-height:1.55;font-size:14px;overflow-wrap:anywhere}
 .label-chip{display:inline-block;margin:7px 5px 0 0;border:1px solid #c7e1db;background:#ebf7f2;color:#075c66;border-radius:99px;padding:3px 9px;font-size:12px}
 .label-chip:hover{background:#dcf2e9}
-.filters{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:10px;align-items:end}
+.filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;align-items:end}
 .filters label{font-size:12px;font-weight:700;color:#344054;display:flex;flex-direction:column;gap:6px}
-.filters select{font:inherit;background:#fff;color:var(--text);border:1px solid #cbd5e1;border-radius:9px;padding:10px;max-width:100%;min-width:0}
-.filters select:focus{outline:2px solid var(--accent)}
+.filters .keyword-field{grid-column:span 2}
+.filters select,.filters input{font:inherit;background:#fff;color:var(--text);border:1px solid #cbd5e1;border-radius:9px;padding:10px;max-width:100%;min-width:0;width:100%;height:40px}
+.filters select:focus,.filters input:focus{outline:2px solid var(--accent)}
 .filter-summary{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 0;color:var(--muted);font-size:14px}
 .filter-clear{border:1px solid #cbd5e1;border-radius:7px;background:white;padding:7px 13px;cursor:pointer}
 .browse-item{padding:16px 20px}
@@ -64,7 +65,7 @@ STYLE = """
 .browse-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .browse-tags span{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--soft);color:#475467}
 @media(max-width:900px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.label-grid{grid-template-columns:1fr}}
-@media(max-width:600px){.filters{grid-template-columns:1fr}.news-filter-lead{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){.filters{grid-template-columns:1fr}.filters .keyword-field{grid-column:auto}.news-filter-lead{align-items:flex-start;flex-direction:column}}
 """
 
 
@@ -391,11 +392,15 @@ def article_label_section(item: dict) -> str:
     for title, key, query in fields:
         tags = data["tags"][key]
         tags = tags if isinstance(tags, list) else [tags]
-        pills = "".join(
-            '<a class="label-chip" href="../../news.html?' +
-            html.escape(urlencode({query: tag}), quote=True) + '">' + safe_text(tag) + '</a>'
-            for tag in tags
-        )
+        if query in {"stage", "news_mark"}:
+            # Keep original article metadata visible without linking to removed filters.
+            pills = "".join('<span class="label-chip">' + safe_text(tag) + '</span>' for tag in tags)
+        else:
+            pills = "".join(
+                '<a class="label-chip" href="../../news.html?' +
+                html.escape(urlencode({query: tag}), quote=True) + '">' + safe_text(tag) + '</a>'
+                for tag in tags
+            )
         rows.append(
             '<div class="label-cell"><dt>' + safe_text(title) +
             '</dt><dd>' + safe_text(data["raw"][title]) + '<div>' + pills + '</div></dd></div>'
@@ -403,33 +408,61 @@ def article_label_section(item: dict) -> str:
     return '<section class="detail-section"><h2>新闻标签</h2><dl class="label-grid">' + "".join(rows) + '</dl></section>'
 
 
-BROWSE_JS = """<script>
+class SearchTextExtractor(HTMLParser):
+    """Extract text from the same sanitized public body shown on article pages."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+
+    def handle_data(self, data):
+        if data.strip():
+            self.parts.append(data.strip())
+
+
+def browse_search_text(item: dict, facets: dict, date_key: str) -> str:
+    extractor = SearchTextExtractor()
+    extractor.feed(sanitize_content_html(item.get("content_html")))
+    extractor.close()
+    values = [item.get("title"), item.get("excerpt"), item.get("source_name"),
+              fmt_day(date_key), " ".join(extractor.parts)]
+    values.extend(facets.get(key, "") for key in ("stage", "news_mark", "impact", "category"))
+    geos = facets.get("geographies") or []
+    values.extend([geos] if isinstance(geos, str) else geos)
+    return " ".join(str(value) for value in values if value)
+
+
+BROWSE_JS = r"""<script>
 (function(){
   const filters=[...document.querySelectorAll('[data-filter]')];
+  const keyword=document.querySelector('input[data-filter="q"]');
+  const facets=filters.filter(input=>input!==keyword);
   const articles=[...document.querySelectorAll('.browse-item')];
   const summary=document.getElementById('match-count');
   const reset=document.getElementById('clear-filters');
   const params=new URLSearchParams(location.search);
   for(const input of filters){input.value=params.get(input.dataset.filter)||'';}
   function refresh(){
+    const words=keyword.value.normalize('NFKC').trim().toLocaleLowerCase().split(/\s+/u).filter(Boolean);
     let visible=0;
     for(const el of articles){
-      const match=filters.every(input=>{
+      const content=(el.dataset.search||'').normalize('NFKC').toLocaleLowerCase();
+      const match=words.every(word=>content.includes(word)) && facets.every(input=>{
         const value=input.value;
         if(!value)return true;
         if(input.dataset.filter==='geo')return (el.dataset.geos||'').split('|').includes(value);
-        return el.dataset[input.dataset.filter==='news_mark'?'newsMark':input.dataset.filter]===value;
+        return el.dataset[input.dataset.filter]===value;
       });
       el.hidden=!match;
       if(match)visible++;
     }
     summary.textContent='符合条件 '+visible+' / '+articles.length+' 条';
     const next=new URLSearchParams();
-    for(const input of filters){if(input.value)next.set(input.dataset.filter,input.value);}
+    for(const input of filters){if(input.value.trim())next.set(input.dataset.filter,input.value.trim());}
     const query=next.toString();
     history.replaceState(null,'',location.pathname+(query?'?'+query:''));
   }
-  for(const input of filters){input.addEventListener('change',refresh);}
+  for(const input of filters){input.addEventListener(input===keyword?'input':'change',refresh);}
   reset.addEventListener('click',()=>{for(const input of filters)input.value='';refresh();});
   refresh();
 })();
@@ -447,13 +480,12 @@ def build_news_browser(batches) -> str:
                     geo_counts[geo] = geo_counts.get(geo, 0) + 1
             all_items.append((day, i, item, metadata))
     facet_fields = [
-        ("stage", "事件阶段", TAXONOMY["facets"]["stage"]),
         ("geo", "国家/地区", sorted(geo_counts, key=lambda k: (-geo_counts[k], k))),
-        ("news_mark", "新闻标注", TAXONOMY["facets"]["news_mark"]),
         ("impact", "影响程度", TAXONOMY["facets"]["impact"]),
         ("category", "事件分类", TAXONOMY["facets"]["category"]),
     ]
-    controls = []
+    controls = ['<label class="keyword-field">关键词<input type="search" data-filter="q" ' +
+                'aria-label="关键词" placeholder="如：美的 美国" autocomplete="off"></label>']
     for key, title, choices in facet_fields:
         options = '<option value="">全部</option>' + "".join(
             '<option value="' + html.escape(label, quote=True) + '">' + safe_text(label) + '</option>'
@@ -470,6 +502,7 @@ def build_news_browser(batches) -> str:
             "news_mark": facets.get("news_mark", ""),
             "category": facets.get("category", ""),
             "geos": "|".join(expand_geo_filter_tags(facets.get("geographies", []))),
+            "search": browse_search_text(item, facets, date_key),
         }
         attrs = " ".join('data-' + key.replace("_", "-") + '="' + html.escape(val, quote=True) + '"'
                          for key, val in values.items())
@@ -480,7 +513,8 @@ def build_news_browser(batches) -> str:
                      '</a></h2><div class="meta">' + safe_text(fmt_day(date_key)) + ' · ' +
                      safe_text(item.get("source_name")) + '</div><div class="browse-tags">' + tags +
                      '</div></article>')
-    body = ('<section class="hero"><h1>新闻快速筛选</h1><p class="sub">按公开新闻标签组合查询；'
+    body = ('<section class="hero"><h1>新闻快速筛选</h1><p class="sub">多个关键词用空格分隔，'
+            '搜索标题、正文（含背景补充）、来源及公开标签，所有关键词都需命中；可叠加其他筛选。'
             '国家/地区按上级区域和经济组织成员关系扩展匹配（如法国→欧盟/欧洲）。' 
             '这仅表示涉及地区，不代表该国新闻属于欧盟层面政策。' 
             '原始完整描述保留在文章详情。无可靠对应标签的历史文章在筛选时不被错误归类。</p></section>' +

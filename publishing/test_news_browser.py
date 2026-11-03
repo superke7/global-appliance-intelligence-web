@@ -32,8 +32,14 @@ built = ROOT / "_site"
 news_page = (built / "news.html").read_text(encoding="utf-8")
 article_page = (built / "articles/gai-20261017-001/index.html").read_text(encoding="utf-8")
 assert "新闻快速筛选" in news_page
-assert 'data-filter="news_mark"' in news_page
-assert 'data-filter="geo"' in news_page
+assert 'data-filter="q"' in news_page
+assert 'data-filter="stage"' not in news_page
+assert 'data-filter="news_mark"' not in news_page
+for key in ("geo", "impact", "category"):
+    assert f'data-filter="{key}"' in news_page
+assert 'placeholder="如：美的 美国"' in news_page
+assert "words.every(word=>content.includes(word))" in news_page
+assert "input===keyword?'input':'change'" in news_page
 assert "符合条件 " in news_page
 assert "事件阶段" in article_page and "影响程度" in article_page
 assert labels["事件阶段"] in article_page
@@ -66,6 +72,13 @@ class BrowseArticleParser(HTMLParser):
 
 parser = BrowseArticleParser()
 parser.feed(news_page)
+first = batch["items"][0]
+search_text = parser.entries[first["public_id"]]["data-search"]
+assert first["title"] in search_text
+assert first["excerpt"] in search_text
+assert "背景补充" in search_text
+assert first["source_name"] in search_text
+assert "欧盟" in search_text
 
 # Existing Oct 12 French article has only France/China as raw geographical
 # labels; it must now match both EU and Europe when the browser is filtered.
@@ -131,4 +144,4 @@ assert parser.entries["gai-20261002-003"]["data-stage"] == "规划拟议"
 assert "法国" in parser.entries["gai-20261002-003"]["data-geos"].split("|")
 assert "欧盟" in parser.entries["gai-20261002-003"]["data-geos"].split("|")
 
-print("Public faceted browser, full original labels, optional schema and private-field rejection verified.")
+print("Public keyword and three-facet browser, original labels and private-field rejection verified.")
