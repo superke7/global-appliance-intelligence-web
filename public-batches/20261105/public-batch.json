@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261105-0715",
+  "generated_at_bjt": "2026-11-05T07:41:31+08:00",
+  "target_publish_at_bjt": "2026-11-05T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261105-001",
+      "title": "伊莱克斯签署意大利2026—2029工业协议，投资超1亿欧元并保留全部工厂",
+      "excerpt": "Electrolux Group 11月4日宣布，与意大利相关部委、地方政府和工会签署2026—2029年工业计划框架协议。",
+      "content_html": "<p>Electrolux Group 11月4日宣布，与意大利相关部委、地方政府和工会签署2026—2029年工业计划框架协议。协议确认产品及流程投资超过1亿欧元，并保留现有意大利制造基地。Porcia（波尔恰，意大利东北部城市）将扩大洗衣机和洗烘一体机产品组合；Susegana、Solaro和Forlì工厂的投资及生产前景得到确认；Cerreto d’Esi（切雷托代西，意大利马尔凯大区城市）在寻找再工业化方案期间维持生产。协议仍需员工公投批准。</p><p>背景补充：该协议是5月以来意大利制造网络重组谈判的最新节点，取代了此前直接关厂和强制裁员的争议方案。</p><p>补充核验来源：<a href=\"https://lavoro.gov.it/stampa-e-media/comunicati/pagine/electrolux-calderone-un-accordo-che-offre-prospettiva\">来源1</a>；<a href=\"https://www.ansa.it/amp/marche/notizie/2026/11/04/mimit-intesa-su-electrolux-100-milioni-investimenti-e-salvaguardia-stabilimenti_447623ac-4031-4ac3-bc3e-8838585502d1.html\">来源2</a></p>",
+      "source_name": "Electrolux Group官方",
+      "source_url": "https://www.electroluxgroup.com/en/news/electrolux-group-siglato-al-mimit-laccordo-quadro-sul-piano-industriale-2026-2029",
+      "source_published_date": "2026-11-04",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "框架协议已签署/待员工公投",
+        "国家/地区": "意大利/欧洲",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "制造与产能/重组/投资/劳资协议"
+      },
+      "event": {
+        "event_key": "electrolux-italy-restructuring-2026",
+        "title": "意大利制造网络重组、裁员与新工业方案谈判",
+        "date": "2026-05-11",
+        "latest_progress": "Electrolux Group 11月4日宣布，与意大利相关部委、地方政府和工会签署2026—2029年工业计划框架协议。协议确认产品及流程投资超过1亿欧元，并保留现有意大利制造基地。Porcia（波尔恰，意大利东北部城市）将扩大洗衣机和洗烘一体机产品组合；Susegana、Solaro和Forlì工厂的投资及生产前景得到确认；Cerreto d’Esi（切雷托代西，意大利马尔凯大区城市）在寻找再工业化方案期间维持生产。协议仍需员工公投批准。背景补充：该协议是5月以来意大利制造网络重组谈判的最新节点，取代了此前直接关厂和强制裁员的争议方案。",
+        "status": "in_progress",
+        "countries": [
+          "意大利",
+          "欧洲"
+        ],
+        "entities": [
+          "Electrolux Group",
+          "MIMIT",
+          "意大利劳动部",
+          "FIM-FIOM-UILM"
+        ],
+        "category": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261105-002",
+      "title": "法国血液机构三处冷藏库遭网络攻击，监控阈值被异常调高但未造成损失",
+      "excerpt": "法国血液机构EFS确认，三处血浆冷藏站点的监控和控制系统遭网络攻击，温度及除霜阈值被异常调高。",
+      "content_html": "<p>法国血液机构EFS确认，三处血浆冷藏站点的监控和控制系统遭网络攻击，温度及除霜阈值被异常调高。报警系统及时发现异常，工作人员转移或保护相关血浆，未造成健康后果或血液制品损失，采集和配送服务未中断。法国国家网络安全局和卫生部门正在调查，受影响设备的远程访问已被关闭。目前尚未确认该事件与同期欧洲超市冷柜攻击属于同一攻击链。</p><p>背景补充：医疗冷链依赖持续温控和远程报警，控制参数遭篡改会直接威胁血浆及其他温敏制品安全。</p><p>补充核验来源：<a href=\"https://ca.marketscreener.com/news/new-cyberattack-targets-french-blood-banks-health-ministry-says-ce785fdfda8cf522\">来源1</a>；<a href=\"https://abcnews.com/amp/Health/wireStory/cyberattack-hits-french-blood-bank-site-blood-products-137839782\">来源2</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/france-confirms-blood-storage-attack",
+      "source_published_date": "2026-11-04",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "攻击已控制/调查中",
+        "国家/地区": "法国/欧洲",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/网络安全/商用制冷"
+      }
+    },
+    {
+      "public_id": "gai-20261105-003",
+      "title": "科慕第三季度Opteon制冷剂销售下降22%，北美固定式空调售后渠道补库回落",
+      "excerpt": "科慕第三季度TSS业务销售额为5.10亿美元，同比下降9%；其中Opteon制冷剂销售额为2.87亿美元，同比下降22%，Freon制冷剂销售额为1亿美元，同比增长6%。",
+      "content_html": "<p>科慕第三季度TSS业务销售额为5.10亿美元，同比下降9%；其中Opteon制冷剂销售额为2.87亿美元，同比下降22%，Freon制冷剂销售额为1亿美元，同比增长6%。公司称，Opteon销量下降主要因为北美固定式空调售后市场销售低于上年同期；上年受美国AIM Act（《美国创新与制造法》）推动的固定式空调技术转换影响，渠道曾进行初期集中备货。TSS调整后EBITDA为1.36亿美元，同比下降30%，利润率为27%。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/refrigerant-producers-report-differing-sales\">来源1</a></p>",
+      "source_name": "Chemours官方",
+      "source_url": "https://investors.chemours.com/news-releases/news-release-details/chemours-company-reports-third-quarter-results-0",
+      "source_published_date": "2026-11-03",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "第三季度财报发布",
+        "国家/地区": "美国/北美/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/制冷剂/空调售后"
+      }
+    }
+  ]
+}
