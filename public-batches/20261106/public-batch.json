@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261106-0715",
+  "generated_at_bjt": "2026-11-06T07:36:54+08:00",
+  "target_publish_at_bjt": "2026-11-06T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261106-001",
+      "title": "越南对美顺差前九个月接近1900亿美元，美国反转运与强迫劳动执法压力持续",
+      "excerpt": "Reuters 11月5日报道，越南前九个月对美货物顺差接近1900亿美元，同比增长约47%，已超过中国和墨西哥，成为美国最大的货物贸易顺差来源国。",
+      "content_html": "<p>Reuters 11月5日报道，越南前九个月对美货物顺差接近1900亿美元，同比增长约47%，已超过中国和墨西哥，成为美国最大的货物贸易顺差来源国。美国7月以强迫劳动进口禁令执行不足为由对越南商品加征12.5%关税，另有两项调查可能带来进一步关税；越南方面称双边贸易谈判仍在继续，并正打击非法转运及完善强迫劳动商品进口规则。韩国商会代表表示，美国削减贸易逆差和打击中国商品经越南转运的政策重点短期不会改变；三星是该商会所覆盖的主要韩国企业之一，也是越南重要外资制造商。</p><p>背景补充：越南是全球家电及零部件制造出口基地，普遍性关税、原产地与反转运审查会横向影响当地生产和输美供应链。</p><p>补充核验来源：<a href=\"https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-makes-findings-and-proposes-action-60-section-301-investigations-relating-failures-take-action\">来源1</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/businesses-see-no-near-term-shift-us-trade-stance-vietnam-after-midterms-amid-2026-11-05/",
+      "source_published_date": "2026-11-05",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "贸易谈判继续/反转运与强迫劳动执法持续",
+        "国家/地区": "美国/越南/东南亚",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/反转运/Section 301/双边贸易"
+      },
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "Reuters 11月5日报道，越南前九个月对美货物顺差接近1900亿美元，同比增长约47%，已超过中国和墨西哥，成为美国最大的货物贸易顺差来源国。美国7月以强迫劳动进口禁令执行不足为由对越南商品加征12.5%关税，另有两项调查可能带来进一步关税；越南方面称双边贸易谈判仍在继续，并正打击非法转运及完善强迫劳动商品进口规则。韩国商会代表表示，美国削减贸易逆差和打击中国商品经越南转运的政策重点短期不会改变；三星是该商会所覆盖的主要韩国企业之一，也是越南重要外资制造商。背景补充：越南是全球家电及零部件制造出口基地，普遍性关税、原产地与反转运审查会横向影响当地生产和输美供应链。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "越南",
+          "东南亚"
+        ],
+        "entities": [
+          "USTR",
+          "越南政府",
+          "Samsung Electronics",
+          "在越外资企业"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261106-002",
+      "title": "安赛乐米塔尔第三季度EBITDA达20.2亿美元，欧盟钢铁进口限制支撑出货与定价",
+      "excerpt": "安赛乐米塔尔11月5日公布第三季度EBITDA（息税折旧摊销前利润）20.2亿美元，高于分析师平均预期的19.6亿美元；公司官方称，欧盟强化贸易措施开始降低进口渗透率并提高欧洲本地产能利用率。",
+      "content_html": "<p>安赛乐米塔尔11月5日公布第三季度EBITDA（息税折旧摊销前利润）20.2亿美元，高于分析师平均预期的19.6亿美元；公司官方称，欧盟强化贸易措施开始降低进口渗透率并提高欧洲本地产能利用率。Reuters报道，公司估计第三季度非欧盟钢铁进口量同比下降约50%，欧洲热轧卷价格年初以来上涨22%至每吨755欧元。欧盟现行钢铁措施自7月1日起实施，对30类钢铁设置每年1830万吨免税配额，超配额进口适用50%关税；CBAM（碳边境调节机制）亦已进入正式阶段。</p><p>背景补充：钢材是冰箱、洗衣机、厨电和空调的重要上游材料，配额收紧与价格回升可向欧洲家电制造成本和采购策略传导。</p><p>补充核验来源：<a href=\"https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-third-quarter-2026-results\">来源1</a>；<a href=\"https://policy.trade.ec.europa.eu/enforcement-and-protection/protecting-eu-steelmaking/factsheet-eu-steel-measure_en\">来源2</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/arcelormittal-beats-profit-expectations-european-market-strengthens-2026-11-05/",
+      "source_published_date": "2026-11-05",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "措施已实施/第三季度经营影响显现",
+        "国家/地区": "欧盟/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/钢铁进口配额/关税/上游材料"
+      },
+      "event": {
+        "event_key": "eu-steel-import-measure-2026",
+        "title": "欧盟2026年钢铁进口配额与50%超配额关税",
+        "date": "2026-07-01",
+        "latest_progress": "安赛乐米塔尔11月5日公布第三季度EBITDA（息税折旧摊销前利润）20.2亿美元，高于分析师平均预期的19.6亿美元；公司官方称，欧盟强化贸易措施开始降低进口渗透率并提高欧洲本地产能利用率。Reuters报道，公司估计第三季度非欧盟钢铁进口量同比下降约50%，欧洲热轧卷价格年初以来上涨22%至每吨755欧元。欧盟现行钢铁措施自7月1日起实施，对30类钢铁设置每年1830万吨免税配额，超配额进口适用50%关税；CBAM（碳边境调节机制）亦已进入正式阶段。背景补充：钢材是冰箱、洗衣机、厨电和空调的重要上游材料，配额收紧与价格回升可向欧洲家电制造成本和采购策略传导。",
+        "status": "implemented",
+        "countries": [
+          "欧盟",
+          "欧洲"
+        ],
+        "entities": [
+          "ArcelorMittal",
+          "European Commission"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
