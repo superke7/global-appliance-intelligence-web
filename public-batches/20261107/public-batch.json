@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261107-0715",
+  "generated_at_bjt": "2026-11-07T07:40:33+08:00",
+  "target_publish_at_bjt": "2026-11-07T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261107-001",
+      "title": "LG电子印度第二财季家电与空调业务收入增长20.9%，公司净利润增长25.7%",
+      "excerpt": "Reuters 11月5日报道，LG电子印度截至9月30日的第二财季收入738亿卢比，同比增长19.5%；净利润48.9亿卢比，同比增长25.7%。",
+      "content_html": "<p>Reuters 11月5日报道，LG电子印度截至9月30日的第二财季收入738亿卢比，同比增长19.5%；净利润48.9亿卢比，同比增长25.7%。公司向印度证券交易所提交的披露显示，家电与空调业务收入477.2亿卢比，同比增长20.9%，冰箱、洗衣机、房间空调及洗碗机均实现强劲增长；该业务息税前利润增长28.4%至41.6亿卢比，利润率由8.2%升至8.7%。</p><p>补充核验来源：<a href=\"https://financialfilings.com/filings/lg-electronics-india-limited/earnings-release/2026/75640666/\">来源1</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/india/lg-electronics-indias-quarterly-profit-rises-26-strong-appliance-demand-2026-11-05/",
+      "source_published_date": "2026-11-05",
+      "event_action": "none"
+    },
+    {
+      "public_id": "gai-20261107-002",
+      "title": "大金上半财年销售额增长17.4%，并上调全年业绩预测",
+      "excerpt": "大金工业11月5日公布截至9月30日的2026财年上半年合并业绩：销售额2.910766万亿日元，同比增长17.4%；营业利润2707.93亿日元，同比增长9.8%；归母净利润1729.59亿日元，同比增长7.5%。",
+      "content_html": "<p>大金工业11月5日公布截至9月30日的2026财年上半年合并业绩：销售额2.910766万亿日元，同比增长17.4%；营业利润2707.93亿日元，同比增长9.8%；归母净利润1729.59亿日元，同比增长7.5%。公司将截至2027年3月的全年预测调整为销售额5.44万亿日元、营业利润4550亿日元及归母净利润2800亿日元。</p><p>背景补充：大金以住宅、商用及工业空调、热泵和制冷设备为核心业务。</p><p>补充核验来源：<a href=\"https://www.daikin.com/investor/library/results_materials\">来源1</a></p>",
+      "source_name": "大金工业官方",
+      "source_url": "https://www.daikin.com/press/2026/20261105_3",
+      "source_published_date": "2026-11-05",
+      "event_action": "none"
+    }
+  ]
+}
