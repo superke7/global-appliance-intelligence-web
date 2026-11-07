@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261108-0715",
+  "generated_at_bjt": "2026-11-08T07:38:05+08:00",
+  "target_publish_at_bjt": "2026-11-08T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261108-001",
+      "title": "开利旗下Automated Logic拟收购得州楼宇管理经销商Logical Solutions",
+      "excerpt": "Carrier旗下Automated Logic 11月5日宣布签署最终协议，拟收购总部位于得州Richardson（理查森，美国得克萨斯州城市）的楼宇管理系统经销商Logical Solutions。",
+      "content_html": "<p>Carrier旗下Automated Logic 11月5日宣布签署最终协议，拟收购总部位于得州Richardson（理查森，美国得克萨斯州城市）的楼宇管理系统经销商Logical Solutions。交易预计未来数月内完成。该交易将扩充Automated Logic在美洲的工程、项目管理、应用与服务能力；Logical Solutions长期服务关键设施，其系统可控制和监测商业建筑的供暖、空调和照明。</p><p>背景补充：Automated Logic是Carrier旗下楼宇管理系统业务，Logical Solutions自1995年起即为其经销商。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/carriers-bms-business-acquires-texas-dealer\">来源1</a></p>",
+      "source_name": "Carrier官方",
+      "source_url": "https://www.carrier.com/commercial/en/us/news/news-article/automated-logic-signs-agreement-to-acquire-logical-solutions--inc-.html",
+      "source_published_date": "2026-11-05",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "已签署最终协议/待交割",
+        "国家/地区": "美国",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "投资与合作/并购/渠道"
+      },
+      "event": {
+        "event_key": "carrier-automated-logic-lsi-acquisition-2026",
+        "title": "Carrier旗下Automated Logic收购Logical Solutions",
+        "date": "2026-11-05",
+        "latest_progress": "Carrier旗下Automated Logic 11月5日宣布签署最终协议，拟收购总部位于得州Richardson（理查森，美国得克萨斯州城市）的楼宇管理系统经销商Logical Solutions。交易预计未来数月内完成。该交易将扩充Automated Logic在美洲的工程、项目管理、应用与服务能力；Logical Solutions长期服务关键设施，其系统可控制和监测商业建筑的供暖、空调和照明。背景补充：Automated Logic是Carrier旗下楼宇管理系统业务，Logical Solutions自1995年起即为其经销商。",
+        "status": "announced",
+        "countries": [
+          "美国"
+        ],
+        "entities": [
+          "Carrier Global",
+          "Automated Logic",
+          "Logical Solutions"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261108-002",
+      "title": "欧盟多机构协调应对多国制冷系统网络攻击，要求运营方立即降低暴露",
+      "excerpt": "欧盟委员会、ENISA、Europol欧洲网络犯罪中心、欧盟CSIRT网络及EU-CyCLONe 11月4日发布联合声明称，自10月11日起多个成员国的商业制冷系统及类似设备遭网络安全事件影响，11月1—2日又出现新一轮事件。",
+      "content_html": "<p>欧盟委员会、ENISA、Europol欧洲网络犯罪中心、欧盟CSIRT网络及EU-CyCLONe 11月4日发布联合声明称，自10月11日起多个成员国的商业制冷系统及类似设备遭网络安全事件影响，11月1—2日又出现新一轮事件。相关机构正共享信息并协调调查，建议运营方立即降低受影响系统的网络暴露。声明同时提示，网络韧性法严重事件及被主动利用漏洞的报告义务已于9月11日生效，主要产品网络安全要求将于2027年12月11日起适用。</p><p>补充核验来源：<a href=\"https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu\">来源1</a>；<a href=\"https://www.coolingpost.com/world-news/eu-authorities-closely-monitoring-cyber-attacks\">来源2</a></p>",
+      "source_name": "欧盟网络安全局ENISA",
+      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
+      "source_published_date": "2026-11-04",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "欧盟联合响应/持续调查与缓解",
+        "国家/地区": "欧盟/欧洲",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/网络安全/商用制冷"
+      },
+      "event": {
+        "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+        "title": "欧洲多国超市制冷控制系统网络攻击事件",
+        "date": "2026-11-02",
+        "latest_progress": "欧盟委员会、ENISA、Europol欧洲网络犯罪中心、欧盟CSIRT网络及EU-CyCLONe 11月4日发布联合声明称，自10月11日起多个成员国的商业制冷系统及类似设备遭网络安全事件影响，11月1—2日又出现新一轮事件。相关机构正共享信息并协调调查，建议运营方立即降低受影响系统的网络暴露。声明同时提示，网络韧性法严重事件及被主动利用漏洞的报告义务已于9月11日生效，主要产品网络安全要求将于2027年12月11日起适用。",
+        "status": "in_progress",
+        "countries": [
+          "欧盟",
+          "欧洲"
+        ],
+        "entities": [
+          "European Commission",
+          "ENISA",
+          "Europol",
+          "EU CSIRTs Network",
+          "EU-CyCLONe"
+        ],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261108-003",
+      "title": "美国五部门警示工业制冷与冷链控制器遭全球网络攻击",
+      "excerpt": "美国CISA、FBI、卫生与公众服务部、农业部和交通部11月5日联合发布事实清单，确认恶意网络活动正全球性针对工业制冷与冷链监控系统。",
+      "content_html": "<p>美国CISA、FBI、卫生与公众服务部、农业部和交通部11月5日联合发布事实清单，确认恶意网络活动正全球性针对工业制冷与冷链监控系统。攻击者可利用未打补丁、暴露于互联网或配置薄弱的电子温控器和商业制冷控制器，远程改变设定并让设备持续加热或除霜，可能引发库存损失、设备损害或火灾风险。五部门建议立即移除不必要的公网访问、隔离OT（运营技术）网络、更换默认密码、更新固件并设置安全温度阈值和报警。</p><p>补充核验来源：<a href=\"https://www.fbi.gov/video-repository/industrial-refrigeration-and-cold-chain-monitoring-systems.mp4/view\">来源1</a>；<a href=\"https://www.reuters.com/business/retail-consumer/us-warns-ongoing-cyber-threat-industrial-refrigeration-systems-2026-11-05/\">来源2</a></p>",
+      "source_name": "美国FBI/CISA等五部门",
+      "source_url": "https://www.fbi.gov/investigate/cyber/alerts/2026/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+      "source_published_date": "2026-11-05",
+      "event_action": "update",
+      "event": {
+        "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+        "title": "欧洲多国超市制冷控制系统网络攻击事件",
+        "date": "2026-11-02",
+        "latest_progress": "美国CISA、FBI、卫生与公众服务部、农业部和交通部11月5日联合发布事实清单，确认恶意网络活动正全球性针对工业制冷与冷链监控系统。攻击者可利用未打补丁、暴露于互联网或配置薄弱的电子温控器和商业制冷控制器，远程改变设定并让设备持续加热或除霜，可能引发库存损失、设备损害或火灾风险。五部门建议立即移除不必要的公网访问、隔离OT（运营技术）网络、更换默认密码、更新固件并设置安全温度阈值和报警。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "全球",
+          "欧洲"
+        ],
+        "entities": [
+          "CISA",
+          "FBI",
+          "HHS",
+          "USDA",
+          "DOT"
+        ],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261108-004",
+      "title": "德国风机企业ebm-papst以EC风机数据驱动按需除霜，试验节电超49%",
+      "excerpt": "德国风机企业ebm-papst 11月3日发布Defrost on Demand（按需除霜）技术，利用EC风机（电子换向电机风机）的运行数据判断蒸发器结霜程度，并仅在实际需要时触发除霜。",
+      "content_html": "<p>德国风机企业ebm-papst 11月3日发布Defrost on Demand（按需除霜）技术，利用EC风机（电子换向电机风机）的运行数据判断蒸发器结霜程度，并仅在实际需要时触发除霜。公司称，在-18摄氏度深冷应用试验中，每周能耗由7.8千瓦时降至3.4千瓦时，除霜频次由每7小时一次降至每周3—6次，节能潜力超过49%。该技术仍在实验室、现场试验和集成验证阶段，EVCO控制器及NEXAIRA网关是正在测试的集成路径。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/using-ec-fans-to-trigger-defrost-on-demand\">来源1</a></p>",
+      "source_name": "ebm-papst官方",
+      "source_url": "https://www.ebmpapst.com/gb/en/newsroom/news/2026/defrost-on-demand-technology.html",
+      "source_published_date": "2026-11-03",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "技术发布/试点验证",
+        "国家/地区": "德国/全球",
+        "新闻标注": "今日新增/无长期Event",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/制冷零部件/节能技术"
+      }
+    },
+    {
+      "public_id": "gai-20261108-005",
+      "title": "西班牙空调控制企业Airzone加入英国550万英镑CoolDown需求响应项目",
+      "excerpt": "西班牙空调控制企业Airzone加入英国CoolDown项目，与Equiwatt共同为住宅空调提供云端自动需求响应。",
+      "content_html": "<p>西班牙空调控制企业Airzone加入英国CoolDown项目，与Equiwatt共同为住宅空调提供云端自动需求响应。项目由SP Electricity North West和National Grid Electricity Distribution牵头，并获Ofgem战略创新基金支持；公开项目档案列示预算约544.7万英镑、项目期自2025年10月至2028年5月。Airzone Cloud可在电网高峰时段自动调整参与家庭的空调设定，2026年首轮试验已结束，第二轮计划于2027年扩大。</p><p>背景补充：Airzone总部位于西班牙马拉加，开发并制造空调与供暖控制系统。</p><p>补充核验来源：<a href=\"https://smarter.energynetworks.org/projects/10166558/\">来源1</a>；<a href=\"https://www.airzonecontrol.com/gb/en/about/\">来源2</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/uk-news/airzone-joins-cooling-demand-project",
+      "source_published_date": "2026-11-05",
+      "event_action": "create",
+      "event": {
+        "event_key": "uk-cooldown-ac-demand-response-2026",
+        "title": "英国CoolDown空调需求响应项目",
+        "date": "2025-10-01",
+        "latest_progress": "西班牙空调控制企业Airzone加入英国CoolDown项目，与Equiwatt共同为住宅空调提供云端自动需求响应。项目由SP Electricity North West和National Grid Electricity Distribution牵头，并获Ofgem战略创新基金支持；公开项目档案列示预算约544.7万英镑、项目期自2025年10月至2028年5月。Airzone Cloud可在电网高峰时段自动调整参与家庭的空调设定，2026年首轮试验已结束，第二轮计划于2027年扩大。背景补充：Airzone总部位于西班牙马拉加，开发并制造空调与供暖控制系统。",
+        "status": "in_progress",
+        "countries": [
+          "英国",
+          "西班牙"
+        ],
+        "entities": [
+          "Airzone",
+          "Equiwatt",
+          "SP Electricity North West",
+          "National Grid Electricity Distribution",
+          "Ofgem"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261108-006",
+      "title": "美中贸易官员通话聚焦稀土、关键矿产及釜山安排履约",
+      "excerpt": "美国贸易代表Jamieson Greer、财政部长Scott Bessent与中国国务院副总理何立峰11月6日举行视频通话，讨论双边经贸关系及釜山安排的执行。",
+      "content_html": "<p>美国贸易代表Jamieson Greer、财政部长Scott Bessent与中国国务院副总理何立峰11月6日举行视频通话，讨论双边经贸关系及釜山安排的执行。USTR称，美方要求中方就农业采购、稀土和其他关键矿产采取具体行动，并将继续监测既有承诺履行情况。美国财政部称双方重申保持直接、坦诚沟通的重要性。本次通话未宣布新的关税税率、家电税目或生效日期。</p><p>背景补充：稀土和关键矿产可传导至家电电机、电子控制器及上游材料供应。</p><p>补充核验来源：<a href=\"https://home.treasury.gov/news/press-releases/sb0684/\">来源1</a>；<a href=\"https://www.reuters.com/world/asia-pacific/us-urged-beijing-implement-commitments-busan-trade-deal-treasury-says-2026-11-06\">来源2</a></p>",
+      "source_name": "美国贸易代表办公室USTR",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng",
+      "source_published_date": "2026-11-06",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "履约磋商/未宣布新税率",
+        "国家/地区": "美国/中国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/双边磋商/供应链"
+      },
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "美国贸易代表Jamieson Greer、财政部长Scott Bessent与中国国务院副总理何立峰11月6日举行视频通话，讨论双边经贸关系及釜山安排的执行。USTR称，美方要求中方就农业采购、稀土和其他关键矿产采取具体行动，并将继续监测既有承诺履行情况。美国财政部称双方重申保持直接、坦诚沟通的重要性。本次通话未宣布新的关税税率、家电税目或生效日期。背景补充：稀土和关键矿产可传导至家电电机、电子控制器及上游材料供应。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "中国"
+        ],
+        "entities": [
+          "USTR",
+          "美国财政部",
+          "中国国务院"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
