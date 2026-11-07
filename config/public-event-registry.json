@@ -66,6 +66,10 @@
       "event_key": "carrier-intercool-benelux-acquisition-2026",
       "date": "2026-08-18"
     },
+    "Carrier旗下Automated Logic收购Logical Solutions": {
+      "event_key": "carrier-automated-logic-lsi-acquisition-2026",
+      "date": "2026-11-05"
+    },
     "Carrier美国沃思堡商用冷水机组制造中心建设": {
       "event_key": "carrier-fort-worth-chiller-plant-2026",
       "date": "2026-10-22"
@@ -541,6 +545,10 @@
     "英国2026年预算热泵支持与CBAM安排": {
       "event_key": "uk-budget-heatpump-cbam-2026",
       "date": "2026-10-28"
+    },
+    "英国CoolDown空调需求响应项目": {
+      "event_key": "uk-cooldown-ac-demand-response-2026",
+      "date": "2025-10-01"
     },
     "荷兰2029年智能混合热泵住宅标准": {
       "event_key": "netherlands-smart-hybrid-heatpump-standard-2029",
