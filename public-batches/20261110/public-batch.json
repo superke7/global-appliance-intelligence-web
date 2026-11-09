@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261110-0715",
+  "generated_at_bjt": "2026-11-10T07:37:11+08:00",
+  "target_publish_at_bjt": "2026-11-10T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261110-001",
+      "title": "中国延长暂停24%对美加征关税两个月，保留10%税率",
+      "excerpt": "国务院关税税则委员会11月9日公告，自11月10日13:01起继续暂停实施24%的对美加征关税税率两个月，同时保留10%的加征税率。",
+      "content_html": "<p>国务院关税税则委员会11月9日公告，自11月10日13:01起继续暂停实施24%的对美加征关税税率两个月，同时保留10%的加征税率。该措施将原定到期的中美贸易休战安排进一步延长，继续影响美国商品进入中国市场及跨境供应链的关税环境。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/asia-pacific/china-extends-suspension-24-tariff-us-imports-two-months-2026-11-09/\">来源1</a></p>",
+      "source_name": "国务院关税税则委员会",
+      "source_url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm",
+      "source_published_date": "2026-11-09",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "已公告/11月10日13:01起执行",
+        "国家/地区": "中国/美国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/关税/双边贸易"
+      },
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "国务院关税税则委员会11月9日公告，自11月10日13:01起继续暂停实施24%的对美加征关税税率两个月，同时保留10%的加征税率。该措施将原定到期的中美贸易休战安排进一步延长，继续影响美国商品进入中国市场及跨境供应链的关税环境。",
+        "status": "announced",
+        "countries": [
+          "中国",
+          "美国"
+        ],
+        "entities": [
+          "国务院关税税则委员会"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261110-002",
+      "title": "法国正式将700余处超市制冷控制器攻击归因伊朗，拟推动欧盟新制裁",
+      "excerpt": "法国欧洲和外交部11月9日宣布，将10月11日至12日针对法国700余处大型零售场所制冷控制器的网络攻击归因于伊朗伊斯兰革命卫队电子与网络中心关联的Shahid Kaveh网络单位。",
+      "content_html": "<p>法国欧洲和外交部11月9日宣布，将10月11日至12日针对法国700余处大型零售场所制冷控制器的网络攻击归因于伊朗伊斯兰革命卫队电子与网络中心关联的Shahid Kaveh网络单位。法国称，攻击造成重大设备损失、火情以及价值数千万欧元的食品损失。法方将召见伊朗驻法大使，并计划向欧盟伙伴提议，对参与此次攻击及其他恶意网络活动的伊朗实体和个人实施新制裁。</p><p>背景补充：法国C4网络危机协调中心由ANSSI、军方网络司令部及情报和国防机构组成，本次同步发布了技术归因报告。</p><p>补充核验来源：<a href=\"https://cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-009/\">来源1</a>；<a href=\"https://www.coolingpost.com/world-news/france-blames-iran-for-cyber-attacks\">来源2</a></p>",
+      "source_name": "法国欧洲和外交部",
+      "source_url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyber-attaques-visant-la-france",
+      "source_published_date": "2026-11-09",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "官方归因/拟推动欧盟制裁",
+        "国家/地区": "法国/欧盟/伊朗",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/网络安全/制冷控制系统/制裁"
+      },
+      "event": {
+        "event_key": "france-supermarket-refrigeration-cyberattack-2026",
+        "title": "法国超市制冷控制系统网络攻击事件",
+        "date": "2026-10-12",
+        "latest_progress": "法国欧洲和外交部11月9日宣布，将10月11日至12日针对法国700余处大型零售场所制冷控制器的网络攻击归因于伊朗伊斯兰革命卫队电子与网络中心关联的Shahid Kaveh网络单位。法国称，攻击造成重大设备损失、火情以及价值数千万欧元的食品损失。法方将召见伊朗驻法大使，并计划向欧盟伙伴提议，对参与此次攻击及其他恶意网络活动的伊朗实体和个人实施新制裁。背景补充：法国C4网络危机协调中心由ANSSI、军方网络司令部及情报和国防机构组成，本次同步发布了技术归因报告。",
+        "status": "in_progress",
+        "countries": [
+          "法国",
+          "欧盟",
+          "伊朗"
+        ],
+        "entities": [
+          "法国欧洲和外交部",
+          "ANSSI",
+          "Shahid Kaveh"
+        ],
+        "category": "监管与供应链"
+      }
+    },
+    {
+      "public_id": "gai-20261110-003",
+      "title": "英国网络安全公司Lupovis监测到丹佛斯制冷控制器遭276次探测，全球暴露服务遍及99个国家和地区",
+      "excerpt": "英国网络安全公司Lupovis称，其仿真丹佛斯AK-SM制冷控制器在10月20日至30日期间记录到276次登录探测，来自91个不同攻击来源，并在10月26日达到高峰；多数尝试使用公开的出厂默认用户名和密码。",
+      "content_html": "<p>英国网络安全公司Lupovis称，其仿真丹佛斯AK-SM制冷控制器在10月20日至30日期间记录到276次登录探测，来自91个不同攻击来源，并在10月26日达到高峰；多数尝试使用公开的出厂默认用户名和密码。该结果来自诱捕系统，不代表276台真实设备已遭入侵。Forescout的另一项调查识别出99个国家和地区的12,976个公网暴露制冷管理服务观测，对应6,017个不同公网IP地址，其中包括7,075个Copeland/Dixell XWEB服务和4,697个Danfoss StoreView服务。上述数字反映互联网暴露面，并非已被攻陷设备数。</p><p>背景补充：AK-SM和StoreView用于集中管理商超等场所的制冷设备，公网暴露、默认口令及旧固件会放大远程篡改温度和除霜参数的风险。</p><p>补充核验来源：<a href=\"https://www.euronews.com/2026/11/02/why-are-supermarket-fridges-connected-to-the-internet\">来源1</a>；<a href=\"https://industrialcyber.co/industrial-cyber-attacks/forescout-warns-internet-exposed-refrigeration-controls-could-enable-attacks-on-food-supply-chains-and-hospitals/\">来源2</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/security-companies-detect-hacking-attempts",
+      "source_published_date": "2026-11-08",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "攻击前探测与全球暴露面调查",
+        "国家/地区": "英国/欧洲/全球",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/网络安全/制冷控制系统"
+      },
+      "event": {
+        "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+        "title": "欧洲多国超市制冷控制系统网络攻击事件",
+        "date": "2026-11-02",
+        "latest_progress": "英国网络安全公司Lupovis称，其仿真丹佛斯AK-SM制冷控制器在10月20日至30日期间记录到276次登录探测，来自91个不同攻击来源，并在10月26日达到高峰；多数尝试使用公开的出厂默认用户名和密码。该结果来自诱捕系统，不代表276台真实设备已遭入侵。Forescout的另一项调查识别出99个国家和地区的12,976个公网暴露制冷管理服务观测，对应6,017个不同公网IP地址，其中包括7,075个Copeland/Dixell XWEB服务和4,697个Danfoss StoreView服务。上述数字反映互联网暴露面，并非已被攻陷设备数。背景补充：AK-SM和StoreView用于集中管理商超等场所的制冷设备，公网暴露、默认口令及旧固件会放大远程篡改温度和除霜参数的风险。",
+        "status": "in_progress",
+        "countries": [
+          "英国",
+          "欧洲",
+          "全球"
+        ],
+        "entities": [
+          "Lupovis",
+          "Forescout",
+          "Danfoss",
+          "Copeland",
+          "Dixell"
+        ],
+        "category": "监管与供应链"
+      }
+    }
+  ]
+}
