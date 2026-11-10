@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261111-0715",
+  "generated_at_bjt": "2026-11-11T07:32:23+08:00",
+  "target_publish_at_bjt": "2026-11-11T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261111-001",
+      "title": "美国将越南知识产权301调查结论期限延至2027年2月28日",
+      "excerpt": "美国贸易代表办公室在11月10日刊登的《联邦公报》通知中，将针对越南知识产权保护与执法的301调查决定期限延长三个月，最迟于2027年2月28日作出调查结论及是否采取措施的决定。",
+      "content_html": "<p>美国贸易代表办公室在11月10日刊登的《联邦公报》通知中，将针对越南知识产权保护与执法的301调查决定期限延长三个月，最迟于2027年2月28日作出调查结论及是否采取措施的决定。通知称调查涉及复杂问题，需要更多时间；延期自11月3日00:01（美国东部时间）起生效。当前尚未决定采取何种措施，也未公布新增关税税率。越南是家电及零部件的重要制造出口基地，三星等在越制造企业此前反对新增关税。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/asia-pacific/us-extends-vietnam-trade-probe-intellectual-property-by-three-months-2026-11-10\">来源1</a></p>",
+      "source_name": "美国贸易代表办公室USTR",
+      "source_url": "https://www.federalregister.gov/d/2026-22868",
+      "source_published_date": "2026-11-10",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "调查期限延长/2027年2月28日前作出决定",
+        "国家/地区": "美国/越南",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 301/知识产权"
+      },
+      "event": {
+        "event_key": "us-vietnam-trade-enforcement-2026",
+        "title": "美越贸易谈判、越南工厂现场核查及反转运联合执法",
+        "date": "2026-07-16",
+        "latest_progress": "美国贸易代表办公室在11月10日刊登的《联邦公报》通知中，将针对越南知识产权保护与执法的301调查决定期限延长三个月，最迟于2027年2月28日作出调查结论及是否采取措施的决定。通知称调查涉及复杂问题，需要更多时间；延期自11月3日00:01（美国东部时间）起生效。当前尚未决定采取何种措施，也未公布新增关税税率。越南是家电及零部件的重要制造出口基地，三星等在越制造企业此前反对新增关税。",
+        "status": "delayed",
+        "countries": [
+          "美国",
+          "越南"
+        ],
+        "entities": [
+          "美国贸易代表办公室USTR",
+          "越南政府",
+          "Samsung Electronics"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261111-002",
+      "title": "美国将178项对华301关税排除再延长两个月",
+      "excerpt": "美国贸易代表办公室11月10日发布通知，将现有178项对华301附加关税排除措施再延长两个月。",
+      "content_html": "<p>美国贸易代表办公室11月10日发布通知，将现有178项对华301附加关税排除措施再延长两个月。延长期适用于美国东部时间2026年11月10日00:01起报关消费或从仓库提取消费、并在2027年1月9日23:59前完成的相关货物。通知未扩大排除清单；是否覆盖具体家电及零部件须按美国协调关税表排除条目逐项核验。</p><p>补充核验来源：<a href=\"https://www.jetro.go.jp/biznews/2026/11/7476b30e447ff9bf.html\">来源1</a>；<a href=\"https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-technology-transfer/china-section-301-tariff-actions-and-exclusion-process/reinstatement-certain-exclusions-previously-extended\">来源2</a></p>",
+      "source_name": "美国贸易代表办公室USTR",
+      "source_url": "https://www.federalregister.gov/d/2026-22925",
+      "source_published_date": "2026-11-10",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "排除措施延期/2027年1月10日节点",
+        "国家/地区": "美国/中国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 301/关税排除"
+      },
+      "event": {
+        "event_key": "us-china-2018-301-second-four-year-review-2026",
+        "title": "美国2018年对华301关税措施第二次四年法定复审",
+        "date": "2026-10-07",
+        "latest_progress": "美国贸易代表办公室11月10日发布通知，将现有178项对华301附加关税排除措施再延长两个月。延长期适用于美国东部时间2026年11月10日00:01起报关消费或从仓库提取消费、并在2027年1月9日23:59前完成的相关货物。通知未扩大排除清单；是否覆盖具体家电及零部件须按美国协调关税表排除条目逐项核验。",
+        "status": "implemented",
+        "countries": [
+          "美国",
+          "中国"
+        ],
+        "entities": [
+          "美国贸易代表办公室USTR"
+        ],
+        "category": "贸易与政策"
+      }
+    },
+    {
+      "public_id": "gai-20261111-003",
+      "title": "美国继续暂停中国关联船舶港口费至2027年1月10日",
+      "excerpt": "美国贸易代表办公室11月10日发布通知，将针对中国海事、物流和造船业的301行动继续暂停两个月，至2027年1月10日节点。",
+      "content_html": "<p>美国贸易代表办公室11月10日发布通知，将针对中国海事、物流和造船业的301行动继续暂停两个月，至2027年1月10日节点。暂停期自11月9日生效，持续至美国东部时间2027年1月9日23:59；在此期间，适用主体不会产生或被要求缴纳相关海运服务费用。该进展把10月提出的延期方案转为正式措施，直接影响中国关联船舶及中美货运成本预期。</p><p>补充核验来源：<a href=\"https://www.jetro.go.jp/biznews/2026/11/7476b30e447ff9bf.html\">来源1</a>；<a href=\"https://www.ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-targeting-maritime-logistics-and-shipbuilding-sectors-dominance\">来源2</a></p>",
+      "source_name": "美国贸易代表办公室USTR",
+      "source_url": "https://www.federalregister.gov/d/2026-22867",
+      "source_published_date": "2026-11-10",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "继续暂停/2027年1月10日节点",
+        "国家/地区": "美国/中国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 301/海事物流与港口费"
+      },
+      "event": {
+        "event_key": "us-china-maritime-section301-2026",
+        "title": "美国对中国海事物流造船业301措施暂停",
+        "date": "2026-10-23",
+        "latest_progress": "美国贸易代表办公室11月10日发布通知，将针对中国海事、物流和造船业的301行动继续暂停两个月，至2027年1月10日节点。暂停期自11月9日生效，持续至美国东部时间2027年1月9日23:59；在此期间，适用主体不会产生或被要求缴纳相关海运服务费用。该进展把10月提出的延期方案转为正式措施，直接影响中国关联船舶及中美货运成本预期。",
+        "status": "delayed",
+        "countries": [
+          "美国",
+          "中国"
+        ],
+        "entities": [
+          "美国贸易代表办公室USTR",
+          "中国关联海运与造船企业"
+        ],
+        "category": "贸易与政策"
+      }
+    }
+  ]
+}
