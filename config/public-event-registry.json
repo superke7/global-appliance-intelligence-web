@@ -206,6 +206,10 @@
       "event_key": "vanward-egypt-water-heater-plant-2026",
       "date": "2026-01-11"
     },
+    "三星与ABB商业建筑IoT及HVAC一体化合作": {
+      "event_key": "samsung-abb-commercial-building-hvac-iot-2026",
+      "date": "2026-11-11"
+    },
     "三星停止中国大陆家电及电视销售": {
       "event_key": "samsung-china-appliance-sales-exit-2026",
       "date": "2026-05-07"
@@ -233,6 +237,10 @@
     "中美Board of Trade非敏感商品平衡贸易与关税调整机制": {
       "event_key": "us-china-board-of-trade-2026",
       "date": "2026-06-02"
+    },
+    "丹佛斯天津武清绿色制冷剂压缩机实验室二期扩建": {
+      "event_key": "danfoss-wuqing-green-refrigerants-lab-2026",
+      "date": "2026-11-04"
     },
     "丹佛斯家电温控业务出售及斯洛伐克工厂移交": {
       "event_key": "danfoss-frion-appliance-controls-divestiture-2026",
@@ -334,6 +342,10 @@
       "event_key": "sharp-amber-india-ac-oem-2026",
       "date": "2026-03-23"
     },
+    "大金收购德国Ganter并扩展制冷供热服务网络": {
+      "event_key": "daikin-germany-ganter-acquisition-2026",
+      "date": "2026-11-11"
+    },
     "大金美国凤凰城模块化HVAC工厂扩建项目": {
       "event_key": "daikin-us-phoenix-modular-hvac-expansion-2026",
       "date": "2026-10-14"
@@ -409,6 +421,10 @@
     "欧盟CBAM扩围与紧急刹车条款调整": {
       "event_key": "eu-cbam-expansion-2026",
       "date": "2026-09-15"
+    },
+    "欧盟F-gas法规2027年室内单体热泵禁售豁免": {
+      "event_key": "eu-fgas-indoor-heatpump-exemption-2026",
+      "date": "2026-11-11"
     },
     "欧盟—澳大利亚自由贸易协定": {
       "event_key": "eu-australia-fta-2026",
