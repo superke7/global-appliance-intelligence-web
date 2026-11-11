@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261112-0715",
+  "generated_at_bjt": "2026-11-12T07:34:37+08:00",
+  "target_publish_at_bjt": "2026-11-12T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261112-001",
+      "title": "大金收购德国制冷供热服务商Ganter，扩充斯图加特区域服务能力",
+      "excerpt": "大金收购德国制冷供热服务商Ganter，扩充斯图加特区域服务能力",
+      "content_html": "<p>大金应用德国公司11月11日宣布，已收购位于Holzgerlingen（霍尔茨格林根，德国斯图加特附近城市）的Ganter Kälte- und Wärmetechnik GmbH，交易自10月2日起生效。Ganter成立于2000年，拥有27名员工，业务覆盖舒适性空调及工业制冷供热系统的设计、安装、调试、维护和维修。大金表示，收购将增强其德国团队的技术与服务能力，并扩大斯图加特区域覆盖。交易金额未披露。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/daikin-acquires-german-hvacr-company/\">https://www.coolingpost.com/world-news/daikin-acquires-german-hvacr-company/</a></p>",
+      "source_name": "大金应用欧洲/Daikin Applied Europe",
+      "source_url": "https://blog.daikinapplied.eu/de/news-center/daikin-deutschland-team-industrie-fernwaerme",
+      "source_published_date": "2026-11-11",
+      "event_action": "create",
+      "event": {
+        "event_key": "daikin-germany-ganter-acquisition-2026",
+        "title": "大金收购德国Ganter并扩展制冷供热服务网络",
+        "date": "2026-11-11",
+        "latest_progress": "大金应用德国公司11月11日宣布，已收购位于Holzgerlingen（霍尔茨格林根，德国斯图加特附近城市）的Ganter Kälte- und Wärmetechnik GmbH，交易自10月2日起生效。Ganter成立于2000年，拥有27名员工，业务覆盖舒适性空调及工业制冷供热系统的设计、安装、调试、维护和维修。大金表示，收购将增强其德国团队的技术与服务能力，并扩大斯图加特区域覆盖。交易金额未披露。",
+        "status": "implemented",
+        "countries": [
+          "德国",
+          "日本"
+        ],
+        "entities": [
+          "Daikin Applied Germany",
+          "Ganter Kälte- und Wärmetechnik GmbH"
+        ],
+        "category": "投资与合作"
+      },
+      "news_labels": {
+        "事件阶段": "收购已生效/整合推进中",
+        "国家/地区": "德国/日本",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261112-002",
+      "title": "三星与ABB推出商业建筑一体化IoT及HVAC解决方案",
+      "excerpt": "三星与ABB推出商业建筑一体化IoT及HVAC解决方案",
+      "content_html": "<p>三星电子与ABB 11月11日宣布，通过持续扩大的认证系统集成商网络，向商业建筑客户提供一体化解决方案。方案将三星的HVAC、数字显示和家电，与ABB楼宇自动化、HVAC控制和能源管理产品整合；客户可按项目选择ABB Ability BuildingPro Suites或Samsung SmartThings Pro作为管理平台，两平台通过安全的云到云连接交换数据。参与集成商接受双方方案培训，可完成照明、气候、遮阳、门禁、能耗计量、HVAC及显示系统的设计、安装和配置。该发布是双方6月平台整合合作进入商业打包与渠道落地的新进展。</p><p>补充核验来源：<a href=\"https://new.abb.com/news/detail/136442/abb-and-samsung-partner-to-connect-building-intelligence-with-enterprise-iot\">https://new.abb.com/news/detail/136442/abb-and-samsung-partner-to-connect-building-intelligence-with-enterprise-iot</a></p>",
+      "source_name": "Samsung Electronics Newsroom",
+      "source_url": "https://news.samsung.com/ua/abb-and-samsung-simplify-commercial-building-projects-with-one-integrated-iot-solution",
+      "source_published_date": "2026-11-11",
+      "event_action": "create",
+      "event": {
+        "event_key": "samsung-abb-commercial-building-hvac-iot-2026",
+        "title": "三星与ABB商业建筑IoT及HVAC一体化合作",
+        "date": "2026-11-11",
+        "latest_progress": "三星电子与ABB 11月11日宣布，通过持续扩大的认证系统集成商网络，向商业建筑客户提供一体化解决方案。方案将三星的HVAC、数字显示和家电，与ABB楼宇自动化、HVAC控制和能源管理产品整合；客户可按项目选择ABB Ability BuildingPro Suites或Samsung SmartThings Pro作为管理平台，两平台通过安全的云到云连接交换数据。参与集成商接受双方方案培训，可完成照明、气候、遮阳、门禁、能耗计量、HVAC及显示系统的设计、安装和配置。该发布是双方6月平台整合合作进入商业打包与渠道落地的新进展。",
+        "status": "in_progress",
+        "countries": [
+          "韩国",
+          "瑞士",
+          "欧洲",
+          "全球"
+        ],
+        "entities": [
+          "Samsung Electronics",
+          "ABB"
+        ],
+        "category": "投资与合作"
+      },
+      "news_labels": {
+        "事件阶段": "合作商业化/认证集成商网络扩展",
+        "国家/地区": "韩国/瑞士/欧洲/全球",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261112-003",
+      "title": "丹麦制冷部件企业丹佛斯拟扩建天津绿色制冷剂压缩机实验室，新增6000平方米",
+      "excerpt": "丹麦制冷部件企业丹佛斯拟扩建天津绿色制冷剂压缩机实验室，新增6000平方米",
+      "content_html": "<p>丹佛斯11月4日在天津武清园区宣布绿色制冷剂压缩机实验室二期扩建，并与武清区政府签署合作备忘录。项目拟新增6000平方米建筑面积，扩大压缩机研发、测试和应用开发能力，并延伸至控制与热管理、传感解决方案等未来需求。工程计划于2027年第一季度开工，预计2028年上半年投入运营。现有7000平方米实验室覆盖热泵、空调等可持续技术。</p><p>补充核验来源：<a href=\"https://refindustry.com/news/market-news/danfoss-china-expands-r-d-footprint-with-new-low-gwp-refrigerant-lab/\">https://refindustry.com/news/market-news/danfoss-china-expands-r-d-footprint-with-new-low-gwp-refrigerant-lab/</a></p>",
+      "source_name": "Danfoss",
+      "source_url": "https://www.danfoss.com/en/about-danfoss/news/cf/danfoss-marks-30-years-in-china/",
+      "source_published_date": "2026-11-04",
+      "event_action": "create",
+      "event": {
+        "event_key": "danfoss-wuqing-green-refrigerants-lab-2026",
+        "title": "丹佛斯天津武清绿色制冷剂压缩机实验室二期扩建",
+        "date": "2026-11-04",
+        "latest_progress": "丹佛斯11月4日在天津武清园区宣布绿色制冷剂压缩机实验室二期扩建，并与武清区政府签署合作备忘录。项目拟新增6000平方米建筑面积，扩大压缩机研发、测试和应用开发能力，并延伸至控制与热管理、传感解决方案等未来需求。工程计划于2027年第一季度开工，预计2028年上半年投入运营。现有7000平方米实验室覆盖热泵、空调等可持续技术。",
+        "status": "announced",
+        "countries": [
+          "中国",
+          "丹麦"
+        ],
+        "entities": [
+          "Danfoss",
+          "天津市武清区政府"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "合作备忘录签署/计划2027年一季度开工",
+        "国家/地区": "中国/丹麦",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "制造与产能"
+      }
+    },
+    {
+      "public_id": "gai-20261112-004",
+      "title": "欧盟给予两类室内单体热泵一年F-gas禁售豁免",
+      "excerpt": "欧盟给予两类室内单体热泵一年F-gas禁售豁免",
+      "content_html": "<p>欧盟委员会实施条例（EU）2026/2486于11月11日公布，允许两类原本自2027年1月1日起受F-gas法规禁售限制的室内安装热泵，在2027年继续投放欧盟市场：一是额定能力超过20kW且不超过50kW的盐水—水和水—水单体热泵；二是额定能力不超过12kW、采用双风管室外空气供给的空气—水单体热泵系统。适用设备可含GWP（全球变暖潜值）150或以上的含氟温室气体，但须按法规标识。豁免仅适用于2027年1月1日至12月31日。</p><p>补充核验来源：<a href=\"https://www.customsclear.net/en/ai/news/f-gas-ban-exemption-for-2027-indoor-monoblock-heat-pumps-20-50-kw-and-double-du-182l77w184nj\">https://www.customsclear.net/en/ai/news/f-gas-ban-exemption-for-2027-indoor-monoblock-heat-pumps-20-50-kw-and-double-du-182l77w184nj</a></p>",
+      "source_name": "欧盟官方公报／EUR-Lex",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2486",
+      "source_published_date": "2026-11-11",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-fgas-indoor-heatpump-exemption-2026",
+        "title": "欧盟F-gas法规2027年室内单体热泵禁售豁免",
+        "date": "2026-11-11",
+        "latest_progress": "欧盟委员会实施条例（EU）2026/2486于11月11日公布，允许两类原本自2027年1月1日起受F-gas法规禁售限制的室内安装热泵，在2027年继续投放欧盟市场：一是额定能力超过20kW且不超过50kW的盐水—水和水—水单体热泵；二是额定能力不超过12kW、采用双风管室外空气供给的空气—水单体热泵系统。适用设备可含GWP（全球变暖潜值）150或以上的含氟温室气体，但须按法规标识。豁免仅适用于2027年1月1日至12月31日。",
+        "status": "announced",
+        "countries": [
+          "欧盟",
+          "欧洲"
+        ],
+        "entities": [
+          "欧盟委员会"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已公布/2027年限期豁免",
+        "国家/地区": "欧盟/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策"
+      }
+    }
+  ]
+}
