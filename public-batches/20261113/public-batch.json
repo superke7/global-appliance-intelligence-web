@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261113-0715",
+  "generated_at_bjt": "2026-11-13T07:31:49+08:00",
+  "target_publish_at_bjt": "2026-11-13T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261113-001",
+      "title": "特朗普威胁若墨西哥未阻止移民北上，将立即把对墨关税翻倍",
+      "excerpt": "特朗普威胁若墨西哥未阻止移民北上，将立即把对墨关税翻倍",
+      "content_html": "<p>Reuters 11月12日报道，美国总统特朗普公开威胁，如果墨西哥不阻止正在向美国方向移动的移民队伍，将“立即”把对墨西哥关税翻倍。墨西哥总统Sheinbaum回应称，自特朗普重返白宫以来没有移民队伍抵达美墨边境，墨方正向相关人员说明入境美国的困难，并推动部分人员返回原籍国。美墨目前仍在进行贸易谈判。此次表态属于总统公开政策威胁；截至报道发布，白宫和美国贸易代表办公室尚未公布实施文件，受影响税目、现行税率基数、法律依据和生效日期均未明确。</p><p>背景补充：墨西哥是北美家电整机及零部件的重要制造出口基地，若广泛提高对墨关税，可传导至输美家电、零部件及跨境供应链。</p><p>补充核验来源：<a href=\"https://apnews.com/article/d9829fe92a0ce9afecb909cb35a2977d\">https://apnews.com/article/d9829fe92a0ce9afecb909cb35a2977d</a>；<a href=\"https://www.ttnews.com/articles/trump-double-tariffs-mexico\">https://www.ttnews.com/articles/trump-double-tariffs-mexico</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/us/trump-threatens-double-tariffs-mexico-if-it-does-not-halt-migrants-2026-11-12",
+      "source_published_date": "2026-11-12",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-mexico-migration-tariff-threat-2026",
+        "title": "美国因移民问题威胁将对墨西哥关税翻倍",
+        "date": "2026-11-12",
+        "latest_progress": "Reuters 11月12日报道，美国总统特朗普公开威胁，如果墨西哥不阻止正在向美国方向移动的移民队伍，将“立即”把对墨西哥关税翻倍。墨西哥总统Sheinbaum回应称，自特朗普重返白宫以来没有移民队伍抵达美墨边境，墨方正向相关人员说明入境美国的困难，并推动部分人员返回原籍国。美墨目前仍在进行贸易谈判。此次表态属于总统公开政策威胁；截至报道发布，白宫和美国贸易代表办公室尚未公布实施文件，受影响税目、现行税率基数、法律依据和生效日期均未明确。背景补充：墨西哥是北美家电整机及零部件的重要制造出口基地，若广泛提高对墨关税，可传导至输美家电、零部件及跨境供应链。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "墨西哥"
+        ],
+        "entities": [
+          "美国总统",
+          "墨西哥政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已宣布待实施/尚未发布实施文件",
+        "国家/地区": "美国/墨西哥",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/关税/跨境供应链"
+      }
+    }
+  ]
+}
