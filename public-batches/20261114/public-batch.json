@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261114-0715",
+  "generated_at_bjt": "2026-11-14T07:31:00+08:00",
+  "target_publish_at_bjt": "2026-11-14T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261114-001",
+      "title": "墨西哥强化亚洲钢材反转运核查，注销约1100家虚假钢厂登记",
+      "excerpt": "墨西哥强化亚洲钢材反转运核查，注销约1100家虚假钢厂登记",
+      "content_html": "<p>Reuters 11月11日报道，墨西哥经济部负责对外贸易的副部长Luis Rosendo Gutiérrez表示，政府正加强与行业的钢材可追溯措施，防止中国及其他国家钢材借墨西哥贸易优惠转运至美国。墨方已从认可名录中移除约1100家经核查不存在的钢厂登记，其中许多位于亚洲；该措施使来自越南的钢材进口在近几个月下降约80%，来自中国、韩国、印度等第三国的钢铝进口下降约30%，涉及约130亿墨西哥比索。墨西哥当前优先争取美国降低汽车、钢铁和铝的232关税影响，相关减免尚未落地。</p><p>背景补充：钢材是冰箱、洗衣机、厨电和空调的重要上游材料，原产地与可追溯核查加强将提高墨西哥输美家电供应链的材料证明和合规要求。</p><p>补充核验来源：<a href=\"https://www.gob.mx/se/prensa/realiza-la-secretaria-de-economia-inspeccion-y-verificacion-de-empresas-dedicadas-a-la-fabricacion-y-comercializacion-de-productos-de-acero?idiom=es-MX\">https://www.gob.mx/se/prensa/realiza-la-secretaria-de-economia-inspeccion-y-verificacion-de-empresas-dedicadas-a-la-fabricacion-y-comercializacion-de-productos-de-acero?idiom=es-MX</a>；<a href=\"https://enfoqueindustrial.mx/acero-mexicano-prueba-origen-estados-unidos/\">https://enfoqueindustrial.mx/acero-mexicano-prueba-origen-estados-unidos/</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/mexico-says-crackdown-asian-steel-shipments-is-paying-off-us-tariff-talks-2026-11-11",
+      "source_published_date": "2026-11-12",
+      "event_action": "update",
+      "event": {
+        "event_key": "mexico-customs-broker-usmca-2026",
+        "title": "墨西哥海关经纪代理计划、USMCA谈判及共同钢铝外部壁垒",
+        "date": "2026-07-18",
+        "latest_progress": "Reuters 11月11日报道，墨西哥经济部负责对外贸易的副部长Luis Rosendo Gutiérrez表示，政府正加强与行业的钢材可追溯措施，防止中国及其他国家钢材借墨西哥贸易优惠转运至美国。墨方已从认可名录中移除约1100家经核查不存在的钢厂登记，其中许多位于亚洲；该措施使来自越南的钢材进口在近几个月下降约80%，来自中国、韩国、印度等第三国的钢铝进口下降约30%，涉及约130亿墨西哥比索。墨西哥当前优先争取美国降低汽车、钢铁和铝的232关税影响，相关减免尚未落地。背景补充：钢材是冰箱、洗衣机、厨电和空调的重要上游材料，原产地与可追溯核查加强将提高墨西哥输美家电供应链的材料证明和合规要求。",
+        "status": "in_progress",
+        "countries": [
+          "墨西哥",
+          "美国",
+          "亚洲"
+        ],
+        "entities": [
+          "墨西哥经济部"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "执法推进/原产地追溯加强",
+        "国家/地区": "墨西哥/美国/亚洲",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/原产地/反转运/上游材料"
+      }
+    }
+  ]
+}
