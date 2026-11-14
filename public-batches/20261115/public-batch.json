@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261115-0715",
+  "generated_at_bjt": "2026-11-15T07:36:52+08:00",
+  "target_publish_at_bjt": "2026-11-15T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261115-001",
+      "title": "中美贸易理事会举行首次会议，讨论关税及“300亿对300亿”降税安排",
+      "excerpt": "中美贸易理事会举行首次会议，讨论关税及“300亿对300亿”降税安排",
+      "content_html": "<p>中国商务部11月14日通报，中美双方于11月13日通过视频会议举行中美经贸磋商机制项下贸易理事会首次会议。双方围绕落实前期经贸磋商成果，就关税、“300亿对300亿”对等降税安排、农产品贸易及其他关切进行了交流，但未宣布达成新的协议或给出统一实施日期。</p><p>背景补充：双方9月公布的对等降税框架中，美方清单明确覆盖家电、小家电和厨卫用品；本次会议是该机制首次实际运行。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/china/china-us-discuss-tariffs-farm-trade-first-trade-council-meeting-2026-11-14\">https://www.reuters.com/world/china/china-us-discuss-tariffs-farm-trade-first-trade-council-meeting-2026-11-14</a></p>",
+      "source_name": "中国商务部",
+      "source_url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_6d9023bbcdd04810a810ef2059ecad2f.html",
+      "source_published_date": "2026-11-14",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-china-board-of-trade-2026",
+        "title": "中美Board of Trade非敏感商品平衡贸易与关税调整机制",
+        "date": "2026-06-02",
+        "latest_progress": "中国商务部11月14日通报，中美双方于11月13日通过视频会议举行中美经贸磋商机制项下贸易理事会首次会议。双方围绕落实前期经贸磋商成果，就关税、“300亿对300亿”对等降税安排、农产品贸易及其他关切进行了交流，但未宣布达成新的协议或给出统一实施日期。背景补充：双方9月公布的对等降税框架中，美方清单明确覆盖家电、小家电和厨卫用品；本次会议是该机制首次实际运行。",
+        "status": "in_progress",
+        "countries": [
+          "中国",
+          "美国"
+        ],
+        "entities": [
+          "中国商务部",
+          "美国贸易官员"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "首次会议已举行/继续磋商",
+        "国家/地区": "中国/美国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/双边谈判/关税调整/Board of Trade"
+      }
+    },
+    {
+      "public_id": "gai-20261115-002",
+      "title": "美国9月中央空调及空气源热泵出货量同比增长27.3%",
+      "excerpt": "美国9月中央空调及空气源热泵出货量同比增长27.3%",
+      "content_html": "<p>美国空调、供暖与制冷协会（AHRI）11月12日发布的统计显示，2026年9月美国中央空调及空气源热泵合计出货673286台，同比增长27.3%。其中，中央空调出货370855台，同比增长40.9%；空气源热泵出货302431台，同比增长13.8%。今年前9个月两类设备合计出货7063543台，同比增长7.9%；中央空调累计增长9.1%，热泵累计增长6.4%。AHRI说明，该统计汇总自参与统计项目的会员企业。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/us-shipments-of-ac-and-heat-pump-up-27-3/\">https://www.coolingpost.com/world-news/us-shipments-of-ac-and-heat-pump-up-27-3/</a></p>",
+      "source_name": "美国空调、供暖与制冷协会AHRI",
+      "source_url": "https://www.ahrinet.org/sites/default/files/2026-11/September2026StatisticalRelease.pdf",
+      "source_published_date": "2026-11-12",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2026年9月出货数据发布",
+        "国家/地区": "美国",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/出货数据/HVAC"
+      }
+    },
+    {
+      "public_id": "gai-20261115-003",
+      "title": "欧盟2025年HFC供应量下降15%，制冷空调热泵仍为主要应用",
+      "excerpt": "欧盟2025年HFC供应量下降15%，制冷空调热泵仍为主要应用",
+      "content_html": "<p>欧洲环境署（EEA）最新数据表明，按二氧化碳当量计算，2025年欧盟含氟温室气体供应量较2024年下降12%，其中HFC（氢氟碳化物）供应量下降15%；合法投放市场的HFC数量比F-gas法规允许上限低2%。制冷、空调和热泵仍是主要应用，按气体吨数占2025年F-gas应用量70%以上，按二氧化碳当量占40%。EEA注明2025年数据为初步数据，仍待欧盟委员会进一步验证。</p><p>补充核验来源：<a href=\"https://www.eea.europa.eu/en/analysis/indicators/hydrofluorocarbon-phase-down-in-europe/eu-progress-under-the-hydrofluorocarbon/\">https://www.eea.europa.eu/en/analysis/indicators/hydrofluorocarbon-phase-down-in-europe/eu-progress-under-the-hydrofluorocarbon/</a></p>",
+      "source_name": "Cooling Post／欧洲环境署EEA",
+      "source_url": "https://www.coolingpost.com/world-news/european-hfc-phase-out-remains-on-track/",
+      "source_published_date": "2026-11-13",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "2025年度数据发布/初步数据",
+        "国家/地区": "欧盟/欧洲",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "贸易与政策/F-gas/制冷剂供应"
+      }
+    },
+    {
+      "public_id": "gai-20261115-004",
+      "title": "比利时网络安全机构警示丹佛斯制冷控制器存在六项无需认证远程漏洞",
+      "excerpt": "比利时网络安全机构警示丹佛斯制冷控制器存在六项无需认证远程漏洞",
+      "content_html": "<p>比利时网络安全中心（CCB）警示，Danfoss AK-SM800A制冷控制器存在六项可在身份认证前远程利用的漏洞，受影响版本包括5.3.2及更早固件；该机构建议优先移除设备对公共互联网的直接暴露。丹佛斯已发布5.4.0固件，但披露漏洞的荷兰安全公司Midnight Blue表示，根据其检查，该版本并未修复这批已报告漏洞。漏洞技术细节仍处协调披露阶段。</p><p>背景补充：AK-SM800A用于商超等场所的制冷系统管理；欧洲近期已发生多轮联网制冷控制器攻击，本次漏洞披露构成既有事件的新进展。</p><p>补充核验来源：<a href=\"https://ccb.belgium.be/advisories/warning-six-new-danfoss-vulnerabilities-refrigeration-controllers-risk-immediate-action\">https://ccb.belgium.be/advisories/warning-six-new-danfoss-vulnerabilities-refrigeration-controllers-risk-immediate-action</a>；<a href=\"https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a\">https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a</a>；<a href=\"https://www.danfoss.com/en-us/service-and-support/downloads/dcs/adap-kool-software/ak-sm-800a/\">https://www.danfoss.com/en-us/service-and-support/downloads/dcs/adap-kool-software/ak-sm-800a/</a></p>",
+      "source_name": "Cooling Post／比利时网络安全中心CCB",
+      "source_url": "https://www.coolingpost.com/world-news/belgium-warns-of-new-danfoss-controller-vulnerabilities/",
+      "source_published_date": "2026-11-12",
+      "event_action": "update",
+      "event": {
+        "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+        "title": "欧洲多国超市制冷控制系统网络攻击事件",
+        "date": "2026-11-02",
+        "latest_progress": "比利时网络安全中心（CCB）警示，Danfoss AK-SM800A制冷控制器存在六项可在身份认证前远程利用的漏洞，受影响版本包括5.3.2及更早固件；该机构建议优先移除设备对公共互联网的直接暴露。丹佛斯已发布5.4.0固件，但披露漏洞的荷兰安全公司Midnight Blue表示，根据其检查，该版本并未修复这批已报告漏洞。漏洞技术细节仍处协调披露阶段。背景补充：AK-SM800A用于商超等场所的制冷系统管理；欧洲近期已发生多轮联网制冷控制器攻击，本次漏洞披露构成既有事件的新进展。",
+        "status": "in_progress",
+        "countries": [
+          "比利时",
+          "欧洲",
+          "全球"
+        ],
+        "entities": [
+          "比利时网络安全中心CCB",
+          "Danfoss",
+          "Midnight Blue"
+        ],
+        "category": "监管与供应链"
+      },
+      "news_labels": {
+        "事件阶段": "漏洞披露/缓解推进中",
+        "国家/地区": "比利时/欧洲/全球",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/网络安全/制冷控制系统"
+      }
+    },
+    {
+      "public_id": "gai-20261115-005",
+      "title": "美国特种材料企业Solstice拟于2027年试用非PFAS泡沫发泡剂",
+      "excerpt": "美国特种材料企业Solstice拟于2027年试用非PFAS泡沫发泡剂",
+      "content_html": "<p>美国特种材料企业Solstice Advanced Materials 11月9日宣布，新一代泡沫发泡剂候选方案达到研发里程碑，计划于2027年初向选定的全球客户提供样品。公司称该候选方案兼顾隔热性能、不燃性、低GWP（全球变暖潜值）和接近零的ODP（臭氧消耗潜值）；按公司评估，其不属于美国环保署和经济合作与发展组织现行定义下的PFAS（全氟和多氟烷基物质），且不会在大气中形成TFA（三氟乙酸）。公司未披露具体化学组成，相关时间表仍属前瞻计划。</p><p>背景补充：计划中的客户试样将覆盖家电保温、保温板和其他硬质泡沫应用，直接关系冰箱冷柜隔热材料的低GWP替代。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/world-news/solstice-to-trial-non-pfas-blowing-agent/\">https://www.coolingpost.com/world-news/solstice-to-trial-non-pfas-blowing-agent/</a></p>",
+      "source_name": "Solstice Advanced Materials",
+      "source_url": "https://www.solstice.com/us/en/news-events/press-releases/2026/11/solstice-advanced-materials-reaches-key-development-milestone-for-next-generation-foam-blowing-agent",
+      "source_published_date": "2026-11-09",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "研发推进中/计划2027年客户试样",
+        "国家/地区": "美国/全球",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/关键材料/家电保温"
+      }
+    }
+  ]
+}
