@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261116-0715",
+  "generated_at_bjt": "2026-11-16T07:38:14+08:00",
+  "target_publish_at_bjt": "2026-11-16T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261116-001",
+      "title": "加拿大总理称美加贸易协议谈判取得进展，但尚未达成协议",
+      "excerpt": "加拿大总理称美加贸易协议谈判取得进展，但尚未达成协议",
+      "content_html": "<p>加拿大总理Mark Carney 11月14日在马尼拉表示，他出访前与美国总统Donald Trump及美方高级官员进行了长时间、实质性通话，双方正朝双边贸易协议取得进展，但仍未达成协议。Carney同时表示，加拿大不会接受损害本国汽车产业的安排；本次表态未公布新的关税税率、产品清单或生效日期。</p><p>背景补充：美加现有谈判重点包括钢铝、汽车等Section 232关税，其结果可通过北美金属、零部件和整机供应链传导至家电制造。</p><p>补充核验来源：<a href=\"https://www.pm.gc.ca/en/news/speeches/2026/11/14/prime-minister-carney-delivers-remarks-media-during-his-visit-philippines\">https://www.pm.gc.ca/en/news/speeches/2026/11/14/prime-minister-carney-delivers-remarks-media-during-his-visit-philippines</a>；<a href=\"https://www.washingtonpost.com/business/2026/11/14/canada-carney-trump-us-trade-deal-philippines/e1307320-dff5-11f1-912c-4fbb80d73f7f_story.html\">https://www.washingtonpost.com/business/2026/11/14/canada-carney-trump-us-trade-deal-philippines/e1307320-dff5-11f1-912c-4fbb80d73f7f_story.html</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/americas/canada-us-make-progress-trade-deal-carney-says-2026-11-14",
+      "source_published_date": "2026-11-14",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-canada-section232-tariff-talks-2026",
+        "title": "美加钢铁与汽车Section 232关税减让谈判",
+        "date": "2026-10-26",
+        "latest_progress": "加拿大总理Mark Carney 11月14日在马尼拉表示，他出访前与美国总统Donald Trump及美方高级官员进行了长时间、实质性通话，双方正朝双边贸易协议取得进展，但仍未达成协议。Carney同时表示，加拿大不会接受损害本国汽车产业的安排；本次表态未公布新的关税税率、产品清单或生效日期。背景补充：美加现有谈判重点包括钢铝、汽车等Section 232关税，其结果可通过北美金属、零部件和整机供应链传导至家电制造。",
+        "status": "in_progress",
+        "countries": [
+          "加拿大",
+          "美国"
+        ],
+        "entities": [
+          "加拿大总理办公室",
+          "加拿大总理Mark Carney",
+          "美国总统Donald Trump",
+          "美国贸易代表办公室"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "领导人磋商/谈判推进中",
+        "国家/地区": "加拿大/美国",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 232/双边谈判"
+      }
+    },
+    {
+      "public_id": "gai-20261116-002",
+      "title": "全球暖通企业Trane投资100万美元扩大美国HVAC及热泵技能培训",
+      "excerpt": "全球暖通企业Trane投资100万美元扩大美国HVAC及热泵技能培训",
+      "content_html": "<p>全球暖通企业Trane Technologies 11月10日宣布，未来三年向Goodwill Industries International提供100万美元资助，用于扩大Goodwill Clean Tech Accelerator技能培训。资金将支持五家地方Goodwill机构，为近500名学员提供行业认可资质和实操技能；首年项目覆盖南卡罗来纳州Columbia（哥伦比亚）和Greenville（格林维尔）以及明尼苏达州St. Paul（圣保罗），重点增加HVAC及热泵培训能力。</p><p>背景补充：该项目面向暖通和清洁能源技术岗位，涉及设备安装、维护及售后服务所需的人才供给。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/training/trane-pledges-1m-to-skilled-trades-training/\">https://www.coolingpost.com/training/trane-pledges-1m-to-skilled-trades-training/</a></p>",
+      "source_name": "Trane Technologies",
+      "source_url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-and-Goodwill-Industries-International-Team-Up-to-Expand-Pathways-to-Skilled-Trades-and-Clean-Tech-Careers/default.aspx",
+      "source_published_date": "2026-11-10",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "三年期培训投资启动",
+        "国家/地区": "美国",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/HVAC服务能力/人才培训"
+      }
+    },
+    {
+      "public_id": "gai-20261116-003",
+      "title": "美国收紧外国进口商记录人准入，2027年起要求CTPAT验证或指定认证报关行",
+      "excerpt": "美国收紧外国进口商记录人准入，2027年起要求CTPAT验证或指定认证报关行",
+      "content_html": "<p>美国海关与边境保护局（CBP）11月6日发布临时最终规则，自2027年1月5日起，外国进口商记录人（IOR，依法负责进口申报和税费义务的主体）须获得CTPAT（海关—商界反恐伙伴计划）验证，或指定已获CTPAT验证的美国持牌报关行办理申报或担任进口商记录人。美国进口商也须在每票进口申报及汇总申报中声明其资格。规则适用于一般进口商品，包括家电、暖通设备及零部件，并将提高境外企业直接作为美国进口主体时的准入和代理要求。</p><p>补充核验来源：<a href=\"https://content.govdelivery.com/accounts/USDHSCBP/bulletins/431ee7f\">https://content.govdelivery.com/accounts/USDHSCBP/bulletins/431ee7f</a></p>",
+      "source_name": "美国海关与边境保护局CBP",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-06/html/2026-22735.htm",
+      "source_published_date": "2026-11-06",
+      "event_action": "create",
+      "event": {
+        "event_key": "us-foreign-ior-customs-rule-2026",
+        "title": "美国外国进口商记录人CTPAT准入与报关新规",
+        "date": "2026-11-06",
+        "latest_progress": "美国海关与边境保护局（CBP）11月6日发布临时最终规则，自2027年1月5日起，外国进口商记录人（IOR，依法负责进口申报和税费义务的主体）须获得CTPAT（海关—商界反恐伙伴计划）验证，或指定已获CTPAT验证的美国持牌报关行办理申报或担任进口商记录人。美国进口商也须在每票进口申报及汇总申报中声明其资格。规则适用于一般进口商品，包括家电、暖通设备及零部件，并将提高境外企业直接作为美国进口主体时的准入和代理要求。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "全球"
+        ],
+        "entities": [
+          "美国海关与边境保护局CBP",
+          "外国进口商",
+          "美国持牌报关行"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已公布/2027年1月5日待生效",
+        "国家/地区": "美国/全球",
+        "新闻标注": "今日新增/定向兜底/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/海关监管/进口商记录人"
+      }
+    }
+  ]
+}
