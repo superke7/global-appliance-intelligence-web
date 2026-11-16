@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261117-0715",
+  "generated_at_bjt": "2026-11-17T07:38:04+08:00",
+  "target_publish_at_bjt": "2026-11-17T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261117-001",
+      "title": "欧盟对五地冷轧扁钢征收最高27.9%最终反倾销税",
+      "excerpt": "欧盟对五地冷轧扁钢征收最高27.9%最终反倾销税",
+      "content_html": "<p>欧盟委员会11月16日宣布，对原产于印度、日本、台湾、土耳其和越南的部分冷轧扁钢实施最终反倾销税，并于11月17日起适用。税率分别为印度9.5%、日本27.9%、台湾20.7%—27%、土耳其3%—7.8%、越南16%。欧委会表示，调查认定相关产品以倾销价格进入欧盟；该类钢材广泛用于家电、汽车、航空和建筑制造。</p><p>背景补充：冷轧扁钢是冰箱、洗衣机、厨电等产品的重要上游材料，措施将影响欧盟本地采购价格及五地供应商竞争条件。</p><p>补充核验来源：<a href=\"https://policy.trade.ec.europa.eu/news/commission-imposes-anti-dumping-duties-certain-cold-rolled-flat-steel-products-2026-11-16_en\">https://policy.trade.ec.europa.eu/news/commission-imposes-anti-dumping-duties-certain-cold-rolled-flat-steel-products-2026-11-16_en</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/sustainability/climate-energy/european-commission-imposes-anti-dumping-duties-steel-imports-2026-11-16",
+      "source_published_date": "2026-11-16",
+      "event_action": "create",
+      "event": {
+        "event_key": "eu-cold-rolled-steel-ad-2026",
+        "title": "欧盟对印度等五地冷轧扁钢反倾销措施",
+        "date": "2026-11-16",
+        "latest_progress": "欧盟委员会11月16日宣布，对原产于印度、日本、台湾、土耳其和越南的部分冷轧扁钢实施最终反倾销税，并于11月17日起适用。税率分别为印度9.5%、日本27.9%、台湾20.7%—27%、土耳其3%—7.8%、越南16%。欧委会表示，调查认定相关产品以倾销价格进入欧盟；该类钢材广泛用于家电、汽车、航空和建筑制造。背景补充：冷轧扁钢是冰箱、洗衣机、厨电等产品的重要上游材料，措施将影响欧盟本地采购价格及五地供应商竞争条件。",
+        "status": "implemented",
+        "countries": [
+          "欧盟",
+          "印度",
+          "日本",
+          "台湾",
+          "土耳其",
+          "越南"
+        ],
+        "entities": [
+          "欧盟委员会",
+          "Eurofer",
+          "相关钢铁生产商"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已生效/最终反倾销措施",
+        "国家/地区": "欧盟/印度/日本/台湾/土耳其/越南",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/反倾销/上游钢材"
+      }
+    },
+    {
+      "public_id": "gai-20261117-002",
+      "title": "海尔HVAC英国新增Cool Solutions Distribution经销合作",
+      "excerpt": "海尔HVAC英国新增Cool Solutions Distribution经销合作",
+      "content_html": "<p>Haier HVAC UK 11月16日宣布与英国Cool Solutions Distribution（CSD）建立新的经销合作，扩大供暖和制冷产品的市场覆盖。合作初期重点包括AHU（空气处理机组）接口方案、MRV多联机系列及R290（丙烷制冷剂）整体式热泵，覆盖4—16kW住宅应用和26—40kW商用应用。CSD将提供系统设计、选型、现场调试及项目全周期支持。</p><p>背景补充：CSD总部位于英国Leeds（利兹），长期从事空调产品分销和现场技术服务，本次合作扩展海尔在英国住宅及轻商HVAC渠道。</p><p>补充核验来源：<a href=\"https://www.coolingpost.com/uk-news/csd-appointed-haier-distributor/\">https://www.coolingpost.com/uk-news/csd-appointed-haier-distributor/</a></p>",
+      "source_name": "Haier HVAC UK",
+      "source_url": "https://haierhvac.eu/news/haier-hvac-uk-announces-new-distribution-partnership-cool-solutions-distribution-ltd",
+      "source_published_date": "2026-11-16",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "经销合作已启动",
+        "国家/地区": "英国",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/HVAC分销/英国渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261117-003",
+      "title": "LG美国田纳西洗涤电器工厂累计产量突破1000万台",
+      "excerpt": "LG美国田纳西洗涤电器工厂累计产量突破1000万台",
+      "content_html": "<p>LG Electronics 11月16日宣布，其位于美国Tennessee州Clarksville（克拉克斯维尔）的洗涤电器工厂累计产量突破1000万台，距2018年投产不足八年。该厂产品已由滚筒洗衣机扩展至波轮洗衣机、干衣机及WashTower洗烘塔；LG称累计投资约5亿美元。工厂建筑面积约100万平方英尺，员工超过900人，是LG北美洗涤业务的主要制造基地。</p><p>背景补充：这一里程碑反映LG持续扩大美国本地洗涤产品组合及制造投入，但公司本次未宣布新的单独扩产计划。</p><p>补充核验来源：<a href=\"https://en.etnews.com/20261116200009\">https://en.etnews.com/20261116200009</a></p>",
+      "source_name": "LG Electronics",
+      "source_url": "https://www.lg.com/us/newsroom/home-appliance/lg-electronics-tennessee-plant-produces-10-millionth-laundry-appliance",
+      "source_published_date": "2026-11-16",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "累计产量数据发布",
+        "国家/地区": "美国",
+        "新闻标注": "今日新增/定向兜底/独立新闻",
+        "影响程度": "中",
+        "事件分类": "制造与产能/累计产量/美国本地制造"
+      }
+    }
+  ]
+}
