@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261118-0715",
+  "generated_at_bjt": "2026-11-18T07:35:28+08:00",
+  "target_publish_at_bjt": "2026-11-18T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261118-001",
+      "title": "美泰互惠贸易谈判取得实质性结论，协议进入签署与生效准备",
+      "excerpt": "美泰互惠贸易谈判取得实质性结论，协议进入签署与生效准备",
+      "content_html": "<p>美国与泰国11月17日在Manila（马尼拉，菲律宾首都）签署联合声明，确认两国互惠贸易协议（ART）谈判已取得实质性结论。两国将启动各自内部程序，准备协议正式签署和生效。Reuters报道，美国总统特朗普称，协议完成后泰国将取消美国出口商品关税并削减部分非关税壁垒；目前协议尚未正式完成，美方也未在本次声明中公布泰国输美商品的新税率。</p><p>背景补充：泰国是冰箱、空调等家电的重要制造和出口基地，后续正式条款将影响当地出口和供应链安排。</p><p>补充核验来源：<a href=\"https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/\">https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/</a>；<a href=\"https://www.thaigov.go.th/th/news/171308\">https://www.thaigov.go.th/th/news/171308</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/trump-says-us-trade-deal-with-thailand-be-signed-soon-2026-11-17",
+      "source_published_date": "2026-11-17",
+      "event_action": "update",
+      "event": {
+        "event_key": "thailand-us-reciprocal-trade-agreement-2026",
+        "title": "美泰对等贸易协定谈判与签署",
+        "date": "2026-10-07",
+        "latest_progress": "美国与泰国11月17日在Manila（马尼拉，菲律宾首都）签署联合声明，确认两国互惠贸易协议（ART）谈判已取得实质性结论。两国将启动各自内部程序，准备协议正式签署和生效。Reuters报道，美国总统特朗普称，协议完成后泰国将取消美国出口商品关税并削减部分非关税壁垒；目前协议尚未正式完成，美方也未在本次声明中公布泰国输美商品的新税率。背景补充：泰国是冰箱、空调等家电的重要制造和出口基地，后续正式条款将影响当地出口和供应链安排。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "泰国",
+          "东南亚"
+        ],
+        "entities": [
+          "美国政府",
+          "泰国政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "实质性协议达成/待完成技术细节及正式缔结程序",
+        "国家/地区": "美国/泰国/东南亚",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/双边贸易协定/东南亚制造基地"
+      }
+    },
+    {
+      "public_id": "gai-20261118-002",
+      "title": "中加扩大关税减免，加拿大将部分中国钢铝产品豁免延长至2028年底",
+      "excerpt": "中加扩大关税减免，加拿大将部分中国钢铝产品豁免延长至2028年底",
+      "content_html": "<p>加拿大总理办公室11月17日宣布，中加将延长并扩大处理双边经贸问题的初步联合安排。加拿大把部分中国钢铝产品现有关税减免延长至2028年12月31日，并把减免范围扩大至32个加拿大供应不足或无法供应的税目，其中钢材23项、铝材9项。作为交换，中国将于2027年1月1日至2028年12月31日暂停对约4亿加元加拿大出口商品适用反歧视关税。</p><p>背景补充：钢材和铝材是冰箱、洗衣机、空调及厨电的重要制造投入品，减免范围扩大将影响加拿大市场的材料采购与供应竞争。</p><p>补充核验来源：<a href=\"https://www.pm.gc.ca/en/news/news-releases/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china\">https://www.pm.gc.ca/en/news/news-releases/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china</a>；<a href=\"https://www.pm.gc.ca/en/news/backgrounders/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china\">https://www.pm.gc.ca/en/news/backgrounders/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china</a></p>",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8",
+      "source_published_date": "2026-11-17",
+      "event_action": "create",
+      "event": {
+        "event_key": "canada-china-steel-aluminum-tariff-relief-2026",
+        "title": "中加钢铝关税减免与双边贸易安排",
+        "date": "2026-11-17",
+        "latest_progress": "加拿大总理办公室11月17日宣布，中加将延长并扩大处理双边经贸问题的初步联合安排。加拿大把部分中国钢铝产品现有关税减免延长至2028年12月31日，并把减免范围扩大至32个加拿大供应不足或无法供应的税目，其中钢材23项、铝材9项。作为交换，中国将于2027年1月1日至2028年12月31日暂停对约4亿加元加拿大出口商品适用反歧视关税。背景补充：钢材和铝材是冰箱、洗衣机、空调及厨电的重要制造投入品，减免范围扩大将影响加拿大市场的材料采购与供应竞争。",
+        "status": "announced",
+        "countries": [
+          "中国",
+          "加拿大"
+        ],
+        "entities": [
+          "中国政府",
+          "加拿大政府"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "已宣布待实施/2027年1月起执行",
+        "国家/地区": "中国/加拿大",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "贸易与政策/关税减免/上游钢铝材料"
+      }
+    }
+  ]
+}
