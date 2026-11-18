@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261119-0715",
+  "generated_at_bjt": "2026-11-19T07:35:00+08:00",
+  "target_publish_at_bjt": "2026-11-19T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261119-001",
+      "title": "瑞典制冷集团Beijer Ref重组欧洲分销业务，荷兰三公司2027年合并",
+      "excerpt": "瑞典制冷集团Beijer Ref重组欧洲分销业务，荷兰三公司2027年合并",
+      "content_html": "<p>Beijer Ref计划自2027年1月1日起重组欧洲分销组织。荷兰Celsis、Coolmark和ECR Nederland将依法合并为Beijer Ref Nederland BV，商业系统、产品组合和中央网店随后分阶段整合；德国东芝空调分销业务将更名为TClimateSystems GmbH，批发业务转入姐妹公司；丹麦三项业务则集中至Horsens（霍森斯，丹麦日德兰半岛东部城市）新址。</p><p>背景补充：Beijer Ref是瑞典制冷与空调分销集团，本次调整同时涉及法律实体、品牌、系统和物流中心，属于欧洲渠道网络的结构性重组。</p><p>补充核验来源：<a href=\"https://www.beijerref.nl/samen/\">https://www.beijerref.nl/samen/</a>；<a href=\"https://www.installatie.nl/nieuws/koeltechnische-distributeurs-fuseren-tot-beijer-ref/\">https://www.installatie.nl/nieuws/koeltechnische-distributeurs-fuseren-tot-beijer-ref/</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/beijer-ref-plans-european-structural-changes",
+      "source_published_date": "2026-11-18",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "已宣布待实施/2027年起分阶段整合",
+        "国家/地区": "瑞典/荷兰/德国/丹麦/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/组织重组/欧洲分销"
+      },
+      "event": {
+        "event_key": "beijer-ref-europe-distribution-restructuring-2026",
+        "title": "Beijer Ref欧洲分销组织重组与荷德丹渠道整合",
+        "date": "2026-11-18",
+        "latest_progress": "Beijer Ref计划自2027年1月1日起重组欧洲分销组织。荷兰Celsis、Coolmark和ECR Nederland将依法合并为Beijer Ref Nederland BV，商业系统、产品组合和中央网店随后分阶段整合；德国东芝空调分销业务将更名为TClimateSystems GmbH，批发业务转入姐妹公司；丹麦三项业务则集中至Horsens（霍森斯，丹麦日德兰半岛东部城市）新址。背景补充：Beijer Ref是瑞典制冷与空调分销集团，本次调整同时涉及法律实体、品牌、系统和物流中心，属于欧洲渠道网络的结构性重组。",
+        "status": "announced",
+        "countries": [
+          "瑞典",
+          "荷兰",
+          "德国",
+          "丹麦",
+          "欧洲"
+        ],
+        "entities": [
+          "Beijer Ref",
+          "Celsis",
+          "Coolmark",
+          "ECR Nederland",
+          "TClimateSystems"
+        ],
+        "category": "市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261119-002",
+      "title": "法国物流集团CEVA在意大利启用5万平方米中心，支持大金HVAC业务",
+      "excerpt": "法国物流集团CEVA在意大利启用5万平方米中心，支持大金HVAC业务",
+      "content_html": "<p>CEVA Logistics在Castel San Giovanni（卡斯泰尔圣焦万尼，意大利北部皮亚琴察省城镇）启用5万平方米物流中心，为大金在意大利的空调产品仓储和配送提供新增容量。CEVA官方公告称，该中心位于意大利重要物流走廊，将支持大金未来业务增长；项目延续双方自2007年以来的意大利物流合作，并衔接此前在西班牙启用的2.7万平方米仓库。</p><p>背景补充：CEVA是法国达飞集团旗下第三方物流企业，新中心将直接扩大大金欧洲HVAC供应链的仓储与全国配送能力。</p><p>补充核验来源：<a href=\"https://www.cevalogistics.com/en/news-and-media/newsroom/press-release/ceva-logistics-hub-castel-san-giovanni\">https://www.cevalogistics.com/en/news-and-media/newsroom/press-release/ceva-logistics-hub-castel-san-giovanni</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/ceva-expands-italian-logistics-for-daikin",
+      "source_published_date": "2026-11-17",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "已启用/运营能力扩张",
+        "国家/地区": "意大利/法国/日本/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/物流能力/欧洲HVAC"
+      },
+      "event": {
+        "event_key": "daikin-ceva-italy-logistics-hub-2026",
+        "title": "大金与CEVA意大利HVAC物流中心启用",
+        "date": "2026-11-17",
+        "latest_progress": "CEVA Logistics在Castel San Giovanni（卡斯泰尔圣焦万尼，意大利北部皮亚琴察省城镇）启用5万平方米物流中心，为大金在意大利的空调产品仓储和配送提供新增容量。CEVA官方公告称，该中心位于意大利重要物流走廊，将支持大金未来业务增长；项目延续双方自2007年以来的意大利物流合作，并衔接此前在西班牙启用的2.7万平方米仓库。背景补充：CEVA是法国达飞集团旗下第三方物流企业，新中心将直接扩大大金欧洲HVAC供应链的仓储与全国配送能力。",
+        "status": "implemented",
+        "countries": [
+          "意大利",
+          "法国",
+          "日本",
+          "欧洲"
+        ],
+        "entities": [
+          "CEVA Logistics",
+          "Daikin"
+        ],
+        "category": "市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261119-003",
+      "title": "英国HVAC分销商TF Solutions将进入爱尔兰，销售三菱电机、日立和三星产品",
+      "excerpt": "英国HVAC分销商TF Solutions将进入爱尔兰，销售三菱电机、日立和三星产品",
+      "content_html": "<p>TF Solutions计划于2027年1月在Dublin（都柏林，爱尔兰首都）开设首个爱尔兰分支，标志其正式进入当地空调与制冷分销市场。新址面积约3357平方米，与同属Travis Perkins集团的BSS Ireland共址，将经营三菱电机、日立和三星的空调产品；公司已任命Eoin Browne负责新分支销售。</p><p>背景补充：TF Solutions是英国空调与制冷分销商，此次市场进入将为多家核心HVAC品牌新增爱尔兰本地库存与渠道触点。</p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/tf-solutions-expands-into-ireland",
+      "source_published_date": "2026-11-17",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "已宣布待开业/计划2027年1月启用",
+        "国家/地区": "爱尔兰/英国",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中",
+        "事件分类": "市场与渠道/市场进入/HVAC分销"
+      },
+      "event": {
+        "event_key": "tf-solutions-ireland-hvac-distribution-2026",
+        "title": "TF Solutions进入爱尔兰HVAC分销市场",
+        "date": "2026-11-17",
+        "latest_progress": "TF Solutions计划于2027年1月在Dublin（都柏林，爱尔兰首都）开设首个爱尔兰分支，标志其正式进入当地空调与制冷分销市场。新址面积约3357平方米，与同属Travis Perkins集团的BSS Ireland共址，将经营三菱电机、日立和三星的空调产品；公司已任命Eoin Browne负责新分支销售。背景补充：TF Solutions是英国空调与制冷分销商，此次市场进入将为多家核心HVAC品牌新增爱尔兰本地库存与渠道触点。",
+        "status": "announced",
+        "countries": [
+          "爱尔兰",
+          "英国"
+        ],
+        "entities": [
+          "TF Solutions",
+          "BSS Ireland",
+          "Mitsubishi Electric",
+          "Hitachi",
+          "Samsung"
+        ],
+        "category": "市场与渠道"
+      }
+    },
+    {
+      "public_id": "gai-20261119-004",
+      "title": "瑞典HVAC集团Swegon推出CO₂制冷剂商用屋顶式热泵平台",
+      "excerpt": "瑞典HVAC集团Swegon推出CO₂制冷剂商用屋顶式热泵平台",
+      "content_html": "<p>Swegon推出Lambda Zero一体式空气—空气屋顶热泵平台，采用CO₂（R744，二氧化碳天然制冷剂）和重新设计的制冷回路，并配置压力控制。该平台提供五种配置，制热制冷能力覆盖20—70kW，名义风量为4000—11000立方米/小时，面向大型室内空间的商用暖通应用。</p><p>背景补充：屋顶式机组将制热、制冷和送风功能集成为一体；采用R744意味着Swegon在商用HVAC平台上引入低全球变暖潜值的天然制冷剂路线。</p><p>补充核验来源：<a href=\"https://www.swegon.com/products/cooling-and-heating-production/packaged-rooftops/lambda-zero/\">https://www.swegon.com/products/cooling-and-heating-production/packaged-rooftops/lambda-zero/</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/products/swegon-takes-new-approach-with-co2-rooftop",
+      "source_published_date": "2026-11-18",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "产品平台发布",
+        "国家/地区": "瑞典/意大利/欧洲",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/产品平台/商用HVAC"
+      }
+    }
+  ]
+}
