@@ -114,6 +114,10 @@
       "event_key": "enva-uk-fridge-recycling-expansion-2026",
       "date": "2026-09-22"
     },
+    "Francks收购爱尔兰Brian A. Flynn制冷与HVAC业务": {
+      "event_key": "francks-brian-a-flynn-acquisition-2026",
+      "date": "2026-11-19"
+    },
     "GE Appliances路易斯维尔洗涤产能回迁与Appliance Park重构": {
       "event_key": "ge-appliances-louisville-laundry-reshoring-2026",
       "date": "2026-09-02"
@@ -398,6 +402,10 @@
       "event_key": "ustr-usa-forcedlabor301-2026",
       "date": "2026-07-24"
     },
+    "德国R134a制冷剂非法贸易查扣与执法案": {
+      "event_key": "germany-illegal-r134a-seizure-2026",
+      "date": "2026-11-19"
+    },
     "惠而浦美国Perrysburg洗涤部件工厂": {
       "event_key": "whirlpool-perrysburg-laundry-components-plant-2026",
       "date": "2026-04-10"
@@ -485,6 +493,10 @@
     "海信印度Sri City空调代工基地投产与多品类扩张": {
       "event_key": "hisense-india-sri-city-oem-plant-2026",
       "date": "2026-03-30"
+    },
+    "海尔匈牙利中东欧HVAC总部与热泵制造项目": {
+      "event_key": "haier-hungary-cee-hvac-hq-heatpump-2026",
+      "date": "2026-11-19"
     },
     "海尔埃及冰箱冷柜二期工厂建设与投产": {
       "event_key": "haier-egypt-refrigeration-phase2-2026",
