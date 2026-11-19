@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261120-0715",
+  "generated_at_bjt": "2026-11-20T07:35:00+08:00",
+  "target_publish_at_bjt": "2026-11-20T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261120-001",
+      "title": "海尔将匈牙利公司升级为中东欧HVAC总部，2027年生产空气源水热泵",
+      "excerpt": "海尔将匈牙利公司升级为中东欧HVAC总部，2027年生产空气源水热泵",
+      "content_html": "<p>海尔将此前收购的Klíma Kft更名为Haier HVAC Solutions Hungary Kft，并将其升级为中东欧区域总部。公司已迁入Budapest（布达佩斯，匈牙利首都）7500平方米新址，其中包括1120平方米办公区、3510平方米仓库、培训中心和展厅；匈牙利还将成为面向周边国家的出口枢纽。海尔计划自2027年起在匈牙利生产空气源水热泵。</p><p>背景补充：Klíma Kft于2025年加入海尔。本次调整把原有本地安装和维护业务进一步转向产品解决方案、区域分销及本地制造，是海尔中东欧HVAC布局的实质升级。</p><p>补充核验来源：<a href=\"https://haierhvac.eu/news/press-release/klima-kft-announces-name-change-haier-hvac-solutions-hungary-kft-aligning-group\">https://haierhvac.eu/news/press-release/klima-kft-announces-name-change-haier-hvac-solutions-hungary-kft-aligning-group</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/hungary-to-be-haiers-cee-headquarters",
+      "source_published_date": "2026-11-19",
+      "event_action": "create",
+      "event": {
+        "event_key": "haier-hungary-cee-hvac-hq-heatpump-2026",
+        "title": "海尔匈牙利中东欧HVAC总部与热泵制造项目",
+        "date": "2026-11-19",
+        "status": "in_progress",
+        "countries": [
+          "匈牙利",
+          "中国",
+          "中东欧"
+        ],
+        "entities": [
+          "Haier",
+          "Haier HVAC Solutions Hungary Kft",
+          "Klíma Kft"
+        ],
+        "category": "制造与产能",
+        "latest_progress": "海尔将此前收购的Klíma Kft更名为Haier HVAC Solutions Hungary Kft，并将其升级为中东欧区域总部。公司已迁入Budapest（布达佩斯，匈牙利首都）7500平方米新址，其中包括1120平方米办公区、3510平方米仓库、培训中心和展厅；匈牙利还将成为面向周边国家的出口枢纽。海尔计划自2027年起在匈牙利生产空气源水热泵。背景补充：Klíma Kft于2025年加入海尔。本次调整把原有本地安装和维护业务进一步转向产品解决方案、区域分销及本地制造，是海尔中东欧HVAC布局的实质升级。"
+      }
+    },
+    {
+      "public_id": "gai-20261120-002",
+      "title": "德国查获14吨中国来源R134a制冷剂，启动海关及F-gas违规调查",
+      "excerpt": "德国查获14吨中国来源R134a制冷剂，启动海关及F-gas违规调查",
+      "content_html": "<p>德国Baden-Württemberg（巴登-符腾堡州）市场监管部门与斯图加特海关调查机构查获14吨涉嫌非法流通的R134a制冷剂。官方称，该批货物来自中国，单据显示原计划经欧盟转运至第三国，但车辆最终停在德国一家企业场所；相关经营者正因涉嫌违反海关法和欧盟F-gas法规接受调查。</p><p>背景补充：R134a常用于制冷和空调系统，其全球变暖潜值约为二氧化碳的1430倍。欧盟通过配额压减含氟制冷剂供应，非法进口会扰乱合规制冷剂市场和设备供应链。</p><p>补充核验来源：<a href=\"https://um.baden-wuerttemberg.de/de/presse-service/presse/pressemitteilung/pid/illegaler-handel-mit-fluorierten-treibhausgasen-im-landkreis-esslingen-gestoppt\">https://um.baden-wuerttemberg.de/de/presse-service/presse/pressemitteilung/pid/illegaler-handel-mit-fluorierten-treibhausgasen-im-landkreis-esslingen-gestoppt</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/fourteen-tons-of-r134a-seized-in-germany",
+      "source_published_date": "2026-11-19",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "执法调查中",
+        "国家/地区": "德国/中国/欧盟/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "中高",
+        "事件分类": "监管与供应链/F-gas执法/制冷剂贸易"
+      },
+      "event": {
+        "event_key": "germany-illegal-r134a-seizure-2026",
+        "title": "德国R134a制冷剂非法贸易查扣与执法案",
+        "date": "2026-11-19",
+        "status": "in_progress",
+        "countries": [
+          "德国",
+          "中国",
+          "欧盟",
+          "欧洲"
+        ],
+        "entities": [
+          "德国巴登-符腾堡州市场监管部门",
+          "斯图加特海关调查机构"
+        ],
+        "category": "监管与供应链",
+        "latest_progress": "德国Baden-Württemberg（巴登-符腾堡州）市场监管部门与斯图加特海关调查机构查获14吨涉嫌非法流通的R134a制冷剂。官方称，该批货物来自中国，单据显示原计划经欧盟转运至第三国，但车辆最终停在德国一家企业场所；相关经营者正因涉嫌违反海关法和欧盟F-gas法规接受调查。背景补充：R134a常用于制冷和空调系统，其全球变暖潜值约为二氧化碳的1430倍。欧盟通过配额压减含氟制冷剂供应，非法进口会扰乱合规制冷剂市场和设备供应链。"
+      }
+    },
+    {
+      "public_id": "gai-20261120-003",
+      "title": "瑞典制冷服务集团Francks签约收购爱尔兰Brian A. Flynn",
+      "excerpt": "瑞典制冷服务集团Francks签约收购爱尔兰Brian A. Flynn",
+      "content_html": "<p>瑞典商业及工业制冷服务集团Francks Kylindustri已签署协议，拟收购爱尔兰Brian A. Flynn Limited。后者总部位于County Limerick（利默里克郡，爱尔兰西部），提供工业制冷和HVAC系统的设计、安装、调试、验证及维护服务，客户覆盖生物技术、制药、生命科学、食品饮料和制造业。交易完成仍需获得爱尔兰竞争与消费者保护委员会（CCPC）批准。</p><p>背景补充：Francks表示，该交易将为其进入爱尔兰市场建立业务平台，并扩展集团在高监管行业的制冷工程和服务能力。</p><p>补充核验来源：<a href=\"https://francksref.com/om-francks/pressmeddelanden/?mfn_post=francks-kylindustri-signs-agreement-to-acquire-brian-a-flynn-in-ireland\">https://francksref.com/om-francks/pressmeddelanden/?mfn_post=francks-kylindustri-signs-agreement-to-acquire-brian-a-flynn-in-ireland</a>；<a href=\"https://www.ccpc.ie/enforcement-and-regulation/mergers/find-a-merger-case/details/wendel-group-brian-a-flynn-limited\">https://www.ccpc.ie/enforcement-and-regulation/mergers/find-a-merger-case/details/wendel-group-brian-a-flynn-limited</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/swedish-group-buys-irish-contractor-brian-a-flynn",
+      "source_published_date": "2026-11-19",
+      "event_action": "create",
+      "event": {
+        "event_key": "francks-brian-a-flynn-acquisition-2026",
+        "title": "Francks收购爱尔兰Brian A. Flynn制冷与HVAC业务",
+        "date": "2026-11-19",
+        "status": "announced",
+        "countries": [
+          "瑞典",
+          "爱尔兰",
+          "欧洲"
+        ],
+        "entities": [
+          "Francks Kylindustri",
+          "Brian A. Flynn Limited",
+          "Wendel Participations SE",
+          "CCPC"
+        ],
+        "category": "投资与合作",
+        "latest_progress": "瑞典商业及工业制冷服务集团Francks Kylindustri已签署协议，拟收购爱尔兰Brian A. Flynn Limited。后者总部位于County Limerick（利默里克郡，爱尔兰西部），提供工业制冷和HVAC系统的设计、安装、调试、验证及维护服务，客户覆盖生物技术、制药、生命科学、食品饮料和制造业。交易完成仍需获得爱尔兰竞争与消费者保护委员会（CCPC）批准。背景补充：Francks表示，该交易将为其进入爱尔兰市场建立业务平台，并扩展集团在高监管行业的制冷工程和服务能力。"
+      }
+    },
+    {
+      "public_id": "gai-20261120-004",
+      "title": "墨西哥称力争12月与美国敲定贸易协议，汽车及钢铝降税谈判推进",
+      "excerpt": "墨西哥称力争12月与美国敲定贸易协议，汽车及钢铝降税谈判推进",
+      "content_html": "<p>墨西哥总统Claudia Sheinbaum表示，希望在12月迈阿密G20峰会与美国总统下次会面时敲定新的贸易协议。她称，美墨在汽车、钢铁和铝产品关税减免谈判方面已经取得进展，但未披露具体降税幅度或执行安排，双方目前尚未达成协议。</p><p>背景补充：美墨制造供应链高度一体化，钢铝、汽车及USMCA安排会影响北美家电制造的原材料、零部件和跨境物流成本。本条合并11月18日领导人会晤后“谈判进展较大”的同一阶段报道。</p><p>补充核验来源：<a href=\"https://www.reuters.com/world/americas/mexicos-sheinbaum-says-she-had-very-good-meeting-with-trump-2026-11-18\">https://www.reuters.com/world/americas/mexicos-sheinbaum-says-she-had-very-good-meeting-with-trump-2026-11-18</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/mexicos-sheinbaum-hopes-seal-trade-deal-next-meeting-with-trump-2026-11-19",
+      "source_published_date": "2026-11-20",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "谈判推进中/拟12月再会谈",
+        "国家/地区": "墨西哥/美国/北美",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/美墨贸易谈判/钢铝与汽车关税"
+      },
+      "event": {
+        "event_key": "mexico-customs-broker-usmca-2026",
+        "title": "墨西哥海关经纪代理计划、USMCA谈判及共同钢铝外部壁垒",
+        "date": "2026-07-18",
+        "status": "in_progress",
+        "countries": [
+          "墨西哥",
+          "美国",
+          "北美"
+        ],
+        "entities": [
+          "墨西哥政府",
+          "美国政府"
+        ],
+        "category": "贸易与政策",
+        "latest_progress": "墨西哥总统Claudia Sheinbaum表示，希望在12月迈阿密G20峰会与美国总统下次会面时敲定新的贸易协议。她称，美墨在汽车、钢铁和铝产品关税减免谈判方面已经取得进展，但未披露具体降税幅度或执行安排，双方目前尚未达成协议。背景补充：美墨制造供应链高度一体化，钢铝、汽车及USMCA安排会影响北美家电制造的原材料、零部件和跨境物流成本。本条合并11月18日领导人会晤后“谈判进展较大”的同一阶段报道。"
+      }
+    },
+    {
+      "public_id": "gai-20261120-005",
+      "title": "美加钢铁与汽车关税减免谈判进展有限，2027年税率面临升至50%",
+      "excerpt": "美加钢铁与汽车关税减免谈判进展有限，2027年税率面临升至50%",
+      "content_html": "<p>Reuters援引两名参加加拿大政府咨询简报的人士称，加拿大仍寻求与美国达成临时关税减免安排，但美方立场变化有限，自8月谈判中断以来进展不大。加拿大负责美加贸易的部长Dominic LeBlanc办公室确认其已向咨询委员会通报谈判情况，但未确认简报中的具体细节。报道指出，美国对部分加拿大钢铁、汽车和木材的关税可能自2027年1月由25%升至50%。相关税率上调若按计划实施，将增加北美跨境钢材及制造供应链成本；目前双方尚未达成减免协议。</p><p>背景补充：钢材是冰箱、洗衣机、空调及厨电的重要制造投入品，美加Section 232关税谈判直接关系北美家电材料采购和跨境生产安排。</p><p>补充核验来源：<a href=\"https://www.tradecommissioner.gc.ca/en/market-industry-info/search-country-region/country/canada-united-states-export/us-tariffs/answers-common-questions-tariffs.html\">https://www.tradecommissioner.gc.ca/en/market-industry-info/search-country-region/country/canada-united-states-export/us-tariffs/answers-common-questions-tariffs.html</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/markets/commodities/canada-sees-little-us-movement-tariff-relief-sources-say-2026-11-19",
+      "source_published_date": "2026-11-20",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "谈判受阻/税率上调待实施",
+        "国家/地区": "加拿大/美国/北美",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 232/钢铁与汽车关税"
+      },
+      "event": {
+        "event_key": "us-canada-section232-tariff-talks-2026",
+        "title": "美加钢铁与汽车Section 232关税减让谈判",
+        "date": "2026-10-26",
+        "status": "in_progress",
+        "countries": [
+          "加拿大",
+          "美国",
+          "北美"
+        ],
+        "entities": [
+          "加拿大政府",
+          "美国商务部",
+          "美国贸易代表办公室"
+        ],
+        "category": "贸易与政策",
+        "latest_progress": "Reuters援引两名参加加拿大政府咨询简报的人士称，加拿大仍寻求与美国达成临时关税减免安排，但美方立场变化有限，自8月谈判中断以来进展不大。加拿大负责美加贸易的部长Dominic LeBlanc办公室确认其已向咨询委员会通报谈判情况，但未确认简报中的具体细节。报道指出，美国对部分加拿大钢铁、汽车和木材的关税可能自2027年1月由25%升至50%。相关税率上调若按计划实施，将增加北美跨境钢材及制造供应链成本；目前双方尚未达成减免协议。背景补充：钢材是冰箱、洗衣机、空调及厨电的重要制造投入品，美加Section 232关税谈判直接关系北美家电材料采购和跨境生产安排。"
+      }
+    }
+  ]
+}
