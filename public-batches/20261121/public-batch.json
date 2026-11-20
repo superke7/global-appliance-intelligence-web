@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261121-0715",
+  "generated_at_bjt": "2026-11-21T07:35:00+08:00",
+  "target_publish_at_bjt": "2026-11-21T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261121-001",
+      "title": "韩国HVAC测试机构K-HVAC获Eurovent认可，可在本土开展VRF性能认证",
+      "excerpt": "韩国HVAC测试机构K-HVAC获Eurovent认可，可在本土开展VRF性能认证",
+      "content_html": "<p>韩国制冷空调测试机构K-HVAC获Eurovent Certification认可，成为VRF（多联式空调系统）性能认证的独立测试实验室。双方于11月12日在Gunpo（军浦，韩国京畿道城市）举行指定协议签署仪式，K-HVAC由此加入Eurovent的国际独立实验室网络。</p><p>背景补充：韩国企业此前通常需要把产品送往海外完成欧洲认证测试。新增本土测试能力可缩短认证周期、降低送测成本，并支持韩国VRF及其他HVAC产品进入国际市场。</p><p>补充核验来源：<a href=\"https://www.eurovent-certification.com/en/cms/news/eurovent-certification-recognises-k-hvac-for-vrf-testing-in-east-asia\">https://www.eurovent-certification.com/en/cms/news/eurovent-certification-recognises-k-hvac-for-vrf-testing-in-east-asia</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/world-news/eurovent-recognises-korean-test-house",
+      "source_published_date": "2026-11-20",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "认证实验室资格获批/测试能力启用",
+        "国家/地区": "韩国/欧洲",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "监管与供应链/性能认证/VRF"
+      }
+    },
+    {
+      "public_id": "gai-20261121-002",
+      "title": "英国制冷控制器厂商RDM发布安全固件，修复超市控制器漏洞",
+      "excerpt": "英国制冷控制器厂商RDM发布安全固件，修复超市控制器漏洞",
+      "content_html": "<p>英国制冷控制器厂商Resource Data Management（RDM）针对超市制冷控制器中发现的安全漏洞发布新固件。英国国家网络安全中心、英国零售商协会及食品供应链相关机构参与联系运营商，推动定位公网暴露设备并完成缓解。Cooling Post称，主要运营商已收到升级通知，问题大部分得到缓解，但部分小型冷链运营商仍可能暴露。</p><p>背景补充：RDM是英国超市制冷控制系统的重要供应商。此次修复延续欧洲多国商用制冷控制器网络攻击后的安全处置，运营方还需移除不必要的公网访问，并采用VPN或专用接入点。</p><p>补充核验来源：<a href=\"https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices\">https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices</a>；<a href=\"https://www.pentestpartners.com/about-us/in-the-news/\">https://www.pentestpartners.com/about-us/in-the-news/</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/uk-news/swift-action-to-secure-uk-supermarket-controls",
+      "source_published_date": "2026-11-20",
+      "event_action": "update",
+      "news_labels": {
+        "事件阶段": "漏洞修复与缓解推进中",
+        "国家/地区": "英国/欧洲",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "监管与供应链/网络安全/制冷控制系统"
+      },
+      "event": {
+        "event_key": "europe-supermarket-refrigeration-cyberattack-2026",
+        "title": "欧洲多国超市制冷控制系统网络攻击事件",
+        "date": "2026-11-02",
+        "status": "in_progress",
+        "countries": [
+          "英国",
+          "欧洲"
+        ],
+        "entities": [
+          "Resource Data Management",
+          "英国国家网络安全中心",
+          "英国零售商协会",
+          "Omega Solutions",
+          "Pen Test Partners"
+        ],
+        "category": "监管与供应链",
+        "latest_progress": "英国制冷控制器厂商Resource Data Management（RDM）针对超市制冷控制器中发现的安全漏洞发布新固件。英国国家网络安全中心、英国零售商协会及食品供应链相关机构参与联系运营商，推动定位公网暴露设备并完成缓解。Cooling Post称，主要运营商已收到升级通知，问题大部分得到缓解，但部分小型冷链运营商仍可能暴露。背景补充：RDM是英国超市制冷控制系统的重要供应商。此次修复延续欧洲多国商用制冷控制器网络攻击后的安全处置，运营方还需移除不必要的公网访问，并采用VPN或专用接入点。"
+      }
+    },
+    {
+      "public_id": "gai-20261121-003",
+      "title": "欧盟委员称墨西哥或年底前批准欧墨临时贸易协议",
+      "excerpt": "欧盟委员称墨西哥或年底前批准欧墨临时贸易协议",
+      "content_html": "<p>欧盟农业委员Christophe Hansen表示，希望墨西哥参议院在2026年底前批准欧盟—墨西哥临时贸易协议，使协议完成最后一项内部程序。欧盟已于7月完成内部批准，但墨西哥经济部向Reuters表示，参议院尚未安排表决日期，因此协议目前仍未生效。</p><p>背景补充：该协议于5月22日签署，将取消多数剩余关税，并扩大服务、投资和公共采购准入，强化海关、贸易便利化及数字贸易合作。双方完成程序并相互通知后，协议将在规定准备期后生效。</p><p>补充核验来源：<a href=\"https://www.consilium.europa.eu/en/press/press-releases/2026/07/14/eu-mexico-council-gives-final-approval-to-modernised-trade-agreement/\">https://www.consilium.europa.eu/en/press/press-releases/2026/07/14/eu-mexico-council-gives-final-approval-to-modernised-trade-agreement/</a>；<a href=\"https://commission.europa.eu/topics/trade/eu-mexico-trade-agreements_en\">https://commission.europa.eu/topics/trade/eu-mexico-trade-agreements_en</a></p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/americas/eus-hansen-says-us-trade-uncertainty-is-drawing-mexico-europe-closer-2026-11-20",
+      "source_published_date": "2026-11-20",
+      "event_action": "create",
+      "news_labels": {
+        "事件阶段": "批准程序推进中/力争年底前完成",
+        "国家/地区": "墨西哥/欧盟/欧洲",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/自由贸易协定/批准程序"
+      },
+      "event": {
+        "event_key": "eu-mexico-modernized-trade-agreement-2026",
+        "title": "欧盟—墨西哥现代化贸易协议",
+        "date": "2026-05-22",
+        "status": "announced",
+        "countries": [
+          "墨西哥",
+          "欧盟",
+          "欧洲"
+        ],
+        "entities": [
+          "欧盟委员会",
+          "欧盟理事会",
+          "墨西哥政府",
+          "墨西哥参议院"
+        ],
+        "category": "贸易与政策",
+        "latest_progress": "欧盟农业委员Christophe Hansen表示，希望墨西哥参议院在2026年底前批准欧盟—墨西哥临时贸易协议，使协议完成最后一项内部程序。欧盟已于7月完成内部批准，但墨西哥经济部向Reuters表示，参议院尚未安排表决日期，因此协议目前仍未生效。背景补充：该协议于5月22日签署，将取消多数剩余关税，并扩大服务、投资和公共采购准入，强化海关、贸易便利化及数字贸易合作。双方完成程序并相互通知后，协议将在规定准备期后生效。"
+      }
+    }
+  ]
+}
