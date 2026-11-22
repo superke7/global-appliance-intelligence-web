@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261123-0715",
+  "generated_at_bjt": "2026-11-23T07:35:00+08:00",
+  "target_publish_at_bjt": "2026-11-23T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261123-001",
+      "title": "三菱电机推出英国新建住宅用紧凑型R290热泵，2027年上市",
+      "excerpt": "三菱电机推出英国新建住宅用紧凑型R290热泵，2027年上市",
+      "content_html": "<p>三菱电机推出面向英国新建住宅的Ecodan Little One空气源水热泵平台，采用R290（丙烷制冷剂），提供4kW和6kW两种型号，计划于2027年上市。官方称，新机重量58公斤，较同系列机型体积缩小47%、重量减轻40%；4kW和6kW型号在35℃出水温度下的季节性能系数（SCOP）分别为4.77和4.65。该平台采用Bossless Fan新型风扇技术，并通过在R290中加入气味剂，取消机组周围保护区要求，重点解决英国新建住宅项目中的安装空间、布置位置和成本限制。</p><p>背景补充：R290属于低全球变暖潜值天然制冷剂，但具有可燃性，常需设置安装保护区。三菱电机此次平台调整面向英国Future Homes Standard（未来住宅标准）实施后的住宅低碳供暖需求。</p><p>补充核验来源：<a href=\"https://les.mitsubishielectric.co.uk/latest-news/the-little-one-press-release\">https://les.mitsubishielectric.co.uk/latest-news/the-little-one-press-release</a></p>",
+      "source_name": "Cooling Post",
+      "source_url": "https://www.coolingpost.com/products/mitsubishis-little-one-targets-new-homes",
+      "source_published_date": "2026-11-12",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "产品平台发布/计划2027年上市",
+        "国家/地区": "英国/日本/欧洲",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/产品平台/住宅热泵"
+      }
+    }
+  ]
+}
