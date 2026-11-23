@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261124-0715",
+  "generated_at_bjt": "2026-11-24T07:35:00+08:00",
+  "target_publish_at_bjt": "2026-11-24T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261124-001",
+      "title": "ABB拟以26.5亿美元企业价值收购德国风机制造商施乐百",
+      "excerpt": "ABB拟以26.5亿美元企业价值收购德国风机制造商施乐百",
+      "content_html": "<p>ABB已签署协议，拟以26.5亿美元企业价值、22.2亿美元股权价值收购德国风机及驱动技术制造商Ziehl-Abegg（施乐百）。交易预计于2027年下半年完成，仍须获得监管批准并满足惯常交割条件。施乐百的产品包括EC风机（电子换向风机）、集成电机、通风系统和控制技术，应用覆盖HVAC、工业冷却等领域；公司约有6300名员工，业务遍及欧洲、美洲和亚洲。ABB表示，完成交易后拟保留施乐百位于德国Künzelsau（昆策尔绍，德国巴登-符腾堡州城市）的总部。</p><p>背景补充：EC风机通过电子换向控制提升电机效率，是空调、通风及冷却设备的关键部件。本次交易将把风机能力纳入ABB现有电机与驱动产品组合。</p><p>信息来源：</p><p>原始来源：ABB<br>https://www.abb.com/global/en/news/140614/abb-to-acquire-ziehl-abegg-expanding-offering-for-hvac-and-industrial-cooling-applications</p><p>补充来源：Ziehl-Abegg<br>https://www.ziehl-abegg.com/en/company/press/press-releases/news-content-detail/ziehl-abegg-joins-abb-to-accelerate-growth</p>",
+      "source_name": "ABB",
+      "source_url": "https://www.abb.com/global/en/news/140614/abb-to-acquire-ziehl-abegg-expanding-offering-for-hvac-and-industrial-cooling-applications",
+      "source_published_date": "2026-11-23",
+      "event_action": "create",
+      "event": {
+        "event_key": "abb-ziehl-abegg-acquisition-2026",
+        "title": "ABB收购德国施乐百并扩展HVAC风机与电机业务",
+        "date": "2026-11-23",
+        "latest_progress": "ABB已签署协议，拟以26.5亿美元企业价值、22.2亿美元股权价值收购德国风机及驱动技术制造商Ziehl-Abegg（施乐百）。交易预计于2027年下半年完成，仍须获得监管批准并满足惯常交割条件。施乐百的产品包括EC风机（电子换向风机）、集成电机、通风系统和控制技术，应用覆盖HVAC、工业冷却等领域；公司约有6300名员工，业务遍及欧洲、美洲和亚洲。ABB表示，完成交易后拟保留施乐百位于德国Künzelsau（昆策尔绍，德国巴登-符腾堡州城市）的总部。背景补充：EC风机通过电子换向控制提升电机效率，是空调、通风及冷却设备的关键部件。本次交易将把风机能力纳入ABB现有电机与驱动产品组合。",
+        "status": "announced",
+        "countries": [
+          "瑞士",
+          "德国",
+          "欧洲"
+        ],
+        "entities": [
+          "ABB",
+          "Ziehl-Abegg"
+        ],
+        "category": "投资与合作"
+      }
+    },
+    {
+      "public_id": "gai-20261124-002",
+      "title": "美加贸易谈判接近形成共识，美方同时质疑加拿大对华钢铝减免",
+      "excerpt": "美加贸易谈判接近形成共识，美方同时质疑加拿大对华钢铝减免",
+      "content_html": "<p>美国贸易代表Jamieson Greer在11月22日接受Fox News采访时表示，美加仍在进行建设性磋商，双方已相当接近找到贸易协议的落点；但他同时批评加拿大扩大部分中国钢铁和铝产品关税减免，并允许更多中国电动汽车进入加拿大市场。Greer称，美方希望在汽车、钢铁和铝领域管理北美贸易。此次表态未公布协议文本、新税率或生效日期，双方仍未正式达成协议。</p><p>背景补充：11月19日Reuters曾报道称双方关税减免谈判进展有限。本次美方公开表态显示谈判语气转趋积极，但现行Section 232关税及潜在上调安排尚未改变。</p><p>信息来源：</p><p>原始来源：Bloomberg News/Bloomberg Law<br>https://news.bloomberglaw.com/international-trade/greer-says-canada-china-trade-rapprochement-a-move-backwards</p><p>补充来源：The Canadian Press<br>https://toronto.citynews.ca/2026/11/22/u-s-trade-chief-sees-progress-in-canada-talks-raises-china-concerns</p>",
+      "source_name": "Bloomberg News/Bloomberg Law",
+      "source_url": "https://news.bloomberglaw.com/international-trade/greer-says-canada-china-trade-rapprochement-a-move-backwards",
+      "source_published_date": "2026-11-23",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-canada-section232-tariff-talks-2026",
+        "title": "美加钢铁与汽车Section 232关税减让谈判",
+        "date": "2026-10-26",
+        "latest_progress": "美国贸易代表Jamieson Greer在11月22日接受Fox News采访时表示，美加仍在进行建设性磋商，双方已相当接近找到贸易协议的落点；但他同时批评加拿大扩大部分中国钢铁和铝产品关税减免，并允许更多中国电动汽车进入加拿大市场。Greer称，美方希望在汽车、钢铁和铝领域管理北美贸易。此次表态未公布协议文本、新税率或生效日期，双方仍未正式达成协议。背景补充：11月19日Reuters曾报道称双方关税减免谈判进展有限。本次美方公开表态显示谈判语气转趋积极，但现行Section 232关税及潜在上调安排尚未改变。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "加拿大",
+          "中国",
+          "北美"
+        ],
+        "entities": [
+          "美国贸易代表办公室",
+          "加拿大政府",
+          "美国贸易代表Jamieson Greer"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "谈判取得进展/尚未达成协议",
+        "国家/地区": "美国/加拿大/中国/北美",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 232/双边谈判"
+      }
+    }
+  ]
+}
