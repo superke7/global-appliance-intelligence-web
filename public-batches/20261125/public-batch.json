@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261125-0715",
+  "generated_at_bjt": "2026-11-25T07:10:00+08:00",
+  "target_publish_at_bjt": "2026-11-25T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261125-001",
+      "title": "美国拟公布16个经济体产能过剩301调查结果，家电或面临叠加关税",
+      "excerpt": "美国拟公布16个经济体产能过剩301调查结果，家电或面临叠加关税",
+      "content_html": "<p>Reuters援引三名知情人士报道称，美国政府准备公布针对16个主要贸易伙伴结构性产能过剩问题的Section 301调查结果，并可能对广泛进口商品提出新的附加关税。调查对象包括中国、欧盟、日本、韩国、印度、墨西哥、越南、泰国、马来西亚、印度尼西亚、瑞士、挪威、新加坡、孟加拉国、柬埔寨和中国台湾。报道指出，新措施可能叠加于现有关税之上，但具体税率、产品清单和执行日期尚未确定；美国贸易代表办公室与白宫截至报道时未回应。家电被美方列为其所称中国产能过剩影响的商品类别之一。</p><p>背景补充：USTR于2026年3月依据《1974年贸易法》第301条启动本轮调查，重点评估相关经济体的制造业产能政策是否限制美国商业及应采取何种行动。</p><p>信息来源：<br>原始来源：Reuters<br>https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24<br>补充来源：美国贸易代表办公室（USTR）<br>https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/march/fact-sheet-ustr-initiates-section-301-investigations-structural-excess-capacity-and-production</p>",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24",
+      "source_published_date": "2026-11-25",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-structural-overcapacity-301-2026",
+        "title": "美国产能过剩Section 301调查及拟议关税行动",
+        "date": "2026-03-11",
+        "latest_progress": "Reuters援引三名知情人士报道称，美国政府准备公布针对16个主要贸易伙伴结构性产能过剩问题的Section 301调查结果，并可能对广泛进口商品提出新的附加关税。调查对象包括中国、欧盟、日本、韩国、印度、墨西哥、越南、泰国、马来西亚、印度尼西亚、瑞士、挪威、新加坡、孟加拉国、柬埔寨和中国台湾。报道指出，新措施可能叠加于现有关税之上，但具体税率、产品清单和执行日期尚未确定；美国贸易代表办公室与白宫截至报道时未回应。家电被美方列为其所称中国产能过剩影响的商品类别之一。背景补充：USTR于2026年3月依据《1974年贸易法》第301条启动本轮调查，重点评估相关经济体的制造业产能政策是否限制美国商业及应采取何种行动。",
+        "status": "in_progress",
+        "countries": [
+          "美国",
+          "中国",
+          "欧盟",
+          "日本",
+          "韩国",
+          "印度",
+          "墨西哥",
+          "越南",
+          "泰国",
+          "马来西亚",
+          "印度尼西亚",
+          "瑞士",
+          "挪威",
+          "新加坡",
+          "孟加拉国",
+          "柬埔寨",
+          "台湾",
+          "东南亚",
+          "全球"
+        ],
+        "entities": [
+          "美国政府",
+          "美国贸易代表办公室",
+          "白宫"
+        ],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "调查结果拟公布/关税方案未定",
+        "国家/地区": "美国/中国/欧盟/东南亚/全球",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 301/结构性产能过剩"
+      }
+    },
+    {
+      "public_id": "gai-20261125-002",
+      "title": "江森自控拟投资逾1.79亿美元在美国得州建设York商用HVAC工厂",
+      "excerpt": "江森自控拟投资逾1.79亿美元在美国得州建设York商用HVAC工厂",
+      "content_html": "<p>美国得州Schertz Economic Development Corporation（舒尔茨经济发展公司）宣布，江森自控计划通过York International在Schertz（舒尔茨，位于美国得州圣安东尼奥东北部）设立商用HVAC制造业务，投资超过1.79亿美元。项目将使用约53.6万平方英尺、折合约4.98万平方米的设施，引进制造设备、厂房改造和先进生产能力，预计新增552个全职岗位，其中351个计划于2027年形成，其余201个于2029年前完成。工厂将生产面向数据中心、医疗设施、高等院校及其他普通商用场景的先进热管理设备。</p><p>背景补充：York是江森自控旗下商用HVAC品牌。本项目并非数据中心专用液冷，而是同时服务多类商业建筑的空调与热管理制造扩张。</p><p>信息来源：<br>原始来源：Schertz Economic Development Corporation<br>https://www.schertzedc.com/news/p/item/70463/johnson-controls-announces-179-million-investment-in-schertz<br>补充来源：Cooling Post<br>https://www.coolingpost.com/world-news/johnson-controls-plans-new-york-plant-in-texas</p>",
+      "source_name": "Schertz Economic Development Corporation",
+      "source_url": "https://www.schertzedc.com/news/p/item/70463/johnson-controls-announces-179-million-investment-in-schertz",
+      "source_published_date": "2026-11-20",
+      "event_action": "create",
+      "event": {
+        "event_key": "johnson-controls-schertz-hvac-plant-2026",
+        "title": "江森自控美国得州Schertz商用HVAC制造项目",
+        "date": "2026-11-20",
+        "latest_progress": "美国得州Schertz Economic Development Corporation（舒尔茨经济发展公司）宣布，江森自控计划通过York International在Schertz（舒尔茨，位于美国得州圣安东尼奥东北部）设立商用HVAC制造业务，投资超过1.79亿美元。项目将使用约53.6万平方英尺、折合约4.98万平方米的设施，引进制造设备、厂房改造和先进生产能力，预计新增552个全职岗位，其中351个计划于2027年形成，其余201个于2029年前完成。工厂将生产面向数据中心、医疗设施、高等院校及其他普通商用场景的先进热管理设备。背景补充：York是江森自控旗下商用HVAC品牌。本项目并非数据中心专用液冷，而是同时服务多类商业建筑的空调与热管理制造扩张。",
+        "status": "announced",
+        "countries": [
+          "美国",
+          "北美"
+        ],
+        "entities": [
+          "Johnson Controls",
+          "York International",
+          "Schertz Economic Development Corporation"
+        ],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "投资计划公布/制造业务待落地",
+        "国家/地区": "美国/北美",
+        "新闻标注": "今日新增/新事件",
+        "影响程度": "高",
+        "事件分类": "制造与产能/美国制造投资/商用HVAC"
+      }
+    }
+  ]
+}
