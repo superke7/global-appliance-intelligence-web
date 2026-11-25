@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261126-0715",
+  "generated_at_bjt": "2026-11-26T07:10:00+08:00",
+  "target_publish_at_bjt": "2026-11-26T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261126-001",
+      "title": "美国对14个经济体作出产能过剩301认定，拟议关税最高15%—35%",
+      "excerpt": "美国对14个经济体作出产能过剩301认定，拟议关税最高15%—35%",
+      "content_html": "<p>美国贸易代表办公室（USTR）11月25日对14个经济体的结构性产能过剩和制造业生产政策作出Section 301认定，认为相关做法可依据《1974年贸易法》第301条采取行动。涉及中国、欧盟、日本、韩国、印度、越南、泰国、马来西亚、印度尼西亚、新加坡、瑞士、柬埔寨、孟加拉国和中国台湾；对墨西哥和挪威暂未作出认定。USTR同时提出按经济体对多数或全部商品征收附加关税并设置产品豁免：拟议税率上限分为15%、18%、20%、25%或35%，其中中国一般最高20%，印度最高25%，越南最高35%，部分税率可在达成相关贸易协议后下调。书面意见及出席听证申请截止2027年1月5日，听证会计划于1月25日举行，措施尚未生效。</p><p>背景补充：本轮调查于2026年3月启动。家电及零部件是否最终覆盖，仍需逐项核对各经济体公告附件中的豁免清单和HTS税号。</p><p>信息来源：<br>原始来源：美国贸易代表办公室（USTR）<br>https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural<br>补充来源：Reuters<br>https://www.reuters.com/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25</p>",
+      "source_name": "美国贸易代表办公室（USTR）",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+      "source_published_date": "2026-11-25",
+      "event_action": "update",
+      "event": {
+        "event_key": "us-structural-overcapacity-301-2026",
+        "title": "美国产能过剩Section 301调查及拟议关税行动",
+        "date": "2026-03-11",
+        "latest_progress": "美国贸易代表办公室（USTR）11月25日对14个经济体的结构性产能过剩和制造业生产政策作出Section 301认定，认为相关做法可依据《1974年贸易法》第301条采取行动。涉及中国、欧盟、日本、韩国、印度、越南、泰国、马来西亚、印度尼西亚、新加坡、瑞士、柬埔寨、孟加拉国和中国台湾；对墨西哥和挪威暂未作出认定。USTR同时提出按经济体对多数或全部商品征收附加关税并设置产品豁免：拟议税率上限分为15%、18%、20%、25%或35%，其中中国一般最高20%，印度最高25%，越南最高35%，部分税率可在达成相关贸易协议后下调。书面意见及出席听证申请截止2027年1月5日，听证会计划于1月25日举行，措施尚未生效。背景补充：本轮调查于2026年3月启动。家电及零部件是否最终覆盖，仍需逐项核对各经济体公告附件中的豁免清单和HTS税号。",
+        "status": "in_progress",
+        "countries": ["美国", "中国", "欧盟", "日本", "韩国", "印度", "越南", "泰国", "马来西亚", "印度尼西亚", "新加坡", "瑞士", "柬埔寨", "孟加拉国", "台湾", "东南亚", "全球"],
+        "entities": ["美国贸易代表办公室", "美国政府", "14个被调查经济体"],
+        "category": "贸易与政策"
+      },
+      "news_labels": {
+        "事件阶段": "调查认定完成/拟议关税征求意见",
+        "国家/地区": "美国/中国/欧盟/日本/韩国/印度/东南亚/全球",
+        "新闻标注": "今日新增/既有事件新增进展",
+        "影响程度": "高",
+        "事件分类": "贸易与政策/Section 301/结构性产能过剩"
+      }
+    },
+    {
+      "public_id": "gai-20261126-002",
+      "title": "英国环保组织EIA建议以“制冷即服务”模式推动超市天然制冷剂设备改造",
+      "excerpt": "英国环保组织EIA建议以“制冷即服务”模式推动超市天然制冷剂设备改造",
+      "content_html": "<p>英国环保组织Environmental Investigation Agency（EIA）发布《Financing the Supermarket Cooling Transition》报告，称以天然制冷剂系统替换老旧超市制冷设备可带来显著运营节省。对零售商数据的分析显示，年度节能额平均约相当于系统投资额的24%；两家零售商估计，计入避免使用F-gas（含氟温室气体）制冷剂的成本后，年度节省比例可升至32%—38%。报告还称，现代CO₂制冷系统已在40—45℃环境中可靠运行。EIA指出，前期资本投入仍是设备更新的主要障碍，建议采用Refrigeration-as-a-Service（制冷即服务）模式，由专业服务商承担安装和维护成本，超市按持续服务协议支付制冷费用。</p><p>背景补充：该报告属于市场与融资倡议，并非强制性法规或已签署投资项目；其重点是为超市制冷设备、天然制冷剂技术和服务商引入长期基础设施资金。</p><p>信息来源：<br>原始来源：Environmental Investigation Agency（EIA）<br>https://eia-international.org/report/financing-the-supermarket-cooling-transition/<br>补充来源：Cooling Post<br>https://www.coolingpost.com/world-news/report-urges-investment-in-supermarket-refrigeration</p>",
+      "source_name": "英国环保组织Environmental Investigation Agency（EIA）",
+      "source_url": "https://eia-international.org/report/financing-the-supermarket-cooling-transition/",
+      "source_published_date": "2026-11-23",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "行业报告发布/融资模式倡议",
+        "国家/地区": "英国/欧洲/全球",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/商用制冷/融资模式"
+      }
+    }
+  ]
+}
