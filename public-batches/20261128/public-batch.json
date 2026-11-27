@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "20261128-0715",
+  "generated_at_bjt": "2026-11-28T06:47:31+08:00",
+  "target_publish_at_bjt": "2026-11-28T07:10:00+08:00",
+  "items": [
+    {
+      "public_id": "gai-20261128-001",
+      "title": "美国制冷压缩机企业Tecumseh（泰康）杭州新厂拟于2027年2月启用",
+      "excerpt": "美国制冷压缩机企业Tecumseh（泰康）杭州新厂拟于2027年2月启用",
+      "content_html": "<p>美国制冷压缩机企业Tecumseh（泰康）11月26日宣布，将于2027年2月26日正式启用位于中国杭州的3万平方米新制造设施。该厂将生产面向商用制冷的AL和AXION压缩机平台，支持R290（丙烷制冷剂）及A2L（低可燃性低全球变暖潜值制冷剂）等冷媒；同时整合工程及专用实验室能力，用于技术开发、产品验证和客户协作。厂区预留新增生产线空间，可按未来需求扩产。</p><p>背景补充：Tecumseh是商用制冷和空调压缩机及相关系统方案供应商。杭州新厂将成为其在华制造与工程中心之一。</p><p>信息来源：<br>原始来源：Tecumseh<br>https://www.tecumseh.com/NewsAndEvents/News/TecumsehStrengthensItsGlobalManufacturingandInnovationCapabilitieswithNewHangzhouFacility<br>补充来源：Cooling Post<br>https://www.coolingpost.com/world-news/tecumseh-to-open-compressor-plant-in-china</p>",
+      "source_name": "Tecumseh",
+      "source_url": "https://www.tecumseh.com/NewsAndEvents/News/TecumsehStrengthensItsGlobalManufacturingandInnovationCapabilitieswithNewHangzhouFacility",
+      "source_published_date": "2026-11-26",
+      "event_action": "create",
+      "event": {
+        "event_key": "tecumseh-hangzhou-compressor-plant-2026",
+        "title": "Tecumseh杭州商用制冷压缩机工厂建设与投产",
+        "date": "2026-11-26",
+        "latest_progress": "美国制冷压缩机企业Tecumseh（泰康）11月26日宣布，将于2027年2月26日正式启用位于中国杭州的3万平方米新制造设施。该厂将生产面向商用制冷的AL和AXION压缩机平台，支持R290（丙烷制冷剂）及A2L（低可燃性低全球变暖潜值制冷剂）等冷媒；同时整合工程及专用实验室能力，用于技术开发、产品验证和客户协作。厂区预留新增生产线空间，可按未来需求扩产。背景补充：Tecumseh是商用制冷和空调压缩机及相关系统方案供应商。杭州新厂将成为其在华制造与工程中心之一。",
+        "status": "announced",
+        "countries": ["中国", "美国", "全球"],
+        "entities": ["Tecumseh", "商用制冷设备制造商", "食品零售与餐饮客户"],
+        "category": "制造与产能"
+      },
+      "news_labels": {
+        "事件阶段": "已宣布/待投产",
+        "国家/地区": "中国/美国/全球",
+        "新闻标注": "今日新增/新建事件",
+        "影响程度": "高",
+        "事件分类": "制造与产能/制冷压缩机/杭州新厂"
+      }
+    },
+    {
+      "public_id": "gai-20261128-002",
+      "title": "大金与三得利、尤妮佳启动日本跨区域循环运输，预计年减360车次",
+      "excerpt": "大金与三得利、尤妮佳启动日本跨区域循环运输，预计年减360车次",
+      "content_html": "<p>日本空调企业大金工业11月26日宣布，与三得利集团、尤妮佳集团共同启动关西、关东和东北之间的卡车循环运输。该项目已于2026年4月开始试运行，11月进入正式运行。路线安排为：大金空调设备由关西运往关东，三得利软饮料由关东运往东北，尤妮佳卫生用品由东北运往关西。三家公司称，组合原有单向运输、减少空车回程后，可维持约90%的实车率，每年预计减少约360车次和约260吨二氧化碳排放。</p><p>背景补充：循环运输是将不同企业方向互补的货物流整合为闭环路线，以提高车辆利用率并缓解司机短缺和物流成本压力。</p><p>信息来源：<br>原始来源：大金工业（Daikin Industries）<br>https://www.daikin.co.jp/press/2026/20261126<br>补充来源：Cooling Post<br>https://www.coolingpost.com/world-news/daikin-moves-to-improve-logistics-efficiency</p>",
+      "source_name": "大金工业（Daikin Industries）",
+      "source_url": "https://www.daikin.co.jp/press/2026/20261126",
+      "source_published_date": "2026-11-26",
+      "event_action": "none",
+      "news_labels": {
+        "事件阶段": "联合物流启动/11月正式运行",
+        "国家/地区": "日本",
+        "新闻标注": "今日新增/独立新闻",
+        "影响程度": "中高",
+        "事件分类": "市场与渠道/物流协同/空调供应链"
+      }
+    }
+  ]
+}
